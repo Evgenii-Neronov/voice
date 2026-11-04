@@ -1,0 +1,19 @@
+{
+  "base": "minimax-full-01",
+  "intro_seconds": 10.0,
+  "intro_voice": "ADV",
+  "greeting_text": "Йо, это рэп трек, с вами ADV aka Adventus Devotus",
+  "main_voice": "ADV",
+  "ezhi_regions": [
+    {
+      "start": 138.30,
+      "end": 144.48,
+      "final_start": 148.30,
+      "final_end": 154.48,
+      "lyrics": ["Десять свистулек!", "Один кубит!", "Кто здесь субъект?", "Кто кого купит?"],
+      "selection": "User-approved four consecutive hook phrases; approximate word boundaries from local Whisper ASR, padded by 0.12 seconds."
+    }
+  ],
+  "crossfade_seconds": 0.06,
+  "note": "Voice conversion preserves the existing MiniMax performance; ASR is an alignment aid, not a ground-truth lyric verification."
+}

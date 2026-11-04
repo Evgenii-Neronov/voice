@@ -1,0 +1,17 @@
+{
+  "repo_id": "audio-cpp/audio.cpp-gguf",
+  "revision": "fd2fe4c3195bc410f8b817bf7c7519fd822686fb",
+  "runtime_lock": "benchmark/native-runtime.lock.json",
+  "files": [
+    {
+      "file": "BS-RoFormer-ep368-GGUF/bs-roformer-ep368-q8_0.gguf",
+      "bytes": 172533760,
+      "sha256": "c3d3fc0ebf20a21f6dec38df66f919c892efed680dd006de367ec462611200bc"
+    },
+    {
+      "file": "SeedVC-MLX-GGUF/seed-vc-mlx-q8_0.gguf",
+      "bytes": 3120809440,
+      "sha256": "17aaccb16e230a5b105187b7bccf3a67ec9899047cddac255c335c73091a88c8"
+    }
+  ]
+}

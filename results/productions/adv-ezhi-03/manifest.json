@@ -1,0 +1,211 @@
+{
+  "local_inference": true,
+  "status": "rendered_not_human_rated",
+  "base_track": "results/music/minimax-full-01/full.wav",
+  "base_sha256": "7a17e08bb541c08c20b71152b9ce33f843286cdbbe0e623ed77561ec840963cb",
+  "timeline": {
+    "base": "minimax-full-01",
+    "intro_seconds": 10.0,
+    "intro_voice": "ADV",
+    "greeting_text": "Йо, это рэп трек, с вами ADV aka Adventus Devotus",
+    "main_voice": "ADV",
+    "ezhi_regions": [
+      {
+        "start": 138.3,
+        "end": 144.48,
+        "final_start": 148.3,
+        "final_end": 154.48,
+        "lyrics": [
+          "Десять свистулек!",
+          "Один кубит!",
+          "Кто здесь субъект?",
+          "Кто кого купит?"
+        ],
+        "selection": "User-approved four consecutive hook phrases; approximate word boundaries from local Whisper ASR, padded by 0.12 seconds."
+      }
+    ],
+    "crossfade_seconds": 0.06,
+    "note": "Voice conversion preserves the existing MiniMax performance; ASR is an alignment aid, not a ground-truth lyric verification."
+  },
+  "adv": {
+    "alignment_shift_samples": 0,
+    "gain_min": 0.4,
+    "gain_max": 8.0
+  },
+  "ezhi": {
+    "alignment_shift_samples": 0,
+    "gain_min": 1.0,
+    "gain_max": 8.0
+  },
+  "greeting": {
+    "requested_text": "Йо, это рэп трек, с вами ADV aka Adventus Devotus",
+    "spoken_text": "[confident] Йо, это рэп-трек, с вами Эй Ди Ви, ака Адвентус Девотус!",
+    "model": "Fish S2 Pro Q8",
+    "reference_ranges_seconds": [
+      [
+        3.94,
+        7.32
+      ],
+      [
+        14.0,
+        16.6
+      ]
+    ],
+    "reference_sha256": "fc87f25feb9d14cd8f230ac121b5bec3ea22692b9db4066eeb094d6173b633d4",
+    "seconds": 36.00066620000871,
+    "local_inference": true
+  },
+  "sample_rate": 44100,
+  "channels": 2,
+  "duration": 242.52462585034013,
+  "peak": 0.852057695388794,
+  "rms": 0.15758581192184126,
+  "audio": [
+    {
+      "file": "full.wav",
+      "bytes": 64172118,
+      "sha256": "edead331d23a2becefaa38fdf150d04c70ca53d1675e2064862ea5677168b2c9"
+    },
+    {
+      "file": "full.mp3",
+      "bytes": 7763217,
+      "sha256": "b67fe285690addf91b6df94c32427bbe2649d40625193443a7d4d7985e8ee55d"
+    },
+    {
+      "file": "preview.mp3",
+      "bytes": 962185,
+      "sha256": "3ca284781117370b5300ba9dd940810e4f437d27010c63c68e500c12b0f07292"
+    },
+    {
+      "file": "roles-preview.mp3",
+      "bytes": 661254,
+      "sha256": "566f10b5b3f4efec582332bc1fdc43aaabbe1f951d5a969b52d25e0fd1e6e1ff"
+    }
+  ],
+  "references": [
+    {
+      "label": "ADV",
+      "sha256": "bfced3d646de95d044772257a94024a7f40dd1d6be471b9c2dc7280a8e32d123"
+    },
+    {
+      "label": "Ежи",
+      "sha256": "78a59edd6ca81de94b296374d25a0dd1b50309fbb10302e7077132ec6f82bc71"
+    }
+  ],
+  "voice_conversion": {
+    "model": "Seed-VC GGUF Q8",
+    "route": "v1_svc",
+    "steps": 40,
+    "seed": 20261104,
+    "native_sample_rate": 44100,
+    "render_sample_rate": 44100,
+    "processing": "12-second cores, 0.4-second context each side; overlap-add; avoids 30-second content truncation"
+  },
+  "verification": {
+    "finite_samples": true,
+    "sample_clipping": false,
+    "exact_base_duration_plus_intro": true,
+    "human_listening_review": false,
+    "roles_preview_regions_seconds": [
+      [
+        0,
+        6
+      ],
+      [
+        40,
+        48
+      ],
+      [
+        148.1,
+        154.7
+      ]
+    ],
+    "loudness_summary": "Integrated loudness:\n    I:         -13.2 LUFS\n    Threshold: -23.4 LUFS\n\n  Loudness range:\n    LRA:         4.3 LU\n    Threshold: -33.4 LUFS\n    LRA low:   -16.1 LUFS\n    LRA high:  -11.8 LUFS\n\n  True peak:\n    Peak:       -1.3 dBFS",
+    "greeting_asr": [
+      {
+        "start": 0.0,
+        "end": 4.34,
+        "text": " Йо, это RepTrak, с вами ADV aka Adventus Devotus."
+      }
+    ],
+    "roles-preview_asr": [
+      {
+        "start": 0.0,
+        "end": 5.04,
+        "text": " Йо, это рэп трек, с вами Эйдиви, ака Адвентус Дивотус."
+      }
+    ],
+    "check-adv-chunked_asr": [
+      {
+        "start": 0.0,
+        "end": 3.04,
+        "text": " На умахе елогов Саполлона Деониса Кибелла проснулась"
+      },
+      {
+        "start": 3.04,
+        "end": 5.88,
+        "text": " под сводами Сирского Киберполиса, Гипербориевский"
+      },
+      {
+        "start": 5.88,
+        "end": 7.98,
+        "text": " Кристианин читает идеи по камерам."
+      }
+    ],
+    "check-adv-mix_asr": [
+      {
+        "start": 0.0,
+        "end": 4.86,
+        "text": " На умахе елогу Саполлона Деониса Кибелла проснулась под сводами Сирского Кибер-Колиса"
+      },
+      {
+        "start": 4.86,
+        "end": 6.78,
+        "text": " Гиппл Борисский-Кристианин читает"
+      },
+      {
+        "start": 6.78,
+        "end": 7.88,
+        "text": " Идей Горэппо камеры"
+      }
+    ],
+    "check-ezhi-mix_asr": [
+      {
+        "start": 0.0,
+        "end": 3.32,
+        "text": " Десять спистуляк один кубик"
+      },
+      {
+        "start": 3.32,
+        "end": 6.02,
+        "text": " Кто здесь субъект, кто кого купит?"
+      }
+    ]
+  },
+  "inference_metrics": {
+    "separation": [
+      "metrics.wall_ms=30915.6",
+      "metrics.memory.peak_rss_mb=1297",
+      "metrics.memory.peak_footprint_mb=4222",
+      "metrics.memory.peak_footprint_source=windows_commit",
+      "metrics.audio_duration_ms=232525",
+      "metrics.rtf=0.132956",
+      "metrics.x_realtime=7.52126",
+      "metrics.audio_duration_source=input",
+      "metrics.sample_rate=44100",
+      "metrics.channels=2"
+    ],
+    "greeting": [
+      "metrics.wall_ms=3703.39",
+      "metrics.memory.peak_rss_mb=7591",
+      "metrics.memory.peak_footprint_mb=12122",
+      "metrics.memory.peak_footprint_source=windows_commit",
+      "metrics.audio_duration_ms=4551.11",
+      "metrics.rtf=0.813733",
+      "metrics.x_realtime=1.2289",
+      "metrics.audio_duration_source=output",
+      "metrics.sample_rate=44100",
+      "metrics.channels=1"
+    ]
+  }
+}

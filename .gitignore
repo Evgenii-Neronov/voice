@@ -16,3 +16,4 @@ results/raw/
 .env
 *.gguf
 results/music/*/full.wav
+results/productions/*/full.wav

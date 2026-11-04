@@ -1,0 +1,314 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cuda.dll
+load_backend: loaded CPU backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cpu-cascadelake.dll
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+family=seed_vc
+task=svc
+mode=offline
+request_index=0
+request_id=adv-000
+[TIMING] request.adv-000.wall_ms 6667.59
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-000.wav
+metrics[adv-000].wall_ms=6667.59
+metrics[adv-000].memory.peak_rss_mb=1347
+metrics[adv-000].memory.peak_footprint_mb=9998
+metrics[adv-000].memory.peak_footprint_source=windows_commit
+metrics[adv-000].audio_duration_ms=12399.5
+metrics[adv-000].rtf=0.537733
+metrics[adv-000].x_realtime=1.85966
+metrics[adv-000].audio_duration_source=output
+metrics[adv-000].sample_rate=44100
+metrics[adv-000].channels=1
+request_index=1
+request_id=adv-001
+[TIMING] request.adv-001.wall_ms 5127.36
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-001.wav
+metrics[adv-001].wall_ms=5127.36
+metrics[adv-001].memory.peak_rss_mb=1347
+metrics[adv-001].memory.peak_footprint_mb=10219
+metrics[adv-001].memory.peak_footprint_source=windows_commit
+metrics[adv-001].audio_duration_ms=12794.2
+metrics[adv-001].rtf=0.400757
+metrics[adv-001].x_realtime=2.49528
+metrics[adv-001].audio_duration_source=output
+metrics[adv-001].sample_rate=44100
+metrics[adv-001].channels=1
+request_index=2
+request_id=adv-002
+[TIMING] request.adv-002.wall_ms 5378.42
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-002.wav
+metrics[adv-002].wall_ms=5378.42
+metrics[adv-002].memory.peak_rss_mb=1347
+metrics[adv-002].memory.peak_footprint_mb=10250
+metrics[adv-002].memory.peak_footprint_source=windows_commit
+metrics[adv-002].audio_duration_ms=12794.2
+metrics[adv-002].rtf=0.42038
+metrics[adv-002].x_realtime=2.3788
+metrics[adv-002].audio_duration_source=output
+metrics[adv-002].sample_rate=44100
+metrics[adv-002].channels=1
+request_index=3
+request_id=adv-003
+[TIMING] request.adv-003.wall_ms 5133.6
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-003.wav
+metrics[adv-003].wall_ms=5133.6
+metrics[adv-003].memory.peak_rss_mb=1347
+metrics[adv-003].memory.peak_footprint_mb=10250
+metrics[adv-003].memory.peak_footprint_source=windows_commit
+metrics[adv-003].audio_duration_ms=12794.2
+metrics[adv-003].rtf=0.401244
+metrics[adv-003].x_realtime=2.49225
+metrics[adv-003].audio_duration_source=output
+metrics[adv-003].sample_rate=44100
+metrics[adv-003].channels=1
+request_index=4
+request_id=adv-004
+[TIMING] request.adv-004.wall_ms 5199.48
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-004.wav
+metrics[adv-004].wall_ms=5199.48
+metrics[adv-004].memory.peak_rss_mb=1347
+metrics[adv-004].memory.peak_footprint_mb=10250
+metrics[adv-004].memory.peak_footprint_source=windows_commit
+metrics[adv-004].audio_duration_ms=12794.2
+metrics[adv-004].rtf=0.406393
+metrics[adv-004].x_realtime=2.46067
+metrics[adv-004].audio_duration_source=output
+metrics[adv-004].sample_rate=44100
+metrics[adv-004].channels=1
+request_index=5
+request_id=adv-005
+[TIMING] request.adv-005.wall_ms 7227.82
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-005.wav
+metrics[adv-005].wall_ms=7227.82
+metrics[adv-005].memory.peak_rss_mb=1347
+metrics[adv-005].memory.peak_footprint_mb=10250
+metrics[adv-005].memory.peak_footprint_source=windows_commit
+metrics[adv-005].audio_duration_ms=12794.2
+metrics[adv-005].rtf=0.56493
+metrics[adv-005].x_realtime=1.77013
+metrics[adv-005].audio_duration_source=output
+metrics[adv-005].sample_rate=44100
+metrics[adv-005].channels=1
+request_index=6
+request_id=adv-006
+[TIMING] request.adv-006.wall_ms 6754.16
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-006.wav
+metrics[adv-006].wall_ms=6754.16
+metrics[adv-006].memory.peak_rss_mb=1347
+metrics[adv-006].memory.peak_footprint_mb=10250
+metrics[adv-006].memory.peak_footprint_source=windows_commit
+metrics[adv-006].audio_duration_ms=12794.2
+metrics[adv-006].rtf=0.527908
+metrics[adv-006].x_realtime=1.89427
+metrics[adv-006].audio_duration_source=output
+metrics[adv-006].sample_rate=44100
+metrics[adv-006].channels=1
+request_index=7
+request_id=adv-007
+[TIMING] request.adv-007.wall_ms 7270.82
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-007.wav
+metrics[adv-007].wall_ms=7270.82
+metrics[adv-007].memory.peak_rss_mb=1347
+metrics[adv-007].memory.peak_fooggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+tprint_mb=10250
+metrics[adv-007].memory.peak_footprint_source=windows_commit
+metrics[adv-007].audio_duration_ms=12794.2
+metrics[adv-007].rtf=0.56829
+metrics[adv-007].x_realtime=1.75966
+metrics[adv-007].audio_duration_source=output
+metrics[adv-007].sample_rate=44100
+metrics[adv-007].channels=1
+request_index=8
+request_id=adv-008
+[TIMING] request.adv-008.wall_ms 5495.46
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-008.wav
+metrics[adv-008].wall_ms=5495.46
+metrics[adv-008].memory.peak_rss_mb=1347
+metrics[adv-008].memory.peak_footprint_mb=10250
+metrics[adv-008].memory.peak_footprint_source=windows_commit
+metrics[adv-008].audio_duration_ms=12794.2
+metrics[adv-008].rtf=0.429528
+metrics[adv-008].x_realtime=2.32814
+metrics[adv-008].audio_duration_source=output
+metrics[adv-008].sample_rate=44100
+metrics[adv-008].channels=1
+request_index=9
+request_id=adv-009
+[TIMING] request.adv-009.wall_ms 5317.69
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-009.wav
+metrics[adv-009].wall_ms=5317.69
+metrics[adv-009].memory.peak_rss_mb=1347
+metrics[adv-009].memory.peak_footprint_mb=10250
+metrics[adv-009].memory.peak_footprint_source=windows_commit
+metrics[adv-009].audio_duration_ms=12794.2
+metrics[adv-009].rtf=0.415633
+metrics[adv-009].x_realtime=2.40597
+metrics[adv-009].audio_duration_source=output
+metrics[adv-009].sample_rate=44100
+metrics[adv-009].channels=1
+request_index=10
+request_id=adv-010
+[TIMING] request.adv-010.wall_ms 5336.32
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-010.wav
+metrics[adv-010].wall_ms=5336.32
+metrics[adv-010].memory.peak_rss_mb=1347
+metrics[adv-010].memory.peak_footprint_mb=10250
+metrics[adv-010].memory.peak_footprint_source=windows_commit
+metrics[adv-010].audio_duration_ms=12794.2
+metrics[adv-010].rtf=0.417089
+metrics[adv-010].x_realtime=2.39757
+metrics[adv-010].audio_duration_source=output
+metrics[adv-010].sample_rate=44100
+metrics[adv-010].channels=1
+request_index=11
+request_id=adv-011
+[TIMING] request.adv-011.wall_ms 5034.27
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-011.wav
+metrics[adv-011].wall_ms=5034.27
+metrics[adv-011].memory.peak_rss_mb=1347
+metrics[adv-011].memory.peak_footprint_mb=10250
+metrics[adv-011].memory.peak_footprint_source=windows_commit
+metrics[adv-011].audio_duration_ms=12794.2
+metrics[adv-011].rtf=0.393481
+metrics[adv-011].x_realtime=2.54142
+metrics[adv-011].audio_duration_source=output
+metrics[adv-011].sample_rate=44100
+metrics[adv-011].channels=1
+request_index=12
+request_id=adv-012
+[TIMING] request.adv-012.wall_ms 5205.93
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-012.wav
+metrics[adv-012].wall_ms=5205.93
+metrics[adv-012].memory.peak_rss_mb=1347
+metrics[adv-012].memory.peak_footprint_mb=10250
+metrics[adv-012].memory.peak_footprint_source=windows_commit
+metrics[adv-012].audio_duration_ms=12794.2
+metrics[adv-012].rtf=0.406898
+metrics[adv-012].x_realtime=2.45762
+metrics[adv-012].audio_duration_source=output
+metrics[adv-012].sample_rate=44100
+metrics[adv-012].channels=1
+request_index=13
+request_id=adv-013
+[TIMING] request.adv-013.wall_ms 5141.42
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-013.wav
+metrics[adv-013].wall_ms=5141.42
+metrics[adv-013].memory.peak_rss_mb=1347
+metrics[adv-013].memory.peak_footprint_mb=10278
+metrics[adv-013].memory.peak_footprint_source=windows_commit
+metrics[adv-013].audio_duration_ms=12794.2
+metrics[adv-013].rtf=0.401856
+metrics[adv-013].x_realtime=2.48846
+metrics[adv-013].audio_duration_source=output
+metrics[adv-013].sample_rate=44100
+metrics[adv-013].channels=1
+request_index=14
+request_id=adv-014
+[TIMING] request.adv-014.wall_ms 4875.82
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-014.wav
+metrics[adv-014].wall_ms=4875.82
+metrics[adv-014].memory.peak_rss_mb=1347
+metrics[adv-014].memory.peak_footprint_mb=10291
+metrics[adv-014].memory.peak_footprint_source=windows_commit
+metrics[adv-014].audio_duration_ms=12794.2
+metrics[adv-014].rtf=0.381096
+metrics[adv-014].x_realtime=2.62401
+metrics[adv-014].audio_duration_source=output
+metrics[adv-014].sample_rate=44100
+metrics[adggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+v-014].channels=1
+request_index=15
+request_id=adv-015
+[TIMING] request.adv-015.wall_ms 6748.87
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-015.wav
+metrics[adv-015].wall_ms=6748.87
+metrics[adv-015].memory.peak_rss_mb=1347
+metrics[adv-015].memory.peak_footprint_mb=10291
+metrics[adv-015].memory.peak_footprint_source=windows_commit
+metrics[adv-015].audio_duration_ms=12794.2
+metrics[adv-015].rtf=0.527495
+metrics[adv-015].x_realtime=1.89575
+metrics[adv-015].audio_duration_source=output
+metrics[adv-015].sample_rate=44100
+metrics[adv-015].channels=1
+request_index=16
+request_id=adv-016
+[TIMING] request.adv-016.wall_ms 6867.34
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-016.wav
+metrics[adv-016].wall_ms=6867.34
+metrics[adv-016].memory.peak_rss_mb=1347
+metrics[adv-016].memory.peak_footprint_mb=10291
+metrics[adv-016].memory.peak_footprint_source=windows_commit
+metrics[adv-016].audio_duration_ms=12794.2
+metrics[adv-016].rtf=0.536755
+metrics[adv-016].x_realtime=1.86305
+metrics[adv-016].audio_duration_source=output
+metrics[adv-016].sample_rate=44100
+metrics[adv-016].channels=1
+request_index=17
+request_id=adv-017
+[TIMING] request.adv-017.wall_ms 7065.31
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-017.wav
+metrics[adv-017].wall_ms=7065.31
+metrics[adv-017].memory.peak_rss_mb=1347
+metrics[adv-017].memory.peak_footprint_mb=10291
+metrics[adv-017].memory.peak_footprint_source=windows_commit
+metrics[adv-017].audio_duration_ms=12794.2
+metrics[adv-017].rtf=0.552228
+metrics[adv-017].x_realtime=1.81085
+metrics[adv-017].audio_duration_source=output
+metrics[adv-017].sample_rate=44100
+metrics[adv-017].channels=1
+request_index=18
+request_id=adv-018
+[TIMING] request.adv-018.wall_ms 7014.56
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-018.wav
+metrics[adv-018].wall_ms=7014.56
+metrics[adv-018].memory.peak_rss_mb=1347
+metrics[adv-018].memory.peak_footprint_mb=10291
+metrics[adv-018].memory.peak_footprint_source=windows_commit
+metrics[adv-018].audio_duration_ms=12794.2
+metrics[adv-018].rtf=0.548261
+metrics[adv-018].x_realtime=1.82395
+metrics[adv-018].audio_duration_source=output
+metrics[adv-018].sample_rate=44100
+metrics[adv-018].channels=1
+request_index=19
+request_id=adv-019
+[TIMING] request.adv-019.wall_ms 5836.99
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\adv-019.wav
+metrics[adv-019].wall_ms=5836.99
+metrics[adv-019].memory.peak_rss_mb=1347
+metrics[adv-019].memory.peak_footprint_mb=10291
+metrics[adv-019].memory.peak_footprint_source=windows_commit
+metrics[adv-019].audio_duration_ms=4922.63
+metrics[adv-019].rtf=1.18575
+metrics[adv-019].x_realtime=0.843351
+metrics[adv-019].audio_duration_source=output
+metrics[adv-019].sample_rate=44100
+metrics[adv-019].channels=1
+request_index=20
+request_id=ezhi-000
+[TIMING] request.ezhi-000.wall_ms 5634.61
+audio_out=I:\VOICE\voice\work\adv-ezhi\chunks-v1_svc-02\ezhi-000.wav
+metrics[ezhi-000].wall_ms=5634.61
+metrics[ezhi-000].memory.peak_rss_mb=1347
+metrics[ezhi-000].memory.peak_footprint_mb=10291
+metrics[ezhi-000].memory.peak_footprint_source=windows_commit
+metrics[ezhi-000].audio_duration_ms=6977.6
+metrics[ezhi-000].rtf=0.807528
+metrics[ezhi-000].x_realtime=1.23835
+metrics[ezhi-000].audio_duration_source=output
+metrics[ezhi-000].sample_rate=44100
+metrics[ezhi-000].channels=1
