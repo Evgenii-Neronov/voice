@@ -1,0 +1,195 @@
+{
+  "status": "generated_unrated",
+  "local_inference": true,
+  "model": "MiniMax-Music3 GGUF Q4/Q8/Q4",
+  "scope": "full lyrics",
+  "source_lyrics_sha256": "ec740d923bebbe7113fe444dbe5d46eab5f8175d763c72a9d1a5d77c98371e82",
+  "runtime_sha256": "abd4e00692a039a1c56892fc9fe39a21c430581faf6893192f6f06ee799173ca",
+  "model_lock": {
+    "repo_id": "audio-cpp/MiniMax-Music3-GGUF",
+    "revision": "46fe77f8bb395ccdbe797d784225f7b84866e7ce",
+    "upstream_repo": "MiniMaxAI/MiniMax-Music3",
+    "upstream_revision": "1b525ccb685ae809f33027c51c351eeb5833cf72",
+    "runtime_lock": "benchmark/native-runtime.lock.json",
+    "files": [
+      {
+        "file": "LICENSE",
+        "bytes": 7373,
+        "sha256": "b21d12df2adae59dad3fcf80c1d81492654c662342f497d9a9770198c9317e58"
+      },
+      {
+        "file": "README.md",
+        "bytes": 3558,
+        "sha256": "a6a512628bb6010ef9b9856d6515fa5eb74b9526aefd9f9f580cd67875867f10"
+      },
+      {
+        "file": "config.json",
+        "bytes": 107,
+        "sha256": "1ffcff67d916d5519d1ef9a36853232ee6bcb7e14a936623c4e85559f5dce106"
+      },
+      {
+        "file": "config/condition_encoder.json",
+        "bytes": 292,
+        "sha256": "1cdea3f36506719128ae4a29cdfff74b1134e607eb4a504ce6d810568fac8263"
+      },
+      {
+        "file": "config/language_model.json",
+        "bytes": 1596,
+        "sha256": "34ded58fcd5e8181557f1417e76af9f3e95109a5ce113a4771fd16f8625b53c0"
+      },
+      {
+        "file": "config/rvq_depth_decoder.json",
+        "bytes": 274,
+        "sha256": "b38c7f72d4b2fa8667442071f9e4a63ca5a7b5d0859e5e64ee7f79c4bc64520c"
+      },
+      {
+        "file": "config/transformer.json",
+        "bytes": 294,
+        "sha256": "f60856be934127a8b8223510aff2e38a9efd8bbdbc230c3d3339b96e2cb12f00"
+      },
+      {
+        "file": "config/vocoder.json",
+        "bytes": 251,
+        "sha256": "4161afd07ba7d5b949e29c8a7a005592259fba73e9110b6ece9dfd38d3489eac"
+      },
+      {
+        "file": "tokenizer/tokenizer.json",
+        "bytes": 11423801,
+        "sha256": "b1537fa9e59a537276ecbc2e12d0438edff635a1f4a4948e679774b5feb3e610"
+      },
+      {
+        "file": "tokenizer/tokenizer_config.json",
+        "bytes": 377,
+        "sha256": "1689852cc9c45010de040c8302a8acdc0d2c4c6c740dd7e9dd0a8c704e16eada"
+      },
+      {
+        "file": "language_model_q4_0.gguf",
+        "bytes": 6006866496,
+        "sha256": "6f621dd636320403c03e9f755b3e2047f5754d055e0fcc6c0c444ae52ffbfa90"
+      },
+      {
+        "file": "rvq_depth_decoder_q8_0.gguf",
+        "bytes": 714028960,
+        "sha256": "d5b7495fb1a7845abfeab13df829510de442fd4ea0fd55467fe9895fe8ec5db6"
+      },
+      {
+        "file": "condition_encoder.gguf",
+        "bytes": 100678368,
+        "sha256": "ae4be8b6154645b0717d1928f5c195359bdee8fd025099c49954ed302257cd20"
+      },
+      {
+        "file": "transformer_q4_0.gguf",
+        "bytes": 1396392768,
+        "sha256": "18d3b2461a2988f59e197ccf05dc3931663099290b42443baa2a30e4fd15e506"
+      },
+      {
+        "file": "vocoder.gguf",
+        "bytes": 216705376,
+        "sha256": "5d40e6d52349d50d2aeaaaf6ba934afbf490e4cbc1ba5bb715c3133ea45cdca4"
+      }
+    ]
+  },
+  "command": [
+    "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_cli.exe",
+    "--task",
+    "gen",
+    "--family",
+    "minimax_music3",
+    "--model",
+    "I:\\VOICE\\voice\\models\\music\\MiniMax-Music3-GGUF",
+    "--backend",
+    "cuda",
+    "--threads",
+    "8",
+    "--request-sequence",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap4-dialogue-outro-01\\requests.json",
+    "--out-dir",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap4-dialogue-outro-01",
+    "--out-format",
+    "pcm16",
+    "--batch-manifest-out",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap4-dialogue-outro-01\\native-manifest.json",
+    "--metrics",
+    "--load-progress",
+    "0",
+    "--session-option",
+    "minimax_music3.mem_saver=true",
+    "--session-option",
+    "minimax_music3.perf_mode=cuda_perf"
+  ],
+  "requested_budget_seconds": 35,
+  "audio": [
+    {
+      "file": "full.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 16.857687074829933,
+      "sha256": "34fe4977cd219e915dbf825d017489bf2c229e3cf615dc0c6d03bceabf9020c0",
+      "peak": 0.999542236328125,
+      "rms": 0.15560256721578325
+    }
+  ],
+  "brief": {
+    "id": "minimax-rap4-dialogue-outro-01",
+    "title": "Семинар: встречные вопросы",
+    "caption": "Russian underground boom bap outro, 102 BPM, dry punchy chopped jazz drums, warm upright bass, dissonant Rhodes and muted brass. Rhythmic dry male rap, sharp consonants, sarcastic conversational cadence, fast but intelligible delivery. Brief spoken rap ending, no singing, no echo or reverb. Finish every lyric line then short instrumental tail.",
+    "lyrics": "[Outro]\nСеминар окончен. В протоколе — несогласие.\nНикто не отменил ни тела, ни обстоятельства.\nЧереп на кафедре молчит, контракт прикрывает ладонью.\nКто дал тебе право говорить за всех сегодня?\nОтвета нет. Продолжим в следующем сезоне.",
+    "duration": 35,
+    "seed": 2026111002,
+    "requested_bpm": 102,
+    "source_lyrics_path": "music\\rap4-dialogue\\lyrics.txt",
+    "original_lyrics_sha256": "ec740d923bebbe7113fe444dbe5d46eab5f8175d763c72a9d1a5d77c98371e82",
+    "main_voice": "ADV",
+    "greeting_voice": "ADV",
+    "ezhi_lines": [
+      [
+        "Не путай описание с приказом!",
+        "Где доказательство? Показывай сразу!"
+      ],
+      [
+        "Печать не заменяет объяснения!",
+        "Продолжим заседание!"
+      ],
+      [
+        "Контракт красивый. А кому досталась фабрика?",
+        "Вот и вся нейтральная математика!"
+      ],
+      [
+        "Кто готовил ужин вашему прогрессу?",
+        "Внесите этот труд в повестку конгресса!"
+      ],
+      [
+        "Кто назвал естественным порядок наказания?",
+        "Зачем природе столько согласований?"
+      ],
+      [
+        "Кто дал тебе право говорить за всех сегодня?",
+        "Ответа нет. Продолжим в следующем сезоне."
+      ]
+    ],
+    "ezhi_occurrences": 6,
+    "dry": true,
+    "request_options": {
+      "num_inference_steps": 30,
+      "guidance_scale": 1.7,
+      "ar_guidance_scale": 1.5,
+      "top_k": 50
+    }
+  },
+  "returncode": 0,
+  "delivery": [
+    {
+      "file": "full.mp3",
+      "bytes": 541718,
+      "sha256": "8b561d98093e885ba76edec4ca7b57830bf08348a95e0a916ac755b0ef315f7e"
+    },
+    {
+      "file": "preview.wav",
+      "bytes": 2973774,
+      "sha256": "a579f0a522bf5a140990e58dd8ef642f9c0aae3bccc6edd226aa7c8c38e65a87"
+    }
+  ],
+  "whole_run_seconds": 37.484094599989476,
+  "whole_gpu_peak_used_mib": 11682,
+  "memory_scope": "Whole card, includes other applications, sampled every ~2 seconds"
+}

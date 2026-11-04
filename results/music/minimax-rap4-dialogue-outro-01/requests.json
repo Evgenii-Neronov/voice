@@ -1,0 +1,16 @@
+[
+  {
+    "id": "full",
+    "text": "Russian underground boom bap outro, 102 BPM, dry punchy chopped jazz drums, warm upright bass, dissonant Rhodes and muted brass. Rhythmic dry male rap, sharp consonants, sarcastic conversational cadence, fast but intelligible delivery. Brief spoken rap ending, no singing, no echo or reverb. Finish every lyric line then short instrumental tail.",
+    "seed": 2026111002,
+    "options": {
+      "lyrics": "[Outro]\nСеминар окончен. В протоколе — несогласие.\nНикто не отменил ни тела, ни обстоятельства.\nЧереп на кафедре молчит, контракт прикрывает ладонью.\nКто дал тебе право говорить за всех сегодня?\nОтвета нет. Продолжим в следующем сезоне.",
+      "duration_sec": "35",
+      "num_inference_steps": "30",
+      "guidance_scale": "1.7",
+      "ar_guidance_scale": "1.5",
+      "top_k": "50",
+      "seed": "2026111002"
+    }
+  }
+]

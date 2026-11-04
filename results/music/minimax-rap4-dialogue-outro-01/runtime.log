@@ -1,0 +1,37 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cuda.dll
+load_backend: loaded CPU backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cpu-cascadelake.dll
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+family=minimax_music3
+task=gen
+mode=offline
+request_index=0
+request_id=full
+[TIMING] request.full.wall_ms 34628.6
+audio_out=I:\VOICE\voice\results\music\minimax-rap4-dialogue-outro-01\full.wav
+metrics[full].wall_ms=34628.6
+metrics[full].memory.peak_rss_mb=6105
+metrics[full].memory.peak_footprint_mb=9401
+metrics[full].memory.peak_footprint_source=windows_commit
+metrics[full].audio_duration_ms=16857.7
+metrics[full].rtf=2.05417
+metrics[full].x_realtime=0.486814
+metrics[full].audio_duration_source=output
+metrics[full].sample_rate=44100
+metrics[full].channels=2
+batch_manifest_out=I:\VOICE\voice\results\music\minimax-rap4-dialogue-outro-01\native-manifest.json

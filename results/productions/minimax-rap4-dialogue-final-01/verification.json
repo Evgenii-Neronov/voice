@@ -1,0 +1,104 @@
+{
+  "numerical_validation_passed": true,
+  "sha256_validation_passed": true,
+  "lyrics_sha256": "ec740d923bebbe7113fe444dbe5d46eab5f8175d763c72a9d1a5d77c98371e82",
+  "duration": 273.13768707482996,
+  "ezhi_regions_seconds": [
+    [
+      57.62,
+      61.25
+    ],
+    [
+      76.34,
+      79.7
+    ],
+    [
+      107.14,
+      112.18
+    ],
+    [
+      178.76,
+      183.42
+    ],
+    [
+      204.5,
+      209.6
+    ],
+    [
+      265.94,
+      272.08
+    ]
+  ],
+  "all_other_vocal": "ADV reference conversion",
+  "greeting_voice": "ADV",
+  "dry": true,
+  "local_inference": true,
+  "generation_seconds": 459.26604610000504,
+  "separation_seconds": 49.29525670001749,
+  "conversion_seconds": 153.83979440000257,
+  "conversion_timing_scope": "This invocation only; prior failed attempt excluded when resumed",
+  "conversion_reused_chunks": 0,
+  "conversion_fallbacks": [],
+  "asr_not_ground_truth": true,
+  "human_listening_review": false,
+  "checks": [
+    {
+      "part": "greeting_ADV",
+      "start": 0,
+      "end": 6,
+      "automatic_transcript": " Я ел в это рэп трек, свами одевейки, адвентус, левотус, аудиторий, и тихо за окнами позники."
+    },
+    {
+      "part": "verse_ADV",
+      "start": 20,
+      "end": 30,
+      "automatic_transcript": " и проспективные эффективы, фокус первичной эссенции, перформативность не маска, не паспорт, не частная прихоть, а повторение норов."
+    },
+    {
+      "part": "hook_1_Ezhi",
+      "start": 57.5,
+      "end": 61.37,
+      "automatic_transcript": " Не путай я примет приказан  Деда, казательство, показывай сразу"
+    },
+    {
+      "part": "hook_2_Ezhi",
+      "start": 76.22,
+      "end": 79.82000000000001,
+      "automatic_transcript": " Печат не за меня, это объяснение. Продолжим заседание."
+    },
+    {
+      "part": "hook_3_Ezhi",
+      "start": 107.02,
+      "end": 112.30000000000001,
+      "automatic_transcript": " Контакт красивый, как ему рассталась фабрика. Вот и вся нейтральная математика."
+    },
+    {
+      "part": "hook_4_Ezhi",
+      "start": 178.64,
+      "end": 183.54,
+      "automatic_transcript": " Кто готовил нужен вашему погрессу, Весите этот труд в повестку конгресса."
+    },
+    {
+      "part": "hook_5_Ezhi",
+      "start": 204.38,
+      "end": 209.72,
+      "automatic_transcript": " кто назвал естественным порядок на оказание,  зачем природе столько согласований."
+    },
+    {
+      "part": "hook_6_Ezhi",
+      "start": 265.82,
+      "end": 272.2,
+      "automatic_transcript": " Кодал тебе право говорить за всех сегодня, а ответа нет, продолжим в следующем сезоне."
+    }
+  ],
+  "references": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4"
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac"
+    }
+  ]
+}

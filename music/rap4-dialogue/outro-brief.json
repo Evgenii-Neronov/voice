@@ -1,0 +1,47 @@
+{
+  "id": "minimax-rap4-dialogue-outro-01",
+  "title": "Семинар: встречные вопросы",
+  "caption": "Russian underground boom bap outro, 102 BPM, dry punchy chopped jazz drums, warm upright bass, dissonant Rhodes and muted brass. Rhythmic dry male rap, sharp consonants, sarcastic conversational cadence, fast but intelligible delivery. Brief spoken rap ending, no singing, no echo or reverb. Finish every lyric line then short instrumental tail.",
+  "lyrics": "[Outro]\nСеминар окончен. В протоколе — несогласие.\nНикто не отменил ни тела, ни обстоятельства.\nЧереп на кафедре молчит, контракт прикрывает ладонью.\nКто дал тебе право говорить за всех сегодня?\nОтвета нет. Продолжим в следующем сезоне.",
+  "duration": 35,
+  "seed": 2026111002,
+  "requested_bpm": 102,
+  "source_lyrics_path": "music\\rap4-dialogue\\lyrics.txt",
+  "original_lyrics_sha256": "ec740d923bebbe7113fe444dbe5d46eab5f8175d763c72a9d1a5d77c98371e82",
+  "main_voice": "ADV",
+  "greeting_voice": "ADV",
+  "ezhi_lines": [
+    [
+      "Не путай описание с приказом!",
+      "Где доказательство? Показывай сразу!"
+    ],
+    [
+      "Печать не заменяет объяснения!",
+      "Продолжим заседание!"
+    ],
+    [
+      "Контракт красивый. А кому досталась фабрика?",
+      "Вот и вся нейтральная математика!"
+    ],
+    [
+      "Кто готовил ужин вашему прогрессу?",
+      "Внесите этот труд в повестку конгресса!"
+    ],
+    [
+      "Кто назвал естественным порядок наказания?",
+      "Зачем природе столько согласований?"
+    ],
+    [
+      "Кто дал тебе право говорить за всех сегодня?",
+      "Ответа нет. Продолжим в следующем сезоне."
+    ]
+  ],
+  "ezhi_occurrences": 6,
+  "dry": true,
+  "request_options": {
+    "num_inference_steps": 30,
+    "guidance_scale": 1.7,
+    "ar_guidance_scale": 1.5,
+    "top_k": 50
+  }
+}
