@@ -1,0 +1,43 @@
+{
+  "method": "Local ASR anchor boundaries, approximate; expanded opening role includes first part of Verse 1",
+  "ezhi_regions": [
+    {
+      "start": 0,
+      "end": 40.56,
+      "section": "Greeting, Intro and opening Verse 1"
+    },
+    {
+      "start": 62.02,
+      "end": 81.82,
+      "section": "Chorus"
+    },
+    {
+      "start": 135.2,
+      "end": 143.95,
+      "section": "Hook"
+    },
+    {
+      "start": 228.5,
+      "end": 247.024626,
+      "section": "Outro"
+    }
+  ],
+  "preview_regions": [
+    [
+      0,
+      5.7
+    ],
+    [
+      40.56,
+      52.56
+    ],
+    [
+      135.2,
+      143.95
+    ]
+  ],
+  "fx_comparison_region": [
+    40.56,
+    52.56
+  ]
+}

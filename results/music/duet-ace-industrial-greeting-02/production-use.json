@@ -1,0 +1,4 @@
+{
+  "used_in_final": false,
+  "reason": "Short-excerpt ASR did not recover the requested greeting and artist name clearly. MiniMax musical greeting selected instead; human listening review not performed."
+}

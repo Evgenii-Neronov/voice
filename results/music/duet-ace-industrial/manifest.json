@@ -1,0 +1,208 @@
+{
+  "status": "generated_unrated",
+  "model": "acestep-v15-turbo",
+  "local_inference": true,
+  "seed": 2026110413,
+  "source_lyrics_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+  "metadata": {
+    "Title": "ДЕСЯТЬ СВИСТУЛЕК ЗА СИНГУЛЯРНОСТЬ",
+    "Style": "UK abstract boom bap, 96 BPM, dusty jazz breaks, distorted upright bass, dissonant Rhodes, modular synth, granular glitches, turntable scratches, industrial percussion",
+    "Vocal": "High nasal British underground rap, rapid multisyllabic flow, dense internal rhymes, sharp articulation, dry ironic delivery, no singing, no baritone",
+    "Mood": "Esoteric, hyperintellectual, absurdist, dystopian, metaphysical overload"
+  },
+  "section_directions": [
+    {
+      "section": "Intro",
+      "direction": "Vinyl hiss, church bells, detuned piano, distant modem noise"
+    },
+    {
+      "section": "Verse 1",
+      "direction": "Sparse breakbeat, syncopated bass, intricate flow"
+    },
+    {
+      "section": "Chorus",
+      "direction": "Heavy drums, layered rapid vocals, scratches"
+    },
+    {
+      "section": "Verse 2",
+      "direction": "Double-time flow, metallic hats, acid bass"
+    },
+    {
+      "section": "Hook",
+      "direction": "Drums cut, low bass pulse, staccato vocals"
+    },
+    {
+      "section": "Bridge",
+      "direction": "Dissonant Rhodes, whispered fast flow, distant choir"
+    },
+    {
+      "section": "Verse 3",
+      "direction": "Full breakbeat, triplet flow, granular glitches"
+    },
+    {
+      "section": "Outro",
+      "direction": "Beat collapses, church bell, modem hiss, dry voice"
+    },
+    {
+      "section": "Instrumental",
+      "direction": "Detuned bells, granular bass decay, tape stop"
+    }
+  ],
+  "instrumental": false,
+  "audio": [
+    {
+      "file": "full.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration": 255.0,
+      "sha256": "40ea3932e7d2b627b6f5c495d450cf9cd370424d69ec5697a15f9377b5d6932c",
+      "peak": 0.8912353515625,
+      "rms": 0.16076713246731836
+    }
+  ],
+  "lock": {
+    "repo_id": "ACE-Step/Ace-Step1.5",
+    "revision": "19671f406d603126926c1b7e2adc169acbcade22",
+    "license": "mit",
+    "source_revision": "ca1e85fe9430179831e6bc6be790c332190a3866",
+    "patterns": [
+      "acestep-v15-turbo/*",
+      "vae/*",
+      "Qwen3-Embedding-0.6B/*",
+      "README.md"
+    ]
+  },
+  "brief": {
+    "id": "ace-industrial",
+    "engine": "ace",
+    "seed": 2026110413,
+    "bpm": 104,
+    "duration": 255,
+    "key": "F minor",
+    "title": "ACE — индустриальный рэп",
+    "room": 1.25,
+    "wet": 0.15,
+    "delay_beats": 0.75,
+    "delay_send": 0.12,
+    "caption": "Native Russian male rap, neutral native Russian pronunciation, clear consonants, natural spoken Russian stress, intelligible dry sardonic conversational delivery, rhythmic spoken rap throughout, no sung melody, no foreign accent. Rap the opening greeting as part of the beat. Russian industrial abstract hip-hop, 104 BPM, metallic percussion, broken heavy drums, distorted synth bass, ominous granular textures, tense staccato spoken rap, dramatic breaks, no melodic singing.",
+    "lyrics": "[Intro]\nЙо, это рэп-трек!\nС вами Эй Ди Ви, ака Адвентус Девотус!\n\nВ деревне отменили деньги.\nНо курс свистулек растёт.\nНа десять глиняных флейт\nПоложен квантовый счёт.\n\nПод куполом вечного неба\nПасётся цифровой скот.\nА время из будущего\nУже совершило исход.\n\n[Verse 1]\nЧетвёртая теория, четвёртое измерение,\nДазайн вместо субъекта, событие вместо мнения.\nТрадиция, сакральность, география спасения,\nНо квантовый компьютер требует охлаждения.\n\nНоомахия, Логос Аполлона, Диониса,\nКибела проснулась под сводами сельского киберполиса.\nГиперборейский крестьянин читает Хайдеггера,\nПока нейросеть собирает урожай для метафизика.\n\nМодерн упразднили, постмодерн отрицается,\nПремодерн с квантовой физикой странно срастается.\nЭтнос, народ, цивилизация, месторазвитие,\nУ трактора онтологическое событие.\n\nТеллурократия, талассократия, суша и море,\nМногополярная вечность на деревенском просторе.\nСубъект растворился в коллективном присутствии,\nА дед торгует свистульками с абсолютным бесчувствием.\n\n[Chorus]\nДесять свистулек — квантовый компьютер!\nДенег не будет — но есть контрагент!\nПод русским куполом вечное утро,\nЗа околицей — технокапиталистический Ленд!\n\nДазайн! Хайперстишн! Ретрокаузальность!\nАрхеомодерн и машинная реальность!\nСельский интернет, эсхатологический свет!\nТоварного обмена нет — а эквивалент есть!\n\n[Verse 2]\nНик Ленд разгоняет петлю положительной связи,\nКапитал обретает автономию в техноэкстазе.\nСи-си-ар-ю, киберготика, шизоанализ,\nДетерриториализация, машинный катализ.\n\nНе человек производит машину для будущего,\nА будущее производит условия сущего.\nТелеплексия, сингулярность, обратная причинность,\nГиперверие превращает фикцию в действительность.\n\nСобор контролирует медиа, нормы, образование,\nНеореакция предлагает выход вместо голосования.\nЭкзит, си-и-оу-монархия, Пэтчворк, анклавы,\nВместо всеобщего блага — конкурентные главы.\n\nУскорение капитала, нечеловеческий интеллект,\nУ крестьянского схода совершенно иной проект.\nОдин хочет вернуть изначальное время,\nДругой — чтоб само время перестало быть бременем.\n\nПервый говорит: укоренение, почва, истоки.\nВторой: потоки капитала, вычислительные потоки.\nПервый сажает картофель во имя вечного круга,\nВторой уже продал алгоритму понятие плуга.\n\n[Hook]\nКупол над деревней!\nСингулярность под землёй!\nТрадиция без денег!\nКапитал без головы!\n\nДесять свистулек!\nОдин кубит!\nКто здесь субъект?\nКто кого купит?\n\n[Bridge]\nГенон различает принцип и проявление.\nЭвола — вертикаль и духовное напряжение.\nХайдеггер — забвение бытия в поставе,\nДелёз — машины желания в непрерывном составе.\n\nНо Ленд не Гегель: ему не нужно снятие,\nПоложительная связь заменяет отрицание.\nА Дугин не Ленд: для него ускорение — бедствие,\nИх встреча — онтологическое происшествие.\n\n[Verse 3]\nВ поселении храм, библиотека и театр,\nНад ними купол, под ними геополитический атлас.\nДеньги отменены, но есть проблема исчисления:\nКто назначает курс свистульки к сверхпроводящему изделию?\n\nДесять свистулек за квантовый вычислитель,\nОдиннадцать — за право быть его повелителем.\nНо квантовый процессор не рождается из глины,\nЕму нужны фабрики, литография, турбины.\n\nГде разделение труда? Где сложность кооперации?\nГде производство криогенной аппаратуры для цивилизации?\nВ ответ — ноэтическая геополитика почвы,\nА в стойке охлаждения заканчивается жидкий гелий ночью.\n\nТрадиция требует предела, Ленд отменяет предел,\nОдин ищет исток, другой — постчеловеческий удел.\nАрхеофутуризм, акселерация, эсхатон,\nВ одной избе и прялка, и кремниевый демон.\n\nВремя замкнулось, но петля не герметична,\nРынок изгнан, а стоимость возвращается циклично.\nДед считает свистульки, компьютер считает деда,\nИх взаимное отрицание не предполагает победы.\n\n[Outro]\nНад селом неподвижно висит золотой купол.\nПод селом вычислитель проектирует утро.\nСтарик вырезает одиннадцатую свистульку.\nМашина впервые запрашивает скидку.\n\n[Instrumental]",
+    "phonetic_substitutions": {
+      "Dasein": "Дазайн",
+      "Hyperstition": "Хайперстишн",
+      "CCRU": "Си-си-ар-ю",
+      "Exit": "Экзит",
+      "CEO": "си-и-оу",
+      "Patchwork": "Пэтчворк"
+    },
+    "original_lyrics_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+    "greeting_source": "Generated inside the music model, not separate TTS",
+    "ezhi_sections": [
+      "Intro",
+      "Chorus",
+      "Hook",
+      "Outro"
+    ]
+  },
+  "lyric_token_count": 1501,
+  "params": {
+    "task_type": "text2music",
+    "instruction": "Fill the audio semantic mask based on the given conditions:",
+    "reference_audio": null,
+    "src_audio": null,
+    "audio_codes": "",
+    "caption": "Native Russian male rap, neutral native Russian pronunciation, clear consonants, natural spoken Russian stress, intelligible dry sardonic conversational delivery, rhythmic spoken rap throughout, no sung melody, no foreign accent. Rap the opening greeting as part of the beat. Russian industrial abstract hip-hop, 104 BPM, metallic percussion, broken heavy drums, distorted synth bass, ominous granular textures, tense staccato spoken rap, dramatic breaks, no melodic singing.",
+    "global_caption": "",
+    "lyrics": "[Intro]\nЙо, это рэп-трек!\nС вами Эй Ди Ви, ака Адвентус Девотус!\n\nВ деревне отменили деньги.\nНо курс свистулек растёт.\nНа десять глиняных флейт\nПоложен квантовый счёт.\n\nПод куполом вечного неба\nПасётся цифровой скот.\nА время из будущего\nУже совершило исход.\n\n[Verse 1]\nЧетвёртая теория, четвёртое измерение,\nДазайн вместо субъекта, событие вместо мнения.\nТрадиция, сакральность, география спасения,\nНо квантовый компьютер требует охлаждения.\n\nНоомахия, Логос Аполлона, Диониса,\nКибела проснулась под сводами сельского киберполиса.\nГиперборейский крестьянин читает Хайдеггера,\nПока нейросеть собирает урожай для метафизика.\n\nМодерн упразднили, постмодерн отрицается,\nПремодерн с квантовой физикой странно срастается.\nЭтнос, народ, цивилизация, месторазвитие,\nУ трактора онтологическое событие.\n\nТеллурократия, талассократия, суша и море,\nМногополярная вечность на деревенском просторе.\nСубъект растворился в коллективном присутствии,\nА дед торгует свистульками с абсолютным бесчувствием.\n\n[Chorus]\nДесять свистулек — квантовый компьютер!\nДенег не будет — но есть контрагент!\nПод русским куполом вечное утро,\nЗа околицей — технокапиталистический Ленд!\n\nДазайн! Хайперстишн! Ретрокаузальность!\nАрхеомодерн и машинная реальность!\nСельский интернет, эсхатологический свет!\nТоварного обмена нет — а эквивалент есть!\n\n[Verse 2]\nНик Ленд разгоняет петлю положительной связи,\nКапитал обретает автономию в техноэкстазе.\nСи-си-ар-ю, киберготика, шизоанализ,\nДетерриториализация, машинный катализ.\n\nНе человек производит машину для будущего,\nА будущее производит условия сущего.\nТелеплексия, сингулярность, обратная причинность,\nГиперверие превращает фикцию в действительность.\n\nСобор контролирует медиа, нормы, образование,\nНеореакция предлагает выход вместо голосования.\nЭкзит, си-и-оу-монархия, Пэтчворк, анклавы,\nВместо всеобщего блага — конкурентные главы.\n\nУскорение капитала, нечеловеческий интеллект,\nУ крестьянского схода совершенно иной проект.\nОдин хочет вернуть изначальное время,\nДругой — чтоб само время перестало быть бременем.\n\nПервый говорит: укоренение, почва, истоки.\nВторой: потоки капитала, вычислительные потоки.\nПервый сажает картофель во имя вечного круга,\nВторой уже продал алгоритму понятие плуга.\n\n[Hook]\nКупол над деревней!\nСингулярность под землёй!\nТрадиция без денег!\nКапитал без головы!\n\nДесять свистулек!\nОдин кубит!\nКто здесь субъект?\nКто кого купит?\n\n[Bridge]\nГенон различает принцип и проявление.\nЭвола — вертикаль и духовное напряжение.\nХайдеггер — забвение бытия в поставе,\nДелёз — машины желания в непрерывном составе.\n\nНо Ленд не Гегель: ему не нужно снятие,\nПоложительная связь заменяет отрицание.\nА Дугин не Ленд: для него ускорение — бедствие,\nИх встреча — онтологическое происшествие.\n\n[Verse 3]\nВ поселении храм, библиотека и театр,\nНад ними купол, под ними геополитический атлас.\nДеньги отменены, но есть проблема исчисления:\nКто назначает курс свистульки к сверхпроводящему изделию?\n\nДесять свистулек за квантовый вычислитель,\nОдиннадцать — за право быть его повелителем.\nНо квантовый процессор не рождается из глины,\nЕму нужны фабрики, литография, турбины.\n\nГде разделение труда? Где сложность кооперации?\nГде производство криогенной аппаратуры для цивилизации?\nВ ответ — ноэтическая геополитика почвы,\nА в стойке охлаждения заканчивается жидкий гелий ночью.\n\nТрадиция требует предела, Ленд отменяет предел,\nОдин ищет исток, другой — постчеловеческий удел.\nАрхеофутуризм, акселерация, эсхатон,\nВ одной избе и прялка, и кремниевый демон.\n\nВремя замкнулось, но петля не герметична,\nРынок изгнан, а стоимость возвращается циклично.\nДед считает свистульки, компьютер считает деда,\nИх взаимное отрицание не предполагает победы.\n\n[Outro]\nНад селом неподвижно висит золотой купол.\nПод селом вычислитель проектирует утро.\nСтарик вырезает одиннадцатую свистульку.\nМашина впервые запрашивает скидку.\n\n[Instrumental]",
+    "instrumental": false,
+    "vocal_language": "ru",
+    "bpm": 104,
+    "keyscale": "F minor",
+    "timesignature": "4",
+    "duration": 255,
+    "enable_normalization": true,
+    "normalization_db": -1.0,
+    "fade_in_duration": 0.0,
+    "fade_out_duration": 0.0,
+    "latent_shift": 0.0,
+    "latent_rescale": 1.0,
+    "inference_steps": 8,
+    "seed": -1,
+    "guidance_scale": 7.0,
+    "use_adg": false,
+    "cfg_interval_start": 0.0,
+    "cfg_interval_end": 1.0,
+    "shift": 1.0,
+    "infer_method": "ode",
+    "sampler_mode": "euler",
+    "velocity_norm_threshold": 0.0,
+    "velocity_ema_factor": 0.0,
+    "dcw_enabled": null,
+    "dcw_mode": "double",
+    "dcw_scaler": 0.05,
+    "dcw_high_scaler": 0.02,
+    "dcw_wavelet": "haar",
+    "timesteps": null,
+    "repainting_start": 0.0,
+    "repainting_end": -1,
+    "chunk_mask_mode": "auto",
+    "repaint_latent_crossfade_frames": 10,
+    "repaint_wav_crossfade_sec": 0.0,
+    "repaint_mode": "balanced",
+    "repaint_strength": 0.5,
+    "retake_seed": null,
+    "retake_variance": 0.0,
+    "flow_edit_morph": false,
+    "flow_edit_source_caption": "",
+    "flow_edit_source_lyrics": "",
+    "flow_edit_n_min": 0.0,
+    "flow_edit_n_max": 1.0,
+    "flow_edit_n_avg": 1,
+    "audio_cover_strength": 1.0,
+    "cover_noise_strength": 0.0,
+    "thinking": false,
+    "lm_temperature": 0.85,
+    "lm_cfg_scale": 2.0,
+    "lm_top_k": 0,
+    "lm_top_p": 0.9,
+    "lm_negative_prompt": "NO USER INPUT",
+    "use_cot_metas": false,
+    "use_cot_caption": false,
+    "use_cot_lyrics": false,
+    "use_cot_language": false,
+    "use_constrained_decoding": true,
+    "cot_bpm": null,
+    "cot_keyscale": "",
+    "cot_timesignature": "",
+    "cot_duration": null,
+    "cot_vocal_language": "unknown",
+    "cot_caption": "",
+    "cot_lyrics": ""
+  },
+  "config": {
+    "batch_size": 1,
+    "allow_lm_batch": false,
+    "use_random_seed": false,
+    "seeds": [
+      2026110413
+    ],
+    "lm_batch_chunk_size": 8,
+    "constrained_decoding_debug": false,
+    "audio_format": "wav",
+    "mp3_bitrate": "128k",
+    "mp3_sample_rate": 48000
+  },
+  "generation_seconds": 25.918228599999566,
+  "torch_peak_allocated_bytes": 5312542720,
+  "delivery": [
+    {
+      "file": "full.mp3",
+      "bytes": 8161580,
+      "sha256": "89e23aba1560e743c0f3bfbf2fd6362c11be2949504bae2fe661cfb6ea1c5f5a"
+    },
+    {
+      "file": "preview.wav",
+      "bytes": 3840078,
+      "sha256": "9cde9da0cc4428414c47625027d676f572f75f027c2b8511c7a3280f53f0582b"
+    }
+  ]
+}

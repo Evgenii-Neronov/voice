@@ -1,0 +1,43 @@
+{
+  "method": "Manual section boundaries from local faster-whisper-small timestamps; approximate, not phoneme alignment",
+  "ezhi_regions": [
+    {
+      "start": 0,
+      "end": 38.4,
+      "section": "Intro + musical greeting"
+    },
+    {
+      "start": 70.6,
+      "end": 94.85,
+      "section": "Chorus"
+    },
+    {
+      "start": 124.9,
+      "end": 146.7,
+      "section": "Hook"
+    },
+    {
+      "start": 246.2,
+      "end": 270,
+      "section": "Outro"
+    }
+  ],
+  "preview_regions": [
+    [
+      0,
+      10
+    ],
+    [
+      41.4,
+      53.4
+    ],
+    [
+      124.9,
+      136.9
+    ]
+  ],
+  "fx_comparison_region": [
+    41.4,
+    53.4
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "method": "Manual section boundaries from local faster-whisper-small timestamps; approximate, not phoneme alignment",
+  "ezhi_regions": [
+    {
+      "start": 0,
+      "end": 26.0,
+      "section": "Intro + musical greeting"
+    },
+    {
+      "start": 75.5,
+      "end": 95.5,
+      "section": "Chorus"
+    },
+    {
+      "start": 131.6,
+      "end": 150.39999999999998,
+      "section": "Hook"
+    },
+    {
+      "start": 227.29999999999998,
+      "end": 249.7,
+      "section": "Outro"
+    }
+  ],
+  "preview_regions": [
+    [
+      0,
+      5.7
+    ],
+    [
+      29,
+      41
+    ],
+    [
+      131.6,
+      143.6
+    ]
+  ],
+  "fx_comparison_region": [
+    29,
+    41
+  ],
+  "greeting_engine": "minimax",
+  "edit": {
+    "musical_greeting_source": "duet-minimax-room",
+    "source_interval": [
+      0,
+      5.7
+    ],
+    "ace_resume_seconds": 11,
+    "timeline_shift_seconds": -5.3,
+    "reason": "ACE greeting poorly recognized in two trials; clearer MiniMax musical phrase selected, not TTS"
+  }
+}

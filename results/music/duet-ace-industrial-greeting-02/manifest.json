@@ -1,0 +1,208 @@
+{
+  "status": "generated_unrated",
+  "model": "acestep-v15-turbo",
+  "local_inference": true,
+  "seed": 2026110414,
+  "source_lyrics_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+  "metadata": {
+    "Title": "ДЕСЯТЬ СВИСТУЛЕК ЗА СИНГУЛЯРНОСТЬ",
+    "Style": "UK abstract boom bap, 96 BPM, dusty jazz breaks, distorted upright bass, dissonant Rhodes, modular synth, granular glitches, turntable scratches, industrial percussion",
+    "Vocal": "High nasal British underground rap, rapid multisyllabic flow, dense internal rhymes, sharp articulation, dry ironic delivery, no singing, no baritone",
+    "Mood": "Esoteric, hyperintellectual, absurdist, dystopian, metaphysical overload"
+  },
+  "section_directions": [
+    {
+      "section": "Intro",
+      "direction": "Vinyl hiss, church bells, detuned piano, distant modem noise"
+    },
+    {
+      "section": "Verse 1",
+      "direction": "Sparse breakbeat, syncopated bass, intricate flow"
+    },
+    {
+      "section": "Chorus",
+      "direction": "Heavy drums, layered rapid vocals, scratches"
+    },
+    {
+      "section": "Verse 2",
+      "direction": "Double-time flow, metallic hats, acid bass"
+    },
+    {
+      "section": "Hook",
+      "direction": "Drums cut, low bass pulse, staccato vocals"
+    },
+    {
+      "section": "Bridge",
+      "direction": "Dissonant Rhodes, whispered fast flow, distant choir"
+    },
+    {
+      "section": "Verse 3",
+      "direction": "Full breakbeat, triplet flow, granular glitches"
+    },
+    {
+      "section": "Outro",
+      "direction": "Beat collapses, church bell, modem hiss, dry voice"
+    },
+    {
+      "section": "Instrumental",
+      "direction": "Detuned bells, granular bass decay, tape stop"
+    }
+  ],
+  "instrumental": false,
+  "audio": [
+    {
+      "file": "full.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration": 12.0,
+      "sha256": "7561afe67d74a2fca9e74c861751bc6f2017a89d60601ddb5d5e452578d8cde5",
+      "peak": 0.891265869140625,
+      "rms": 0.09849424787825457
+    }
+  ],
+  "lock": {
+    "repo_id": "ACE-Step/Ace-Step1.5",
+    "revision": "19671f406d603126926c1b7e2adc169acbcade22",
+    "license": "mit",
+    "source_revision": "ca1e85fe9430179831e6bc6be790c332190a3866",
+    "patterns": [
+      "acestep-v15-turbo/*",
+      "vae/*",
+      "Qwen3-Embedding-0.6B/*",
+      "README.md"
+    ]
+  },
+  "brief": {
+    "id": "ace-industrial",
+    "engine": "ace",
+    "seed": 2026110414,
+    "bpm": 104,
+    "duration": 12,
+    "key": "F minor",
+    "title": "ACE — индустриальный рэп",
+    "room": 1.25,
+    "wet": 0.15,
+    "delay_beats": 0.75,
+    "delay_send": 0.12,
+    "caption": "Native Russian male rap spoken rhythmically, clear dry intelligible voice, sparse industrial hip hop beat, 104 BPM, no singing. Opening artist introduction, slow articulate syllables.",
+    "lyrics": "[Verse]\nЙо, это рэп трек!\nС вами Эй Ди Ви!\nАка Адвентус Девотус!",
+    "phonetic_substitutions": {
+      "Dasein": "Дазайн",
+      "Hyperstition": "Хайперстишн",
+      "CCRU": "Си-си-ар-ю",
+      "Exit": "Экзит",
+      "CEO": "си-и-оу",
+      "Patchwork": "Пэтчворк"
+    },
+    "original_lyrics_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+    "greeting_source": "Generated inside the music model, not separate TTS",
+    "ezhi_sections": [
+      "Intro",
+      "Chorus",
+      "Hook",
+      "Outro"
+    ]
+  },
+  "lyric_token_count": 34,
+  "params": {
+    "task_type": "text2music",
+    "instruction": "Fill the audio semantic mask based on the given conditions:",
+    "reference_audio": null,
+    "src_audio": null,
+    "audio_codes": "",
+    "caption": "Native Russian male rap spoken rhythmically, clear dry intelligible voice, sparse industrial hip hop beat, 104 BPM, no singing. Opening artist introduction, slow articulate syllables.",
+    "global_caption": "",
+    "lyrics": "[Verse]\nЙо, это рэп трек!\nС вами Эй Ди Ви!\nАка Адвентус Девотус!",
+    "instrumental": false,
+    "vocal_language": "ru",
+    "bpm": 104,
+    "keyscale": "F minor",
+    "timesignature": "4",
+    "duration": 12,
+    "enable_normalization": true,
+    "normalization_db": -1.0,
+    "fade_in_duration": 0.0,
+    "fade_out_duration": 0.0,
+    "latent_shift": 0.0,
+    "latent_rescale": 1.0,
+    "inference_steps": 8,
+    "seed": -1,
+    "guidance_scale": 7.0,
+    "use_adg": false,
+    "cfg_interval_start": 0.0,
+    "cfg_interval_end": 1.0,
+    "shift": 1.0,
+    "infer_method": "ode",
+    "sampler_mode": "euler",
+    "velocity_norm_threshold": 0.0,
+    "velocity_ema_factor": 0.0,
+    "dcw_enabled": null,
+    "dcw_mode": "double",
+    "dcw_scaler": 0.05,
+    "dcw_high_scaler": 0.02,
+    "dcw_wavelet": "haar",
+    "timesteps": null,
+    "repainting_start": 0.0,
+    "repainting_end": -1,
+    "chunk_mask_mode": "auto",
+    "repaint_latent_crossfade_frames": 10,
+    "repaint_wav_crossfade_sec": 0.0,
+    "repaint_mode": "balanced",
+    "repaint_strength": 0.5,
+    "retake_seed": null,
+    "retake_variance": 0.0,
+    "flow_edit_morph": false,
+    "flow_edit_source_caption": "",
+    "flow_edit_source_lyrics": "",
+    "flow_edit_n_min": 0.0,
+    "flow_edit_n_max": 1.0,
+    "flow_edit_n_avg": 1,
+    "audio_cover_strength": 1.0,
+    "cover_noise_strength": 0.0,
+    "thinking": false,
+    "lm_temperature": 0.85,
+    "lm_cfg_scale": 2.0,
+    "lm_top_k": 0,
+    "lm_top_p": 0.9,
+    "lm_negative_prompt": "NO USER INPUT",
+    "use_cot_metas": false,
+    "use_cot_caption": false,
+    "use_cot_lyrics": false,
+    "use_cot_language": false,
+    "use_constrained_decoding": true,
+    "cot_bpm": null,
+    "cot_keyscale": "",
+    "cot_timesignature": "",
+    "cot_duration": null,
+    "cot_vocal_language": "unknown",
+    "cot_caption": "",
+    "cot_lyrics": ""
+  },
+  "config": {
+    "batch_size": 1,
+    "allow_lm_batch": false,
+    "use_random_seed": false,
+    "seeds": [
+      2026110414
+    ],
+    "lm_batch_chunk_size": 8,
+    "constrained_decoding_debug": false,
+    "audio_format": "wav",
+    "mp3_bitrate": "128k",
+    "mp3_sample_rate": 48000
+  },
+  "generation_seconds": 41.00367940000433,
+  "torch_peak_allocated_bytes": 4854823424,
+  "delivery": [
+    {
+      "file": "full.mp3",
+      "bytes": 385580,
+      "sha256": "6bd8165c010be82228fe61662bc1f749ac1a46a14c89d2001e2ade327208fae7"
+    },
+    {
+      "file": "preview.wav",
+      "bytes": 2304078,
+      "sha256": "38c6fde2c6dd4b6b903950b3f59a70ee00e32d99b7198ca40d59cf1966521f92"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+[aist#0:0/pcm_f32le @ 0000019d9a6917c0] Guessed Channel Layout: stereo
+Input #0, wav, from 'I:\VOICE\voice\work\duets\minimax-room\wet-mix.wav':
+  Duration: 00:04:09.03, bitrate: 2822 kb/s
+  Stream #0:0: Audio: pcm_f32le ([3][0][0][0] / 0x0003), 44100 Hz, stereo, flt, 2822 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_f32le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'I:\VOICE\voice\results\productions\duet-minimax-room\full.wav':
+  Metadata:
+    ISFT            : Lavf61.7.100
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s32 (24 bit), 2116 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 pcm_s24le
+size=    1024KiB time=00:00:04.99 bitrate=1677.8kbits/s speed= 9.6x
+size=    2816KiB time=00:00:11.59 bitrate=1988.7kbits/s speed=10.5x
+size=    4096KiB time=00:00:16.89 bitrate=1985.5kbits/s speed=10.4x
+size=    6400KiB time=00:00:25.69 bitrate=2040.1kbits/s speed=11.9x
+size=    8960KiB time=00:00:35.39 bitrate=2073.5kbits/s speed=13.2x
+size=   10496KiB time=00:00:40.79 bitrate=2107.5kbits/s speed=12.6x
+size=   12544KiB time=00:00:49.19 bitrate=2088.6kbits/s speed=13.1x
+size=   14592KiB time=00:00:56.69 bitrate=2108.3kbits/s speed=13.3x
+size=   16128KiB time=00:01:02.59 bitrate=2110.6kbits/s speed=13.1x
+size=   17152KiB time=00:01:07.09 bitrate=2094.0kbits/s speed=12.6x
+size=   18432KiB time=00:01:11.79 bitrate=2103.0kbits/s speed=12.4x
+size=   20224KiB time=00:01:18.99 bitrate=2097.2kbits/s speed=12.5x
+size=   22784KiB time=00:01:28.49 bitrate=2109.0kbits/s speed=12.8x
+size=   24576KiB time=00:01:35.59 bitrate=2105.9kbits/s speed=12.9x
+size=   26880KiB time=00:01:44.79 bitrate=2101.2kbits/s speed=13.2x
+size=   28160KiB time=00:01:49.29 bitrate=2110.6kbits/s speed=12.9x
+size=   29952KiB time=00:01:56.89 bitrate=2099.0kbits/s speed=  13x
+size=   32000KiB time=00:02:04.89 bitrate=2098.8kbits/s speed=13.1x
+size=   33536KiB time=00:02:10.59 bitrate=2103.6kbits/s speed=  13x
+size=   35584KiB time=00:02:18.39 bitrate=2106.2kbits/s speed=13.1x
+size=   36864KiB time=00:02:23.09 bitrate=2110.3kbits/s speed=12.9x
+size=   37888KiB time=00:02:27.49 bitrate=2104.3kbits/s speed=12.7x
+size=   39936KiB time=00:02:34.69 bitrate=2114.8kbits/s speed=12.8x
+size=   41728KiB time=00:02:42.39 bitrate=2104.9kbits/s speed=12.9x
+size=   43264KiB time=00:02:47.99 bitrate=2109.6kbits/s speed=12.8x
+size=   45312KiB time=00:02:55.99 bitrate=2109.1kbits/s speed=12.9x
+size=   46848KiB time=00:03:02.19 bitrate=2106.4kbits/s speed=12.9x
+size=   48640KiB time=00:03:09.19 bitrate=2106.0kbits/s speed=12.9x
+size=   50432KiB time=00:03:15.89 bitrate=2108.9kbits/s speed=12.9x
+size=   51968KiB time=00:03:21.99 bitrate=2107.5kbits/s speed=12.8x
+size=   52992KiB time=00:03:25.99 bitrate=2107.3kbits/s speed=12.6x
+size=   54528KiB time=00:03:31.79 bitrate=2109.0kbits/s speed=12.6x
+size=   56576KiB time=00:03:39.29 bitrate=2113.4kbits/s speed=12.6x
+size=   58624KiB time=00:03:47.79 bitrate=2108.2kbits/s speed=12.7x
+size=   60160KiB time=00:03:53.89 bitrate=2107.0kbits/s speed=12.6x
+size=   62464KiB time=00:04:02.59 bitrate=2109.3kbits/s speed=12.7x
+[Parsed_loudnorm_0 @ 0000019d9a69d980]
+{
+	"input_i" : "-14.01",
+	"input_tp" : "1.68",
+	"input_lra" : "5.30",
+	"input_thresh" : "-24.24",
+	"output_i" : "-13.95",
+	"output_tp" : "-1.50",
+	"output_lra" : "3.20",
+	"output_thresh" : "-24.12",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.05"
+}
+[out#0/wav @ 0000019d9a692980] video:0KiB audio:64348KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000155%
+size=   64348KiB time=00:04:09.10 bitrate=2116.2kbits/s speed=12.9x

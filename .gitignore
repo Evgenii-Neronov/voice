@@ -17,3 +17,7 @@ results/raw/
 *.gguf
 results/music/*/full.wav
 results/productions/*/full.wav
+
+# New duet raw takes: final mastered MP3s are tracked under productions.
+results/music/duet-*/full.mp3
+results/music/duet-*/preview.wav

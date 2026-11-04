@@ -3,18 +3,21 @@ import argparse,hashlib,json,subprocess,time
 from pathlib import Path
 import numpy as np,soundfile as sf
 from scipy.signal import resample_poly,correlate,correlation_lags
-ROOT=Path(__file__).resolve().parents[1]; work=ROOT/'work/adv-ezhi'
-p=argparse.ArgumentParser(); p.add_argument('--route',choices=['v1_svc','v1_whisper_bigvgan_vc'],default='v1_whisper_bigvgan_vc'); a=p.parse_args()
+ROOT=Path(__file__).resolve().parents[1]
+p=argparse.ArgumentParser(); p.add_argument('--route',choices=['v1_svc','v1_whisper_bigvgan_vc'],default='v1_whisper_bigvgan_vc')
+p.add_argument('--work-dir',type=Path,default=Path('work/adv-ezhi'))
+p.add_argument('--timeline',type=Path,default=Path('music/adv-ezhi.timeline.json'))
+a=p.parse_args(); work=ROOT/a.work_dir
 folder=work/('chunks-'+a.route+'-02'); folder.mkdir(exist_ok=False)
 source,sr=sf.read(work/'stems/vocals.wav',always_2d=True); source=source.mean(axis=1); n=len(source)
 assert sr==44100
-timeline=json.loads((ROOT/'music/adv-ezhi.timeline.json').read_text(encoding='utf-8'))
+timeline=json.loads((ROOT/a.timeline).read_text(encoding='utf-8'))
 records=[]; requests=[]; context=round(.4*sr); core=12*sr
 for speaker in ['adv','ezhi']:
- intervals=[(s,min(n,s+core)) for s in range(0,n,core)] if speaker=='adv' else [(int(t['start']*sr),int(t['end']*sr)) for t in timeline['ezhi_regions']]
+ intervals=[(s,min(n,s+core)) for s in range(0,n,core)] if speaker=='adv' else [(s,min(int(t['end']*sr),s+core)) for t in timeline['ezhi_regions'] for s in range(int(t['start']*sr),int(t['end']*sr),core)]
  for i,(start,end) in enumerate(intervals):
   left=max(0,start-context); right=min(n,end+context); identity=f'{speaker}-{i:03}'
-  path=folder/(identity+'-source.wav'); sf.write(path,source[left:right],sr)
+  path=folder/(identity+'-source.wav'); sf.write(path,source[left:right],sr,subtype='FLOAT')
   assert (right-left)/sr<30, 'Refusing native content truncation'
   reference=work/('refs/adv.wav' if speaker=='adv' else 'refs/ezhi-conversion.wav')
   requests.append({'id':identity,'audio':str(path),'voice_ref':str(reference),'route':a.route,'seed':20261104,'num_inference_steps':40,'options':{'duration_scale':1.0,'inference_guidance_scale':0.7,'f0_condition':a.route=='v1_svc','auto_f0_adjust':False,'semitone_shift':0}})

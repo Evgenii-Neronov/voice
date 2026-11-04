@@ -1,0 +1,506 @@
+{
+  "status": "rendered_not_human_rated",
+  "variant": "ace-industrial",
+  "local_inference": true,
+  "duration": 251.7,
+  "sample_rate": 44100,
+  "channels": 2,
+  "peak": 0.8504812717437744,
+  "brief": {
+    "id": "ace-industrial",
+    "engine": "ace",
+    "seed": 2026110413,
+    "bpm": 104,
+    "duration": 255,
+    "key": "F minor",
+    "title": "ACE — индустриальный рэп",
+    "room": 1.25,
+    "wet": 0.15,
+    "delay_beats": 0.75,
+    "delay_send": 0.12,
+    "caption": "Native Russian male rap, neutral native Russian pronunciation, clear consonants, natural spoken Russian stress, intelligible dry sardonic conversational delivery, rhythmic spoken rap throughout, no sung melody, no foreign accent. Rap the opening greeting as part of the beat. Russian industrial abstract hip-hop, 104 BPM, metallic percussion, broken heavy drums, distorted synth bass, ominous granular textures, tense staccato spoken rap, dramatic breaks, no melodic singing.",
+    "lyrics": "[Intro]\nЙо, это рэп-трек!\nС вами Эй Ди Ви, ака Адвентус Девотус!\n\nВ деревне отменили деньги.\nНо курс свистулек растёт.\nНа десять глиняных флейт\nПоложен квантовый счёт.\n\nПод куполом вечного неба\nПасётся цифровой скот.\nА время из будущего\nУже совершило исход.\n\n[Verse 1]\nЧетвёртая теория, четвёртое измерение,\nДазайн вместо субъекта, событие вместо мнения.\nТрадиция, сакральность, география спасения,\nНо квантовый компьютер требует охлаждения.\n\nНоомахия, Логос Аполлона, Диониса,\nКибела проснулась под сводами сельского киберполиса.\nГиперборейский крестьянин читает Хайдеггера,\nПока нейросеть собирает урожай для метафизика.\n\nМодерн упразднили, постмодерн отрицается,\nПремодерн с квантовой физикой странно срастается.\nЭтнос, народ, цивилизация, месторазвитие,\nУ трактора онтологическое событие.\n\nТеллурократия, талассократия, суша и море,\nМногополярная вечность на деревенском просторе.\nСубъект растворился в коллективном присутствии,\nА дед торгует свистульками с абсолютным бесчувствием.\n\n[Chorus]\nДесять свистулек — квантовый компьютер!\nДенег не будет — но есть контрагент!\nПод русским куполом вечное утро,\nЗа околицей — технокапиталистический Ленд!\n\nДазайн! Хайперстишн! Ретрокаузальность!\nАрхеомодерн и машинная реальность!\nСельский интернет, эсхатологический свет!\nТоварного обмена нет — а эквивалент есть!\n\n[Verse 2]\nНик Ленд разгоняет петлю положительной связи,\nКапитал обретает автономию в техноэкстазе.\nСи-си-ар-ю, киберготика, шизоанализ,\nДетерриториализация, машинный катализ.\n\nНе человек производит машину для будущего,\nА будущее производит условия сущего.\nТелеплексия, сингулярность, обратная причинность,\nГиперверие превращает фикцию в действительность.\n\nСобор контролирует медиа, нормы, образование,\nНеореакция предлагает выход вместо голосования.\nЭкзит, си-и-оу-монархия, Пэтчворк, анклавы,\nВместо всеобщего блага — конкурентные главы.\n\nУскорение капитала, нечеловеческий интеллект,\nУ крестьянского схода совершенно иной проект.\nОдин хочет вернуть изначальное время,\nДругой — чтоб само время перестало быть бременем.\n\nПервый говорит: укоренение, почва, истоки.\nВторой: потоки капитала, вычислительные потоки.\nПервый сажает картофель во имя вечного круга,\nВторой уже продал алгоритму понятие плуга.\n\n[Hook]\nКупол над деревней!\nСингулярность под землёй!\nТрадиция без денег!\nКапитал без головы!\n\nДесять свистулек!\nОдин кубит!\nКто здесь субъект?\nКто кого купит?\n\n[Bridge]\nГенон различает принцип и проявление.\nЭвола — вертикаль и духовное напряжение.\nХайдеггер — забвение бытия в поставе,\nДелёз — машины желания в непрерывном составе.\n\nНо Ленд не Гегель: ему не нужно снятие,\nПоложительная связь заменяет отрицание.\nА Дугин не Ленд: для него ускорение — бедствие,\nИх встреча — онтологическое происшествие.\n\n[Verse 3]\nВ поселении храм, библиотека и театр,\nНад ними купол, под ними геополитический атлас.\nДеньги отменены, но есть проблема исчисления:\nКто назначает курс свистульки к сверхпроводящему изделию?\n\nДесять свистулек за квантовый вычислитель,\nОдиннадцать — за право быть его повелителем.\nНо квантовый процессор не рождается из глины,\nЕму нужны фабрики, литография, турбины.\n\nГде разделение труда? Где сложность кооперации?\nГде производство криогенной аппаратуры для цивилизации?\nВ ответ — ноэтическая геополитика почвы,\nА в стойке охлаждения заканчивается жидкий гелий ночью.\n\nТрадиция требует предела, Ленд отменяет предел,\nОдин ищет исток, другой — постчеловеческий удел.\nАрхеофутуризм, акселерация, эсхатон,\nВ одной избе и прялка, и кремниевый демон.\n\nВремя замкнулось, но петля не герметична,\nРынок изгнан, а стоимость возвращается циклично.\nДед считает свистульки, компьютер считает деда,\nИх взаимное отрицание не предполагает победы.\n\n[Outro]\nНад селом неподвижно висит золотой купол.\nПод селом вычислитель проектирует утро.\nСтарик вырезает одиннадцатую свистульку.\nМашина впервые запрашивает скидку.\n\n[Instrumental]",
+    "phonetic_substitutions": {
+      "Dasein": "Дазайн",
+      "Hyperstition": "Хайперстишн",
+      "CCRU": "Си-си-ар-ю",
+      "Exit": "Экзит",
+      "CEO": "си-и-оу",
+      "Patchwork": "Пэтчворк"
+    },
+    "original_lyrics_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+    "greeting_source": "Generated inside the music model, not separate TTS",
+    "ezhi_sections": [
+      "Intro",
+      "Chorus",
+      "Hook",
+      "Outro"
+    ]
+  },
+  "timeline": {
+    "method": "Manual section boundaries from local faster-whisper-small timestamps; approximate, not phoneme alignment",
+    "ezhi_regions": [
+      {
+        "start": 0,
+        "end": 26.0,
+        "section": "Intro + musical greeting"
+      },
+      {
+        "start": 75.5,
+        "end": 95.5,
+        "section": "Chorus"
+      },
+      {
+        "start": 131.6,
+        "end": 150.39999999999998,
+        "section": "Hook"
+      },
+      {
+        "start": 227.29999999999998,
+        "end": 249.7,
+        "section": "Outro"
+      }
+    ],
+    "preview_regions": [
+      [
+        0,
+        5.7
+      ],
+      [
+        29,
+        41
+      ],
+      [
+        131.6,
+        143.6
+      ]
+    ],
+    "fx_comparison_region": [
+      29,
+      41
+    ],
+    "greeting_engine": "minimax",
+    "edit": {
+      "musical_greeting_source": "duet-minimax-room",
+      "source_interval": [
+        0,
+        5.7
+      ],
+      "ace_resume_seconds": 11,
+      "timeline_shift_seconds": -5.3,
+      "reason": "ACE greeting poorly recognized in two trials; clearer MiniMax musical phrase selected, not TTS"
+    }
+  },
+  "greeting_engine": "minimax",
+  "greeting_voice": "Ezhi via Seed-VC reference",
+  "separate_tts_used": false,
+  "effects": {
+    "room_rt60": 1.25,
+    "reverb_send": 0.15,
+    "echo_delay_seconds": 0.4326984126984127,
+    "echo_send": 0.12,
+    "ducked_returns": true,
+    "mastering_input": {
+      "input_i": "-13.89",
+      "input_tp": "0.26",
+      "input_lra": "5.40",
+      "input_thresh": "-24.09",
+      "output_i": "-13.13",
+      "output_tp": "-1.50",
+      "output_lra": "2.80",
+      "output_thresh": "-23.26",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.87"
+    }
+  },
+  "voice_conversion": {
+    "route": "v1_svc",
+    "chunk_core_seconds": 12,
+    "context_seconds": 0.4,
+    "seed": 20261104,
+    "steps": 40,
+    "whole_run_seconds": 223.28143550000095,
+    "records": [
+      {
+        "id": "adv-000",
+        "speaker": "adv",
+        "left": 0,
+        "right": 546840,
+        "core_start": 0,
+        "core_end": 529200,
+        "alignment_shift_samples": 441,
+        "output_sha256": "34ec7f09c6662357e3670f31917adc2d0527273594615943c9f4d4ace503c087"
+      },
+      {
+        "id": "adv-001",
+        "speaker": "adv",
+        "left": 511560,
+        "right": 1076040,
+        "core_start": 529200,
+        "core_end": 1058400,
+        "alignment_shift_samples": 441,
+        "output_sha256": "67a8f09ebdba9d576ca5e41a22d6456d4b802af7a6ad64ddbf608e5f4d00fa6a"
+      },
+      {
+        "id": "adv-002",
+        "speaker": "adv",
+        "left": 1040760,
+        "right": 1605240,
+        "core_start": 1058400,
+        "core_end": 1587600,
+        "alignment_shift_samples": 0,
+        "output_sha256": "0da88f3702f2946609f27636839c5f1bf1659a2606d194338e7e022fd264ea40"
+      },
+      {
+        "id": "adv-003",
+        "speaker": "adv",
+        "left": 1569960,
+        "right": 2134440,
+        "core_start": 1587600,
+        "core_end": 2116800,
+        "alignment_shift_samples": 0,
+        "output_sha256": "c05983c63bc3cf795c3a4e39e3e904a4f0b006e965356fd91c0db28c1fbb969b"
+      },
+      {
+        "id": "adv-004",
+        "speaker": "adv",
+        "left": 2099160,
+        "right": 2663640,
+        "core_start": 2116800,
+        "core_end": 2646000,
+        "alignment_shift_samples": 441,
+        "output_sha256": "61e3d800d9d589f2b41861d3be4fe17d36faea193dfffdaa6121a915a85a6cb6"
+      },
+      {
+        "id": "adv-005",
+        "speaker": "adv",
+        "left": 2628360,
+        "right": 3192840,
+        "core_start": 2646000,
+        "core_end": 3175200,
+        "alignment_shift_samples": 441,
+        "output_sha256": "32d1b0266c5cc7b4655beb51f2f3f3a699ac9c41b9dee52d7784f96cb4fe6ff1"
+      },
+      {
+        "id": "adv-006",
+        "speaker": "adv",
+        "left": 3157560,
+        "right": 3722040,
+        "core_start": 3175200,
+        "core_end": 3704400,
+        "alignment_shift_samples": 441,
+        "output_sha256": "ce3e5d11d55f7785e69367b94b61c3866bdaefe3345ef42c449cfd70a1b729b2"
+      },
+      {
+        "id": "adv-007",
+        "speaker": "adv",
+        "left": 3686760,
+        "right": 4251240,
+        "core_start": 3704400,
+        "core_end": 4233600,
+        "alignment_shift_samples": 441,
+        "output_sha256": "d91f126b0c8e2eda64b7ecf0d7b84070d91085d2a83af1d3f3b9ef1d27d26b94"
+      },
+      {
+        "id": "adv-008",
+        "speaker": "adv",
+        "left": 4215960,
+        "right": 4780440,
+        "core_start": 4233600,
+        "core_end": 4762800,
+        "alignment_shift_samples": 0,
+        "output_sha256": "d850b78af843bf32cb0f8b21acf231bb60e8bd9c7ee96d01719157bebb334b90"
+      },
+      {
+        "id": "adv-009",
+        "speaker": "adv",
+        "left": 4745160,
+        "right": 5309640,
+        "core_start": 4762800,
+        "core_end": 5292000,
+        "alignment_shift_samples": 0,
+        "output_sha256": "39397f36630c33a6bbcde450ba98bbce326bc624337aa957a01e2e57ceebd1dd"
+      },
+      {
+        "id": "adv-010",
+        "speaker": "adv",
+        "left": 5274360,
+        "right": 5838840,
+        "core_start": 5292000,
+        "core_end": 5821200,
+        "alignment_shift_samples": 441,
+        "output_sha256": "d4aeef62321ddae8cd5b7262aa6293616ecb3872eebd873dd36b5d7f783b6fa5"
+      },
+      {
+        "id": "adv-011",
+        "speaker": "adv",
+        "left": 5803560,
+        "right": 6368040,
+        "core_start": 5821200,
+        "core_end": 6350400,
+        "alignment_shift_samples": 0,
+        "output_sha256": "e80662e2725ca22ab3df0139f65edb237a3a60a0662b2682a5c0da7b706877e6"
+      },
+      {
+        "id": "adv-012",
+        "speaker": "adv",
+        "left": 6332760,
+        "right": 6897240,
+        "core_start": 6350400,
+        "core_end": 6879600,
+        "alignment_shift_samples": 441,
+        "output_sha256": "70375c6dd20ed36607966d6f8f3e81c4aea2710725652db146e1a9a26e45cdb2"
+      },
+      {
+        "id": "adv-013",
+        "speaker": "adv",
+        "left": 6861960,
+        "right": 7426440,
+        "core_start": 6879600,
+        "core_end": 7408800,
+        "alignment_shift_samples": 441,
+        "output_sha256": "b4d32d4b95a3d56b40c47098174c4e1b0bca60e93b5fcf618deec94bf41ee976"
+      },
+      {
+        "id": "adv-014",
+        "speaker": "adv",
+        "left": 7391160,
+        "right": 7955640,
+        "core_start": 7408800,
+        "core_end": 7938000,
+        "alignment_shift_samples": 0,
+        "output_sha256": "3f3563b64590f5d66e668ddd2a06caeddf68672344a5670bd11b8a6499060ffe"
+      },
+      {
+        "id": "adv-015",
+        "speaker": "adv",
+        "left": 7920360,
+        "right": 8484840,
+        "core_start": 7938000,
+        "core_end": 8467200,
+        "alignment_shift_samples": 441,
+        "output_sha256": "2c9ba0821722c51fb0535b4b1691ded5b31945316da882c02c024f1639843afc"
+      },
+      {
+        "id": "adv-016",
+        "speaker": "adv",
+        "left": 8449560,
+        "right": 9014040,
+        "core_start": 8467200,
+        "core_end": 8996400,
+        "alignment_shift_samples": 0,
+        "output_sha256": "ba6fbc7a0f87a2b31aec1a04acae8e23f978264b3cafae0a9d60ec483465bd69"
+      },
+      {
+        "id": "adv-017",
+        "speaker": "adv",
+        "left": 8978760,
+        "right": 9543240,
+        "core_start": 8996400,
+        "core_end": 9525600,
+        "alignment_shift_samples": 441,
+        "output_sha256": "72739edd4261a7d304bce2d0e941be20339005a86ae71be488378ea7f4c3ae23"
+      },
+      {
+        "id": "adv-018",
+        "speaker": "adv",
+        "left": 9507960,
+        "right": 10072440,
+        "core_start": 9525600,
+        "core_end": 10054800,
+        "alignment_shift_samples": 0,
+        "output_sha256": "0c0cc18512b563a4f291cbb6e942ac4f453a532535bc901bb730f2d50be3610c"
+      },
+      {
+        "id": "adv-019",
+        "speaker": "adv",
+        "left": 10037160,
+        "right": 10601640,
+        "core_start": 10054800,
+        "core_end": 10584000,
+        "alignment_shift_samples": 441,
+        "output_sha256": "0f21a9855d868d7c929250a21adefc66d69078c32cefd59d4cd8490cad033c9a"
+      },
+      {
+        "id": "adv-020",
+        "speaker": "adv",
+        "left": 10566360,
+        "right": 11011770,
+        "core_start": 10584000,
+        "core_end": 11011770,
+        "alignment_shift_samples": 0,
+        "output_sha256": "27c4c6ecf0ee701a6828c514816543188e22972d6b8202ffe3a37bf92c506b0f"
+      },
+      {
+        "id": "ezhi-000",
+        "speaker": "ezhi",
+        "left": 0,
+        "right": 546840,
+        "core_start": 0,
+        "core_end": 529200,
+        "alignment_shift_samples": 441,
+        "output_sha256": "44deed0f9190b1cc2a84d94470bc560426adba7bb6283a81765b4279a2ef2989"
+      },
+      {
+        "id": "ezhi-001",
+        "speaker": "ezhi",
+        "left": 511560,
+        "right": 1076040,
+        "core_start": 529200,
+        "core_end": 1058400,
+        "alignment_shift_samples": 441,
+        "output_sha256": "d38b89c0c669e946f4dca636362fbd8c2a721f9618225a851a09eb3013024200"
+      },
+      {
+        "id": "ezhi-002",
+        "speaker": "ezhi",
+        "left": 1040760,
+        "right": 1164240,
+        "core_start": 1058400,
+        "core_end": 1146600,
+        "alignment_shift_samples": -441,
+        "output_sha256": "9ec8ca001c4130bc50be6df5f3dd450d29ca1850d558c4e49b48206fef37a026"
+      },
+      {
+        "id": "ezhi-003",
+        "speaker": "ezhi",
+        "left": 3311910,
+        "right": 3876390,
+        "core_start": 3329550,
+        "core_end": 3858750,
+        "alignment_shift_samples": 441,
+        "output_sha256": "eaf2a11c036a1457cf8e77d188d16efacb743940323096a7db46f5b9901a6135"
+      },
+      {
+        "id": "ezhi-004",
+        "speaker": "ezhi",
+        "left": 3841110,
+        "right": 4229190,
+        "core_start": 3858750,
+        "core_end": 4211550,
+        "alignment_shift_samples": 0,
+        "output_sha256": "a9a61afeae3944798f7168b2182c7dfaff68378adf527fb674b6a364d922c45f"
+      },
+      {
+        "id": "ezhi-005",
+        "speaker": "ezhi",
+        "left": 5785920,
+        "right": 6350400,
+        "core_start": 5803560,
+        "core_end": 6332760,
+        "alignment_shift_samples": 441,
+        "output_sha256": "c1f837f626acffe675589facead659f233ba934960da8cb02d94c1600ffaa83b"
+      },
+      {
+        "id": "ezhi-006",
+        "speaker": "ezhi",
+        "left": 6315120,
+        "right": 6650279,
+        "core_start": 6332760,
+        "core_end": 6632639,
+        "alignment_shift_samples": 441,
+        "output_sha256": "e0581c59bc8a1a521b4e0f252e8045e2f5962286014b1fd22ce05a159ef78e60"
+      },
+      {
+        "id": "ezhi-007",
+        "speaker": "ezhi",
+        "left": 10006290,
+        "right": 10570770,
+        "core_start": 10023930,
+        "core_end": 10553130,
+        "alignment_shift_samples": 441,
+        "output_sha256": "f62d8a35bdfbd60f5e7a2b5e03863b02251a81af24d92b01736588655bf20135"
+      },
+      {
+        "id": "ezhi-008",
+        "speaker": "ezhi",
+        "left": 10535490,
+        "right": 11011770,
+        "core_start": 10553130,
+        "core_end": 11011770,
+        "alignment_shift_samples": 441,
+        "output_sha256": "a2581198c29477219c5f8dc47e9ac5c6da7d22191bb4a481d49a77e6cb529659"
+      }
+    ],
+    "command": [
+      "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_cli.exe",
+      "--task",
+      "svc",
+      "--family",
+      "seed_vc",
+      "--model",
+      "I:\\VOICE\\voice\\models\\voice-production\\SeedVC-MLX-GGUF\\seed-vc-mlx-q8_0.gguf",
+      "--backend",
+      "cuda",
+      "--threads",
+      "8",
+      "--request-sequence",
+      "I:\\VOICE\\voice\\work\\duets\\ace-industrial\\chunks-v1_svc-02\\requests.json",
+      "--out-dir",
+      "I:\\VOICE\\voice\\work\\duets\\ace-industrial\\chunks-v1_svc-02",
+      "--out-format",
+      "pcm16",
+      "--metrics",
+      "--load-progress",
+      "0"
+    ],
+    "runtime_sha256": "abd4e00692a039a1c56892fc9fe39a21c430581faf6893192f6f06ee799173ca"
+  },
+  "audio": [
+    {
+      "file": "full.wav",
+      "bytes": 66599922,
+      "sha256": "cc8e62a0a4a822bf19e5491fd25fdc849f5e176bea1735361f05dddd4a28f76e"
+    },
+    {
+      "file": "full.mp3",
+      "bytes": 8056624,
+      "sha256": "6f13b19eceb1bec04d4f583eda3fc073747b7620709482a47d1de0011248d2dc"
+    },
+    {
+      "file": "preview.mp3",
+      "bytes": 952154,
+      "sha256": "6e78611c330074d185ba01528db0253aadd1f31d3c1adf5b28d2e7c3e18950a8"
+    },
+    {
+      "file": "fx-dry-then-wet.mp3",
+      "bytes": 785806,
+      "sha256": "adc467f3bcb8515c31a6152cbe45c105933bf361697147be4b1921e424caf611"
+    }
+  ],
+  "validation": {
+    "all_audio_hashes_match": true,
+    "no_sample_clipping": true,
+    "original_lyrics_unchanged": true,
+    "ezhi_region_seconds": 87.19999999999999,
+    "ezhi_region_share": 0.3492190628754505,
+    "human_listening_review": false,
+    "generation_seconds": 25.918228599999566,
+    "mastering_output": {
+      "input_i": "-13.89",
+      "input_tp": "0.26",
+      "input_lra": "5.40",
+      "input_thresh": "-24.09",
+      "output_i": "-13.90",
+      "output_tp": "-1.50",
+      "output_lra": "2.70",
+      "output_thresh": "-24.03",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.10"
+    }
+  },
+  "reference_audio": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4",
+      "duration": 16.98,
+      "file_contents_committed": false
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac",
+      "duration": 12.0,
+      "file_contents_committed": false
+    }
+  ]
+}

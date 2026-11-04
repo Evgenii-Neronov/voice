@@ -1,0 +1,179 @@
+{
+  "status": "generated_unrated",
+  "local_inference": true,
+  "model": "MiniMax-Music3 GGUF Q4/Q8/Q4",
+  "scope": "full lyrics",
+  "source_lyrics_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+  "runtime_sha256": "abd4e00692a039a1c56892fc9fe39a21c430581faf6893192f6f06ee799173ca",
+  "model_lock": {
+    "repo_id": "audio-cpp/MiniMax-Music3-GGUF",
+    "revision": "46fe77f8bb395ccdbe797d784225f7b84866e7ce",
+    "upstream_repo": "MiniMaxAI/MiniMax-Music3",
+    "upstream_revision": "1b525ccb685ae809f33027c51c351eeb5833cf72",
+    "runtime_lock": "benchmark/native-runtime.lock.json",
+    "files": [
+      {
+        "file": "LICENSE",
+        "bytes": 7373,
+        "sha256": "b21d12df2adae59dad3fcf80c1d81492654c662342f497d9a9770198c9317e58"
+      },
+      {
+        "file": "README.md",
+        "bytes": 3558,
+        "sha256": "a6a512628bb6010ef9b9856d6515fa5eb74b9526aefd9f9f580cd67875867f10"
+      },
+      {
+        "file": "config.json",
+        "bytes": 107,
+        "sha256": "1ffcff67d916d5519d1ef9a36853232ee6bcb7e14a936623c4e85559f5dce106"
+      },
+      {
+        "file": "config/condition_encoder.json",
+        "bytes": 292,
+        "sha256": "1cdea3f36506719128ae4a29cdfff74b1134e607eb4a504ce6d810568fac8263"
+      },
+      {
+        "file": "config/language_model.json",
+        "bytes": 1596,
+        "sha256": "34ded58fcd5e8181557f1417e76af9f3e95109a5ce113a4771fd16f8625b53c0"
+      },
+      {
+        "file": "config/rvq_depth_decoder.json",
+        "bytes": 274,
+        "sha256": "b38c7f72d4b2fa8667442071f9e4a63ca5a7b5d0859e5e64ee7f79c4bc64520c"
+      },
+      {
+        "file": "config/transformer.json",
+        "bytes": 294,
+        "sha256": "f60856be934127a8b8223510aff2e38a9efd8bbdbc230c3d3339b96e2cb12f00"
+      },
+      {
+        "file": "config/vocoder.json",
+        "bytes": 251,
+        "sha256": "4161afd07ba7d5b949e29c8a7a005592259fba73e9110b6ece9dfd38d3489eac"
+      },
+      {
+        "file": "tokenizer/tokenizer.json",
+        "bytes": 11423801,
+        "sha256": "b1537fa9e59a537276ecbc2e12d0438edff635a1f4a4948e679774b5feb3e610"
+      },
+      {
+        "file": "tokenizer/tokenizer_config.json",
+        "bytes": 377,
+        "sha256": "1689852cc9c45010de040c8302a8acdc0d2c4c6c740dd7e9dd0a8c704e16eada"
+      },
+      {
+        "file": "language_model_q4_0.gguf",
+        "bytes": 6006866496,
+        "sha256": "6f621dd636320403c03e9f755b3e2047f5754d055e0fcc6c0c444ae52ffbfa90"
+      },
+      {
+        "file": "rvq_depth_decoder_q8_0.gguf",
+        "bytes": 714028960,
+        "sha256": "d5b7495fb1a7845abfeab13df829510de442fd4ea0fd55467fe9895fe8ec5db6"
+      },
+      {
+        "file": "condition_encoder.gguf",
+        "bytes": 100678368,
+        "sha256": "ae4be8b6154645b0717d1928f5c195359bdee8fd025099c49954ed302257cd20"
+      },
+      {
+        "file": "transformer_q4_0.gguf",
+        "bytes": 1396392768,
+        "sha256": "18d3b2461a2988f59e197ccf05dc3931663099290b42443baa2a30e4fd15e506"
+      },
+      {
+        "file": "vocoder.gguf",
+        "bytes": 216705376,
+        "sha256": "5d40e6d52349d50d2aeaaaf6ba934afbf490e4cbc1ba5bb715c3133ea45cdca4"
+      }
+    ]
+  },
+  "command": [
+    "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_cli.exe",
+    "--task",
+    "gen",
+    "--family",
+    "minimax_music3",
+    "--model",
+    "I:\\VOICE\\voice\\models\\music\\MiniMax-Music3-GGUF",
+    "--backend",
+    "cuda",
+    "--threads",
+    "8",
+    "--request-sequence",
+    "I:\\VOICE\\voice\\results\\music\\duet-minimax-room\\requests.json",
+    "--out-dir",
+    "I:\\VOICE\\voice\\results\\music\\duet-minimax-room",
+    "--out-format",
+    "pcm16",
+    "--batch-manifest-out",
+    "I:\\VOICE\\voice\\results\\music\\duet-minimax-room\\native-manifest.json",
+    "--metrics",
+    "--load-progress",
+    "0",
+    "--session-option",
+    "minimax_music3.mem_saver=true",
+    "--session-option",
+    "minimax_music3.perf_mode=cuda_perf"
+  ],
+  "requested_budget_seconds": 260,
+  "audio": [
+    {
+      "file": "full.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 247.02548752834468,
+      "sha256": "d56593b52dbda6e37e73132fb53452d7c5e81ed614a3077edbf87175a2446689",
+      "peak": 0.99993896484375,
+      "rms": 0.16028894895206497
+    }
+  ],
+  "brief": {
+    "id": "minimax-room",
+    "engine": "minimax",
+    "seed": 2026110411,
+    "bpm": 96,
+    "duration": 260,
+    "key": "D minor",
+    "title": "MiniMax — камерный boom bap",
+    "room": 0.7,
+    "wet": 0.16,
+    "delay_beats": 0.5,
+    "delay_send": 0.085,
+    "caption": "Native Russian male rap, neutral native Russian pronunciation, clear consonants, natural spoken Russian stress, intelligible dry sardonic conversational delivery, rhythmic spoken rap throughout, no sung melody, no foreign accent. Rap the opening greeting as part of the beat. Russian jazz boom bap, 96 BPM, dusty punchy breaks, upright bass, dissonant Rhodes, restrained scratches. Spacious sparse verses, heavy rap chorus, dramatic spoken hook.",
+    "lyrics": "[Intro]\nЙо, это рэп-трек!\nС вами Эй Ди Ви, ака Адвентус Девотус!\n\nВ деревне отменили деньги.\nНо курс свистулек растёт.\nНа десять глиняных флейт\nПоложен квантовый счёт.\n\nПод куполом вечного неба\nПасётся цифровой скот.\nА время из будущего\nУже совершило исход.\n\n[Verse 1]\nЧетвёртая теория, четвёртое измерение,\nДазайн вместо субъекта, событие вместо мнения.\nТрадиция, сакральность, география спасения,\nНо квантовый компьютер требует охлаждения.\n\nНоомахия, Логос Аполлона, Диониса,\nКибела проснулась под сводами сельского киберполиса.\nГиперборейский крестьянин читает Хайдеггера,\nПока нейросеть собирает урожай для метафизика.\n\nМодерн упразднили, постмодерн отрицается,\nПремодерн с квантовой физикой странно срастается.\nЭтнос, народ, цивилизация, месторазвитие,\nУ трактора онтологическое событие.\n\nТеллурократия, талассократия, суша и море,\nМногополярная вечность на деревенском просторе.\nСубъект растворился в коллективном присутствии,\nА дед торгует свистульками с абсолютным бесчувствием.\n\n[Chorus]\nДесять свистулек — квантовый компьютер!\nДенег не будет — но есть контрагент!\nПод русским куполом вечное утро,\nЗа околицей — технокапиталистический Ленд!\n\nДазайн! Хайперстишн! Ретрокаузальность!\nАрхеомодерн и машинная реальность!\nСельский интернет, эсхатологический свет!\nТоварного обмена нет — а эквивалент есть!\n\n[Verse 2]\nНик Ленд разгоняет петлю положительной связи,\nКапитал обретает автономию в техноэкстазе.\nСи-си-ар-ю, киберготика, шизоанализ,\nДетерриториализация, машинный катализ.\n\nНе человек производит машину для будущего,\nА будущее производит условия сущего.\nТелеплексия, сингулярность, обратная причинность,\nГиперверие превращает фикцию в действительность.\n\nСобор контролирует медиа, нормы, образование,\nНеореакция предлагает выход вместо голосования.\nЭкзит, си-и-оу-монархия, Пэтчворк, анклавы,\nВместо всеобщего блага — конкурентные главы.\n\nУскорение капитала, нечеловеческий интеллект,\nУ крестьянского схода совершенно иной проект.\nОдин хочет вернуть изначальное время,\nДругой — чтоб само время перестало быть бременем.\n\nПервый говорит: укоренение, почва, истоки.\nВторой: потоки капитала, вычислительные потоки.\nПервый сажает картофель во имя вечного круга,\nВторой уже продал алгоритму понятие плуга.\n\n[Hook]\nКупол над деревней!\nСингулярность под землёй!\nТрадиция без денег!\nКапитал без головы!\n\nДесять свистулек!\nОдин кубит!\nКто здесь субъект?\nКто кого купит?\n\n[Bridge]\nГенон различает принцип и проявление.\nЭвола — вертикаль и духовное напряжение.\nХайдеггер — забвение бытия в поставе,\nДелёз — машины желания в непрерывном составе.\n\nНо Ленд не Гегель: ему не нужно снятие,\nПоложительная связь заменяет отрицание.\nА Дугин не Ленд: для него ускорение — бедствие,\nИх встреча — онтологическое происшествие.\n\n[Verse 3]\nВ поселении храм, библиотека и театр,\nНад ними купол, под ними геополитический атлас.\nДеньги отменены, но есть проблема исчисления:\nКто назначает курс свистульки к сверхпроводящему изделию?\n\nДесять свистулек за квантовый вычислитель,\nОдиннадцать — за право быть его повелителем.\nНо квантовый процессор не рождается из глины,\nЕму нужны фабрики, литография, турбины.\n\nГде разделение труда? Где сложность кооперации?\nГде производство криогенной аппаратуры для цивилизации?\nВ ответ — ноэтическая геополитика почвы,\nА в стойке охлаждения заканчивается жидкий гелий ночью.\n\nТрадиция требует предела, Ленд отменяет предел,\nОдин ищет исток, другой — постчеловеческий удел.\nАрхеофутуризм, акселерация, эсхатон,\nВ одной избе и прялка, и кремниевый демон.\n\nВремя замкнулось, но петля не герметична,\nРынок изгнан, а стоимость возвращается циклично.\nДед считает свистульки, компьютер считает деда,\nИх взаимное отрицание не предполагает победы.\n\n[Outro]\nНад селом неподвижно висит золотой купол.\nПод селом вычислитель проектирует утро.\nСтарик вырезает одиннадцатую свистульку.\nМашина впервые запрашивает скидку.\n\n[Instrumental]",
+    "phonetic_substitutions": {
+      "Dasein": "Дазайн",
+      "Hyperstition": "Хайперстишн",
+      "CCRU": "Си-си-ар-ю",
+      "Exit": "Экзит",
+      "CEO": "си-и-оу",
+      "Patchwork": "Пэтчворк"
+    },
+    "original_lyrics_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+    "greeting_source": "Generated inside the music model, not separate TTS",
+    "ezhi_sections": [
+      "Intro",
+      "Chorus",
+      "Hook",
+      "Outro"
+    ]
+  },
+  "returncode": 0,
+  "delivery": [
+    {
+      "file": "full.mp3",
+      "bytes": 7906994,
+      "sha256": "dbbd643c29f1d7a15f43106397653fba7b6f6409dc888bad5f0802c0896b707a"
+    },
+    {
+      "file": "preview.wav",
+      "bytes": 3528078,
+      "sha256": "c6e9f03512fc7310607e6cda4c508729bd3a4de9f77371bba7d79151a45b4f67"
+    }
+  ],
+  "whole_run_seconds": 494.05237180000404,
+  "whole_gpu_peak_used_mib": 15428,
+  "memory_scope": "Whole card, includes other applications, sampled every ~2 seconds"
+}

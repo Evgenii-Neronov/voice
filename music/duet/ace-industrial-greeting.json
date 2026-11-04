@@ -1,0 +1,31 @@
+{
+  "id": "ace-industrial",
+  "engine": "ace",
+  "seed": 2026110414,
+  "bpm": 104,
+  "duration": 12,
+  "key": "F minor",
+  "title": "ACE — индустриальный рэп",
+  "room": 1.25,
+  "wet": 0.15,
+  "delay_beats": 0.75,
+  "delay_send": 0.12,
+  "caption": "Native Russian male rap spoken rhythmically, clear dry intelligible voice, sparse industrial hip hop beat, 104 BPM, no singing. Opening artist introduction, slow articulate syllables.",
+  "lyrics": "[Verse]\nЙо, это рэп трек!\nС вами Эй Ди Ви!\nАка Адвентус Девотус!",
+  "phonetic_substitutions": {
+    "Dasein": "Дазайн",
+    "Hyperstition": "Хайперстишн",
+    "CCRU": "Си-си-ар-ю",
+    "Exit": "Экзит",
+    "CEO": "си-и-оу",
+    "Patchwork": "Пэтчворк"
+  },
+  "original_lyrics_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+  "greeting_source": "Generated inside the music model, not separate TTS",
+  "ezhi_sections": [
+    "Intro",
+    "Chorus",
+    "Hook",
+    "Outro"
+  ]
+}

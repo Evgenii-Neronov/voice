@@ -9,6 +9,7 @@ p=argparse.ArgumentParser()
 p.add_argument('--run-id',required=True); p.add_argument('--seed',type=int,default=20261104)
 p.add_argument('--duration',type=float,default=250); p.add_argument('--instrumental',action='store_true')
 p.add_argument('--config',choices=['acestep-v15-turbo'],default='acestep-v15-turbo')
+p.add_argument('--brief',type=Path,help='Explicit music brief JSON; original lyric file is preserved')
 a=p.parse_args()
 assert re.fullmatch(r'[A-Za-z0-9_-]+',a.run_id)
 out=ROOT/'results/music'/a.run_id; out.mkdir(parents=True,exist_ok=False)
@@ -28,9 +29,13 @@ caption='Russian abstract hip-hop and UK underground boom bap, 96 BPM, dusty jaz
 if a.instrumental:
  caption='Instrumental UK abstract boom bap beat, 96 BPM, dusty jazz breakbeats, distorted upright bass, dissonant Rhodes, modular synth glitches, turntable scratches, industrial percussion. Tight swung drums, sparse groove, dark absurdist atmosphere, no vocals, no speech.'
  lyrics='[Instrumental]'
+brief=json.loads((ROOT/a.brief).read_text(encoding='utf-8')) if a.brief else {}
+if brief:
+ caption=brief['caption']; lyrics=brief['lyrics']; a.seed=brief['seed']; a.duration=brief['duration']
 (out/'lyrics.normalized.txt').write_text(lyrics+'\n',encoding='utf-8')
 manifest={'status':'starting','model':a.config,'local_inference':True,'seed':a.seed,'source_lyrics_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'metadata':metadata,'section_directions':sections,'instrumental':a.instrumental,'audio':[],'lock':json.loads((ROOT/'benchmark/ace.lock.json').read_text())}
 def save(): (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2,default=str)+'\n',encoding='utf-8')
+manifest['brief']=brief
 save()
 try:
  from tokenizers import Tokenizer
@@ -49,7 +54,7 @@ try:
  handler=LocalHandler()
  message,ok=handler.initialize_service(project_root=str(ROOT/'vendor/ace-step'),config_path=a.config,device='cuda',offload_to_cpu=True,offload_dit_to_cpu=True,compile_model=False,use_flash_attention=False)
  if not ok: raise RuntimeError(message)
- params=GenerationParams(caption=caption,lyrics=lyrics,bpm=96,keyscale='D minor',timesignature='4',vocal_language='unknown' if a.instrumental else 'ru',duration=a.duration,inference_steps=8,thinking=False,use_cot_metas=False,use_cot_caption=False,use_cot_language=False)
+ params=GenerationParams(caption=caption,lyrics=lyrics,bpm=brief.get('bpm',96),keyscale=brief.get('key','D minor'),timesignature='4',vocal_language='unknown' if a.instrumental else 'ru',duration=a.duration,inference_steps=8,thinking=False,use_cot_metas=False,use_cot_caption=False,use_cot_language=False)
  config=GenerationConfig(batch_size=1,audio_format='wav',use_random_seed=False,seeds=[a.seed])
  manifest['params']=dataclasses.asdict(params); manifest['config']=dataclasses.asdict(config); save()
  torch.cuda.reset_peak_memory_stats()
