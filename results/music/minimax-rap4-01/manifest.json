@@ -1,0 +1,178 @@
+{
+  "status": "generated_unrated",
+  "local_inference": true,
+  "model": "MiniMax-Music3 GGUF Q4/Q8/Q4",
+  "scope": "full lyrics",
+  "source_lyrics_sha256": "91021a4338b1f67b153f2144f29fcfe8a3f66dd000daf6c913f320b28329bb5a",
+  "runtime_sha256": "abd4e00692a039a1c56892fc9fe39a21c430581faf6893192f6f06ee799173ca",
+  "model_lock": {
+    "repo_id": "audio-cpp/MiniMax-Music3-GGUF",
+    "revision": "46fe77f8bb395ccdbe797d784225f7b84866e7ce",
+    "upstream_repo": "MiniMaxAI/MiniMax-Music3",
+    "upstream_revision": "1b525ccb685ae809f33027c51c351eeb5833cf72",
+    "runtime_lock": "benchmark/native-runtime.lock.json",
+    "files": [
+      {
+        "file": "LICENSE",
+        "bytes": 7373,
+        "sha256": "b21d12df2adae59dad3fcf80c1d81492654c662342f497d9a9770198c9317e58"
+      },
+      {
+        "file": "README.md",
+        "bytes": 3558,
+        "sha256": "a6a512628bb6010ef9b9856d6515fa5eb74b9526aefd9f9f580cd67875867f10"
+      },
+      {
+        "file": "config.json",
+        "bytes": 107,
+        "sha256": "1ffcff67d916d5519d1ef9a36853232ee6bcb7e14a936623c4e85559f5dce106"
+      },
+      {
+        "file": "config/condition_encoder.json",
+        "bytes": 292,
+        "sha256": "1cdea3f36506719128ae4a29cdfff74b1134e607eb4a504ce6d810568fac8263"
+      },
+      {
+        "file": "config/language_model.json",
+        "bytes": 1596,
+        "sha256": "34ded58fcd5e8181557f1417e76af9f3e95109a5ce113a4771fd16f8625b53c0"
+      },
+      {
+        "file": "config/rvq_depth_decoder.json",
+        "bytes": 274,
+        "sha256": "b38c7f72d4b2fa8667442071f9e4a63ca5a7b5d0859e5e64ee7f79c4bc64520c"
+      },
+      {
+        "file": "config/transformer.json",
+        "bytes": 294,
+        "sha256": "f60856be934127a8b8223510aff2e38a9efd8bbdbc230c3d3339b96e2cb12f00"
+      },
+      {
+        "file": "config/vocoder.json",
+        "bytes": 251,
+        "sha256": "4161afd07ba7d5b949e29c8a7a005592259fba73e9110b6ece9dfd38d3489eac"
+      },
+      {
+        "file": "tokenizer/tokenizer.json",
+        "bytes": 11423801,
+        "sha256": "b1537fa9e59a537276ecbc2e12d0438edff635a1f4a4948e679774b5feb3e610"
+      },
+      {
+        "file": "tokenizer/tokenizer_config.json",
+        "bytes": 377,
+        "sha256": "1689852cc9c45010de040c8302a8acdc0d2c4c6c740dd7e9dd0a8c704e16eada"
+      },
+      {
+        "file": "language_model_q4_0.gguf",
+        "bytes": 6006866496,
+        "sha256": "6f621dd636320403c03e9f755b3e2047f5754d055e0fcc6c0c444ae52ffbfa90"
+      },
+      {
+        "file": "rvq_depth_decoder_q8_0.gguf",
+        "bytes": 714028960,
+        "sha256": "d5b7495fb1a7845abfeab13df829510de442fd4ea0fd55467fe9895fe8ec5db6"
+      },
+      {
+        "file": "condition_encoder.gguf",
+        "bytes": 100678368,
+        "sha256": "ae4be8b6154645b0717d1928f5c195359bdee8fd025099c49954ed302257cd20"
+      },
+      {
+        "file": "transformer_q4_0.gguf",
+        "bytes": 1396392768,
+        "sha256": "18d3b2461a2988f59e197ccf05dc3931663099290b42443baa2a30e4fd15e506"
+      },
+      {
+        "file": "vocoder.gguf",
+        "bytes": 216705376,
+        "sha256": "5d40e6d52349d50d2aeaaaf6ba934afbf490e4cbc1ba5bb715c3133ea45cdca4"
+      }
+    ]
+  },
+  "command": [
+    "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_cli.exe",
+    "--task",
+    "gen",
+    "--family",
+    "minimax_music3",
+    "--model",
+    "I:\\VOICE\\voice\\models\\music\\MiniMax-Music3-GGUF",
+    "--backend",
+    "cuda",
+    "--threads",
+    "8",
+    "--request-sequence",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap4-01\\requests.json",
+    "--out-dir",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap4-01",
+    "--out-format",
+    "pcm16",
+    "--batch-manifest-out",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap4-01\\native-manifest.json",
+    "--metrics",
+    "--load-progress",
+    "0",
+    "--session-option",
+    "minimax_music3.mem_saver=true",
+    "--session-option",
+    "minimax_music3.perf_mode=cuda_perf"
+  ],
+  "requested_budget_seconds": 300,
+  "audio": [
+    {
+      "file": "full.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 272.5790476190476,
+      "sha256": "9ab48a5d754626f021a3f0a3dfeb49c3f2e41ff2fbb0f2fc49e9664b673c7268",
+      "peak": 0.99993896484375,
+      "rms": 0.14779691314364687
+    }
+  ],
+  "brief": {
+    "id": "minimax-rap4-01",
+    "title": "Семинар — Десять свистулек за сингулярность",
+    "caption": "Russian abstract boom bap, 96 BPM, dusty jazz breaks, distorted upright bass, dissonant Rhodes, modular synth glitches, turntable scratches, industrial percussion, muted trumpet and angular piano. High nasal male underground rap, rapid multisyllabic flow, dense internal rhymes, sharp articulation, dry ironic delivery, no singing, no baritone. Four long verses, short scratched hook, forceful rapped chorus, sparse whispered bridge, dry spoken outro. Keep verses moving with double-time flow. Dry close vocal, no echo or reverb.",
+    "lyrics": "[Intro]\nЙо, это рэп трек, с вами А ДЭ ВЭ эй кей Адвентус Девотус\n\nВ аудитории тихо. За окнами — поздний капитал.\nПрофессор закрыл жалюзи. Семинар не пропал.\nНа кафедре череп, контракт и семейный капитал.\nТри версии вечной природы. Ни одна не прошла.\n\n[Verse 1]\nВаш эссенциализм — натурализация контингенции,\nРетроспективная фикция первичной субстанции.\nГендерная перформативность — не маска идентичности,\nА цитатная итеративность нормативной публичности.\n\nГабитус, диспозиции, докса и символический капитал,\nВкус легитимирует класс, выдавая наследство за дар.\nГомология полей, воспроизводство различий,\nМеритократия прячет генезис привилегий.\n\nБиологический факт не диктует социальную норму,\nИз описания генов не вывести должную форму.\nНаследуемость признака — не мера его неизменности,\nА вариация в среде, не приговор необходимости.\n\nГенетическая корреляция — не причинная монархия,\nФенотип — это развитие, среда и онтогения.\nНе отрицая природу, отрицаю редукцию:\nНет прямого маршрута от аллеля к институции.\n\n[Hook]\nНе сущность — становление!\nНе данность — опосредование!\nНе ген — легитимация!\nНе рынок — эмансипация!\n\n[Verse 2]\nМетодологический индивидуализм —\nАбстракция агента вне генезиса его диспозиций.\nРобинзонада политэкономии: индивид\nДо общественных связей — исторический миф.\n\nНегативная свобода без материальной возможности —\nФормальное право при структурной невозможности.\nКонтрактуальная симметрия юридических лиц\nНе устраняет асимметрию собственности и границ.\n\nУ Поланьи фиктивный товар — труд, земля и деньги,\nСаморегуляция рынка требует политической сцены.\nУ Маркса товарный фетиш — объективная видимость,\nОбщественная связь принимает вещную видимость.\n\nАбстрактный труд, стоимость, форма эквивалента,\nРеальная абстракция действует без референта.\nПервичное накопление — не миф о бережливости,\nА история экспроприации и принуждения к зависимости.\n\nГрамши: гегемония — согласие, сшитое с властью,\nЗдравый смысл фрагментарен, исторически пластичен.\nАльтюссер: интерпелляция субъекта в идеологии,\nНо классовая борьба не сводится к тавтологии.\n\n[Chorus]\nИмманентная критика! Внутри противоречия!\nУниверсальность проверяется исключением!\nРавенство юридическое — ещё не освобождение!\nСвобода без условий — пустое определение!\n\n[Instrumental]\n\n[Verse 3]\nФуко: дисциплина, нормализация, биовласть,\nПроизводство субъектов, а не только запретная власть.\nГенеалогия истины — не отрицание фактов,\nА анализ режимов верификации практик.\n\nДеррида: différance, след, апория присутствия,\nНе произвол интерпретаций, а предел самотождества.\nЛаклау: пустой означающий, цепь эквивалентности,\nГегемония конструирует границы коллективности.\n\nФрейзер: перераспределение плюс признание,\nНо статусная субординация — не просто страдание.\nСоциальное воспроизводство, невидимый труд заботы,\nКапитал присваивает условия собственной работы.\n\nКвир-теория вскрывает режимы нормализации,\nНе сводя субъективность к свободной номинации.\nИнтерсекциональность — не сумма идентичностей,\nА пересечение структур системной уязвимости.\n\nЭпистемическая несправедливость: дефицит доверия,\nГерменевтический пробел коллективного ведения.\nПозиционное знание — не отмена объективности,\nА рефлексия условий собственной ограниченности.\n\n[Bridge]\nА что, если ваш универсальный субъект\nБыл частным случаем, объявленным общим?\nЕсли нейтральный порядок\nУже распределил право быть услышанным?\nИ кто назвал естественным\nТо, что пришлось воспроизводить насилием?\n\n[Verse 4]\nАдорно: тождественное подавляет нетождественное,\nДиалектика негативна, примирение преждевременно.\nХоннет: признание — условие автономии,\nНо моральная травма укоренена в институции.\n\nРансьер: полиция распределяет чувственно данное,\nПолитика — разрыв, когда исключённое стало видимым.\nБадью: событие, верность, процедура истины,\nНе всякая новизна разрывает порядок действительности.\n\nНэнси Фрейзер спорит с Хабермасом о публичности:\nКонтрпублики вскрывают фикцию единой общности.\nУ Сильвии Федеричи воспроизводство рабочей силы\nНе приложение к фабрике, а условие прибыли.\n\nИ если ваш порядок естественен, как гравитация,\nЗачем ему полиция, школа и легитимация?\nЗачем производить согласие, санкционировать нормы,\nЕсли история лишь отражает геномные формы?\n\n[Outro]\nСеминар окончен. В протоколе — несогласие.\nНикто не отменил ни тела, ни обстоятельства.\nНо череп на кафедре остался без ответа:\nКто дал ему право говорить от имени общества?",
+    "duration": 300,
+    "seed": 2026110901,
+    "requested_bpm": 96,
+    "source_lyrics_path": "I:\\MyMusic\\13 - New Rap\\rap-4.txt",
+    "original_lyrics_sha256": "91021a4338b1f67b153f2144f29fcfe8a3f66dd000daf6c913f320b28329bb5a",
+    "main_voice": "ADV",
+    "greeting_voice": "ADV",
+    "ezhi_lines": [
+      [
+        "И кто назвал естественным",
+        "То, что пришлось воспроизводить насилием?"
+      ],
+      [
+        "Кто дал ему право говорить от имени общества?"
+      ]
+    ],
+    "ezhi_occurrences": 2,
+    "dry": true,
+    "request_options": {
+      "num_inference_steps": 30,
+      "guidance_scale": 1.7,
+      "ar_guidance_scale": 1.5,
+      "top_k": 50
+    }
+  },
+  "returncode": 0,
+  "delivery": [
+    {
+      "file": "full.mp3",
+      "bytes": 8724523,
+      "sha256": "cd4df4b83c24e5c23728c74c369a576e19c7fe9eaf2e14cada3d280caadd1f01"
+    },
+    {
+      "file": "preview.wav",
+      "bytes": 3528078,
+      "sha256": "43883928924590a86361f5212204749c0890d41fbdb7a54c4b656ed2ec1b0d15"
+    }
+  ],
+  "whole_run_seconds": 449.43307490000734,
+  "whole_gpu_peak_used_mib": 15244,
+  "memory_scope": "Whole card, includes other applications, sampled every ~2 seconds"
+}

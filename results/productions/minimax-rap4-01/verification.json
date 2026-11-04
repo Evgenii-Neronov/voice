@@ -1,0 +1,64 @@
+{
+  "numerical_validation_passed": true,
+  "sha256_validation_passed": true,
+  "lyrics_sha256": "91021a4338b1f67b153f2144f29fcfe8a3f66dd000daf6c913f320b28329bb5a",
+  "duration": 272.5790476190476,
+  "ezhi_regions_seconds": [
+    [
+      209.4,
+      214.12
+    ],
+    [
+      267.74,
+      270.48
+    ]
+  ],
+  "all_other_vocal": "ADV reference conversion",
+  "greeting_voice": "ADV",
+  "dry": true,
+  "local_inference": true,
+  "generation_seconds": 449.43307490000734,
+  "separation_seconds": 43.94809309998527,
+  "conversion_seconds": 138.51316600001883,
+  "conversion_timing_scope": "This invocation only; prior failed attempt excluded when resumed",
+  "conversion_reused_chunks": 0,
+  "conversion_fallbacks": [],
+  "asr_not_ground_truth": true,
+  "human_listening_review": false,
+  "checks": [
+    {
+      "part": "greeting_ADV",
+      "start": 0,
+      "end": 6,
+      "automatic_transcript": " Её, это рэп трек со своими адвентусами, аудитории тихо за окнами"
+    },
+    {
+      "part": "verse_ADV",
+      "start": 20,
+      "end": 30,
+      "automatic_transcript": " аспективная фикция первичной субстанции, гендерная  префон мотивность не маска и дингличности, а цитат  на итеративность нормативной публичности габит куф диспозиции"
+    },
+    {
+      "part": "hook_1_Ezhi",
+      "start": 209.28,
+      "end": 214.24,
+      "automatic_transcript": " и кто назвал естественным то, что пришлось воспроходить насилием."
+    },
+    {
+      "part": "hook_2_Ezhi",
+      "start": 267.62,
+      "end": 270.6,
+      "automatic_transcript": " то дал ему право говорить от имения общества"
+    }
+  ],
+  "references": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4"
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac"
+    }
+  ]
+}

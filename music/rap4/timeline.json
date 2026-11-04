@@ -1,0 +1,35 @@
+{
+  "base": "minimax-rap4-01",
+  "source_lyrics_path": "I:\\MyMusic\\13 - New Rap\\rap-4.txt",
+  "source_snapshot_path": "music/rap4/source.txt",
+  "source_lyrics_sha256": "91021a4338b1f67b153f2144f29fcfe8a3f66dd000daf6c913f320b28329bb5a",
+  "main_voice": "ADV",
+  "intro_voice": "ADV",
+  "intro_seconds": 0,
+  "greeting_in_music_generation": true,
+  "dry": true,
+  "expected_ezhi_occurrences": 2,
+  "ezhi_regions": [
+    {
+      "start": 209.4,
+      "end": 214.12,
+      "lyrics": [
+        "И кто назвал естественным",
+        "То, что пришлось воспроизводить насилием?"
+      ]
+    },
+    {
+      "start": 267.74,
+      "end": 270.48,
+      "lyrics": [
+        "Кто дал ему право говорить от имени общества?"
+      ]
+    }
+  ],
+  "crossfade_seconds": 0.06,
+  "boundary_evidence": [
+    "Whisper: previous услышанным ends 209.24; question 209.52–213.92, next Адорно starts 214.58.",
+    "Whisper: previous ответа ends 267.66; final question 267.82–270.28."
+  ],
+  "selection": "Approximate local word timestamps; no guarantee of perfect lyric delivery."
+}

@@ -44,3 +44,7 @@ results/productions/minimax-rap2-drill-01/*.mp3
 # Rap 3 raw duplicates stay local; final MP3 and audit metadata are tracked.
 results/music/minimax-rap3-*/full.mp3
 results/music/minimax-rap3-*/preview.wav
+
+# Rap 4: raw duplicates remain local, final MP3 and metadata are tracked.
+results/music/minimax-rap4-*/full.mp3
+results/music/minimax-rap4-*/preview.wav
