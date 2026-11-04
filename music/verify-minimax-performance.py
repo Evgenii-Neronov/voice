@@ -7,14 +7,17 @@ p=argparse.ArgumentParser(); p.add_argument('--run-id',required=True); p.add_arg
 m=json.loads((out/'manifest.json').read_text(encoding='utf-8')); generation=json.loads((R/'results/music'/a.run_id/'manifest.json').read_text(encoding='utf-8')); timeline=m['timeline']
 def sha(path):
  with path.open('rb') as f: return hashlib.file_digest(f,'sha256').hexdigest()
-assert m['lyrics_sha256']==generation['source_lyrics_sha256']==sha(R/'Lyrics/lyrics.txt')
+source_path=R/generation.get('brief',{}).get('source_lyrics_path','Lyrics/lyrics.txt')
+assert m['lyrics_sha256']==generation['source_lyrics_sha256']==sha(source_path)
+expected_lines=generation.get('brief',{}).get('ezhi_lines')
 x,sr=sf.read(out/'full.wav',always_2d=True); assert sr==44100 and x.shape[1]==2 and np.isfinite(x).all() and np.max(np.abs(x))<1
 assert abs(len(x)/sr-generation['audio'][0]['duration'])<.01
 regions=timeline['ezhi_regions']; assert len(regions)==timeline.get('expected_ezhi_occurrences',1)
 previous_end=10
-for region in regions:
+for index,region in enumerate(regions):
  assert previous_end<region['start']<region['end']<len(x)/sr
- assert region['lyrics']==['Десять свистулек!','Один кубит!','Кто здесь субъект?','Кто кого купит?']
+ assert region['lyrics']==(expected_lines[index] if expected_lines else ['Десять свистулек!','Один кубит!','Кто здесь субъект?','Кто кого купит?'])
+ assert '\n'.join(region['lyrics']) in generation['brief']['lyrics']
  previous_end=region['end']
 for f in m['audio']: assert sha(out/f['file'])==f['sha256']
 checks=[('greeting_ADV',0,6),('verse_ADV',20,30)]+[(f'hook_{i+1}_Ezhi',max(0,region['start']-.12),region['end']+.12) for i,region in enumerate(regions)]

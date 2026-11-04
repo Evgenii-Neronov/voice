@@ -1,0 +1,34 @@
+{
+  "base": "minimax-rap2-drill-01",
+  "source_lyrics_path": "Lyrics/rap-2.txt",
+  "main_voice": "ADV",
+  "intro_voice": "ADV",
+  "intro_seconds": 0,
+  "greeting_in_music_generation": true,
+  "dry": true,
+  "expected_ezhi_occurrences": 2,
+  "ezhi_regions": [
+    {
+      "start": 106.34,
+      "end": 109.6,
+      "lyrics": [
+        "Ха.",
+        "Вещь в себе смеется тебе в лицо."
+      ]
+    },
+    {
+      "start": 132.7,
+      "end": 138.7,
+      "lyrics": [
+        "Проверь библиографию, голубчик.",
+        "Ты не прошел рецензирование."
+      ]
+    }
+  ],
+  "crossfade_seconds": 0.06,
+  "boundary_evidence": [
+    "Bridge: preceding question ends 106.30; word timestamps for response 107.44–109.60, next chorus starts 109.60. Include intervening laugh/pause; isolated Ха not independently recognized by ASR.",
+    "Outro: previous line ends 132.70; final two lines 132.70–138.48."
+  ],
+  "selection": "Approximate local Whisper timestamps; not proof of perfect pronunciation or literal lyric delivery."
+}

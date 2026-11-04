@@ -1,0 +1,179 @@
+{
+  "status": "generated_unrated",
+  "local_inference": true,
+  "model": "MiniMax-Music3 GGUF Q4/Q8/Q4",
+  "scope": "full lyrics",
+  "source_lyrics_sha256": "1d05409dee8ea72865cddb844859f85ed8c2b0bca71bc81340ad62d3246ca17e",
+  "runtime_sha256": "abd4e00692a039a1c56892fc9fe39a21c430581faf6893192f6f06ee799173ca",
+  "model_lock": {
+    "repo_id": "audio-cpp/MiniMax-Music3-GGUF",
+    "revision": "46fe77f8bb395ccdbe797d784225f7b84866e7ce",
+    "upstream_repo": "MiniMaxAI/MiniMax-Music3",
+    "upstream_revision": "1b525ccb685ae809f33027c51c351eeb5833cf72",
+    "runtime_lock": "benchmark/native-runtime.lock.json",
+    "files": [
+      {
+        "file": "LICENSE",
+        "bytes": 7373,
+        "sha256": "b21d12df2adae59dad3fcf80c1d81492654c662342f497d9a9770198c9317e58"
+      },
+      {
+        "file": "README.md",
+        "bytes": 3558,
+        "sha256": "a6a512628bb6010ef9b9856d6515fa5eb74b9526aefd9f9f580cd67875867f10"
+      },
+      {
+        "file": "config.json",
+        "bytes": 107,
+        "sha256": "1ffcff67d916d5519d1ef9a36853232ee6bcb7e14a936623c4e85559f5dce106"
+      },
+      {
+        "file": "config/condition_encoder.json",
+        "bytes": 292,
+        "sha256": "1cdea3f36506719128ae4a29cdfff74b1134e607eb4a504ce6d810568fac8263"
+      },
+      {
+        "file": "config/language_model.json",
+        "bytes": 1596,
+        "sha256": "34ded58fcd5e8181557f1417e76af9f3e95109a5ce113a4771fd16f8625b53c0"
+      },
+      {
+        "file": "config/rvq_depth_decoder.json",
+        "bytes": 274,
+        "sha256": "b38c7f72d4b2fa8667442071f9e4a63ca5a7b5d0859e5e64ee7f79c4bc64520c"
+      },
+      {
+        "file": "config/transformer.json",
+        "bytes": 294,
+        "sha256": "f60856be934127a8b8223510aff2e38a9efd8bbdbc230c3d3339b96e2cb12f00"
+      },
+      {
+        "file": "config/vocoder.json",
+        "bytes": 251,
+        "sha256": "4161afd07ba7d5b949e29c8a7a005592259fba73e9110b6ece9dfd38d3489eac"
+      },
+      {
+        "file": "tokenizer/tokenizer.json",
+        "bytes": 11423801,
+        "sha256": "b1537fa9e59a537276ecbc2e12d0438edff635a1f4a4948e679774b5feb3e610"
+      },
+      {
+        "file": "tokenizer/tokenizer_config.json",
+        "bytes": 377,
+        "sha256": "1689852cc9c45010de040c8302a8acdc0d2c4c6c740dd7e9dd0a8c704e16eada"
+      },
+      {
+        "file": "language_model_q4_0.gguf",
+        "bytes": 6006866496,
+        "sha256": "6f621dd636320403c03e9f755b3e2047f5754d055e0fcc6c0c444ae52ffbfa90"
+      },
+      {
+        "file": "rvq_depth_decoder_q8_0.gguf",
+        "bytes": 714028960,
+        "sha256": "d5b7495fb1a7845abfeab13df829510de442fd4ea0fd55467fe9895fe8ec5db6"
+      },
+      {
+        "file": "condition_encoder.gguf",
+        "bytes": 100678368,
+        "sha256": "ae4be8b6154645b0717d1928f5c195359bdee8fd025099c49954ed302257cd20"
+      },
+      {
+        "file": "transformer_q4_0.gguf",
+        "bytes": 1396392768,
+        "sha256": "18d3b2461a2988f59e197ccf05dc3931663099290b42443baa2a30e4fd15e506"
+      },
+      {
+        "file": "vocoder.gguf",
+        "bytes": 216705376,
+        "sha256": "5d40e6d52349d50d2aeaaaf6ba934afbf490e4cbc1ba5bb715c3133ea45cdca4"
+      }
+    ]
+  },
+  "command": [
+    "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_cli.exe",
+    "--task",
+    "gen",
+    "--family",
+    "minimax_music3",
+    "--model",
+    "I:\\VOICE\\voice\\models\\music\\MiniMax-Music3-GGUF",
+    "--backend",
+    "cuda",
+    "--threads",
+    "8",
+    "--request-sequence",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap2-boombap-02\\requests.json",
+    "--out-dir",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap2-boombap-02",
+    "--out-format",
+    "pcm16",
+    "--batch-manifest-out",
+    "I:\\VOICE\\voice\\results\\music\\minimax-rap2-boombap-02\\native-manifest.json",
+    "--metrics",
+    "--load-progress",
+    "0",
+    "--session-option",
+    "minimax_music3.mem_saver=true",
+    "--session-option",
+    "minimax_music3.perf_mode=cuda_perf"
+  ],
+  "requested_budget_seconds": 220,
+  "audio": [
+    {
+      "file": "full.wav",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 149.61777777777777,
+      "sha256": "4b59b0d756af3a230f8c481a3beaf4b58829dfb30e235e222023d0222ffab68e",
+      "peak": 0.999908447265625,
+      "rms": 0.15603995415268093
+    }
+  ],
+  "brief": {
+    "id": "minimax-rap2-boombap-02",
+    "title": "Онтологический рэп — актуальная редакция",
+    "caption": "Russian abstract boom bap, 96 BPM, dusty swung jazz breaks, distorted upright bass, dissonant Rhodes, modular synth glitches, turntable scratches, industrial percussion. High nasal male underground rap, rapid multisyllabic rhythmic flow, dense rhymes, sharp articulation, dry ironic arrogant delivery. Forceful rapped chorus, no singing, no melodic vocal, no baritone. Sparse sarcastic bridge, precise cold outro. Close dry lead vocal, no echo or reverb.",
+    "lyrics": "[Intro]\nЙо, это рэп трек, с вами А ДЭ ВЭ эй кей Адвентус Девотус\n\n[Verse 1]\nФундаментальный нарциссизм: твой субъект — лишь иллюзия тени,\nДеконструирую веру в субстанцию с первых ступеней.\nПостмодернистский сайленсер глушит твой трансцендентальный субстрат,\nЯ выбиваю картечью автономию эго назад!\nФеноменологический редукционизм на моем блоке,\nГде Гуссерль качает права в переулке глубоком.\nТы апеллируешь к фактам? Какой филистерский наив!\nИнтерсубъективность трещит по швам, этот дискурс — обрыв.\nЭпистемический фашизм? Нет, чистая диалектика власти,\nРаспутываю узлы твоего бытия на запчасти!\nТрансгрессия базовая, трансценденция в стиле нуар,\nКаждый панч — это онтологический удар!\n\n[Chorus]\nЯ зачитываю рефлексию прямо с надгробия смыслов!\nТвой чистый разум разорван от этих басовых выстрелов!\nЭпистемология бьет в кастет, деконструкция — в пах!\nАкадемический трэш на элитных моих костях!\nСимулякр жрет симулякр, но реальность трещит по швам,\nЯ этот статус-кво разделю пополам!\n\n[Verse 2]\nКантианский категорический императив в подворотне,\nТвой эмпирический опыт втоптан в дорожное блотня.\nОнтическое различие режет глаза острой бритвой,\nБытие и ничто заменяются уличной битвой!\nАдорно кричит из колонок: \"Культурная индустрия — ад!\",\nНо ты продолжаешь жрать этот сырой позитивистский салат.\nДиалектический материализм? Устаревший базис, эй!\nМой постструктуралистский дрилл убивает твоих идей\nВсю наивную веру в прогресс, телеологический бред,\nНа каждый твой логический винт у меня есть ответ!\n\n[Bridge]\nПосмотри на свои ценности.\nТрансцендентальная апперцепция плачет в углу.\nТы думал, что познал вещь в себе?\nХа.\nВещь в себе смеется тебе в лицо.\n\n[Chorus]\nЯ зачитываю рефлексию прямо с надгробия смыслов!\nТвой чистый разум разорван от этих басовых выстрелов!\nЭпистемология бьет в кастет, деконструкция — в пах!\nАкадемический трэш на элитных моих костях!\nСимулякр жрет симулякр, но реальность трещит по швам,\nЯ этот статус-кво разделю пополам!\n\n[Outro]\nКонец истории?\nНет.\nНачало абсолютного нигилизма.\nПроверь библиографию, голубчик.\nТы не прошел рецензирование.",
+    "duration": 220,
+    "seed": 2026110702,
+    "requested_bpm": 96,
+    "source_lyrics_path": "Lyrics/rap-2.txt",
+    "original_lyrics_sha256": "1d05409dee8ea72865cddb844859f85ed8c2b0bca71bc81340ad62d3246ca17e",
+    "main_voice": "ADV",
+    "greeting_voice": "ADV",
+    "ezhi_lines": [
+      [
+        "Ха.",
+        "Вещь в себе смеется тебе в лицо."
+      ],
+      [
+        "Проверь библиографию, голубчик.",
+        "Ты не прошел рецензирование."
+      ]
+    ],
+    "ezhi_occurrences": 2,
+    "dry": true,
+    "request_options": {
+      "num_inference_steps": 30,
+      "guidance_scale": 1.7,
+      "ar_guidance_scale": 1.5,
+      "top_k": 50
+    }
+  },
+  "returncode": 0,
+  "delivery": [
+    {
+      "file": "full.mp3",
+      "bytes": 4789855,
+      "sha256": "54d00190d4585131a4bebdfd7908ce161da8b6dc0fa6444d07cfc0f1c6d5d3e1"
+    },
+    {
+      "file": "preview.wav",
+      "bytes": 3528078,
+      "sha256": "0622fb35988dbc53eb02a66eb28a936b3fb8a0d5803c0e42a68c21df634b749f"
+    }
+  ],
+  "whole_run_seconds": 236.3015396999981,
+  "whole_gpu_peak_used_mib": 13452,
+  "memory_scope": "Whole card, includes other applications, sampled every ~2 seconds"
+}

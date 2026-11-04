@@ -1,0 +1,265 @@
+{
+  "local_inference": true,
+  "dry": true,
+  "added_echo": false,
+  "added_reverb": false,
+  "greeting_engine": "MiniMax, part of source lyrics",
+  "greeting_voice": "ADV",
+  "timeline": {
+    "base": "minimax-rap2-drill-01",
+    "source_lyrics_path": "Lyrics/rap-2.txt",
+    "main_voice": "ADV",
+    "intro_voice": "ADV",
+    "intro_seconds": 0,
+    "greeting_in_music_generation": true,
+    "dry": true,
+    "expected_ezhi_occurrences": 2,
+    "ezhi_regions": [
+      {
+        "start": 106.34,
+        "end": 109.6,
+        "lyrics": [
+          "Ха.",
+          "Вещь в себе смеется тебе в лицо."
+        ]
+      },
+      {
+        "start": 132.7,
+        "end": 138.7,
+        "lyrics": [
+          "Проверь библиографию, голубчик.",
+          "Ты не прошел рецензирование."
+        ]
+      }
+    ],
+    "crossfade_seconds": 0.06,
+    "boundary_evidence": [
+      "Bridge: preceding question ends 106.30; word timestamps for response 107.44–109.60, next chorus starts 109.60. Include intervening laugh/pause; isolated Ха not independently recognized by ASR.",
+      "Outro: previous line ends 132.70; final two lines 132.70–138.48."
+    ],
+    "selection": "Approximate local Whisper timestamps; not proof of perfect pronunciation or literal lyric delivery."
+  },
+  "duration": 140.4691156462585,
+  "peak": 0.8480566740036011,
+  "lyrics_sha256": "37de040e1bbe86dee3f4416ebafc9845d31576ca54ddb9835b664525b776394f",
+  "audio": [
+    {
+      "file": "full.wav",
+      "sha256": "d7c9ddb32c8560fe18f3b840ced8185f63948d1cf4f1bc584db3b30fa2c2f983"
+    },
+    {
+      "file": "full.mp3",
+      "sha256": "2c379dd30510d5733aa98af5f1178555474aadcce020accd91423eea1108fcb4"
+    },
+    {
+      "file": "preview.mp3",
+      "sha256": "508971111547e12eb92df1f727f2a6e099e17ab89eafefc825eabef27c8ff600"
+    }
+  ],
+  "conversion": {
+    "route": "v1_svc",
+    "resumed": false,
+    "reused_chunks": 0,
+    "timing_scope": "This invocation only; prior failed attempt excluded when resumed",
+    "fallbacks": [],
+    "attempts": [
+      {
+        "command": [
+          "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_cli.exe",
+          "--task",
+          "svc",
+          "--family",
+          "seed_vc",
+          "--model",
+          "I:\\VOICE\\voice\\models\\voice-production\\SeedVC-MLX-GGUF\\seed-vc-mlx-q8_0.gguf",
+          "--backend",
+          "cuda",
+          "--threads",
+          "8",
+          "--request-sequence",
+          "I:\\VOICE\\voice\\work\\rap2\\drill-01\\chunks-v1_svc-02\\attempt-00.json",
+          "--out-dir",
+          "I:\\VOICE\\voice\\work\\rap2\\drill-01\\chunks-v1_svc-02",
+          "--out-format",
+          "pcm16",
+          "--metrics",
+          "--load-progress",
+          "0"
+        ],
+        "returncode": 0
+      }
+    ],
+    "chunk_core_seconds": 12,
+    "context_seconds": 0.4,
+    "seed": 20261104,
+    "steps": 40,
+    "whole_run_seconds": 82.17504890001146,
+    "records": [
+      {
+        "id": "adv-000",
+        "speaker": "adv",
+        "left": 0,
+        "right": 546840,
+        "core_start": 0,
+        "core_end": 529200,
+        "alignment_shift_samples": 441,
+        "output_sha256": "2faf4d3d96a648f5cd6afb4d1e197457e20f84bd9265616e02fafbe2061d0378"
+      },
+      {
+        "id": "adv-001",
+        "speaker": "adv",
+        "left": 511560,
+        "right": 1076040,
+        "core_start": 529200,
+        "core_end": 1058400,
+        "alignment_shift_samples": 0,
+        "output_sha256": "bae1c1cb41b871ee4b95c33c62be0941c1227176cb067273555a3f76a14b1e45"
+      },
+      {
+        "id": "adv-002",
+        "speaker": "adv",
+        "left": 1040760,
+        "right": 1605240,
+        "core_start": 1058400,
+        "core_end": 1587600,
+        "alignment_shift_samples": 0,
+        "output_sha256": "1028a16bf2eb46a3ef150075cb6e4dd33c61d14aa00a4f9fdf286efa88eaf489"
+      },
+      {
+        "id": "adv-003",
+        "speaker": "adv",
+        "left": 1569960,
+        "right": 2134440,
+        "core_start": 1587600,
+        "core_end": 2116800,
+        "alignment_shift_samples": 0,
+        "output_sha256": "d0200ee004f04a393bcb0bb68094fadb50e59b8ad0030ad04d7a75ba39f574a4"
+      },
+      {
+        "id": "adv-004",
+        "speaker": "adv",
+        "left": 2099160,
+        "right": 2663640,
+        "core_start": 2116800,
+        "core_end": 2646000,
+        "alignment_shift_samples": 441,
+        "output_sha256": "119ab98ba07f7bb08937565e7f3923d64d5a9f641ee0924d7de54804d0776859"
+      },
+      {
+        "id": "adv-005",
+        "speaker": "adv",
+        "left": 2628360,
+        "right": 3192840,
+        "core_start": 2646000,
+        "core_end": 3175200,
+        "alignment_shift_samples": 0,
+        "output_sha256": "cb77447d00c517beca94b1ed5a5a135a8dbadb3c5032a7e6c7868cf227682942"
+      },
+      {
+        "id": "adv-006",
+        "speaker": "adv",
+        "left": 3157560,
+        "right": 3722040,
+        "core_start": 3175200,
+        "core_end": 3704400,
+        "alignment_shift_samples": 441,
+        "output_sha256": "39beb142bfe4aba8de59fbf0b6da84ce09cf09cfbb4029ac74e65890c4197425"
+      },
+      {
+        "id": "adv-007",
+        "speaker": "adv",
+        "left": 3686760,
+        "right": 4251240,
+        "core_start": 3704400,
+        "core_end": 4233600,
+        "alignment_shift_samples": 441,
+        "output_sha256": "2aa6a09cb42b511283d55b2e35b5dc9462ccd41c2c08cb4c2878d360b25677ea"
+      },
+      {
+        "id": "adv-008",
+        "speaker": "adv",
+        "left": 4215960,
+        "right": 4780440,
+        "core_start": 4233600,
+        "core_end": 4762800,
+        "alignment_shift_samples": 441,
+        "output_sha256": "13820a65faaf9810c503ccfdf6602b5743101b0c435542eda292a9a282b4d3e8"
+      },
+      {
+        "id": "adv-009",
+        "speaker": "adv",
+        "left": 4745160,
+        "right": 5309640,
+        "core_start": 4762800,
+        "core_end": 5292000,
+        "alignment_shift_samples": 441,
+        "output_sha256": "366dddb1193f827009d03b660b4b41e3a1a64465ff791d01c1888e1a6fc1a636"
+      },
+      {
+        "id": "adv-010",
+        "speaker": "adv",
+        "left": 5274360,
+        "right": 5838840,
+        "core_start": 5292000,
+        "core_end": 5821200,
+        "alignment_shift_samples": 441,
+        "output_sha256": "4e618eaac686b8ac367c00cc8a0b9ed3600b6ad3b4818167d4e168080bb23717"
+      },
+      {
+        "id": "adv-011",
+        "speaker": "adv",
+        "left": 5803560,
+        "right": 6194688,
+        "core_start": 5821200,
+        "core_end": 6194688,
+        "alignment_shift_samples": 441,
+        "output_sha256": "f8d00d1a926c1a4ec47c811044e474227916fa96a79528748260116562c32c2d"
+      },
+      {
+        "id": "ezhi-000",
+        "speaker": "ezhi",
+        "left": 4671954,
+        "right": 4851000,
+        "core_start": 4689594,
+        "core_end": 4833360,
+        "alignment_shift_samples": 441,
+        "output_sha256": "3f55a45ffb181ec01062678bbafbbca65272affaa2df871a4dae8ae5fee49cc4"
+      },
+      {
+        "id": "ezhi-001",
+        "speaker": "ezhi",
+        "left": 5834429,
+        "right": 6134309,
+        "core_start": 5852069,
+        "core_end": 6116669,
+        "alignment_shift_samples": 441,
+        "output_sha256": "9461696e8dc5a044bec796b16d19a9d826f40717153532b90102c1eae07ba922"
+      }
+    ],
+    "command": [
+      "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_cli.exe",
+      "--task",
+      "svc",
+      "--family",
+      "seed_vc",
+      "--model",
+      "I:\\VOICE\\voice\\models\\voice-production\\SeedVC-MLX-GGUF\\seed-vc-mlx-q8_0.gguf",
+      "--backend",
+      "cuda",
+      "--threads",
+      "8",
+      "--request-sequence",
+      "I:\\VOICE\\voice\\work\\rap2\\drill-01\\chunks-v1_svc-02\\requests.json",
+      "--out-dir",
+      "I:\\VOICE\\voice\\work\\rap2\\drill-01\\chunks-v1_svc-02",
+      "--out-format",
+      "pcm16",
+      "--metrics",
+      "--load-progress",
+      "0"
+    ],
+    "runtime_sha256": "abd4e00692a039a1c56892fc9fe39a21c430581faf6893192f6f06ee799173ca"
+  },
+  "status": "superseded_source_changed_during_generation",
+  "note": "Initial drill take retained locally; user edited source to boom bap during processing. Mixed manifest source hash corrected to actual generation brief hash."
+}

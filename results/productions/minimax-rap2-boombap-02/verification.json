@@ -1,0 +1,64 @@
+{
+  "numerical_validation_passed": true,
+  "sha256_validation_passed": true,
+  "lyrics_sha256": "1d05409dee8ea72865cddb844859f85ed8c2b0bca71bc81340ad62d3246ca17e",
+  "duration": 149.61777777777777,
+  "ezhi_regions_seconds": [
+    [
+      113.96,
+      116.8
+    ],
+    [
+      143.36,
+      147.4
+    ]
+  ],
+  "all_other_vocal": "ADV reference conversion",
+  "greeting_voice": "ADV",
+  "dry": true,
+  "local_inference": true,
+  "generation_seconds": 236.3015396999981,
+  "separation_seconds": 24.376164699991932,
+  "conversion_seconds": 85.56042110000271,
+  "conversion_timing_scope": "This invocation only; prior failed attempt excluded when resumed",
+  "conversion_reused_chunks": 0,
+  "conversion_fallbacks": [],
+  "asr_not_ground_truth": true,
+  "human_listening_review": false,
+  "checks": [
+    {
+      "part": "greeting_ADV",
+      "start": 0,
+      "end": 6,
+      "automatic_transcript": " Ей, Йоу!  Это рэп-трек!  С вами Аддеба и Кей Адвентус Дивотус."
+    },
+    {
+      "part": "verse_ADV",
+      "start": 20,
+      "end": 30,
+      "automatic_transcript": " Ступени.  Хостмодерниськи, сайон, сергуши, твой транссендентальный субстрат.  Я вибиваю карте, чью автономию эго назад."
+    },
+    {
+      "part": "hook_1_Ezhi",
+      "start": 113.83999999999999,
+      "end": 116.92,
+      "automatic_transcript": " Себе.  Видишь в себе смею от сэтибе в лицо?"
+    },
+    {
+      "part": "hook_2_Ezhi",
+      "start": 143.24,
+      "end": 147.52,
+      "automatic_transcript": " Прогребинографию, голубчик, Тини-про-шоу, лиценз, сфильмент"
+    }
+  ],
+  "references": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4"
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac"
+    }
+  ]
+}

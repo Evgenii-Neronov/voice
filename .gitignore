@@ -34,3 +34,9 @@ results/music/minimax-hook-*/preview.wav
 # Three MiniMax arrangements: retain final deliveries, omit duplicate raw exports.
 results/music/minimax-trio-*/full.mp3
 results/music/minimax-trio-*/preview.wav
+
+# Rap 2: keep the final production MP3; raw WAV and duplicate previews stay local.
+results/music/minimax-rap2-*/full.mp3
+results/music/minimax-rap2-*/preview.wav
+# Superseded rap-2 drill take is retained locally; only audit metadata is tracked.
+results/productions/minimax-rap2-drill-01/*.mp3

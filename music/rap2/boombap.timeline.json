@@ -1,0 +1,36 @@
+{
+  "base": "minimax-rap2-boombap-02",
+  "source_lyrics_path": "Lyrics/rap-2.txt",
+  "source_snapshot_path": "music/rap2/source-lyrics-02.txt",
+  "source_lyrics_sha256": "1d05409dee8ea72865cddb844859f85ed8c2b0bca71bc81340ad62d3246ca17e",
+  "main_voice": "ADV",
+  "intro_voice": "ADV",
+  "intro_seconds": 0,
+  "greeting_in_music_generation": true,
+  "dry": true,
+  "expected_ezhi_occurrences": 2,
+  "ezhi_regions": [
+    {
+      "start": 113.96,
+      "end": 116.8,
+      "lyrics": [
+        "Ха.",
+        "Вещь в себе смеется тебе в лицо."
+      ]
+    },
+    {
+      "start": 143.36,
+      "end": 147.4,
+      "lyrics": [
+        "Проверь библиографию, голубчик.",
+        "Ты не прошел рецензирование."
+      ]
+    }
+  ],
+  "crossfade_seconds": 0.06,
+  "boundary_evidence": [
+    "Bridge: preceding question ends 113.96; response words span 113.96–116.80, next chorus starts 116.80. Isolated Ха not independently recognized; no added speech was inserted.",
+    "Outro: preceding nihilism line ends 142.66; final two lines words 143.52–147.20, margins included."
+  ],
+  "selection": "Approximate local Whisper timestamps; no guarantee of literal pronunciation or human listening review."
+}
