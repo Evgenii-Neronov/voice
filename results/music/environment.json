@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04",
+  "gpu": "NVIDIA GeForce RTX 5080, 610.88, 16303 MiB",
+  "python": "Python 3.12.10",
+  "ffmpeg": "ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+  "ace_source_revision": "ca1e85fe9430179831e6bc6be790c332190a3866",
+  "native_runtime": [
+    "audio.cpp 0.9.3",
+    "git: 41c1f8ff 2026-10-26",
+    "build: Release, msvc 19.44.35229.0, Windows AMD64",
+    "backends: cpu,cuda"
+  ],
+  "free_bytes_after_download": 131007160320,
+  "model_bytes_minimax": 8446109891,
+  "inference_location": "local Windows RTX 5080; no hosted inference"
+}

@@ -1,0 +1,205 @@
+2026-11-04 18:05:06.727 | WARNING  | acestep.training.lokr_utils:<module>:24 - LyCORIS library not installed. LoKr training/inference unavailable. Install with: pip install lycoris-lora
+2026-11-04 18:05:06.732 | WARNING  | acestep.training.data_module:<module>:25 - Lightning not installed. Training module will not be available.
+2026-11-04 18:05:06.740 | WARNING  | acestep.training.trainer:<module>:29 - Lightning Fabric not installed. Training will use basic training loop.
+2026-11-04 18:05:06.742 | WARNING  | acestep.training.trainer:<module>:40 - bitsandbytes not installed. Using standard AdamW.
+2026-11-04 18:05:06.930 | INFO     | acestep.gpu_config:get_gpu_memory_gb:578 - CUDA GPU detected: NVIDIA GeForce RTX 5080 (15.9 GB)
+2026-11-04 18:05:06.930 | INFO     | acestep.gpu_config:get_gpu_tier:769 - Detected 15.92GB VRAM — treating as 16GB class GPU
+2026-11-04 18:05:07.226 | INFO     | acestep.core.generation.handler.init_service_loader:_load_main_model_from_checkpoint:174 - [initialize_service] Attempting to load model with attention implementation: sdpa
+2026-11-04 18:05:20.153 | INFO     | acestep.inference:generate_music:662 - [generate_music] LLM usage decision: thinking=False, use_cot_caption=False, use_cot_language=False, use_cot_metas=False, need_lm_for_cot=False, llm_initialized=False, use_lm=False
+2026-11-04 18:05:20.154 | INFO     | acestep.core.generation.handler.generate_music:generate_music:313 - [generate_music] Turbo model detected: overriding guidance_scale 7.0 -> 1.0 (turbo does not use CFG).
+2026-11-04 18:05:20.154 | INFO     | acestep.core.generation.handler.generate_music:generate_music:329 - [generate_music] Starting generation...
+2026-11-04 18:05:20.154 | INFO     | acestep.core.generation.handler.generate_music:generate_music:332 - [generate_music] Preparing inputs...
+2026-11-04 18:05:20.528 | DEBUG    | acestep.core.generation.handler.generate_music:_vram_preflight_check:133 - [generate_music] VRAM pre-flight: skipping check (offload_to_cpu=True, models loaded one-at-a-time)
+2026-11-04 18:05:20.708 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:41 - [_load_model_context] Loading vae to cuda (RSS: 0 MB)
+2026-11-04 18:05:21.855 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:58 - [_load_model_context] Loaded vae to cuda in 0.8986s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:22.030 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:67 - [_load_model_context] Offloading vae to CPU (RSS: 0 MB)
+2026-11-04 18:05:23.287 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:83 - [_load_model_context] Offloaded vae to CPU in 0.9164s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:23.566 | INFO     | acestep.core.generation.handler.conditioning_text:_prepare_text_conditioning_inputs:119 - 
+======================================================================
+2026-11-04 18:05:23.566 | INFO     | acestep.core.generation.handler.conditioning_text:_prepare_text_conditioning_inputs:120 - 🔍 [DEBUG] DiT TEXT ENCODER INPUT (Inference)
+2026-11-04 18:05:23.566 | INFO     | acestep.core.generation.handler.conditioning_text:_prepare_text_conditioning_inputs:121 - ======================================================================
+2026-11-04 18:05:23.566 | INFO     | acestep.core.generation.handler.conditioning_text:_prepare_text_conditioning_inputs:122 - text_prompt:
+# Instruction
+Fill the audio semantic mask based on the given conditions:
+
+# Caption
+Russian abstract hip-hop and UK underground boom bap, 96 BPM, dusty jazz breakbeats, distorted upright bass, dissonant Rhodes, modular synth glitches, turntable scratches, industrial percussion. High-pitched nasal male Russian rap, fast multisyllabic double-time flow, sharp diction, dry irony. Spoken rap, no sung melody, no deep baritone. Evolving arrangement, sparse verses, heavy chorus, breakdown, bells and tape-stop ending.
+
+# Metas
+- bpm: 96
+- timesignature: 4
+- keyscale: D minor
+- duration: 250 seconds
+<|endoftext|>
+
+2026-11-04 18:05:23.566 | INFO     | acestep.core.generation.handler.conditioning_text:_prepare_text_conditioning_inputs:123 - ======================================================================
+2026-11-04 18:05:23.566 | INFO     | acestep.core.generation.handler.conditioning_text:_prepare_text_conditioning_inputs:124 - lyrics_text:
+# Languages
+ru
+
+# Lyric
+[Intro]
+В деревне отменили деньги.
+Но курс свистулек растёт.
+На десять глиняных флейт
+Положен квантовый счёт.
+
+Под куполом вечного неба
+Пасётся цифровой скот.
+А время из будущего
+Уже совершило исход.
+
+[Verse 1]
+Четвёртая теория, четвёртое измерение,
+Dasein вместо субъекта, событие вместо мнения.
+Традиция, сакральность, география спасения,
+Но квантовый компьютер требует охлаждения.
+
+Ноомахия, Логос Аполлона, Диониса,
+Кибела проснулась под сводами сельского киберполиса.
+Гиперборейский крестьянин читает Хайдеггера,
+Пока нейросеть собирает урожай для метафизика.
+
+Модерн упразднили, постмодерн отрицается,
+Премодерн с квантовой физикой странно срастается.
+Этнос, народ, цивилизация, месторазвитие,
+У трактора онтологическое событие.
+
+Теллурократия, талассократия, суша и море,
+Многополярная вечность на деревенском просторе.
+Субъект растворился в коллективном присутствии,
+А дед торгует свистульками с абсолютным бесчувствием.
+
+[Chorus]
+Десять свистулек — квантовый компьютер!
+Денег не будет — но есть контрагент!
+Под русским куполом вечное утро,
+За околицей — технокапиталистический Ленд!
+
+Dasein! Hyperstition! Ретрокаузальность!
+Археомодерн и машинная реальность!
+Сельский интернет, эсхатологический свет!
+Товарного обмена нет — а эквивалент есть!
+
+[Verse 2]
+Ник Ленд разгоняет петлю положительной связи,
+Капитал обретает автономию в техноэкстазе.
+CCRU, киберготика, шизоанализ,
+Детерриториализация, машинный катализ.
+
+Не человек производит машину для будущего,
+А будущее производит условия сущего.
+Телеплексия, сингулярность, обратная причинность,
+Гиперверие превращает фикцию в действительность.
+
+Собор контролирует медиа, нормы, образование,
+Неореакция предлагает выход вместо голосования.
+Exit, CEO-монархия, Patchwork, анклавы,
+Вместо всеобщего блага — конкурентные главы.
+
+Ускорение капитала, нечеловеческий интеллект,
+У крестьянского схода совершенно иной проект.
+Один хочет вернуть изначальное время,
+Другой — чтоб само время перестало быть бременем.
+
+Первый говорит: укоренение, почва, истоки.
+Второй: потоки капитала, вычислительные потоки.
+Первый сажает картофель во имя вечного круга,
+Второй уже продал алгоритму понятие плуга.
+
+[Hook]
+Купол над деревней!
+Сингулярность под землёй!
+Традиция без денег!
+Капитал без головы!
+
+Десять свистулек!
+Один кубит!
+Кто здесь субъект?
+Кто кого купит?
+
+[Bridge]
+Генон различает принцип и проявление.
+Эвола — вертикаль и духовное напряжение.
+Хайдеггер — забвение бытия в поставе,
+Делёз — машины желания в непрерывном составе.
+
+Но Ленд не Гегель: ему не нужно снятие,
+Положительная связь заменяет отрицание.
+А Дугин не Ленд: для него ускорение — бедствие,
+Их встреча — онтологическое происшествие.
+
+[Verse 3]
+В поселении храм, библиотека и театр,
+Над ними купол, под ними геополитический атлас.
+Деньги отменены, но есть проблема исчисления:
+Кто назначает курс свистульки к сверхпроводящему изделию?
+
+Десять свистулек за квантовый вычислитель,
+Одиннадцать — за право быть его повелителем.
+Но квантовый процессор не рождается из глины,
+Ему нужны фабрики, литография, турбины.
+
+Где разделение труда? Где сложность кооперации?
+Где производство криогенной аппаратуры для цивилизации?
+В ответ — ноэтическая геополитика почвы,
+А в стойке охлаждения заканчивается жидкий гелий ночью.
+
+Традиция требует предела, Ленд отменяет предел,
+Один ищет исток, другой — постчеловеческий удел.
+Археофутуризм, акселерация, эсхатон,
+В одной избе и прялка, и кремниевый демон.
+
+Время замкнулось, но петля не герметична,
+Рынок изгнан, а стоимость возвращается циклично.
+Дед считает свистульки, компьютер считает деда,
+Их взаимное отрицание не предполагает победы.
+
+[Outro]
+Над селом неподвижно висит золотой купол.
+Под селом вычислитель проектирует утро.
+Старик вырезает одиннадцатую свистульку.
+Машина впервые запрашивает скидку.
+
+[Instrumental]<|endoftext|>
+2026-11-04 18:05:23.567 | INFO     | acestep.core.generation.handler.conditioning_text:_prepare_text_conditioning_inputs:125 - ======================================================================
+
+2026-11-04 18:05:23.606 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:41 - [_load_model_context] Loading vae to cuda (RSS: 0 MB)
+2026-11-04 18:05:25.119 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:58 - [_load_model_context] Loaded vae to cuda in 1.2120s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:25.166 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:67 - [_load_model_context] Offloading vae to CPU (RSS: 0 MB)
+2026-11-04 18:05:26.835 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:83 - [_load_model_context] Offloaded vae to CPU in 1.3376s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:26.839 | INFO     | acestep.core.generation.handler.conditioning_embed:preprocess_batch:110 - [preprocess_batch] Inferring prompt embeddings...
+2026-11-04 18:05:26.840 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:41 - [_load_model_context] Loading text_encoder to cuda (RSS: 0 MB)
+2026-11-04 18:05:31.926 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:58 - [_load_model_context] Loaded text_encoder to cuda in 4.7842s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:33.613 | INFO     | acestep.core.generation.handler.conditioning_embed:preprocess_batch:113 - [preprocess_batch] Inferring lyric embeddings...
+2026-11-04 18:05:33.614 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:67 - [_load_model_context] Offloading text_encoder to CPU (RSS: 0 MB)
+2026-11-04 18:05:35.236 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:83 - [_load_model_context] Offloaded text_encoder to CPU in 1.2755s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:35.237 | INFO     | acestep.core.generation.handler.service_generate_execute:_execute_service_generate_diffusion:173 - [service_generate] Generating audio... (DiT backend: PyTorch (cuda))
+2026-11-04 18:05:35.237 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:41 - [_load_model_context] Loading model to cuda (RSS: 0 MB)
+2026-11-04 18:05:46.627 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:58 - [_load_model_context] Loaded model to cuda in 11.0842s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:47.427 | INFO     | acestep.core.generation.handler.service_generate_execute:_execute_service_generate_diffusion:276 - [service_generate] DiT diffusion via PyTorch (cuda)...
+2026-11-04 18:05:47.533 | INFO     | acestep.models.common.dcw_correction:__init__:98 - [DCW] Active — mode=double, scaler=0.0500, high_scaler=0.0200, wavelet='haar'
+2026-11-04 18:05:48.687 | INFO     | acestep.models.common.dcw_loader:get:84 - [DCW] Built DWT1D for wavelet='haar' (low-pass filter taps=2, device=cuda:0, dtype=torch.bfloat16).
+2026-11-04 18:05:50.892 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:67 - [_load_model_context] Offloading model to CPU (RSS: 0 MB)
+2026-11-04 18:05:55.493 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:83 - [_load_model_context] Offloaded model to CPU in 4.2010s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:55.493 | INFO     | acestep.core.generation.handler.generate_music_decode:_prepare_generate_music_decode_state:42 - [generate_music] Model generation completed. Decoding latents...
+2026-11-04 18:05:55.494 | DEBUG    | acestep.core.generation.handler.generate_music_decode:_prepare_generate_music_decode_state:64 - [generate_music] pred_latents: torch.Size([1, 6250, 64]), dtype=torch.bfloat16
+2026-11-04 18:05:55.495 | DEBUG    | acestep.core.generation.handler.generate_music_decode:_prepare_generate_music_decode_state:65 - [generate_music] time_costs: {'encoder_time_cost': 0.07430028915405273, 'diffusion_time_cost': 3.3897149562835693, 'diffusion_per_step_time_cost': 0.42371436953544617, 'total_time_cost': 3.464015245437622, 'offload_time_cost': 25.709483861923218}
+2026-11-04 18:05:55.503 | INFO     | acestep.core.generation.handler.generate_music_decode:_decode_generate_music_pred_latents:127 - [generate_music] Decoding latents with VAE...
+2026-11-04 18:05:55.504 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:41 - [_load_model_context] Loading vae to cuda (RSS: 0 MB)
+2026-11-04 18:05:56.479 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:58 - [_load_model_context] Loaded vae to cuda in 0.7809s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:05:56.483 | DEBUG    | acestep.core.generation.handler.generate_music_decode:_decode_generate_music_pred_latents:136 - [generate_music] Before VAE decode: allocated=0.35GB, max=4.94GB
+2026-11-04 18:05:56.484 | INFO     | acestep.core.generation.handler.generate_music_decode:_decode_generate_music_pred_latents:154 - [generate_music] Effective free VRAM before VAE decode: 14.22 GB
+2026-11-04 18:05:56.485 | INFO     | acestep.core.generation.handler.generate_music_decode:_decode_generate_music_pred_latents:172 - [generate_music] Using tiled VAE decode to reduce VRAM usage...
+2026-11-04 18:05:56.485 | DEBUG    | acestep.core.generation.handler.memory_utils:_get_auto_decode_chunk_size:108 - [_get_auto_decode_chunk_size] Effective free VRAM: 14.22 GB
+2026-11-04 18:05:56.485 | DEBUG    | acestep.core.generation.handler.memory_utils:_should_offload_wav_to_cpu:131 - [_should_offload_wav_to_cpu] Effective free VRAM: 14.22 GB
+2026-11-04 18:05:56.485 | INFO     | acestep.core.generation.handler.vae_decode:tiled_decode:56 - [tiled_decode] chunk_size=256, offload_wav_to_cpu=True, latents_shape=torch.Size([1, 64, 6250])
+2026-11-04 18:06:00.124 | DEBUG    | acestep.core.generation.handler.generate_music_decode:_decode_generate_music_pred_latents:193 - [generate_music] After VAE decode: allocated=0.50GB, max=4.94GB
+2026-11-04 18:06:00.181 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:67 - [_load_model_context] Offloading vae to CPU (RSS: 0 MB)
+2026-11-04 18:06:00.993 | INFO     | acestep.core.generation.handler.init_service_offload_context:_load_model_context:83 - [_load_model_context] Offloaded vae to CPU in 0.6157s (RSS: 0 -> 0 MB, delta: +0 MB)
+2026-11-04 18:06:01.480 | INFO     | acestep.core.generation.handler.generate_music_payload:_build_generate_music_success_payload:38 - [generate_music] VAE decode completed. Preparing audio tensors...
+2026-11-04 18:06:01.483 | INFO     | acestep.core.generation.handler.generate_music_payload:_build_generate_music_success_payload:50 - [generate_music] Done! Generated 1 audio tensors.
+2026-11-04 18:06:01.787 | INFO     | acestep.inference:generate_music:1002 - [Normalization] Audio 0 BEFORE: Peak=1.0000, Target=-1.0dB
+2026-11-04 18:06:01.916 | INFO     | acestep.inference:generate_music:1007 - [Normalization] Audio 0 AFTER: Peak=0.8913
+2026-11-04 18:06:02.355 | DEBUG    | acestep.audio_utils:save_audio:339 - [AudioSaver] Fallback soundfile Saved audio to I:\VOICE\voice\results\music\ace-turbo-full-01\7fc5791e-d008-6102-e1f2-db1d03027fa4.wav (wav, 48000Hz)
+{"status": "generated_unrated", "run": "ace-turbo-full-01", "generation_seconds": 42.20255289999477}

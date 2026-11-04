@@ -36,3 +36,7 @@
 Основные записи воспроизводимости: `benchmark/models.lock.json`, `benchmark/ace.lock.json`, `benchmark/native-*.lock.json`, `results/*-freeze.txt`, manifests каждого запуска. CosyVoice/OmniVoice/Seed-VC **не выдаются за локально протестированные**; их metadata зафиксированы отдельно в `results/research-models.json`. Fish/Higgs проверены отдельным нативным runner; подробные результаты и ограничения находятся в новом отчёте.
 
 Built with Fish Audio. Higgs audio samples generated with Boson AI's Higgs Audio (Higgs TTS 3).
+
+## Локальный синтез музыки
+
+Исследование и треки по Lyrics/lyrics.txt: [обзор моделей](docs/MUSIC_RESEARCH.md), [реальные результаты](docs/MUSIC_RESULTS.md), [команды и протокол](music/README.md). Полные WAV остаются локально; MP3, превью и manifests включены в репозиторий.

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "full",
+    "text": "Russian abstract hip-hop and UK underground boom bap, 96 BPM, dusty jazz breakbeats, distorted upright bass, dissonant Rhodes, modular synth glitches, turntable scratches, industrial percussion. High-pitched nasal male Russian rap, fast multisyllabic double-time flow, sharp diction, dry irony. Spoken rap, no sung melody, no deep baritone. Evolving arrangement, sparse verses, heavy chorus, breakdown, bells and tape-stop ending.",
+    "seed": 20261104,
+    "options": {
+      "lyrics": "[Intro]\nВ деревне отменили деньги.\nНо курс свистулек растёт.\nНа десять глиняных флейт\nПоложен квантовый счёт.\n\nПод куполом вечного неба\nПасётся цифровой скот.\nА время из будущего\nУже совершило исход.",
+      "duration_sec": "30",
+      "num_inference_steps": "30",
+      "guidance_scale": "1.7",
+      "ar_guidance_scale": "1.5",
+      "top_k": "50",
+      "seed": "20261104"
+    }
+  }
+]

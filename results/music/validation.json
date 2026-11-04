@@ -1,0 +1,21 @@
+{
+  "source_sha256": "b10f5ea3b85711c98621158dd945e5aac72aaa2d4581e143c2a08ffc97214a94",
+  "verified_files": [
+    "results\\music\\ace-beat-01\\full.wav",
+    "results\\music\\ace-beat-01\\full.mp3",
+    "results\\music\\ace-beat-01\\preview.wav",
+    "results\\music\\ace-turbo-full-01\\full.wav",
+    "results\\music\\ace-turbo-full-01\\full.mp3",
+    "results\\music\\ace-turbo-full-01\\preview.wav",
+    "results\\music\\ace-turbo-full-02\\full.wav",
+    "results\\music\\ace-turbo-full-02\\full.mp3",
+    "results\\music\\ace-turbo-full-02\\preview.wav",
+    "results\\music\\minimax-full-01\\full.wav",
+    "results\\music\\minimax-full-01\\full.mp3",
+    "results\\music\\minimax-full-01\\preview.wav",
+    "results\\music\\minimax-intro-01\\full.wav",
+    "results\\music\\minimax-intro-01\\full.mp3",
+    "results\\music\\minimax-intro-01\\preview.wav"
+  ],
+  "auditory_review": false
+}
