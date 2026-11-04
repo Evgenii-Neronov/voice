@@ -1,0 +1,11 @@
+Microsoft Rocketbox — MIT, Copyright (c) 2020 Microsoft
+https://github.com/microsoft/Microsoft-Rocketbox
+License: https://github.com/microsoft/Microsoft-Rocketbox/blob/master/LICENSE.md
+
+Poly Haven textures — CC0
+https://polyhaven.com/a/red_bricks_04
+https://polyhaven.com/a/asphalt_02
+https://polyhaven.com/a/concrete_wall_006
+
+Blender 4.5.9 LTS — local rendering software
+https://www.blender.org/

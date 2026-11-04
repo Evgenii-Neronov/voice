@@ -1,0 +1,32 @@
+{
+  "track": "C:\\Users\\Evgen\\Documents\\Codex\\2026-11-04\\referenced-chatgpt-conversation-this-is-an\\outputs\\original-voices\\main\\07-minimax-trio-boombap-01.mp3",
+  "sha256": "9d7f27ffc5b42fa48cdd09603e62b02676b581ef9ccdcdfd704fef466a33ee58",
+  "duration": 253.283265,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "required": [
+    "3D residential New York streetscape",
+    "group of performers",
+    "lead in plain yellow jacket",
+    "yellow lower-center cinema subtitles"
+  ],
+  "forbidden": [
+    "titles",
+    "numbers outside lyrics",
+    "logos",
+    "signs",
+    "icons",
+    "drawings",
+    "poster layout"
+  ],
+  "render": "Local Blender 4.5.9 EEVEE; FFmpeg final encoding",
+  "characters": "Three Microsoft Rocketbox avatars: Male Adult 17 (yellow), 18 (grey), 12 (blue); MIT",
+  "textures": "Poly Haven red_bricks_04, asphalt_02, concrete_wall_006; CC0",
+  "motion": "Captured gesture clips with looping body animation; amplitude-driven approximate facial articulation. No phoneme-accurate lipsync.",
+  "camera": "Real 3D dolly moves across 28 performance shots",
+  "subtitle_alignment": "Original lyrics mapped to boombap ASR independently of prior funk edit; approximate where model mispronounces words.",
+  "backend": "EEVEE Vulkan; native H264 intermediate; NVIDIA NVENC final encode"
+}

@@ -1,0 +1,11 @@
+assets/
+tools/
+frames/
+*.blend
+*.blend1
+*.zip
+*.jpg
+*.png
+*.mp4
+*.log
+__pycache__/

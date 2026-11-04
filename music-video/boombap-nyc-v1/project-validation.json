@@ -1,0 +1,132 @@
+{
+  "objects": 18,
+  "text_objects": [],
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frame_range": [
+    1,
+    6079
+  ],
+  "meshes": [
+    "m022_hipoly_81_bones",
+    "m023_hipoly_81_bones",
+    "m007_hipoly_81_bones",
+    "Unmarked residential block"
+  ],
+  "images": [
+    {
+      "name": "asphalt_02_diff_2k.jpg",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "asphalt_02_nor_gl_2k.jpg",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "asphalt_02_rough_2k.jpg",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "concrete_wall_006_diff_2k.jpg",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "concrete_wall_006_nor_gl_2k.jpg",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "concrete_wall_006_rough_2k.jpg",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "m007_body_color.tga",
+      "packed": true,
+      "users": 4
+    },
+    {
+      "name": "m007_body_normal.tga",
+      "packed": true,
+      "users": 4
+    },
+    {
+      "name": "m007_head_color.tga",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "m007_head_normal.tga",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "m022_body_color.tga",
+      "packed": true,
+      "users": 4
+    },
+    {
+      "name": "m022_body_normal.tga",
+      "packed": true,
+      "users": 4
+    },
+    {
+      "name": "m022_head_color.tga",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "m022_head_normal.tga",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "m023_body_color.tga",
+      "packed": true,
+      "users": 4
+    },
+    {
+      "name": "m023_body_normal.tga",
+      "packed": true,
+      "users": 4
+    },
+    {
+      "name": "m023_head_color.tga",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "m023_head_normal.tga",
+      "packed": true,
+      "users": 1
+    },
+    {
+      "name": "red_bricks_04_diff_2k.jpg",
+      "packed": true,
+      "users": 2
+    },
+    {
+      "name": "red_bricks_04_nor_gl_2k.jpg",
+      "packed": true,
+      "users": 2
+    },
+    {
+      "name": "red_bricks_04_rough_2k.jpg",
+      "packed": true,
+      "users": 2
+    }
+  ],
+  "sounds": [
+    {
+      "name": "07-minimax-trio-boombap-01.mp3",
+      "packed": true
+    }
+  ]
+}

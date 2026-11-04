@@ -1,0 +1,703 @@
+{
+  "sha": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+  "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+  "tree": [
+    {
+      "path": "Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_cool.max.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7204a57b7165aa8731ee33e5ed59827ac394a397",
+      "size": 7538848,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/7204a57b7165aa8731ee33e5ed59827ac394a397"
+    },
+    {
+      "path": "Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_excited_01.max.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a4cc0fccfa721a96d35bda2baa8f195e5d1054e",
+      "size": 4669728,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/5a4cc0fccfa721a96d35bda2baa8f195e5d1054e"
+    },
+    {
+      "path": "Assets/Animations/all_animations_max_motextr_static/m_gestic_talk_relaxed_01.max.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7a4bdc56399a294cd9f3241f5f0934b43cea93",
+      "size": 5511856,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/2e7a4bdc56399a294cd9f3241f5f0934b43cea93"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Export",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0b5776fef49af8bddf686a327180951b63bc0d4",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/a0b5776fef49af8bddf686a327180951b63bc0d4"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Export/Male_Adult_04.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b74a2a8e261a16bebb7acd7335dc41f8c6b7b41e",
+      "size": 571296,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b74a2a8e261a16bebb7acd7335dc41f8c6b7b41e"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Export/Male_Adult_04_facial.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ae8752928b9491ea63ead62e0bd4d9b2bc519a",
+      "size": 2173840,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b7ae8752928b9491ea63ead62e0bd4d9b2bc519a"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Male_Adult_04.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b17a6934c0ec88bbbe76e103ae087840b60ca249",
+      "size": 511910,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b17a6934c0ec88bbbe76e103ae087840b60ca249"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c344fd9e68ee673e91beb0530b09b878e5125d03",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/c344fd9e68ee673e91beb0530b09b878e5125d03"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Textures/m006_body_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb98a1056b856d117f54145abef183c93721b8a7",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/eb98a1056b856d117f54145abef183c93721b8a7"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Textures/m006_body_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9f8db2edbbf6ebb61d3b88b49085ecd1cd0aa7",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/4b9f8db2edbbf6ebb61d3b88b49085ecd1cd0aa7"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Textures/m006_body_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "172d970935d72dabce9071961f7890b37f50a044",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/172d970935d72dabce9071961f7890b37f50a044"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Textures/m006_head_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d9af1e5337c9a5ed8969395e73f8fdd6abdda6",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b8d9af1e5337c9a5ed8969395e73f8fdd6abdda6"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Textures/m006_head_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea4f35b0aa2f2326d4a82eff022627f50ce1ff4a",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/ea4f35b0aa2f2326d4a82eff022627f50ce1ff4a"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Textures/m006_head_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e08c0dcc2f80cc0ad0f6684f846b0e68eb7059c",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/2e08c0dcc2f80cc0ad0f6684f846b0e68eb7059c"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_04/Textures/m006_opacity_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dca7411aadf0ba5b62ab314981591fad88dbf1b0",
+      "size": 16777260,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/dca7411aadf0ba5b62ab314981591fad88dbf1b0"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Export",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07525d6e9e8f360fc18702197b44120d39a40f24",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/07525d6e9e8f360fc18702197b44120d39a40f24"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Export/Male_Adult_12.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d4f8501d5703600cb3d8a94765a3de1029aaf6",
+      "size": 487776,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/15d4f8501d5703600cb3d8a94765a3de1029aaf6"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Export/Male_Adult_12_facial.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a78471b6a2770562746092aea079580bcd6642f",
+      "size": 1772832,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/2a78471b6a2770562746092aea079580bcd6642f"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Male_Adult_12.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4e07161df2786c8cde85952403bc71eaabc031",
+      "size": 506050,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/2b4e07161df2786c8cde85952403bc71eaabc031"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e60b93f59092d7b93ba6797067be0fadb0ff3954",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/e60b93f59092d7b93ba6797067be0fadb0ff3954"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Textures/m007_body_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1757150789a5fdcf733394ff21a60512530b4f1a",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/1757150789a5fdcf733394ff21a60512530b4f1a"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Textures/m007_body_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc8f98e588d55964e2b6a2d0029778f4a9db9e6",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/5bc8f98e588d55964e2b6a2d0029778f4a9db9e6"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Textures/m007_body_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "611bbd149179a52c6fbded07375904d462e49c19",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/611bbd149179a52c6fbded07375904d462e49c19"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Textures/m007_head_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5b23c4f55e499893c2a92ec7e52d0252bee2ae3",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/e5b23c4f55e499893c2a92ec7e52d0252bee2ae3"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Textures/m007_head_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a99ce9aa6014e94c3385555f66a14da7599b757",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/0a99ce9aa6014e94c3385555f66a14da7599b757"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_12/Textures/m007_head_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81fe377939cf8eaedd5d14dfb5261650de86bf1e",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/81fe377939cf8eaedd5d14dfb5261650de86bf1e"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Export",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d626bb607ec5c196cb363e393bb0b87a8a23578",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/8d626bb607ec5c196cb363e393bb0b87a8a23578"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Export/Male_Adult_17.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f48dac347ff0456eb5bc182ff621f3e3b6cc1c0",
+      "size": 495328,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/4f48dac347ff0456eb5bc182ff621f3e3b6cc1c0"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Export/Male_Adult_17_facial.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876979cb15d65d7478efc9750f4ff2348712ec02",
+      "size": 1821648,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/876979cb15d65d7478efc9750f4ff2348712ec02"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Male_Adult_17.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16202b90a02310b1ddabf3ee31218933e984ccc2",
+      "size": 483358,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/16202b90a02310b1ddabf3ee31218933e984ccc2"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b14586f5300ccef863f0b5004e2bb1301569bc07",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/b14586f5300ccef863f0b5004e2bb1301569bc07"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ddf7e662510eff72bc06603b53bef6f67c01e2",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b3ddf7e662510eff72bc06603b53bef6f67c01e2"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d80124dd5b4c6d78adae7f1b13e7e3a7235269fd",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/d80124dd5b4c6d78adae7f1b13e7e3a7235269fd"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_body_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d10b0f25ee599c36bf2711e50b997939f233b59",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/9d10b0f25ee599c36bf2711e50b997939f233b59"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "625d89815c5f74ea80a7718849393f7182906e71",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/625d89815c5f74ea80a7718849393f7182906e71"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aff7efc9d167a78dba3c66c67ae2aa095b7f49bd",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/aff7efc9d167a78dba3c66c67ae2aa095b7f49bd"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_17/Textures/m022_head_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1acef56a4c3d76f7d441c8d0210f0faf3f1d928",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b1acef56a4c3d76f7d441c8d0210f0faf3f1d928"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Export",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55974c2602d32b117e4c7247dd98f1de5c1537f1",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/55974c2602d32b117e4c7247dd98f1de5c1537f1"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Export/Male_Adult_18.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5add3c14299549fa9670e9499daf23e19f56032",
+      "size": 475888,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/a5add3c14299549fa9670e9499daf23e19f56032"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Export/Male_Adult_18_facial.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3057b746621fa4cd709127743f6880ddd52c8fa",
+      "size": 1656816,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/f3057b746621fa4cd709127743f6880ddd52c8fa"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Male_Adult_18.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c618ba99e6aa8e086b32011687a81a71c326698",
+      "size": 458613,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/9c618ba99e6aa8e086b32011687a81a71c326698"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "781e2eed5645d1f74888ef26148d8ab29d3fc6aa",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/781e2eed5645d1f74888ef26148d8ab29d3fc6aa"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Textures/m023_body_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bd02815a216aa092c6cd30454aa057ac05242eb",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/5bd02815a216aa092c6cd30454aa057ac05242eb"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Textures/m023_body_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6cf4f8fb80039d5f708a8c3ce076fcde1ed4eae",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b6cf4f8fb80039d5f708a8c3ce076fcde1ed4eae"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Textures/m023_body_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94da41adefb49b19aaf76888eb3c00b83fb82c0b",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/94da41adefb49b19aaf76888eb3c00b83fb82c0b"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Textures/m023_head_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1053c0d4b0710a3c0b6c1b8941a93269e6276767",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/1053c0d4b0710a3c0b6c1b8941a93269e6276767"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Textures/m023_head_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52dd610cce0fa87d8f1dd90202b364af2feb51a3",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/52dd610cce0fa87d8f1dd90202b364af2feb51a3"
+    },
+    {
+      "path": "Assets/Avatars/Adults/Male_Adult_18/Textures/m023_head_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93f673b75891dfe66d1ca87fac8d483e3c79c522",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/93f673b75891dfe66d1ca87fac8d483e3c79c522"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Male_Adult_04.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b17a6934c0ec88bbbe76e103ae087840b60ca249",
+      "size": 511910,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b17a6934c0ec88bbbe76e103ae087840b60ca249"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61a36e30f7538ecff42e9e0b61b71e9c7587fcee",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/61a36e30f7538ecff42e9e0b61b71e9c7587fcee"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Source/Male_Adult_04.max",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6c21714ffbb11d0c70d38845337f5bae4ffe010",
+      "size": 2891776,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b6c21714ffbb11d0c70d38845337f5bae4ffe010"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c344fd9e68ee673e91beb0530b09b878e5125d03",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/c344fd9e68ee673e91beb0530b09b878e5125d03"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Textures/m006_body_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb98a1056b856d117f54145abef183c93721b8a7",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/eb98a1056b856d117f54145abef183c93721b8a7"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Textures/m006_body_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9f8db2edbbf6ebb61d3b88b49085ecd1cd0aa7",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/4b9f8db2edbbf6ebb61d3b88b49085ecd1cd0aa7"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Textures/m006_body_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "172d970935d72dabce9071961f7890b37f50a044",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/172d970935d72dabce9071961f7890b37f50a044"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Textures/m006_head_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d9af1e5337c9a5ed8969395e73f8fdd6abdda6",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b8d9af1e5337c9a5ed8969395e73f8fdd6abdda6"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Textures/m006_head_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea4f35b0aa2f2326d4a82eff022627f50ce1ff4a",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/ea4f35b0aa2f2326d4a82eff022627f50ce1ff4a"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Textures/m006_head_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e08c0dcc2f80cc0ad0f6684f846b0e68eb7059c",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/2e08c0dcc2f80cc0ad0f6684f846b0e68eb7059c"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_04/Textures/m006_opacity_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dca7411aadf0ba5b62ab314981591fad88dbf1b0",
+      "size": 16777260,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/dca7411aadf0ba5b62ab314981591fad88dbf1b0"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Male_Adult_12.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4e07161df2786c8cde85952403bc71eaabc031",
+      "size": 506050,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/2b4e07161df2786c8cde85952403bc71eaabc031"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4062c82974ef2190de93574359487049150eed0b",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/4062c82974ef2190de93574359487049150eed0b"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Source/Male_Adult_12.max",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d2f3504a82a8ce16c28ed5b18908999f842039f",
+      "size": 2228224,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/1d2f3504a82a8ce16c28ed5b18908999f842039f"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e60b93f59092d7b93ba6797067be0fadb0ff3954",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/e60b93f59092d7b93ba6797067be0fadb0ff3954"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Textures/m007_body_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1757150789a5fdcf733394ff21a60512530b4f1a",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/1757150789a5fdcf733394ff21a60512530b4f1a"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Textures/m007_body_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc8f98e588d55964e2b6a2d0029778f4a9db9e6",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/5bc8f98e588d55964e2b6a2d0029778f4a9db9e6"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Textures/m007_body_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "611bbd149179a52c6fbded07375904d462e49c19",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/611bbd149179a52c6fbded07375904d462e49c19"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Textures/m007_head_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5b23c4f55e499893c2a92ec7e52d0252bee2ae3",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/e5b23c4f55e499893c2a92ec7e52d0252bee2ae3"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Textures/m007_head_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a99ce9aa6014e94c3385555f66a14da7599b757",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/0a99ce9aa6014e94c3385555f66a14da7599b757"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_12/Textures/m007_head_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81fe377939cf8eaedd5d14dfb5261650de86bf1e",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/81fe377939cf8eaedd5d14dfb5261650de86bf1e"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Male_Adult_17.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16202b90a02310b1ddabf3ee31218933e984ccc2",
+      "size": 483358,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/16202b90a02310b1ddabf3ee31218933e984ccc2"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb5383beafce79ad847a7e51f0d6f1f8241a61ff",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/cb5383beafce79ad847a7e51f0d6f1f8241a61ff"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Source/Male_Adult_17.max",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a35445f59ff070052f24404f589ca9f0047e066",
+      "size": 2220032,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/0a35445f59ff070052f24404f589ca9f0047e066"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b14586f5300ccef863f0b5004e2bb1301569bc07",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/b14586f5300ccef863f0b5004e2bb1301569bc07"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Textures/m022_body_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ddf7e662510eff72bc06603b53bef6f67c01e2",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b3ddf7e662510eff72bc06603b53bef6f67c01e2"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Textures/m022_body_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d80124dd5b4c6d78adae7f1b13e7e3a7235269fd",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/d80124dd5b4c6d78adae7f1b13e7e3a7235269fd"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Textures/m022_body_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d10b0f25ee599c36bf2711e50b997939f233b59",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/9d10b0f25ee599c36bf2711e50b997939f233b59"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Textures/m022_head_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "625d89815c5f74ea80a7718849393f7182906e71",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/625d89815c5f74ea80a7718849393f7182906e71"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Textures/m022_head_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aff7efc9d167a78dba3c66c67ae2aa095b7f49bd",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/aff7efc9d167a78dba3c66c67ae2aa095b7f49bd"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_17/Textures/m022_head_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1acef56a4c3d76f7d441c8d0210f0faf3f1d928",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b1acef56a4c3d76f7d441c8d0210f0faf3f1d928"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Male_Adult_18.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c618ba99e6aa8e086b32011687a81a71c326698",
+      "size": 458613,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/9c618ba99e6aa8e086b32011687a81a71c326698"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d739f1830da650078235318be1c95cd758a4748",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/7d739f1830da650078235318be1c95cd758a4748"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Source/Male_Adult_18.max",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e9c218f782a1232498e24968b1e8eed49f6837",
+      "size": 2166784,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/47e9c218f782a1232498e24968b1e8eed49f6837"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "781e2eed5645d1f74888ef26148d8ab29d3fc6aa",
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/trees/781e2eed5645d1f74888ef26148d8ab29d3fc6aa"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Textures/m023_body_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bd02815a216aa092c6cd30454aa057ac05242eb",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/5bd02815a216aa092c6cd30454aa057ac05242eb"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Textures/m023_body_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6cf4f8fb80039d5f708a8c3ce076fcde1ed4eae",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/b6cf4f8fb80039d5f708a8c3ce076fcde1ed4eae"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Textures/m023_body_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94da41adefb49b19aaf76888eb3c00b83fb82c0b",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/94da41adefb49b19aaf76888eb3c00b83fb82c0b"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Textures/m023_head_color.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1053c0d4b0710a3c0b6c1b8941a93269e6276767",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/1053c0d4b0710a3c0b6c1b8941a93269e6276767"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Textures/m023_head_normal.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52dd610cce0fa87d8f1dd90202b364af2feb51a3",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/52dd610cce0fa87d8f1dd90202b364af2feb51a3"
+    },
+    {
+      "path": "Source/Avatars/Adults/Male_Adult_18/Textures/m023_head_specular.tga",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93f673b75891dfe66d1ca87fac8d483e3c79c522",
+      "size": 12582956,
+      "url": "https://api.github.com/repos/microsoft/Microsoft-Rocketbox/git/blobs/93f673b75891dfe66d1ca87fac8d483e3c79c522"
+    }
+  ],
+  "truncated": false
+}

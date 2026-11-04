@@ -1,0 +1,44 @@
+{
+  "objects": 1712,
+  "characters": [
+    {
+      "root": "Performer_0",
+      "rig": "Bip01",
+      "mesh": "m022_hipoly_81_bones"
+    },
+    {
+      "root": "Performer_1",
+      "rig": "Bip01.001",
+      "mesh": "m023_hipoly_81_bones"
+    },
+    {
+      "root": "Performer_2",
+      "rig": "Bip01.002",
+      "mesh": "m007_hipoly_81_bones"
+    }
+  ],
+  "actions": [
+    [
+      "Bip01|Take 001|BaseLayer",
+      [
+        1.0,
+        1371.0
+      ]
+    ],
+    [
+      "Bip01|Take 001|BaseLayer.001",
+      [
+        1.0,
+        797.0
+      ]
+    ],
+    [
+      "Bip01|Take 001|BaseLayer.002",
+      [
+        1.0,
+        971.0
+      ]
+    ]
+  ],
+  "no_text_objects": true
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "path": "assets\\asphalt_02_diff_2k.jpg",
+    "bytes": 3075676,
+    "sha256": "28f5ba8690553f192c0e5e1a5ff40f34765b4b93f4cc7059b1a3e9c795b6c28c"
+  },
+  {
+    "path": "assets\\asphalt_02_nor_gl_2k.jpg",
+    "bytes": 4943950,
+    "sha256": "ffe49db71a0fd34c1e259625df66a302a237597d6ef655307987ec4e45bc6f21"
+  },
+  {
+    "path": "assets\\asphalt_02_rough_2k.jpg",
+    "bytes": 2230457,
+    "sha256": "b9a516b61b7040a9245ac206642d5f767ad9589a0169c4a1668221429e8a998c"
+  },
+  {
+    "path": "assets\\concrete_wall_006_diff_2k.jpg",
+    "bytes": 3109558,
+    "sha256": "daee26f5b5dae37e3fb2947c64f4045fd4e6d3b89884eb0d878ba6414746e8e8"
+  },
+  {
+    "path": "assets\\concrete_wall_006_nor_gl_2k.jpg",
+    "bytes": 4939794,
+    "sha256": "22bd9c17a6dfe3441f671cba1b40e2329767c79b6472004d1633aeac368d5210"
+  },
+  {
+    "path": "assets\\concrete_wall_006_rough_2k.jpg",
+    "bytes": 1102752,
+    "sha256": "4c463e871c50def9252c38a81e06624ff2fcd8c9ffcdd54534524efacba286ed"
+  },
+  {
+    "path": "assets\\m_gestic_talk_cool.max.fbx",
+    "bytes": 7538848,
+    "sha256": "7ecabc77ab990bf53e83c4cf7c39607db596ea7caca14aa08a9a12e7a77c73b6"
+  },
+  {
+    "path": "assets\\m_gestic_talk_excited_01.max.fbx",
+    "bytes": 4669728,
+    "sha256": "ce7638f6a36e6f49d81f7eeedae3b820eafa35025f6429cc92803155c76926d8"
+  },
+  {
+    "path": "assets\\m_gestic_talk_relaxed_01.max.fbx",
+    "bytes": 5511856,
+    "sha256": "560c369eeec15c56534cdd8a87bdebd76f365a783c43b473e879a1707721be07"
+  },
+  {
+    "path": "assets\\red_bricks_04_diff_2k.jpg",
+    "bytes": 1033535,
+    "sha256": "6f6961031e8a85dc1a09cb6e6891d63d3c9baed8a0598f917856aa863d813828"
+  },
+  {
+    "path": "assets\\red_bricks_04_nor_gl_2k.jpg",
+    "bytes": 1175166,
+    "sha256": "408b1e35c676257d7186db82b457c669e4187a2dd7497c3d6d56b586410cc130"
+  },
+  {
+    "path": "assets\\red_bricks_04_rough_2k.jpg",
+    "bytes": 862533,
+    "sha256": "b7699c3a26ce0dd07d13b376ebea00398db8c3f8c0348bcfcd20b410bf8963d1"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_04\\Export\\Male_Adult_04_facial.fbx",
+    "bytes": 2173840,
+    "sha256": "04bf2ad65a5a8b8c377b29df1ae2b9c6a97d87376ed647ded0abb4e91d57665d"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "8dd7a0a1de383bd295f9f6f42b4ab484b2afa4ab920521a161bd18b18c3aae0f"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "1d5062e2c5012bca62c2090cf064c8e2d335daafb0ab62b431e47c628ad781a7"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "e889edd96192a396efec0bf0baed370fdff4a8d3b2efdc3809722eb19cd21941"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "ca51b8fd271751dd5b58493038c0ac4496c3c51a986d69541723a680ccbcf91b"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_opacity_color.tga",
+    "bytes": 16777260,
+    "sha256": "3c5656dbad4872676c9469f6da09690c0e891148394165dda11b265cb2b014c0"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Export\\Male_Adult_12_facial.fbx",
+    "bytes": 1772832,
+    "sha256": "ef4d15accbff3e557af369bd8b6a7227ff808ab996b5c350388f081a287cbd63"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "9e5951e67e90ade61f33c51c9673aa1b974358dac12dc0a9abdd4b281cda6b61"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "284dbc5116370225af96d98bfc1c3dc77a6c695c53558f32445e8d5af4d6ae1d"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "164007a5ca94b3f84b04ab77a3a7bc49f65f12af4153781dcbf429589750f7c1"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "11fa11d7ae8476674b89486045cf05b49a5607d0899dc30672c2e9634d8569a4"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Export\\Male_Adult_17_facial.fbx",
+    "bytes": 1821648,
+    "sha256": "e779639155a145c027c54f7f6d91a2a82ad4be862bebee64337ef08245cb86b2"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "7efb4d7c5214b936f2db46285d33bb6b3f47d84faf1a3f8737957d631a270215"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "635b96daa60a7ddfea789061e1a52923acfe286c5fea6b30154b9f118fdfc234"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "47ceae79a6d3760bbecf4302d5b9c647429943d48cc7ea25ac4696b363e5ea9c"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "ab79b9cbede06cffb312963bb9209850e0f4ce415169efe2c086c7895c2dcf34"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_18\\Export\\Male_Adult_18_facial.fbx",
+    "bytes": 1656816,
+    "sha256": "f7ab3722eabe11b73bda1b88787694ab46e1becff27a20474a244839fc2924fd"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_18\\Textures\\m023_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "b47dc98ae870bad036d658a1c732faf026f219eaab488317644f970184d8e7f9"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_18\\Textures\\m023_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "dd2165f38a6c6a22d47f017f04a3980775e4365e703bc2dc24521deec581d834"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_18\\Textures\\m023_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "086433bf57e1e9ef8690860ecf2adeeab1c4b0e663947e9c9fd0354b8abd6ad7"
+  },
+  {
+    "path": "assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_18\\Textures\\m023_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "1bdb46ac5a7ef422f9d42da68b69190a974c40ae039ad33e32491de96c355f4f"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "8dd7a0a1de383bd295f9f6f42b4ab484b2afa4ab920521a161bd18b18c3aae0f"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "1d5062e2c5012bca62c2090cf064c8e2d335daafb0ab62b431e47c628ad781a7"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "e889edd96192a396efec0bf0baed370fdff4a8d3b2efdc3809722eb19cd21941"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "ca51b8fd271751dd5b58493038c0ac4496c3c51a986d69541723a680ccbcf91b"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_04\\Textures\\m006_opacity_color.tga",
+    "bytes": 16777260,
+    "sha256": "3c5656dbad4872676c9469f6da09690c0e891148394165dda11b265cb2b014c0"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "9e5951e67e90ade61f33c51c9673aa1b974358dac12dc0a9abdd4b281cda6b61"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "284dbc5116370225af96d98bfc1c3dc77a6c695c53558f32445e8d5af4d6ae1d"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "164007a5ca94b3f84b04ab77a3a7bc49f65f12af4153781dcbf429589750f7c1"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_12\\Textures\\m007_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "11fa11d7ae8476674b89486045cf05b49a5607d0899dc30672c2e9634d8569a4"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "7efb4d7c5214b936f2db46285d33bb6b3f47d84faf1a3f8737957d631a270215"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "635b96daa60a7ddfea789061e1a52923acfe286c5fea6b30154b9f118fdfc234"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "47ceae79a6d3760bbecf4302d5b9c647429943d48cc7ea25ac4696b363e5ea9c"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_17\\Textures\\m022_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "ab79b9cbede06cffb312963bb9209850e0f4ce415169efe2c086c7895c2dcf34"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_18\\Textures\\m023_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "b47dc98ae870bad036d658a1c732faf026f219eaab488317644f970184d8e7f9"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_18\\Textures\\m023_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "dd2165f38a6c6a22d47f017f04a3980775e4365e703bc2dc24521deec581d834"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_18\\Textures\\m023_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "086433bf57e1e9ef8690860ecf2adeeab1c4b0e663947e9c9fd0354b8abd6ad7"
+  },
+  {
+    "path": "assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_18\\Textures\\m023_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "1bdb46ac5a7ef422f9d42da68b69190a974c40ae039ad33e32491de96c355f4f"
+  }
+]
