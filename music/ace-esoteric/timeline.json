@@ -1,0 +1,66 @@
+{
+  "base": "ace-esoteric-sections-01",
+  "generation_engine": "ACE-Step 1.5 turbo",
+  "source_lyrics_path": "music\\rap4-dialogue\\lyrics.txt",
+  "source_snapshot_path": "music\\rap4-dialogue\\lyrics.txt",
+  "source_lyrics_sha256": "ec740d923bebbe7113fe444dbe5d46eab5f8175d763c72a9d1a5d77c98371e82",
+  "main_voice": "ADV",
+  "intro_voice": "ADV",
+  "intro_seconds": 0,
+  "greeting_in_music_generation": true,
+  "dry": true,
+  "expected_ezhi_occurrences": 6,
+  "ezhi_regions": [
+    {
+      "start": 59.72,
+      "end": 65.0,
+      "lyrics": [
+        "Не путай описание с приказом!",
+        "Где доказательство? Показывай сразу!"
+      ]
+    },
+    {
+      "start": 91.2,
+      "end": 96.4,
+      "lyrics": [
+        "Печать не заменяет объяснения!",
+        "Продолжим заседание!"
+      ]
+    },
+    {
+      "start": 119.76,
+      "end": 122.7,
+      "lyrics": [
+        "Контракт красивый. А кому досталась фабрика?",
+        "Вот и вся нейтральная математика!"
+      ]
+    },
+    {
+      "start": 214.24,
+      "end": 218.2,
+      "lyrics": [
+        "Кто готовил ужин вашему прогрессу?",
+        "Внесите этот труд в повестку конгресса!"
+      ]
+    },
+    {
+      "start": 241.9,
+      "end": 251.5,
+      "lyrics": [
+        "Кто назвал естественным порядок наказания?",
+        "Зачем природе столько согласований?"
+      ]
+    },
+    {
+      "start": 328.02,
+      "end": 337.74,
+      "lyrics": [
+        "Кто дал тебе право говорить за всех сегодня?",
+        "Ответа нет. Продолжим в следующем сезоне."
+      ]
+    }
+  ],
+  "crossfade_seconds": 0.06,
+  "boundary_evidence": "Local Whisper timestamps; some replies only partially produced by ACE. These are intended lyric blocks, not a claim all words were performed. Guest 2 repeats last sentence; guest 3/4 first sentences not recognized. Overall track includes omissions/repetitions.",
+  "lyric_fidelity": "experimental_incomplete"
+}

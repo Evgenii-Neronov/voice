@@ -1,0 +1,143 @@
+{
+  "vendor_commit": "51383efd921027683c89e5348211d93ff12ac2a8",
+  "models": [
+    {
+      "repo": "Plachta/Seed-VC",
+      "revision": "257283f9f41585055e8f858fba4fd044e5caed6e",
+      "license_metadata": "gpl-3.0",
+      "local_dir": "models\\seed-v2\\Plachta--Seed-VC",
+      "files": [
+        {
+          "file": "v2/cfm_small.pth",
+          "bytes": 353349694,
+          "sha256": "73ae18615dc8cb01710086629973198226dedc63ebeaab0aee17863d767b3474"
+        },
+        {
+          "file": "v2/ar_base.pth",
+          "bytes": 358846893,
+          "sha256": "42e2afabf97e5d856580af1f81a9705423b4fb21bb9475cece9925b62355cc5c"
+        }
+      ]
+    },
+    {
+      "repo": "Plachta/ASTRAL-quantization",
+      "revision": "4a2e9679f76eb03753adc8c503e3c23bb9c22f26",
+      "license_metadata": "gpl-3.0",
+      "local_dir": "models\\seed-v2\\Plachta--ASTRAL-quantization",
+      "files": [
+        {
+          "file": "bsq32/bsq32_light.pth",
+          "bytes": 78156693,
+          "sha256": "b01d6ba14a7af57ecc02b3eb5897a7e2abdaefab06b3f218d6709dc98b0e83a3"
+        },
+        {
+          "file": "bsq2048/bsq2048_light.pth",
+          "bytes": 78181599,
+          "sha256": "d7953115a60609c72a50bc79e88aa7248ffd4444b3912f89e8375ec1c6485fc6"
+        }
+      ]
+    },
+    {
+      "repo": "funasr/campplus",
+      "revision": "e4b6ede7ce16997aff4ae69fbca1f0175e2afede",
+      "license_metadata": "apache-2.0",
+      "local_dir": "models\\seed-v2\\funasr--campplus",
+      "files": [
+        {
+          "file": "campplus_cn_common.bin",
+          "bytes": 28036335,
+          "sha256": "3388cf5fd3493c9ac9c69851d8e7a8badcfb4f3dc631020c4961371646d5ada8"
+        }
+      ]
+    },
+    {
+      "repo": "nvidia/bigvgan_v2_22khz_80band_256x",
+      "revision": "633ff708ed5b74903e86ff1298cf4a98e921c513",
+      "license_metadata": "mit",
+      "local_dir": "models\\seed-v2\\nvidia--bigvgan_v2_22khz_80band_256x",
+      "files": [
+        {
+          "file": "config.json",
+          "bytes": 1405,
+          "sha256": "88a1f47acf747db0b21e97a389d838566147f7a5464583ff5c8d819d870f03ee"
+        },
+        {
+          "file": "bigvgan_generator.pt",
+          "bytes": 449228171,
+          "sha256": "e95ba25972d3de0628d99cd156e9315a9c018899bf739988959ebe3544080ced"
+        }
+      ]
+    },
+    {
+      "repo": "facebook/hubert-large-ll60k",
+      "revision": "ff022d095678a2995f3c49bab18a96a9e553f782",
+      "license_metadata": "apache-2.0",
+      "local_dir": "models\\seed-v2\\facebook--hubert-large-ll60k",
+      "files": [
+        {
+          "file": "config.json",
+          "bytes": 1600,
+          "sha256": "52e48f7f44bf7f1be327cc3e82368681acf0cc8c5538d757eae9e6685bfe2b16"
+        },
+        {
+          "file": "preprocessor_config.json",
+          "bytes": 212,
+          "sha256": "a2254a5b58f72cd4de3632f8eee64f3f098b7c1402128d2f419e7d00ae13e335"
+        },
+        {
+          "file": "pytorch_model.bin",
+          "bytes": 1261920069,
+          "sha256": "45a299050945479a68cffe2ab7a63fd08931718ba18f05a42dbb86a5164178e0"
+        }
+      ]
+    },
+    {
+      "repo": "openai/whisper-small",
+      "revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+      "license_metadata": "apache-2.0",
+      "local_dir": "models\\seed-v2\\openai--whisper-small",
+      "files": [
+        {
+          "file": "config.json",
+          "bytes": 1967,
+          "sha256": "e6a2b489da1b5aed65a8eb8d1e7466fa867ad5643a8bc138ba708bd56b2875c4"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 2480466,
+          "sha256": "27fc476bfe7f17299480be2273fc0608e4d5a99aba2ab5dec5374b4482d1a566"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 282683,
+          "sha256": "2a4c4281cf9f51ac6ccc406fdc711a087afe6530f671fa7b80953edc498275ce"
+        },
+        {
+          "file": "vocab.json",
+          "bytes": 835550,
+          "sha256": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+        },
+        {
+          "file": "merges.txt",
+          "bytes": 493869,
+          "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6"
+        },
+        {
+          "file": "normalizer.json",
+          "bytes": 52666,
+          "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+        },
+        {
+          "file": "added_tokens.json",
+          "bytes": 34604,
+          "sha256": "9715fd2243b6f06a5858b5e32950d2853f73dd5bc201aafcf76f5082a2d8acd1"
+        },
+        {
+          "file": "special_tokens_map.json",
+          "bytes": 2194,
+          "sha256": "e67ae3a0aaa99abcd9f187138e12db1f65c16a14761c50ef10eef2c174a7a691"
+        }
+      ]
+    }
+  ]
+}

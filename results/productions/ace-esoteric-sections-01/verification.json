@@ -1,0 +1,104 @@
+{
+  "numerical_validation_passed": true,
+  "sha256_validation_passed": true,
+  "lyrics_sha256": "ec740d923bebbe7113fe444dbe5d46eab5f8175d763c72a9d1a5d77c98371e82",
+  "duration": 342.34,
+  "ezhi_regions_seconds": [
+    [
+      59.72,
+      65.0
+    ],
+    [
+      91.2,
+      96.4
+    ],
+    [
+      119.76,
+      122.7
+    ],
+    [
+      214.24,
+      218.2
+    ],
+    [
+      241.9,
+      251.5
+    ],
+    [
+      328.02,
+      337.74
+    ]
+  ],
+  "all_other_vocal": "ADV reference conversion",
+  "greeting_voice": "ADV",
+  "dry": true,
+  "local_inference": true,
+  "generation_seconds": 70.04514429997653,
+  "separation_seconds": 52.96823199998471,
+  "conversion_seconds": 179.01639530001557,
+  "conversion_timing_scope": "This invocation only; prior failed attempt excluded when resumed",
+  "conversion_reused_chunks": 0,
+  "conversion_fallbacks": [],
+  "asr_not_ground_truth": true,
+  "human_listening_review": false,
+  "checks": [
+    {
+      "part": "greeting_ADV",
+      "start": 0,
+      "end": 6,
+      "automatic_transcript": " Yeah."
+    },
+    {
+      "part": "verse_ADV",
+      "start": 20,
+      "end": 30,
+      "automatic_transcript": " как офенциализм, натурализация, кондингент,  перформативность, миморская паспорт."
+    },
+    {
+      "part": "hook_1_Ezhi",
+      "start": 59.6,
+      "end": 65.12,
+      "automatic_transcript": " Не путай, а это же я неизвестный казн  Деда, я ка заденьше попоказываю и сразу"
+    },
+    {
+      "part": "hook_2_Ezhi",
+      "start": 91.08,
+      "end": 96.52000000000001,
+      "automatic_transcript": " Продолжим заседание.  Продолжим заседание."
+    },
+    {
+      "part": "hook_3_Ezhi",
+      "start": 119.64,
+      "end": 122.82000000000001,
+      "automatic_transcript": " Вот это они.  Ах,  Ватим Майтика."
+    },
+    {
+      "part": "hook_4_Ezhi",
+      "start": 214.12,
+      "end": 218.32,
+      "automatic_transcript": " то месить этот троф по веску Конгрессии."
+    },
+    {
+      "part": "hook_5_Ezhi",
+      "start": 241.78,
+      "end": 251.62,
+      "automatic_transcript": " Кто назвал естественным порядок наказания?  Зачем природе столько классован?"
+    },
+    {
+      "part": "hook_6_Ezhi",
+      "start": 327.9,
+      "end": 337.86,
+      "automatic_transcript": " Дал тебе право говориться всех сегодня.  Ответа нет.  Продолжен в следующем сезон."
+    }
+  ],
+  "references": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4"
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac"
+    }
+  ]
+}

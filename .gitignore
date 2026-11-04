@@ -48,3 +48,9 @@ results/music/minimax-rap3-*/preview.wav
 # Rap 4: raw duplicates remain local, final MP3 and metadata are tracked.
 results/music/minimax-rap4-*/full.mp3
 results/music/minimax-rap4-*/preview.wav
+
+# ACE esoteric raw duplicates stay local; final mix is tracked separately.
+results/music/ace-esoteric-*/full.mp3
+results/music/ace-esoteric-*/preview.wav
+# Short V2 WAV exports are delivered locally; tracked listening artifact is MP3.
+results/experiments/seedv2-test-01/*.wav

@@ -36,6 +36,11 @@ if brief:
 manifest={'status':'starting','model':a.config,'local_inference':True,'seed':a.seed,'source_lyrics_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'metadata':metadata,'section_directions':sections,'instrumental':a.instrumental,'audio':[],'lock':json.loads((ROOT/'benchmark/ace.lock.json').read_text())}
 def save(): (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2,default=str)+'\n',encoding='utf-8')
 manifest['brief']=brief
+if brief:
+ source=ROOT/brief.get('source_lyrics_path','Lyrics/lyrics.txt')
+ actual_source_sha=hashlib.sha256(source.read_bytes()).hexdigest()
+ assert actual_source_sha==brief.get('original_lyrics_sha256',actual_source_sha), 'Source lyrics changed'
+ manifest['source_lyrics_sha256']=actual_source_sha
 save()
 try:
  from tokenizers import Tokenizer
