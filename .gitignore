@@ -40,3 +40,7 @@ results/music/minimax-rap2-*/full.mp3
 results/music/minimax-rap2-*/preview.wav
 # Superseded rap-2 drill take is retained locally; only audit metadata is tracked.
 results/productions/minimax-rap2-drill-01/*.mp3
+
+# Rap 3 raw duplicates stay local; final MP3 and audit metadata are tracked.
+results/music/minimax-rap3-*/full.mp3
+results/music/minimax-rap3-*/preview.wav

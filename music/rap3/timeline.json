@@ -1,0 +1,24 @@
+{
+  "base": "minimax-rap3-01",
+  "source_lyrics_path": "I:\\MyMusic\\13 - New Rap\\rap-3.txt",
+  "source_snapshot_path": "music/rap3/source.txt",
+  "source_lyrics_sha256": "73908c8e7e349f264d9e03c8dfed9ff25d20046495bdaaa91dabc0da0880a819",
+  "main_voice": "ADV",
+  "intro_voice": "ADV",
+  "intro_seconds": 0,
+  "greeting_in_music_generation": true,
+  "dry": true,
+  "expected_ezhi_occurrences": 1,
+  "ezhi_regions": [
+    {
+      "start": 93.06,
+      "end": 99.06,
+      "lyrics": [
+        "Аксиома? Нет, властный дискурс.",
+        "Истина? Нет, гегемония."
+      ]
+    }
+  ],
+  "crossfade_seconds": 0.06,
+  "boundary_evidence": "Local Whisper words: previous позитивизм ends 93.06; Аксиома through гегемония 93.06–99.06; next Вы starts 99.06. Adjacent words share timestamps; boundaries are approximate, with inward 60 ms fades."
+}
