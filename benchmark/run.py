@@ -10,7 +10,7 @@ import time
 import traceback
 
 ROOT = Path(__file__).resolve().parents[1]
-for name, sub in {"HF_HOME":".cache/huggingface", "TORCH_HOME":".cache/torch", "XDG_CACHE_HOME":".cache", "NUMBA_CACHE_DIR":".cache/numba"}.items():
+for name, sub in {"HF_HOME":".cache/huggingface", "TORCH_HOME":".cache/torch", "XDG_CACHE_HOME":".cache", "NUMBA_CACHE_DIR":".cache/numba", "PKUSEG_HOME":".cache/pkuseg"}.items():
     os.environ[name] = str(ROOT / sub)
 
 def main():
@@ -19,6 +19,7 @@ def main():
     p.add_argument("--cases", nargs="*")
     p.add_argument("--seed", type=int, default=20261104)
     p.add_argument("--device", default="cuda:0")
+    p.add_argument("--threads", type=int, default=0, help="CPU torch threads; 0 keeps the runtime default")
     p.add_argument("--out", required=True, help="New output directory; existing results are never overwritten")
     a = p.parse_args()
     out = ROOT / a.out
@@ -31,6 +32,9 @@ def main():
         import soundfile as sf
         import torch
         from transformers import set_seed
+        if a.threads > 0:
+            torch.set_num_threads(a.threads)
+        manifest["torch_num_threads"] = torch.get_num_threads()
         manifest["packages"] = {k:importlib.metadata.version(k) for k in ["torch","torchaudio","transformers","numpy","soundfile"]}
         manifest["model_lock"] = json.loads((ROOT / "benchmark/models.lock.json").read_text(encoding="utf-8"))[a.model]
         if a.device.startswith("cuda"):

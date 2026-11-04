@@ -1,0 +1,5 @@
+{
+  "error": "Operator interrupted upstream automatic download of unused 1.7B LM. No inference or audio in this attempt. Runner updated to validate only the three required no-LM components and use offline loading.",
+  "status": "interrupted_setup",
+  "model": "ace-step-1.5-turbo"
+}

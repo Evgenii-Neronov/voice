@@ -1,0 +1,25 @@
+2026-11-04 15:48:51.385 | WARNING  | acestep.training.lokr_utils:<module>:24 - LyCORIS library not installed. LoKr training/inference unavailable. Install with: pip install lycoris-lora
+2026-11-04 15:48:51.390 | WARNING  | acestep.training.data_module:<module>:25 - Lightning not installed. Training module will not be available.
+2026-11-04 15:48:51.394 | WARNING  | acestep.training.trainer:<module>:29 - Lightning Fabric not installed. Training will use basic training loop.
+2026-11-04 15:48:51.396 | WARNING  | acestep.training.trainer:<module>:40 - bitsandbytes not installed. Using standard AdamW.
+2026-11-04 15:48:51.521 | INFO     | acestep.gpu_config:get_gpu_memory_gb:578 - CUDA GPU detected: NVIDIA GeForce RTX 5080 (15.9 GB)
+2026-11-04 15:48:51.523 | INFO     | acestep.gpu_config:get_gpu_tier:769 - Detected 15.92GB VRAM — treating as 16GB class GPU
+2026-11-04 15:48:51.524 | INFO     | acestep.core.generation.handler.init_service_downloads:_ensure_models_present:32 - [initialize_service] Main model not found, starting auto-download...
+2026-11-04 15:48:51.635 | INFO     | acestep.model_downloader:_smart_download:249 - [Model Download] Auto-detected: HuggingFace Hub
+2026-11-04 15:48:51.636 | INFO     | acestep.model_downloader:_smart_download:252 - [Model Download] Using HuggingFace Hub...
+2026-11-04 15:48:51.636 | INFO     | acestep.model_downloader:_download_from_huggingface_internal:180 - [Model Download] Downloading from HuggingFace: ACE-Step/Ace-Step1.5 -> I:\VOICE\voice\models\ace
+
+============================================================
+Main model not found. Starting automatic download...
+============================================================
+
+Downloading main model from ACE-Step/Ace-Step1.5...
+Destination: I:\VOICE\voice\models\ace
+This may take a while depending on your internet connection...
+
+Fetching 28 files:   0%|          | 0/28 [00:00<?, ?it/s]
+Fetching 28 files:  39%|███▉      | 11/28 [00:01<00:01, 10.03it/s]
+Fetching 28 files:  79%|███████▊  | 22/28 [00:01<00:00, 17.61it/s]
+Fetching 28 files:  82%|████████▏ | 23/28 [00:01<00:00, 18.41it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`

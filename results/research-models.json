@@ -1,0 +1,461 @@
+{
+  "retrieved_utc": "2026-11-04T12:40:35.497655+00:00",
+  "models": [
+    {
+      "repo_id": "fishaudio/s2-pro",
+      "url": "https://huggingface.co/fishaudio/s2-pro",
+      "local_inference": "not_tested",
+      "revision": "1de9996b6be38b745688de084d87a5633f714e4e",
+      "license": "other",
+      "repository_bytes": 11011629649,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "bytes": 1619
+        },
+        {
+          "name": "LICENSE.md",
+          "bytes": 10360
+        },
+        {
+          "name": "README.md",
+          "bytes": 5117
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 4116
+        },
+        {
+          "name": "codec.pth",
+          "bytes": 1871099728
+        },
+        {
+          "name": "config.json",
+          "bytes": 1863
+        },
+        {
+          "name": "model-00001-of-00002.safetensors",
+          "bytes": 4986872984
+        },
+        {
+          "name": "model-00002-of-00002.safetensors",
+          "bytes": 4136876104
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 32686
+        },
+        {
+          "name": "overview.png",
+          "bytes": 3544504
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 101864
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 12217872
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 860832
+        }
+      ]
+    },
+    {
+      "repo_id": "fishaudio/drama-3",
+      "url": "https://huggingface.co/fishaudio/drama-3",
+      "local_inference": "not_tested",
+      "revision": "78e5ab79e49aa9a25abe8799eff2c4d73a1c3216",
+      "license": "other",
+      "repository_bytes": 41502571262,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "bytes": 1570
+        },
+        {
+          "name": "LICENSE",
+          "bytes": 19685
+        },
+        {
+          "name": "README.md",
+          "bytes": 7996
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 7756
+        },
+        {
+          "name": "codec.pth",
+          "bytes": 1871099728
+        },
+        {
+          "name": "config.json",
+          "bytes": 5534
+        },
+        {
+          "name": "model-00001-of-00015.safetensors",
+          "bytes": 2862881576
+        },
+        {
+          "name": "model-00002-of-00015.safetensors",
+          "bytes": 2628610248
+        },
+        {
+          "name": "model-00003-of-00015.safetensors",
+          "bytes": 2628610224
+        },
+        {
+          "name": "model-00004-of-00015.safetensors",
+          "bytes": 2628611792
+        },
+        {
+          "name": "model-00005-of-00015.safetensors",
+          "bytes": 2641525264
+        },
+        {
+          "name": "model-00006-of-00015.safetensors",
+          "bytes": 2628614896
+        },
+        {
+          "name": "model-00007-of-00015.safetensors",
+          "bytes": 2628614880
+        },
+        {
+          "name": "model-00008-of-00015.safetensors",
+          "bytes": 2628614888
+        },
+        {
+          "name": "model-00009-of-00015.safetensors",
+          "bytes": 2641525264
+        },
+        {
+          "name": "model-00010-of-00015.safetensors",
+          "bytes": 2628614896
+        },
+        {
+          "name": "model-00011-of-00015.safetensors",
+          "bytes": 2628614880
+        },
+        {
+          "name": "model-00012-of-00015.safetensors",
+          "bytes": 2628614888
+        },
+        {
+          "name": "model-00013-of-00015.safetensors",
+          "bytes": 2641525264
+        },
+        {
+          "name": "model-00014-of-00015.safetensors",
+          "bytes": 3749111392
+        },
+        {
+          "name": "model-00015-of-00015.safetensors",
+          "bytes": 1409461016
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 6880196
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 102779
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 20791070
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 103580
+        }
+      ]
+    },
+    {
+      "repo_id": "bosonai/higgs-tts-3-4b",
+      "url": "https://huggingface.co/bosonai/higgs-tts-3-4b",
+      "local_inference": "not_tested",
+      "revision": "239f63fb7b02b1aa085f98d9efae5e35cc5523e8",
+      "license": "other",
+      "repository_bytes": 9321521482,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "bytes": 1570
+        },
+        {
+          "name": "AGENTS.md",
+          "bytes": 9505
+        },
+        {
+          "name": "LICENSE",
+          "bytes": 32184
+        },
+        {
+          "name": "PROMPTING.md",
+          "bytes": 2812
+        },
+        {
+          "name": "README.md",
+          "bytes": 46257
+        },
+        {
+          "name": "assets/model_architecture.png",
+          "bytes": 63078
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 2427
+        },
+        {
+          "name": "config.json",
+          "bytes": 2755
+        },
+        {
+          "name": "model.safetensors",
+          "bytes": 9309834930
+        },
+        {
+          "name": "model.safetensors.index.json",
+          "bytes": 90103
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 11433924
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 1937
+        }
+      ]
+    },
+    {
+      "repo_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "url": "https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "local_inference": "not_tested",
+      "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+      "license": "apache-2.0",
+      "repository_bytes": 9747516745,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "bytes": 1574
+        },
+        {
+          "name": "CosyVoice-BlankEN/config.json",
+          "bytes": 659
+        },
+        {
+          "name": "CosyVoice-BlankEN/generation_config.json",
+          "bytes": 242
+        },
+        {
+          "name": "CosyVoice-BlankEN/merges.txt",
+          "bytes": 1402109
+        },
+        {
+          "name": "CosyVoice-BlankEN/model.safetensors",
+          "bytes": 988097824
+        },
+        {
+          "name": "CosyVoice-BlankEN/tokenizer_config.json",
+          "bytes": 1287
+        },
+        {
+          "name": "CosyVoice-BlankEN/vocab.json",
+          "bytes": 2776833
+        },
+        {
+          "name": "README.md",
+          "bytes": 11982
+        },
+        {
+          "name": "asset/dingding.png",
+          "bytes": 122824
+        },
+        {
+          "name": "campplus.onnx",
+          "bytes": 28303423
+        },
+        {
+          "name": "config.json",
+          "bytes": 2
+        },
+        {
+          "name": "configuration.json",
+          "bytes": 47
+        },
+        {
+          "name": "cosyvoice3.yaml",
+          "bytes": 6934
+        },
+        {
+          "name": "flow.decoder.estimator.fp32.onnx",
+          "bytes": 1326216933
+        },
+        {
+          "name": "flow.pt",
+          "bytes": 1329116148
+        },
+        {
+          "name": "hift.pt",
+          "bytes": 83202622
+        },
+        {
+          "name": "llm.pt",
+          "bytes": 2024669519
+        },
+        {
+          "name": "llm.rl.pt",
+          "bytes": 2024682701
+        },
+        {
+          "name": "speech_tokenizer_v3.batch.onnx",
+          "bytes": 969451579
+        },
+        {
+          "name": "speech_tokenizer_v3.onnx",
+          "bytes": 969451503
+        }
+      ]
+    },
+    {
+      "repo_id": "k2-fsa/OmniVoice",
+      "url": "https://huggingface.co/k2-fsa/OmniVoice",
+      "local_inference": "not_tested",
+      "revision": "c5fdb5ccb189668d56333f77ba2629f4cd7535f4",
+      "license": null,
+      "repository_bytes": 3267470260,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "bytes": 1570
+        },
+        {
+          "name": "README.md",
+          "bytes": 9424
+        },
+        {
+          "name": "audio_tokenizer/.gitattributes",
+          "bytes": 1519
+        },
+        {
+          "name": "audio_tokenizer/LICENSE",
+          "bytes": 9171
+        },
+        {
+          "name": "audio_tokenizer/README.md",
+          "bytes": 5174
+        },
+        {
+          "name": "audio_tokenizer/config.json",
+          "bytes": 2531
+        },
+        {
+          "name": "audio_tokenizer/model.safetensors",
+          "bytes": 805665628
+        },
+        {
+          "name": "audio_tokenizer/preprocessor_config.json",
+          "bytes": 206
+        },
+        {
+          "name": "chat_template.jinja",
+          "bytes": 4168
+        },
+        {
+          "name": "config.json",
+          "bytes": 2238
+        },
+        {
+          "name": "model.safetensors",
+          "bytes": 2450344112
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 11423986
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 533
+        }
+      ]
+    },
+    {
+      "repo_id": "Plachta/Seed-VC",
+      "url": "https://huggingface.co/Plachta/Seed-VC",
+      "local_inference": "not_tested",
+      "revision": "257283f9f41585055e8f858fba4fd044e5caed6e",
+      "license": "gpl-3.0",
+      "repository_bytes": 3941527490,
+      "files": [
+        {
+          "name": ".gitattributes",
+          "bytes": 1519
+        },
+        {
+          "name": "DiT_seed_v2_uvit_whisper_base_f0_44k_bigvgan_pruned_ema.pth",
+          "bytes": 820863652
+        },
+        {
+          "name": "DiT_seed_v2_uvit_whisper_base_f0_44k_bigvgan_pruned_ft_ema.pth",
+          "bytes": 820864573
+        },
+        {
+          "name": "DiT_seed_v2_uvit_whisper_base_f0_44k_bigvgan_pruned_ft_ema_v2.pth",
+          "bytes": 820865494
+        },
+        {
+          "name": "DiT_seed_v2_uvit_whisper_small_wavenet_bigvgan_pruned.pth",
+          "bytes": 440312082
+        },
+        {
+          "name": "DiT_uvit_tat_xlsr_ema.pth",
+          "bytes": 142112203
+        },
+        {
+          "name": "README.md",
+          "bytes": 53
+        },
+        {
+          "name": "config_dit_mel_seed_uvit_whisper_base_f0_44k.yml",
+          "bytes": 2408
+        },
+        {
+          "name": "config_dit_mel_seed_uvit_whisper_small_wavenet.yml",
+          "bytes": 2289
+        },
+        {
+          "name": "config_dit_mel_seed_uvit_xlsr_tiny.yml",
+          "bytes": 2100
+        },
+        {
+          "name": "config_dit_mel_seed_wavenet.yml",
+          "bytes": 1871
+        },
+        {
+          "name": "hifigan.yml",
+          "bytes": 657
+        },
+        {
+          "name": "hift.pt",
+          "bytes": 81896716
+        },
+        {
+          "name": "se_db.pt",
+          "bytes": 102405286
+        },
+        {
+          "name": "v2/ar_base.pth",
+          "bytes": 358846893
+        },
+        {
+          "name": "v2/cfm_small.pth",
+          "bytes": 353349694
+        }
+      ]
+    }
+  ]
+}

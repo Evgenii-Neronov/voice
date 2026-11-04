@@ -1,0 +1,177 @@
+{
+  "count": 19,
+  "total_seconds": 106.48,
+  "files": [
+    {
+      "file": "results/ace-run2/64611098-a0fd-0a56-afec-11461d481411.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "seconds": 30.0,
+      "subtype": "PCM_16",
+      "peak": 0.8912353515625,
+      "rms": 0.10983197435546053
+    },
+    {
+      "file": "results/chatterbox-run1/anger.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 2.88,
+      "subtype": "PCM_16",
+      "peak": 0.79937744140625,
+      "rms": 0.12728029811176209
+    },
+    {
+      "file": "results/chatterbox-run1/drawl.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.32,
+      "subtype": "PCM_16",
+      "peak": 0.826507568359375,
+      "rms": 0.12795010716544594
+    },
+    {
+      "file": "results/chatterbox-run1/emotion_control.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 2.84,
+      "subtype": "PCM_16",
+      "peak": 0.853515625,
+      "rms": 0.12242415575214582
+    },
+    {
+      "file": "results/chatterbox-run1/joy.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.12,
+      "subtype": "PCM_16",
+      "peak": 0.8641357421875,
+      "rms": 0.1123444212022513
+    },
+    {
+      "file": "results/chatterbox-run1/neutral.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.64,
+      "subtype": "PCM_16",
+      "peak": 0.98162841796875,
+      "rms": 0.1208063041365457
+    },
+    {
+      "file": "results/chatterbox-run1/neutral_control.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 2.6,
+      "subtype": "PCM_16",
+      "peak": 0.90484619140625,
+      "rms": 0.11664684449277768
+    },
+    {
+      "file": "results/chatterbox-run1/sadness.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.44,
+      "subtype": "PCM_16",
+      "peak": 0.968170166015625,
+      "rms": 0.13377009399544415
+    },
+    {
+      "file": "results/chatterbox-run1/singing_probe.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.08,
+      "subtype": "PCM_16",
+      "peak": 0.97015380859375,
+      "rms": 0.13201409898425842
+    },
+    {
+      "file": "results/chatterbox-run1/syllables.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.16,
+      "subtype": "PCM_16",
+      "peak": 1.0,
+      "rms": 0.11749399979453039
+    },
+    {
+      "file": "results/qwen17-run1/anger.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 2.8,
+      "subtype": "PCM_16",
+      "peak": 0.6640625,
+      "rms": 0.0781371290314735
+    },
+    {
+      "file": "results/qwen17-run1/drawl.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 6.96,
+      "subtype": "PCM_16",
+      "peak": 0.5859375,
+      "rms": 0.07297309206558303
+    },
+    {
+      "file": "results/qwen17-run1/emotion_control.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 2.8,
+      "subtype": "PCM_16",
+      "peak": 0.404296875,
+      "rms": 0.06172153317662881
+    },
+    {
+      "file": "results/qwen17-run1/joy.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.92,
+      "subtype": "PCM_16",
+      "peak": 0.65625,
+      "rms": 0.09289614729907893
+    },
+    {
+      "file": "results/qwen17-run1/neutral.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.08,
+      "subtype": "PCM_16",
+      "peak": 0.46875,
+      "rms": 0.06863722319663074
+    },
+    {
+      "file": "results/qwen17-run1/neutral_control.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.4,
+      "subtype": "PCM_16",
+      "peak": 0.3046875,
+      "rms": 0.037138241161400146
+    },
+    {
+      "file": "results/qwen17-run1/sadness.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.92,
+      "subtype": "PCM_16",
+      "peak": 0.34765625,
+      "rms": 0.05041078069994563
+    },
+    {
+      "file": "results/qwen17-run1/singing_probe.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 9.28,
+      "subtype": "PCM_16",
+      "peak": 0.359375,
+      "rms": 0.05179002515361077
+    },
+    {
+      "file": "results/qwen17-run1/syllables.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.24,
+      "subtype": "PCM_16",
+      "peak": 0.494140625,
+      "rms": 0.049290164229613596
+    }
+  ]
+}

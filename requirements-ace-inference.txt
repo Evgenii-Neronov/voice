@@ -1,0 +1,10 @@
+# Add to Qwen env only after its run/freeze; no upstream training/UI extras.
+diffusers==0.37.0
+loguru==0.7.3
+diskcache==5.6.3
+vector-quantize-pytorch==1.27.15
+omegaconf==2.3.0
+peft==0.18.0
+toml==0.10.2
+pytorch-wavelets==1.3.0
+PyWavelets==1.9.0

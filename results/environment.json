@@ -1,0 +1,22 @@
+{
+  "captured": "2026-11-04T15:43:42.5161963+03:00",
+  "os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26100",
+    "TotalVisibleMemorySize": 66975132,
+    "FreePhysicalMemory": 21107004
+  },
+  "cpu": {
+    "Name": "11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "disk_I": {
+    "Used": 323609313280,
+    "Free": 188493115392
+  },
+  "gpu": "NVIDIA GeForce RTX 5080, 610.88, 16303 MiB, 14213 MiB, 1767 MiB",
+  "initial_commit": "4e7f6e9dea879f0a067daef005eb1b75b2d47496",
+  "remote": "https://github.com/Evgenii-Neronov/voice.git",
+  "initial_git_status": "clean main tracking origin/main"
+}

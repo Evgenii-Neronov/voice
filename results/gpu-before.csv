@@ -1,0 +1,2 @@
+name, driver_version, memory.total [MiB], memory.used [MiB], memory.free [MiB]
+NVIDIA GeForce RTX 5080, 610.88, 16303 MiB, 9329 MiB, 6651 MiB
