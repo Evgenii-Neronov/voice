@@ -30,3 +30,7 @@ results/music/editable-*/preview.wav
 # New MiniMax hook takes: keep final MP3, omit duplicate raw exports.
 results/music/minimax-hook-*/full.mp3
 results/music/minimax-hook-*/preview.wav
+
+# Three MiniMax arrangements: retain final deliveries, omit duplicate raw exports.
+results/music/minimax-trio-*/full.mp3
+results/music/minimax-trio-*/preview.wav

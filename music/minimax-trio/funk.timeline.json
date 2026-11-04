@@ -1,0 +1,37 @@
+{
+  "base": "minimax-trio-funk-01",
+  "main_voice": "ADV",
+  "intro_voice": "ADV",
+  "intro_seconds": 0,
+  "greeting_in_music_generation": true,
+  "dry": true,
+  "expected_ezhi_occurrences": 2,
+  "ezhi_regions": [
+    {
+      "end": 156.16,
+      "lyrics": [
+        "Десять свистулек!",
+        "Один кубит!",
+        "Кто здесь субъект?",
+        "Кто кого купит?"
+      ],
+      "start": 151.1
+    },
+    {
+      "end": 221.2,
+      "lyrics": [
+        "Десять свистулек!",
+        "Один кубит!",
+        "Кто здесь субъект?",
+        "Кто кого купит?"
+      ],
+      "start": 214.0
+    }
+  ],
+  "boundary_evidence": [
+    "Whisper words: first hook 151.16–155.96; preceding головы ends 151.04, next Генон starts 156.74.",
+    "Whisper words: second hook 214.00–221.00; preceding ночью ends 214.00, next Традиция starts 221.42. No gap at second onset; crossfade remains within hook."
+  ],
+  "selection": "Approximate local Whisper word timestamps, small margins and 60 ms crossfades. ASR is not proof of perfect diction.",
+  "crossfade_seconds": 0.06
+}

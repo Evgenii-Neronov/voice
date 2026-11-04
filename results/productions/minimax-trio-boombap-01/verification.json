@@ -1,0 +1,70 @@
+{
+  "numerical_validation_passed": true,
+  "sha256_validation_passed": true,
+  "lyrics_sha256": "ebfeaf5d061ca6db1d3a0d09d895b51aaff84b79c16050503a88a54f9bbfb3e2",
+  "duration": 253.24843537414966,
+  "ezhi_regions_seconds": [
+    [
+      142.18,
+      146.18
+    ],
+    [
+      202.24,
+      207.08
+    ]
+  ],
+  "all_other_vocal": "ADV reference conversion",
+  "greeting_voice": "ADV",
+  "dry": true,
+  "local_inference": true,
+  "generation_seconds": 389.8498569000076,
+  "separation_seconds": 40.926165600001696,
+  "conversion_seconds": 36.492392500003916,
+  "conversion_timing_scope": "This invocation only; prior failed attempt excluded when resumed",
+  "conversion_reused_chunks": 21,
+  "conversion_fallbacks": [
+    {
+      "id": "adv-021",
+      "route": "v1_whisper_bigvgan_vc",
+      "reason": "No voiced F0 detected; preserve content via non-F0 conversion"
+    }
+  ],
+  "asr_not_ground_truth": true,
+  "human_listening_review": false,
+  "checks": [
+    {
+      "part": "greeting_ADV",
+      "start": 0,
+      "end": 6,
+      "automatic_transcript": " Я ето рептрекс вами от ДВАК Адвентус Дивотус.  Деревня мне не ли деньги?"
+    },
+    {
+      "part": "verse_ADV",
+      "start": 20,
+      "end": 30,
+      "automatic_transcript": " дай сэйм вместо субъекта собрати вместо мнения, традиция, сакраин из географии, спасение,  но пантовый компьютер будет охлаждение, новомахия, логоцеполона, дью..."
+    },
+    {
+      "part": "hook_1_Ezhi",
+      "start": 142.06,
+      "end": 146.3,
+      "automatic_transcript": " 10 вистуля, один купит, и здесь объекток оба купит."
+    },
+    {
+      "part": "hook_2_Ezhi",
+      "start": 202.12,
+      "end": 207.20000000000002,
+      "automatic_transcript": " Если цвистол же один отбирь, то здесь убьем, кто кафе гупит."
+    }
+  ],
+  "references": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4"
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac"
+    }
+  ]
+}

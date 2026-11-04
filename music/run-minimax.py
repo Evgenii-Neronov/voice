@@ -20,6 +20,12 @@ if brief:
  a.duration=brief['duration']; a.full_lyrics=True
  options.update(lyrics=brief['lyrics'],duration_sec=str(a.duration),seed=str(brief['seed']))
  request[0].update(text=brief['caption'],seed=brief['seed'])
+ tuning=brief.get('request_options',{})
+ allowed={'num_inference_steps','guidance_scale','ar_guidance_scale','top_k'}
+ if set(tuning)-allowed: raise ValueError('Unsupported runner controls: '+str(set(tuning)-allowed))
+ for key,value in tuning.items():
+  if float(value)<=0: raise ValueError(key+' must be positive')
+  options[key]=str(int(value) if key in {'num_inference_steps','top_k'} else float(value))
 def write(path,data): path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 write(out/'requests.json',request)
 exe=ROOT/'vendor/audio-runtime/audiocpp_cli.exe'

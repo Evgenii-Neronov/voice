@@ -1,0 +1,64 @@
+{
+  "numerical_validation_passed": true,
+  "sha256_validation_passed": true,
+  "lyrics_sha256": "ebfeaf5d061ca6db1d3a0d09d895b51aaff84b79c16050503a88a54f9bbfb3e2",
+  "duration": 239.43256235827664,
+  "ezhi_regions_seconds": [
+    [
+      142.48,
+      146.3
+    ],
+    [
+      200.76,
+      204.38
+    ]
+  ],
+  "all_other_vocal": "ADV reference conversion",
+  "greeting_voice": "ADV",
+  "dry": true,
+  "local_inference": true,
+  "generation_seconds": 293.9203068999923,
+  "separation_seconds": 37.376998099993216,
+  "conversion_seconds": 124.22577340000134,
+  "conversion_timing_scope": "This invocation only; prior failed attempt excluded when resumed",
+  "conversion_reused_chunks": 0,
+  "conversion_fallbacks": [],
+  "asr_not_ground_truth": true,
+  "human_listening_review": false,
+  "checks": [
+    {
+      "part": "greeting_ADV",
+      "start": 0,
+      "end": 6,
+      "automatic_transcript": " Это рэп-трек с вами ADVK ADVENTUS DEVOTUS.  Две мне отменили..."
+    },
+    {
+      "part": "verse_ADV",
+      "start": 20,
+      "end": 30,
+      "automatic_transcript": " четвертое измерение, дезнеместность, субъекта событий, вместо мнений, традиции,  церкальность, география, спасение, но квантовые компьюты пребывают охлаждение."
+    },
+    {
+      "part": "hook_1_Ezhi",
+      "start": 142.35999999999999,
+      "end": 146.42000000000002,
+      "automatic_transcript": " Десетсвисту, Олег, один кубин, то здесь субъект, только в окупин."
+    },
+    {
+      "part": "hook_2_Ezhi",
+      "start": 200.64,
+      "end": 204.5,
+      "automatic_transcript": " Десять свистулек, один кубит, то здесь объект, то кава купит."
+    }
+  ],
+  "references": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4"
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac"
+    }
+  ]
+}

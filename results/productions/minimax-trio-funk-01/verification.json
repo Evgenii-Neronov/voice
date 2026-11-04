@@ -1,0 +1,64 @@
+{
+  "numerical_validation_passed": true,
+  "sha256_validation_passed": true,
+  "lyrics_sha256": "ebfeaf5d061ca6db1d3a0d09d895b51aaff84b79c16050503a88a54f9bbfb3e2",
+  "duration": 257.92725623582766,
+  "ezhi_regions_seconds": [
+    [
+      151.1,
+      156.16
+    ],
+    [
+      214.0,
+      221.2
+    ]
+  ],
+  "all_other_vocal": "ADV reference conversion",
+  "greeting_voice": "ADV",
+  "dry": true,
+  "local_inference": true,
+  "generation_seconds": 399.05129730000044,
+  "separation_seconds": 40.78745499999786,
+  "conversion_seconds": 131.2837556000013,
+  "conversion_timing_scope": "This invocation only; prior failed attempt excluded when resumed",
+  "conversion_reused_chunks": 0,
+  "conversion_fallbacks": [],
+  "asr_not_ground_truth": true,
+  "human_listening_review": false,
+  "checks": [
+    {
+      "part": "greeting_ADV",
+      "start": 0,
+      "end": 6,
+      "automatic_transcript": " Йе-йо, это Reptrex, с вами от ДВК Адвентус Девотус.  Деревня от Минили Динги."
+    },
+    {
+      "part": "verse_ADV",
+      "start": 20,
+      "end": 30,
+      "automatic_transcript": " Четвёртое измерение  Досейный способ гейтпесов  Грыти вредоменение  Традиция  Сокрайный  География  Спасение  Но квантовый компьютер  Требует какхлаждение"
+    },
+    {
+      "part": "hook_1_Ezhi",
+      "start": 150.98,
+      "end": 156.28,
+      "automatic_transcript": " Десять свистулок, один кубит, то здесь субъект.  Кока в оккупит."
+    },
+    {
+      "part": "hook_2_Ezhi",
+      "start": 213.88,
+      "end": 221.32,
+      "automatic_transcript": " Десять смистулет, один кубит, то здесь сугек.  Кого-кого купить?"
+    }
+  ],
+  "references": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4"
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac"
+    }
+  ]
+}

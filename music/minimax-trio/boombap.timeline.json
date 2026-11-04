@@ -1,0 +1,37 @@
+{
+  "base": "minimax-trio-boombap-01",
+  "main_voice": "ADV",
+  "intro_voice": "ADV",
+  "intro_seconds": 0,
+  "greeting_in_music_generation": true,
+  "dry": true,
+  "expected_ezhi_occurrences": 2,
+  "ezhi_regions": [
+    {
+      "end": 146.18,
+      "lyrics": [
+        "Десять свистулек!",
+        "Один кубит!",
+        "Кто здесь субъект?",
+        "Кто кого купит?"
+      ],
+      "start": 142.18
+    },
+    {
+      "end": 207.08,
+      "lyrics": [
+        "Десять свистулек!",
+        "Один кубит!",
+        "Кто здесь субъект?",
+        "Кто кого купит?"
+      ],
+      "start": 202.24
+    }
+  ],
+  "boundary_evidence": [
+    "Whisper words: first hook 142.22–146.00; preceding головы ends 142.10, next Генон starts 146.48.",
+    "Whisper words: second hook 202.36–206.86; next Традиция starts 207.88."
+  ],
+  "selection": "Approximate local Whisper word timestamps, small margins and 60 ms crossfades. ASR is not proof of perfect diction.",
+  "crossfade_seconds": 0.06
+}

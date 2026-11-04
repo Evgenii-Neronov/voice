@@ -7,8 +7,9 @@ ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(); p.add_argument('--route',choices=['v1_svc','v1_whisper_bigvgan_vc'],default='v1_whisper_bigvgan_vc')
 p.add_argument('--work-dir',type=Path,default=Path('work/adv-ezhi'))
 p.add_argument('--timeline',type=Path,default=Path('music/adv-ezhi.timeline.json'))
+p.add_argument('--resume',action='store_true',help='Reuse matching existing requests and completed chunks')
 a=p.parse_args(); work=ROOT/a.work_dir
-folder=work/('chunks-'+a.route+'-02'); folder.mkdir(exist_ok=False)
+folder=work/('chunks-'+a.route+'-02'); folder.mkdir(exist_ok=a.resume)
 source,sr=sf.read(work/'stems/vocals.wav',always_2d=True); source=source.mean(axis=1); n=len(source)
 assert sr==44100
 timeline=json.loads((ROOT/a.timeline).read_text(encoding='utf-8'))
@@ -17,16 +18,38 @@ for speaker in ['adv','ezhi']:
  intervals=[(s,min(n,s+core)) for s in range(0,n,core)] if speaker=='adv' else [(s,min(int(t['end']*sr),s+core)) for t in timeline['ezhi_regions'] for s in range(int(t['start']*sr),int(t['end']*sr),core)]
  for i,(start,end) in enumerate(intervals):
   left=max(0,start-context); right=min(n,end+context); identity=f'{speaker}-{i:03}'
-  path=folder/(identity+'-source.wav'); sf.write(path,source[left:right],sr,subtype='FLOAT')
+  path=folder/(identity+'-source.wav')
+  if a.resume and path.exists():
+   cached,rate=sf.read(path); assert rate==sr and cached.shape==source[left:right].shape and np.allclose(cached,source[left:right],atol=1e-7), 'Resume source changed'
+  else: sf.write(path,source[left:right],sr,subtype='FLOAT')
   assert (right-left)/sr<30, 'Refusing native content truncation'
   reference=work/('refs/adv.wav' if speaker=='adv' else 'refs/ezhi-conversion.wav')
   requests.append({'id':identity,'audio':str(path),'voice_ref':str(reference),'route':a.route,'seed':20261104,'num_inference_steps':40,'options':{'duration_scale':1.0,'inference_guidance_scale':0.7,'f0_condition':a.route=='v1_svc','auto_f0_adjust':False,'semitone_shift':0}})
   records.append({'id':identity,'speaker':speaker,'left':left,'right':right,'core_start':start,'core_end':end})
+if a.resume:
+ assert json.loads((folder/'requests.json').read_text(encoding='utf-8'))==requests, 'Resume request mismatch'
 (folder/'requests.json').write_text(json.dumps(requests,ensure_ascii=False,indent=2),encoding='utf-8')
 exe=ROOT/'vendor/audio-runtime/audiocpp_cli.exe'
 command=[str(exe),'--task','svc' if a.route=='v1_svc' else 'vc','--family','seed_vc','--model',str(ROOT/'models/voice-production/SeedVC-MLX-GGUF/seed-vc-mlx-q8_0.gguf'),'--backend','cuda','--threads','8','--request-sequence',str(folder/'requests.json'),'--out-dir',str(folder),'--out-format','pcm16','--metrics','--load-progress','0']
-start=time.perf_counter()
-with (folder/'runtime.log').open('w',encoding='utf-8') as log: subprocess.run(command,stdout=log,stderr=subprocess.STDOUT,check=True)
+start=time.perf_counter(); reused=sum((folder/(r['id']+'.wav')).exists() for r in requests); attempts=[]; fallbacks=[]
+while True:
+ pending=[r for r in requests if not (folder/(r['id']+'.wav')).exists()]
+ if not pending: break
+ index=len(list(folder.glob('attempt-*.json')))
+ request_file=folder/f'attempt-{index:02}.json'; request_file.write_text(json.dumps(pending,ensure_ascii=False,indent=2),encoding='utf-8')
+ cmd=command.copy(); cmd[cmd.index('--request-sequence')+1]=str(request_file)
+ log_path=folder/f'attempt-{index:02}.log'
+ with log_path.open('w',encoding='utf-8') as log: result=subprocess.run(cmd,stdout=log,stderr=subprocess.STDOUT)
+ attempts.append({'command':cmd,'returncode':result.returncode})
+ if result.returncode==0: continue
+ if a.route!='v1_svc' or 'requires voiced F0 values' not in log_path.read_text(encoding='utf-8',errors='replace'):
+  raise RuntimeError(f'Native conversion failed; see {log_path}')
+ failed=next(r for r in pending if not (folder/(r['id']+'.wav')).exists())
+ fallback={**failed,'route':'v1_whisper_bigvgan_vc','options':{**failed['options'],'f0_condition':False}}
+ fallback_file=folder/(failed['id']+'-fallback.json'); fallback_file.write_text(json.dumps([fallback],indent=2),encoding='utf-8')
+ cmd[cmd.index('--task')+1]='vc'; cmd[cmd.index('--request-sequence')+1]=str(fallback_file)
+ with (folder/(failed['id']+'-fallback.log')).open('w',encoding='utf-8') as log: subprocess.run(cmd,stdout=log,stderr=subprocess.STDOUT,check=True)
+ fallbacks.append({'id':failed['id'],'route':fallback['route'],'reason':'No voiced F0 detected; preserve content via non-F0 conversion'})
 timing=time.perf_counter()-start
 def envelope(x):
  hop=441; x=np.pad(x,(0,(-len(x))%hop)); return np.sqrt(np.mean(x.reshape(-1,hop)**2,axis=1)+1e-12)
@@ -52,6 +75,6 @@ for speaker in ['adv','ezhi']:
  if speaker=='adv': assert np.min(weights)>0,'Uncovered source samples'
  merged=np.divide(accum,weights,out=np.zeros(n),where=weights>1e-8)
  sf.write(work/(speaker+'-vocal-chunked.wav'),merged,sr,subtype='FLOAT')
-result={'route':a.route,'chunk_core_seconds':12,'context_seconds':.4,'seed':20261104,'steps':40,'whole_run_seconds':timing,'records':records,'command':command,'runtime_sha256':hashlib.sha256(exe.read_bytes()).hexdigest()}
+result={'route':a.route,'resumed':a.resume,'reused_chunks':reused,'timing_scope':'This invocation only; prior failed attempt excluded when resumed','fallbacks':fallbacks,'attempts':attempts,'chunk_core_seconds':12,'context_seconds':.4,'seed':20261104,'steps':40,'whole_run_seconds':timing,'records':records,'command':command,'runtime_sha256':hashlib.sha256(exe.read_bytes()).hexdigest()}
 (work/'chunked-conversion.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({'status':'converted','seconds':timing,'chunks':len(records)}))
