@@ -1,0 +1,91 @@
+{
+  "input": "C:\\Users\\Evgen\\Documents\\Codex\\2026-11-04\\referenced-chatgpt-conversation-this-is-an\\outputs\\original-voices\\main\\09-minimax-trio-funk-01.mp3",
+  "sha256": "1364b67acc2cebda2710cf57bac127f5e24bf8573d94de2382851f1c624c1935",
+  "duration": 257.9273,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "scenes": [
+    [
+      0,
+      "ОБМЕН",
+      "whistle"
+    ],
+    [
+      18.74,
+      "ПОЧВА / КОД",
+      "village"
+    ],
+    [
+      41.56,
+      "СРАСТАНИЕ",
+      "hybrid"
+    ],
+    [
+      63.38,
+      "10 : 1",
+      "exchange"
+    ],
+    [
+      85.68,
+      "ПЕТЛЯ СВЯЗИ",
+      "loop"
+    ],
+    [
+      108.3,
+      "ВЫХОД",
+      "grid"
+    ],
+    [
+      129.4,
+      "ДВА ПРОЕКТА",
+      "hybrid"
+    ],
+    [
+      142.22,
+      "БЕЗ ГОЛОВЫ",
+      "exchange"
+    ],
+    [
+      156.74,
+      "ПРОТИВОРЕЧИЕ",
+      "loop"
+    ],
+    [
+      179.54,
+      "КУРС СВИСТУЛЬКИ",
+      "machine"
+    ],
+    [
+      201.22,
+      "ХОЛОД",
+      "machine"
+    ],
+    [
+      214,
+      "10 : 1",
+      "exchange"
+    ],
+    [
+      221.42,
+      "ПРЕДЕЛ",
+      "grid"
+    ],
+    [
+      233.44,
+      "ПЕТЛЯ НЕ ЗАМКНУТА",
+      "loop"
+    ],
+    [
+      244.58,
+      "ОДИННАДЦАТАЯ",
+      "whistle"
+    ]
+  ],
+  "lyrics_source": "I:\\VOICE\\voice\\music\\minimax-trio\\funk.json",
+  "timing": "Faster Whisper word timestamps + gap retranscription + fuzzy monotonic mapping to source lyrics; imperfect diction may differ from printed lyrics.",
+  "art": "Original procedural 2D ink illustrations; Pillow CPU, libass CPU, NVIDIA NVENC encoder",
+  "audio": "Unchanged arrangement, no voice conversion, no effects. AAC delivery encoding."
+}

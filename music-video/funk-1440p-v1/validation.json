@@ -1,0 +1,17 @@
+{
+  "file": "ADV-ten-whistles-funk-1440p.mp4",
+  "sha256": "d3026b9c91443a505eb43fce0883915781956670ac46ef3445a65dc3ce1a7894",
+  "bytes": 19371044,
+  "video_duration": 257.933333,
+  "audio_duration": 257.927007,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 7738,
+  "render_fps": 92,
+  "render_speed_realtime": 3.05,
+  "review": "15 s temporal preview contact sheet, 11 distributed full-render frames and frame at 256 s; no full audiovisual playback review.",
+  "timing_limitation": "Source spelling aligned to ASR, some word boundaries approximate."
+}
