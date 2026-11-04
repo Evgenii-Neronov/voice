@@ -1,0 +1,310 @@
+{
+  "local_inference": true,
+  "dry": true,
+  "added_echo": false,
+  "added_reverb": false,
+  "greeting_engine": "MiniMax, part of source lyrics",
+  "greeting_voice": "ADV",
+  "timeline": {
+    "base": "minimax-hook-01",
+    "main_voice": "ADV",
+    "intro_voice": "ADV",
+    "intro_seconds": 0,
+    "greeting_in_music_generation": true,
+    "dry": true,
+    "ezhi_regions": [
+      {
+        "start": 146.66,
+        "end": 152.38,
+        "lyrics": [
+          "Десять свистулек!",
+          "Один кубит!",
+          "Кто здесь субъект?",
+          "Кто кого купит?"
+        ]
+      }
+    ],
+    "boundary_evidence": {
+      "previous_phrase_end": 146.62,
+      "first_word_start": 146.74,
+      "last_word_end": 152.28,
+      "next_phrase_start": 152.46
+    },
+    "selection": "Local Whisper word timestamps, padded inside pauses; ASR is not a guarantee of exact diction",
+    "crossfade_seconds": 0.06
+  },
+  "duration": 251.7275283446712,
+  "peak": 0.8542516231536865,
+  "lyrics_sha256": "5b0dafdac0269470bb67f7c8e07f6f8997bbbe3b143ada4ee39d0afabba39c01",
+  "audio": [
+    {
+      "file": "full.wav",
+      "sha256": "17f261651aa39c4ef03910cfb2d904845fa70e3c9e463ef995ce1295562bf6d3"
+    },
+    {
+      "file": "full.mp3",
+      "sha256": "4549f0dbacd4d9a3fc082f50a545eb2622bd0b926d1e33af0b908ceeac3505e5"
+    },
+    {
+      "file": "preview.mp3",
+      "sha256": "e5acfa096c18efef4c086da7fa2b71c5f0ae874172d7290f3f6a513ec205598a"
+    },
+    {
+      "file": "hook-preview.mp3",
+      "sha256": "3d7bc6e3a7c3aafc3b3d2c429532dcd010fd6c73fd2924d78f0ef5b01def284d"
+    }
+  ],
+  "conversion": {
+    "route": "v1_svc",
+    "chunk_core_seconds": 12,
+    "context_seconds": 0.4,
+    "seed": 20261104,
+    "steps": 40,
+    "whole_run_seconds": 119.92554260000179,
+    "records": [
+      {
+        "id": "adv-000",
+        "speaker": "adv",
+        "left": 0,
+        "right": 546840,
+        "core_start": 0,
+        "core_end": 529200,
+        "alignment_shift_samples": 0,
+        "output_sha256": "71b3194d430aea045ed3874bba75c1c8d891d599e4bce447cd0b86e972033a18"
+      },
+      {
+        "id": "adv-001",
+        "speaker": "adv",
+        "left": 511560,
+        "right": 1076040,
+        "core_start": 529200,
+        "core_end": 1058400,
+        "alignment_shift_samples": 0,
+        "output_sha256": "c444adda323a603711f1230397912106d514eac3abe190be5d0f935f20f7e496"
+      },
+      {
+        "id": "adv-002",
+        "speaker": "adv",
+        "left": 1040760,
+        "right": 1605240,
+        "core_start": 1058400,
+        "core_end": 1587600,
+        "alignment_shift_samples": 0,
+        "output_sha256": "042da8511d828cafa3cc61e69ac37892f8b5733a5be6cf3107842290620a1a3c"
+      },
+      {
+        "id": "adv-003",
+        "speaker": "adv",
+        "left": 1569960,
+        "right": 2134440,
+        "core_start": 1587600,
+        "core_end": 2116800,
+        "alignment_shift_samples": 441,
+        "output_sha256": "67175d05620f2a01c3f9670c16f29916e5e3072e53ad824b9e073d9d372c4d15"
+      },
+      {
+        "id": "adv-004",
+        "speaker": "adv",
+        "left": 2099160,
+        "right": 2663640,
+        "core_start": 2116800,
+        "core_end": 2646000,
+        "alignment_shift_samples": 0,
+        "output_sha256": "370ec581edd1db856a98d2cdb55fa9ee58edb40207641f6e8286f8ed6c1be567"
+      },
+      {
+        "id": "adv-005",
+        "speaker": "adv",
+        "left": 2628360,
+        "right": 3192840,
+        "core_start": 2646000,
+        "core_end": 3175200,
+        "alignment_shift_samples": 0,
+        "output_sha256": "4f1a3d44904b11603b40cf691aac94d3173833e10fdfcc46ddd5dc09d9acd506"
+      },
+      {
+        "id": "adv-006",
+        "speaker": "adv",
+        "left": 3157560,
+        "right": 3722040,
+        "core_start": 3175200,
+        "core_end": 3704400,
+        "alignment_shift_samples": 441,
+        "output_sha256": "03cf2e2a231e604c59a02cbf65898f1d6958230fb5662917b86b50664f8e03cb"
+      },
+      {
+        "id": "adv-007",
+        "speaker": "adv",
+        "left": 3686760,
+        "right": 4251240,
+        "core_start": 3704400,
+        "core_end": 4233600,
+        "alignment_shift_samples": 0,
+        "output_sha256": "888e11f72422ece770ca7a97c25c72acb9d0ccd2016be79d24ffada303f4bbd5"
+      },
+      {
+        "id": "adv-008",
+        "speaker": "adv",
+        "left": 4215960,
+        "right": 4780440,
+        "core_start": 4233600,
+        "core_end": 4762800,
+        "alignment_shift_samples": 0,
+        "output_sha256": "442898ce6e447e8ff828f13293993162976c23a77a0649317bb12eaf1ebf8678"
+      },
+      {
+        "id": "adv-009",
+        "speaker": "adv",
+        "left": 4745160,
+        "right": 5309640,
+        "core_start": 4762800,
+        "core_end": 5292000,
+        "alignment_shift_samples": 0,
+        "output_sha256": "3bf4e0ab162c6257fcf9297da8e4cc1f381d19e76bfa12dc19946f20e5e711af"
+      },
+      {
+        "id": "adv-010",
+        "speaker": "adv",
+        "left": 5274360,
+        "right": 5838840,
+        "core_start": 5292000,
+        "core_end": 5821200,
+        "alignment_shift_samples": 0,
+        "output_sha256": "b55ebca276cc0de5a33cf7610da9f3fb3172379d9ad280bae549ca97ffeed2b0"
+      },
+      {
+        "id": "adv-011",
+        "speaker": "adv",
+        "left": 5803560,
+        "right": 6368040,
+        "core_start": 5821200,
+        "core_end": 6350400,
+        "alignment_shift_samples": 441,
+        "output_sha256": "5095c54d51731cd4ba2d35846c2cd9d33eb822a33be8fd90f216c971fd920f5a"
+      },
+      {
+        "id": "adv-012",
+        "speaker": "adv",
+        "left": 6332760,
+        "right": 6897240,
+        "core_start": 6350400,
+        "core_end": 6879600,
+        "alignment_shift_samples": 0,
+        "output_sha256": "65e97e893493e918f2fedd52f736d2596007ec65a370c727d93d979c1d2623aa"
+      },
+      {
+        "id": "adv-013",
+        "speaker": "adv",
+        "left": 6861960,
+        "right": 7426440,
+        "core_start": 6879600,
+        "core_end": 7408800,
+        "alignment_shift_samples": 441,
+        "output_sha256": "94a4a90ce9c69be421833e0cddadbb7007be1bfca2eb019aaca8bcaf0960790b"
+      },
+      {
+        "id": "adv-014",
+        "speaker": "adv",
+        "left": 7391160,
+        "right": 7955640,
+        "core_start": 7408800,
+        "core_end": 7938000,
+        "alignment_shift_samples": 441,
+        "output_sha256": "eed2aa6816b93b8e546b52de453849b5105b28035a7c09794349632d7643dc7c"
+      },
+      {
+        "id": "adv-015",
+        "speaker": "adv",
+        "left": 7920360,
+        "right": 8484840,
+        "core_start": 7938000,
+        "core_end": 8467200,
+        "alignment_shift_samples": 0,
+        "output_sha256": "6357b916acc4040b1a213d22e2832132e6aeba712adb7bc406d2dbe0836d3b4b"
+      },
+      {
+        "id": "adv-016",
+        "speaker": "adv",
+        "left": 8449560,
+        "right": 9014040,
+        "core_start": 8467200,
+        "core_end": 8996400,
+        "alignment_shift_samples": 0,
+        "output_sha256": "7dd06ab57cc113f1f79612183c218509b5b6ca4b5a24bd19342c22fdd55bbb80"
+      },
+      {
+        "id": "adv-017",
+        "speaker": "adv",
+        "left": 8978760,
+        "right": 9543240,
+        "core_start": 8996400,
+        "core_end": 9525600,
+        "alignment_shift_samples": 0,
+        "output_sha256": "0cbfda433139ffb6310f4ce21ead1d3da9441cf1902b137cd327f902f24a6d62"
+      },
+      {
+        "id": "adv-018",
+        "speaker": "adv",
+        "left": 9507960,
+        "right": 10072440,
+        "core_start": 9525600,
+        "core_end": 10054800,
+        "alignment_shift_samples": 441,
+        "output_sha256": "1198785519f64464c6f1aaaa30822a9744f5c41af3bbb355a121c3b3642b240e"
+      },
+      {
+        "id": "adv-019",
+        "speaker": "adv",
+        "left": 10037160,
+        "right": 10601640,
+        "core_start": 10054800,
+        "core_end": 10584000,
+        "alignment_shift_samples": 0,
+        "output_sha256": "e2161f1061ec2595c3f2c0c79d79b9f9bc3a253327086fee47a140b50807a4da"
+      },
+      {
+        "id": "adv-020",
+        "speaker": "adv",
+        "left": 10566360,
+        "right": 11101184,
+        "core_start": 10584000,
+        "core_end": 11101184,
+        "alignment_shift_samples": 882,
+        "output_sha256": "f3d57b4abc61436732e573e422dcdffdff24e35be4b4167fccd3b364bda83424"
+      },
+      {
+        "id": "ezhi-000",
+        "speaker": "ezhi",
+        "left": 6450066,
+        "right": 6737598,
+        "core_start": 6467706,
+        "core_end": 6719958,
+        "alignment_shift_samples": 441,
+        "output_sha256": "f4ff058e0cd7a0f73f214043316302237b1f85bf5fdd0a7bd1d5b40109adf5e5"
+      }
+    ],
+    "command": [
+      "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_cli.exe",
+      "--task",
+      "svc",
+      "--family",
+      "seed_vc",
+      "--model",
+      "I:\\VOICE\\voice\\models\\voice-production\\SeedVC-MLX-GGUF\\seed-vc-mlx-q8_0.gguf",
+      "--backend",
+      "cuda",
+      "--threads",
+      "8",
+      "--request-sequence",
+      "I:\\VOICE\\voice\\work\\performances\\hook-01\\chunks-v1_svc-02\\requests.json",
+      "--out-dir",
+      "I:\\VOICE\\voice\\work\\performances\\hook-01\\chunks-v1_svc-02",
+      "--out-format",
+      "pcm16",
+      "--metrics",
+      "--load-progress",
+      "0"
+    ],
+    "runtime_sha256": "abd4e00692a039a1c56892fc9fe39a21c430581faf6893192f6f06ee799173ca"
+  }
+}

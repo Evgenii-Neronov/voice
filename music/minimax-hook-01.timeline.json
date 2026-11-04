@@ -1,0 +1,28 @@
+{
+  "base": "minimax-hook-01",
+  "main_voice": "ADV",
+  "intro_voice": "ADV",
+  "intro_seconds": 0,
+  "greeting_in_music_generation": true,
+  "dry": true,
+  "ezhi_regions": [
+    {
+      "start": 146.66,
+      "end": 152.38,
+      "lyrics": [
+        "Десять свистулек!",
+        "Один кубит!",
+        "Кто здесь субъект?",
+        "Кто кого купит?"
+      ]
+    }
+  ],
+  "boundary_evidence": {
+    "previous_phrase_end": 146.62,
+    "first_word_start": 146.74,
+    "last_word_end": 152.28,
+    "next_phrase_start": 152.46
+  },
+  "selection": "Local Whisper word timestamps, padded inside pauses; ASR is not a guarantee of exact diction",
+  "crossfade_seconds": 0.06
+}

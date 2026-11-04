@@ -26,3 +26,7 @@ results/music/duet-*/preview.wav
 results/editable/**/*.wav
 results/music/editable-*/full.mp3
 results/music/editable-*/preview.wav
+
+# New MiniMax hook takes: keep final MP3, omit duplicate raw exports.
+results/music/minimax-hook-*/full.mp3
+results/music/minimax-hook-*/preview.wav

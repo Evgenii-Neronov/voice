@@ -25,9 +25,9 @@ write(out/'requests.json',request)
 exe=ROOT/'vendor/audio-runtime/audiocpp_cli.exe'
 command=[str(exe),'--task','gen','--family','minimax_music3','--model',str(ROOT/'models/music/MiniMax-Music3-GGUF'),'--backend','cuda','--threads','8','--request-sequence',str(out/'requests.json'),'--out-dir',str(out),'--out-format','pcm16','--batch-manifest-out',str(out/'native-manifest.json'),'--metrics','--load-progress','0','--session-option','minimax_music3.mem_saver=true','--session-option','minimax_music3.perf_mode=cuda_perf']
 m={'status':'running','local_inference':True,'model':'MiniMax-Music3 GGUF Q4/Q8/Q4','scope':'full lyrics' if a.full_lyrics else 'original intro only (8 lines)','source_lyrics_sha256':base['source_lyrics_sha256'],'runtime_sha256':hashlib.sha256(exe.read_bytes()).hexdigest(),'model_lock':json.loads((ROOT/'music/minimax.lock.json').read_text()),'command':command,'requested_budget_seconds':a.duration,'audio':[]}
-write(out/'manifest.json',m)
 m['brief']=brief
 if brief: m['source_lyrics_sha256']=brief.get('original_lyrics_sha256',m['source_lyrics_sha256'])
+write(out/'manifest.json',m)
 start=time.perf_counter(); peak=0
 try:
  with (out/'runtime.log').open('w',encoding='utf-8') as log:

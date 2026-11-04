@@ -1,0 +1,49 @@
+{
+  "numerical_validation_passed": true,
+  "sha256_validation_passed": true,
+  "lyrics_sha256": "5b0dafdac0269470bb67f7c8e07f6f8997bbbe3b143ada4ee39d0afabba39c01",
+  "duration": 251.7275283446712,
+  "ezhi_region_seconds": [
+    146.66,
+    152.38
+  ],
+  "all_other_vocal": "ADV reference conversion",
+  "greeting_voice": "ADV",
+  "dry": true,
+  "local_inference": true,
+  "generation_seconds": 382.78663499999675,
+  "separation_seconds": 40.22658099999535,
+  "conversion_seconds": 119.92554260000179,
+  "asr_not_ground_truth": true,
+  "human_listening_review": false,
+  "checks": [
+    {
+      "part": "greeting_ADV",
+      "start": 0,
+      "end": 6,
+      "automatic_transcript": " Её это рэп трекс, с вами я и Девья, ка адвенту с Девотус, Деревния, Минили, Денги, Нокор, Свистлик."
+    },
+    {
+      "part": "verse_ADV",
+      "start": 20,
+      "end": 30,
+      "automatic_transcript": " Вместо мнения, традиция секрайерна с географией, спасение на квантов и компьютер требует охлаждение.  Но махи лого саполлона Диони Сакибело проснули спать."
+    },
+    {
+      "part": "hook_Ezhi",
+      "start": 146.54,
+      "end": 152.5,
+      "automatic_transcript": " И здесь я цвистулю кардинку бит, то здесь субъект только в оккупе"
+    }
+  ],
+  "references": [
+    {
+      "role": "ADV",
+      "sha256": "207c6c7435f2eec6f9fe1830ebf629f65b0a76ae97062cdc0849143e7141d4a4"
+    },
+    {
+      "role": "Ezhi",
+      "sha256": "461325c0cf8a3b999ca84d7a3dbdb3f304d145ccc355a45c2d2d2f206ab135ac"
+    }
+  ]
+}

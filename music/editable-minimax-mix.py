@@ -1,11 +1,13 @@
 """Mix local converted vocals into the existing MiniMax arrangement."""
-import hashlib,json,subprocess
+import hashlib,json,subprocess,argparse
 from pathlib import Path
 import numpy as np,soundfile as sf
 from scipy.signal import correlate,correlation_lags,resample_poly
-ROOT=Path(__file__).resolve().parents[1]; work=ROOT/'work/editable/minimax-01'; out=ROOT/'results/productions/editable-minimax-01'
+ROOT=Path(__file__).resolve().parents[1]
+cli=argparse.ArgumentParser(); cli.add_argument('--work-dir',default='work/editable/minimax-01'); cli.add_argument('--output',default='results/productions/editable-minimax-01'); cli.add_argument('--timeline',default='music/editable/minimax.timeline.json'); args=cli.parse_args()
+work=ROOT/args.work_dir; out=ROOT/args.output
 out.mkdir(parents=True,exist_ok=False)
-timeline=json.loads((ROOT/'music/editable/minimax.timeline.json').read_text(encoding='utf-8'))
+timeline=json.loads((ROOT/args.timeline).read_text(encoding='utf-8'))
 SR=44100
 def read(name,mono=False):
  x,sr=sf.read(work/name,always_2d=True); assert np.isfinite(x).all()
