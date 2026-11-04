@@ -1,0 +1,11 @@
+[
+  {"id":"neutral","kind":"speech","text":"За окном погас последний фонарь. Я открыл дверь и услышал тихий звон.","instruction":"Speak calmly and naturally, with clear Russian pronunciation.","exaggeration":0.5},
+  {"id":"joy","kind":"emotion","text":"Ты всё-таки пришёл! Я знала, что мы снова увидимся!","instruction":"Speak with intense genuine joy, smiling, almost laughing with relief.","exaggeration":0.9},
+  {"id":"anger","kind":"emotion","text":"Не трогай эту дверь! Я просил тебя подождать!","instruction":"Speak with intense controlled anger, sharp emphasis and urgent force.","exaggeration":1.0},
+  {"id":"sadness","kind":"emotion","text":"Я оставлю свет в окне. Вдруг ты ещё найдёшь дорогу домой.","instruction":"Speak very sadly, softly, on the verge of tears, with long emotional pauses.","exaggeration":0.8},
+  {"id":"drawl","kind":"duration","text":"Ну да, конечно. Какой удивительный вечер.","instruction":"Speak theatrically and languidly. Stretch the vowels in nu, da and vecher for about two seconds each. Sound mannered and ironic.","exaggeration":0.8},
+  {"id":"syllables","kind":"duration","text":"А-а-а, о-о-о, у-у-у. Да-а-а, я здесь.","instruction":"Sustain each vowel smoothly for two seconds. Do not spell letters or separate the repeated vowels.","exaggeration":0.8},
+  {"id":"singing_probe","kind":"singing_probe","text":"Тихий свет над рекой, возвращайся домой. Я по звёздам пройду, голос твой я найду.","instruction":"Sing these Russian lyrics melodically, unaccompanied, in a slow lyrical melody, with sustained vowels and expressive vibrato.","exaggeration":0.9},
+  {"id":"emotion_control","kind":"emotion","text":"Я ждал тебя весь вечер. Теперь ты здесь.","instruction":"Speak with great joyful relief, smiling warmly.","exaggeration":0.9},
+  {"id":"neutral_control","kind":"speech","text":"Я ждал тебя весь вечер. Теперь ты здесь.","instruction":"Speak neutrally, without strong emotion.","exaggeration":0.5}
+]

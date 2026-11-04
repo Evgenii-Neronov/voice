@@ -1,0 +1,16 @@
+# Downloaded model weights and caches stay here; see docs/MODELS.md.
+models/
+.cache/
+.venvs/
+vendor/
+work/
+__pycache__/
+*.pyc
+# Full runs are local; selected small WAVs and JSON manifests are tracked.
+results/raw/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+.env
