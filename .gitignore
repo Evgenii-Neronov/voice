@@ -21,3 +21,8 @@ results/productions/*/full.wav
 # New duet raw takes: final mastered MP3s are tracked under productions.
 results/music/duet-*/full.mp3
 results/music/duet-*/preview.wav
+
+# Editable sessions: full-resolution WAV stems stay local.
+results/editable/**/*.wav
+results/music/editable-*/full.mp3
+results/music/editable-*/preview.wav

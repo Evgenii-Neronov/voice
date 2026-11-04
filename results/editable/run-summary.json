@@ -1,0 +1,26 @@
+{
+  "lyrics_sha256": "5b0dafdac0269470bb67f7c8e07f6f8997bbbe3b143ada4ee39d0afabba39c01",
+  "minimax_duration": 221.5415873015873,
+  "minimax_ezhi_seconds": 1.62,
+  "f5_phrases": 11,
+  "f5_inference_seconds": 58.50594829997863,
+  "modular_duration": 45,
+  "modular_ezhi_slot": [
+    37.5,
+    40
+  ],
+  "retake_cli_test": {
+    "beat_edit_unchanged_outside_seconds": [
+      10.0,
+      20.0
+    ],
+    "voice_edit_unchanged_outside_seconds": [
+      32.5,
+      37.5
+    ],
+    "test": "Exact sample equality outside selected ranges before shared PCM24 conversion; lossy MP3 not covered"
+  },
+  "dry": true,
+  "no_human_listening_review": true,
+  "stable_audio": "not run: gated weights HTTP 401"
+}

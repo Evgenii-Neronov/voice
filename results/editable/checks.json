@@ -1,0 +1,31 @@
+{
+  "local_asr": "faster-whisper-small CUDA",
+  "not_human_listening": true,
+  "pcm_splice_checks_passed": true,
+  "clips": [
+    {
+      "clip": "f5-greeting",
+      "automatic_transcript": " Во, это рэп-трек и вами Ли-и-и, акая Двинтус-Ево-тус."
+    },
+    {
+      "clip": "f5-changed-line",
+      "automatic_transcript": " И нежного обмена нет, а эквивалент есть."
+    },
+    {
+      "clip": "f5-ezhi",
+      "automatic_transcript": " И сеть свистулек!"
+    },
+    {
+      "clip": "minimax-greeting",
+      "automatic_transcript": " и рэп трекс МАД Виака Адментыс Дивотус, Дигарерня"
+    },
+    {
+      "clip": "minimax-changed-line",
+      "automatic_transcript": " Сецкий интернет, из каптологичных письмей, ДНЕШНОВЫ  Обмена нета, и Кивилент есть, НИКРЕНРАЗГАНЯЯ!"
+    },
+    {
+      "clip": "minimax-ezhi",
+      "automatic_transcript": " 10 свистуляк"
+    }
+  ]
+}

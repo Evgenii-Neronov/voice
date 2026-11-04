@@ -1,0 +1,46 @@
+[
+  {
+    "repo": "TVI/f5-tts-ru-accent",
+    "revision": "e2996d89da1d17a09ca4be7fb06075968c228af7",
+    "folder": "I:\\VOICE\\voice\\models\\f5-ru",
+    "files": [
+      {
+        "file": "model_last.safetensors",
+        "bytes": 1348435761,
+        "sha256": "4270bcbd20725fcd1690bccd91ccaef2db8047ee80838da7d13cd91486e3584c"
+      },
+      {
+        "file": "vocab.txt",
+        "bytes": 11255,
+        "sha256": "4e173934be56219eb38759fa8d4c48132d5a34454f0c44abce409bcf6a07ec46"
+      },
+      {
+        "file": "README.md",
+        "bytes": 1244,
+        "sha256": "23f182f71d184439c78da1494e802d8e0968a081475d9d8e556e0d029c0bcc00"
+      }
+    ]
+  },
+  {
+    "repo": "charactr/vocos-mel-24khz",
+    "revision": "0feb3fdd929bcd6649e0e7c5a688cf7dd012ef21",
+    "folder": "I:\\VOICE\\voice\\models\\vocos-24k",
+    "files": [
+      {
+        "file": "config.yaml",
+        "bytes": 461,
+        "sha256": "da9033922f969a47f0c160010226919e59f27761fd5066f3828d46de6650b0fc"
+      },
+      {
+        "file": "pytorch_model.bin",
+        "bytes": 54365991,
+        "sha256": "97ec976ad1fd67a33ab2682d29c0ac7df85234fae875aefcc5fb215681a91b2a"
+      },
+      {
+        "file": "README.md",
+        "bytes": 1830,
+        "sha256": "5858497d76d58914b29958a0f448e7b4fd3bb54940100baaa7520d4a56d8b3df"
+      }
+    ]
+  }
+]

@@ -54,7 +54,9 @@ try:
  handler=LocalHandler()
  message,ok=handler.initialize_service(project_root=str(ROOT/'vendor/ace-step'),config_path=a.config,device='cuda',offload_to_cpu=True,offload_dit_to_cpu=True,compile_model=False,use_flash_attention=False)
  if not ok: raise RuntimeError(message)
- params=GenerationParams(caption=caption,lyrics=lyrics,bpm=brief.get('bpm',96),keyscale=brief.get('key','D minor'),timesignature='4',vocal_language='unknown' if a.instrumental else 'ru',duration=a.duration,inference_steps=8,thinking=False,use_cot_metas=False,use_cot_caption=False,use_cot_language=False)
+ edit_keys=['task_type','src_audio','repainting_start','repainting_end','chunk_mask_mode','repaint_mode','repaint_strength','repaint_wav_crossfade_sec']
+ edit_options={k:brief[k] for k in edit_keys if k in brief}
+ params=GenerationParams(caption=caption,lyrics=lyrics,bpm=brief.get('bpm',96),keyscale=brief.get('key','D minor'),timesignature='4',vocal_language='unknown' if a.instrumental else 'ru',duration=a.duration,inference_steps=8,thinking=False,use_cot_metas=False,use_cot_caption=False,use_cot_language=False,**edit_options)
  config=GenerationConfig(batch_size=1,audio_format='wav',use_random_seed=False,seeds=[a.seed])
  manifest['params']=dataclasses.asdict(params); manifest['config']=dataclasses.asdict(config); save()
  torch.cuda.reset_peak_memory_stats()

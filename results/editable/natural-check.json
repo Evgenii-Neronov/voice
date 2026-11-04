@@ -1,0 +1,11 @@
+{
+  "local_asr": "faster-whisper-small CUDA",
+  "not_human_listening": true,
+  "pcm_splice_checks_passed": true,
+  "clips": [
+    {
+      "clip": "f5-natural-line",
+      "automatic_transcript": " И винижного обмена нет, эквивалент есть."
+    }
+  ]
+}

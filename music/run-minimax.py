@@ -27,6 +27,7 @@ command=[str(exe),'--task','gen','--family','minimax_music3','--model',str(ROOT/
 m={'status':'running','local_inference':True,'model':'MiniMax-Music3 GGUF Q4/Q8/Q4','scope':'full lyrics' if a.full_lyrics else 'original intro only (8 lines)','source_lyrics_sha256':base['source_lyrics_sha256'],'runtime_sha256':hashlib.sha256(exe.read_bytes()).hexdigest(),'model_lock':json.loads((ROOT/'music/minimax.lock.json').read_text()),'command':command,'requested_budget_seconds':a.duration,'audio':[]}
 write(out/'manifest.json',m)
 m['brief']=brief
+if brief: m['source_lyrics_sha256']=brief.get('original_lyrics_sha256',m['source_lyrics_sha256'])
 start=time.perf_counter(); peak=0
 try:
  with (out/'runtime.log').open('w',encoding='utf-8') as log:

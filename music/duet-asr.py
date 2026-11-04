@@ -8,10 +8,10 @@ dll=ROOT/'.venvs/qwen/Lib/site-packages/torch/lib'
 os.environ['PATH']=str(dll)+os.pathsep+os.environ['PATH']
 handle=os.add_dll_directory(str(dll))
 from faster_whisper import WhisperModel
-p=argparse.ArgumentParser(); p.add_argument('variants',nargs='+'); a=p.parse_args()
+p=argparse.ArgumentParser(); p.add_argument('variants',nargs='+'); p.add_argument('--work-root',default='work/duets'); p.add_argument('--source-prefix',default='duet-'); a=p.parse_args()
 model=WhisperModel(str(ROOT/'models/asr-whisper-small'),device='cuda',compute_type='float16',cpu_threads=4,num_workers=1,local_files_only=True)
 for variant in a.variants:
- work=ROOT/'work/duets'/variant
+ work=ROOT/a.work_root/variant
  segments,info=model.transcribe(str(work/'stems/vocals.wav'),language='ru',beam_size=5,word_timestamps=True,vad_filter=False,condition_on_previous_text=False)
  rows=[]
  for s in segments:

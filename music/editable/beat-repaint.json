@@ -1,0 +1,16 @@
+{
+  "duration": 45,
+  "seed": 2026110421,
+  "bpm": 96,
+  "key": "D minor",
+  "lyrics": "[Instrumental]",
+  "caption": "Instrumental abstract boom bap, 96 BPM, dusty jazz drums, upright bass and dissonant Rhodes. Between 10 and 20 seconds replace the percussion with heavy syncopated drum breaks, metallic hats and two short turntable scratches. No vocals or singing.",
+  "task_type": "repaint",
+  "src_audio": "I:/VOICE/voice/work/editable/beat-source.wav",
+  "repainting_start": 10,
+  "repainting_end": 20,
+  "chunk_mask_mode": "explicit",
+  "repaint_mode": "balanced",
+  "repaint_strength": 0.5,
+  "repaint_wav_crossfade_sec": 0.08
+}
