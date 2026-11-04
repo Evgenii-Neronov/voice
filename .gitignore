@@ -14,3 +14,4 @@ results/raw/
 *.pt
 *.bin
 .env
+*.gguf

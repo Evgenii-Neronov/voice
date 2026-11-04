@@ -1,0 +1,110 @@
+[
+  {
+    "id": "neutral",
+    "text": "За окном погас последний фонарь. Я открыл дверь и услышал тихий звон.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "joy",
+    "text": "[excited] Ты всё-таки пришёл! Я знала, что мы снова увидимся!",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "anger",
+    "text": "[angry] Не трогай эту дверь! Я просил тебя подождать!",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "sadness",
+    "text": "[sad] Я оставлю свет в окне. Вдруг ты ещё найдёшь дорогу домой.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "drawl",
+    "text": "[Speak theatrically and slowly, stretching vowels, with irony] Ну да, конечно. Какой удивительный вечер.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "syllables",
+    "text": "[Sustain each vowel smoothly for two seconds] А-а-а, о-о-о, у-у-у. Да-а-а, я здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "singing_probe",
+    "text": "[singing] [Slow lyrical melody, sustained vowels, expressive vibrato] Тихий свет над рекой, возвращайся домой. Я по звёздам пройду, голос твой я найду.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "emotion_control",
+    "text": "[joyful relief] Я ждал тебя весь вечер. Теперь ты здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "neutral_control",
+    "text": "Я ждал тебя весь вечер. Теперь ты здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "version": "0.9.3",
+  "binary_reported_commit": "41c1f8ff",
+  "source_docs_commit": "1d30ef6ab29df98cf4b6ef38c7dca1d6c99738f6",
+  "platform": "windows-x64-cuda13.3",
+  "source": "https://github.com/0xShug0/audio.cpp",
+  "archives": [
+    {
+      "local_name": "audio-cuda13.3.zip",
+      "url": "https://github.com/0xShug0/audio.cpp/releases/download/v0.9.3/audio-v0.9.3-bin-windows-x64-cuda13.3.zip",
+      "sha256": "0bd3988be10c31ec078c40df2bd0d4266e660804f6d5083aeb05d1309d091e43"
+    },
+    {
+      "local_name": "cudart13.3.zip",
+      "url": "https://github.com/0xShug0/audio.cpp/releases/download/v0.9.3/audio-v0.9.3-cudart-windows-x64-cuda13.3.zip",
+      "sha256": "839eb20f684a8aab64895b1e466b32ce9b29dfc19dc1ce15b2ef35218512ac0a"
+    }
+  ]
+}

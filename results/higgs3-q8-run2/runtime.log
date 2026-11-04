@@ -1,0 +1,83 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cuda.dll
+load_backend: loaded CPU backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cpu-cascadelake.dll
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+family=higgs_audio_tts
+task=tts
+mode=offline
+request_index=0
+request_id=neutral
+[TIMING] request.neutral.wall_ms 2026.24
+audio_out=I:\VOICE\voice\results\higgs3-q8-run2\neutral.wav
+metrics[neutral].wall_ms=2026.24
+metrics[neutral].memory.peak_rss_mb=5859
+metrics[neutral].memory.peak_footprint_mb=12699
+metrics[neutral].memory.peak_footprint_source=windows_commit
+metrics[neutral].audio_duration_ms=5120
+metrics[neutral].rtf=0.395749
+metrics[neutral].x_realtime=2.52685
+metrics[neutral].audio_duration_source=output
+metrics[neutral].sample_rate=24000
+metrics[neutral].channels=1
+request_index=1
+request_id=joy
+[TIMING] request.joy.wall_ms 1059.54
+audio_out=I:\VOICE\voice\results\higgs3-q8-run2\joy.wav
+metrics[joy].wall_ms=1059.54
+metrics[joy].memory.peak_rss_mb=5859
+metrics[joy].memory.peak_footprint_mb=13091
+metrics[joy].memory.peak_footprint_source=windows_commit
+metrics[joy].audio_duration_ms=4000
+metrics[joy].rtf=0.264884
+metrics[joy].x_realtime=3.77524
+metrics[joy].audio_duration_source=output
+metrics[joy].sample_rate=24000
+metrics[joy].channels=1
+request_index=2
+request_id=anger
+[TIMING] request.anger.wall_ms 1387.03
+audio_out=I:\VOICE\voice\results\higgs3-q8-run2\anger.wav
+metrics[anger].wall_ms=1387.03
+metrics[anger].memory.peak_rss_mb=5859
+metrics[anger].memory.peak_footprint_mb=13140
+metrics[anger].memory.peak_footprint_source=windows_commit
+metrics[anger].audio_duration_ms=5280
+metrics[anger].rtf=0.262696
+metrics[anger].x_realtime=3.80669
+metrics[anger].audio_duration_source=output
+metrics[anger].sample_rate=24000
+metrics[anger].channels=1
+request_index=3
+request_id=sadness
+[TIMING] request.sadness.wall_ms 1254.39
+audio_out=I:\VOICE\voice\results\higgs3-q8-run2\sadness.wav
+metrics[sadness].wall_ms=1254.39
+metrics[sadness].memory.peak_rss_mb=5859
+metrics[sadness].memory.peak_footprint_mb=13140
+metrics[sadness].memory.peak_footprint_source=windows_commit
+metrics[sadness].audio_duration_ms=5160
+metrics[sadness].rtf=0.243099
+metrics[sadness].x_realtime=4.11355
+metrics[sadness].audio_duration_source=output
+metrics[sadness].sample_rate=24000
+metrics[sadness].channels=1
+request_index=4
+request_id=drawl
+[TIMING] request.drawl.wall_ms 791.476
+audio_out=I:\VOICE\voice\results\higgs3-q8-run2\drawl.wav
+metrics[drawl].wall_ms=791.476
+metrics[drawl].memory.peak_rss_mb=5859
+metrics[drawl].memory.peak_footprint_mb=13160
+metrics[drawl].memory.peak_footprint_source=windows_commit
+metrics[drawl].audio_duration_ms=3560
+metrics[drawl].rtf=0.222325
+metrics[drawl].x_realtime=4.49792
+metrics[drawl].audio_duration_source=output
+metrics[drawl].sample_rate=24000
+metrics[drawl].channels=1
+audiocpp_cli failed: Higgs TTS generation reached max_tokens (2048) before EOC for this text chunk; raise it with --max-tokens on the CLI or the "max_tokens" request option on the server, or lower --text-chunk-size / "text_chunk_size" so each chunk needs fewer generated frames

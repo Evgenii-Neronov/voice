@@ -1,0 +1,82 @@
+{
+  "fishaudio/s2-pro": {
+    "revision": "1de9996b6be38b745688de084d87a5633f714e4e",
+    "card_license": "other",
+    "documents": [
+      {
+        "file": "LICENSE.md",
+        "sha256": "aa7d9206e9d710590987a3636934f643529c00cd490323594e6206aaa0c32d80",
+        "url": "https://huggingface.co/fishaudio/s2-pro/blob/1de9996b6be38b745688de084d87a5633f714e4e/LICENSE.md"
+      },
+      {
+        "file": "README.md",
+        "sha256": "3c2d78af0f3991ef6047272d4df18f204b4340e1e5fcc975d0e720d4312c4b29",
+        "url": "https://huggingface.co/fishaudio/s2-pro/blob/1de9996b6be38b745688de084d87a5633f714e4e/README.md"
+      }
+    ]
+  },
+  "fishaudio/drama-3": {
+    "revision": "78e5ab79e49aa9a25abe8799eff2c4d73a1c3216",
+    "card_license": "other",
+    "documents": [
+      {
+        "file": "LICENSE",
+        "sha256": "733a32442087acbda12ecafe8e71eb8ee5890c89b50ce7ac4ea3777faa3c823e",
+        "url": "https://huggingface.co/fishaudio/drama-3/blob/78e5ab79e49aa9a25abe8799eff2c4d73a1c3216/LICENSE"
+      },
+      {
+        "file": "README.md",
+        "sha256": "6d147e079b87e0b9bb4e1c899f75da3e658754933457a3ca753ca9912d1f5e10",
+        "url": "https://huggingface.co/fishaudio/drama-3/blob/78e5ab79e49aa9a25abe8799eff2c4d73a1c3216/README.md"
+      }
+    ]
+  },
+  "bosonai/higgs-tts-3-4b": {
+    "revision": "239f63fb7b02b1aa085f98d9efae5e35cc5523e8",
+    "card_license": "other",
+    "documents": [
+      {
+        "file": "LICENSE",
+        "sha256": "0382189330b87c38517530e4e5bf0c9dfeb6c7bfbe62812577ddcb73e09a60c5",
+        "url": "https://huggingface.co/bosonai/higgs-tts-3-4b/blob/239f63fb7b02b1aa085f98d9efae5e35cc5523e8/LICENSE"
+      },
+      {
+        "file": "README.md",
+        "sha256": "021ff7995151f791efb7cd9f19f2b2dd599d20211db1689fc2c763e096b5c6fd",
+        "url": "https://huggingface.co/bosonai/higgs-tts-3-4b/blob/239f63fb7b02b1aa085f98d9efae5e35cc5523e8/README.md"
+      }
+    ]
+  },
+  "audio-cpp/audio.cpp-gguf": {
+    "revision": "fd2fe4c3195bc410f8b817bf7c7519fd822686fb",
+    "card_license": "other",
+    "documents": [
+      {
+        "file": "README.md",
+        "sha256": "2e94965c833ee71611def0f0ca149f1905cc7104bdf3bcfb9e5d27df1892f521",
+        "url": "https://huggingface.co/audio-cpp/audio.cpp-gguf/blob/fd2fe4c3195bc410f8b817bf7c7519fd822686fb/README.md"
+      }
+    ]
+  },
+  "Jmica/Drama-3-GGUF": {
+    "revision": "17a5b40c5dc2c2be986f5371a7e650108b828e29",
+    "card_license": "other",
+    "documents": [
+      {
+        "file": "LICENSE",
+        "sha256": "733a32442087acbda12ecafe8e71eb8ee5890c89b50ce7ac4ea3777faa3c823e",
+        "url": "https://huggingface.co/Jmica/Drama-3-GGUF/blob/17a5b40c5dc2c2be986f5371a7e650108b828e29/LICENSE"
+      },
+      {
+        "file": "NOTICE",
+        "sha256": "54f9c1b54ce61fdffabaaff0f450996f5f3e8a2326377bda2c59901c5cfd1e62",
+        "url": "https://huggingface.co/Jmica/Drama-3-GGUF/blob/17a5b40c5dc2c2be986f5371a7e650108b828e29/NOTICE"
+      },
+      {
+        "file": "README.md",
+        "sha256": "b51aa8e1ba645d2d9ba40d68c814e49bc3ac782c43a1805255a1b30983b71476",
+        "url": "https://huggingface.co/Jmica/Drama-3-GGUF/blob/17a5b40c5dc2c2be986f5371a7e650108b828e29/README.md"
+      }
+    ]
+  }
+}

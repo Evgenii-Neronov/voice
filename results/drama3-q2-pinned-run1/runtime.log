@@ -1,0 +1,479 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cuda.dll
+load_backend: loaded CPU backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cpu-cascadelake.dll
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+family=fish_drama3
+task=tts
+mode=offline
+request_index=0
+request_id=neutral
+[TIMING] request.neutral.wall_ms 56724.2
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\neutral.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":119,"reached_limit":false,"wall_ms":56723.0273}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=4906
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\neutral\drama3_take.json
+metrics[neutral].wall_ms=56724.2
+metrics[neutral].memory.peak_rss_mb=26458
+metrics[neutral].memory.peak_footprint_mb=20888
+metrics[neutral].memory.peak_footprint_source=windows_commit
+metrics[neutral].audio_duration_ms=5526.35
+metrics[neutral].rtf=10.2643
+metrics[neutral].x_realtime=0.0974249
+metrics[neutral].audio_duration_source=output
+metrics[neutral].sample_rate=44100
+metrics[neutral].channels=1
+request_index=1
+request_id=joy
+[TIMING] request.joy.wall_ms 54450.8
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\joy.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":107,"reached_limit":false,"wall_ms":54450.7314}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=4416
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\joy\drama3_take.json
+metrics[joy].wall_ms=54450.8
+metrics[joy].memory.peak_rss_mb=26458
+metrics[joy].memory.peak_footprint_mb=20888
+metrics[joy].memory.peak_footprint_source=windows_commit
+metrics[joy].audio_duration_ms=4969.07
+metrics[joy].rtf=10.9579
+metrics[joy].x_realtime=0.091258
+metrics[joy].audio_duration_source=output
+metrics[joy].sample_rate=44100
+metrics[joy].channels=1
+request_index=2
+request_id=anger
+[TIMING] request.anger.wall_ms 31013.4
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\anger.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":90,"reached_limit":false,"wall_ms":31013.3564}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=3732
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\anger\drama3_take.json
+metrics[anger].wall_ms=31013.4
+metrics[anger].memory.peak_rss_mb=26458
+metrics[anger].memory.peak_footprint_mb=20888
+metrics[anger].memory.peak_footprint_source=windows_commit
+metrics[anger].audio_duration_ms=4179.59
+metrics[anger].rtf=7.4202
+metrics[anger].x_realtime=0.134767
+metrics[anger].audio_duration_source=output
+metrics[anger].sample_rate=44100
+metrics[anger].channels=1
+request_index=3
+request_id=sadness
+[TIMING] request.sadness.wall_ms 53690.9
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\sadness.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":135,"reached_limit":false,"wall_ms":53690.8139}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=5540
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\sadness\drama3_take.json
+metrics[sadness].wall_ms=53690.9
+metrics[sadness].memory.peak_rss_mb=26458
+metrics[sadness].memory.peak_footprint_mb=21013
+metrics[sadness].memory.peak_footprint_source=windows_commit
+metrics[sadness].audio_duration_ms=6269.39
+metrics[sadness].rtf=8.56397
+metrics[sadness].x_realtime=0.116768
+metrics[sadness].audio_duration_source=output
+metrics[sadness].sample_rate=44100
+metrics[sadness].channels=1
+request_index=4
+request_id=drawl
+[TIMING] request.drawl.wall_ms 68069.5
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\drawl.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":180,"reached_limit":false,"wall_ms":68069.4036}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=7373
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\drawl\drama3_take.json
+metrics[drawl].wall_ms=68069.5
+metrics[drawl].memory.peak_rss_mb=26458
+metrics[drawl].memory.peak_footprint_mb=21284
+metrics[drawl].memory.peak_footprint_source=windows_commit
+metrics[drawl].audio_duration_ms=8359.18
+metrics[drawl].rtf=8.14307
+metrics[drawl].x_realtime=0.122804
+metrics[drawl].audio_duration_source=output
+metrics[drawl].sample_rate=44100
+metrics[drawl].channels=1
+request_index=5
+request_id=syllables
+[ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+TIMING] request.syllables.wall_ms 105796
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\syllables.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":237,"reached_limit":false,"wall_ms":105795.9731}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=9616
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\syllables\drama3_take.json
+metrics[syllables].wall_ms=105796
+metrics[syllables].memory.peak_rss_mb=26458
+metrics[syllables].memory.peak_footprint_mb=23062
+metrics[syllables].memory.peak_footprint_source=windows_commit
+metrics[syllables].audio_duration_ms=11006.3
+metrics[syllables].rtf=9.61235
+metrics[syllables].x_realtime=0.104033
+metrics[syllables].audio_duration_source=output
+metrics[syllables].sample_rate=44100
+metrics[syllables].channels=1
+request_index=6
+request_id=singing_probe
+[TIMING] request.singing_probe.wall_ms 450256
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\singing_probe.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":875,"reached_limit":false,"wall_ms":450255.5012}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=35304
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\singing_probe\drama3_take.json
+metrics[singing_probe].wall_ms=450256
+metrics[singing_probe].memory.peak_rss_mb=26458
+metrics[singing_probe].memory.peak_footprint_mb=29715
+metrics[singing_probe].memory.peak_footprint_source=windows_commit
+metrics[singing_probe].audio_duration_ms=40634.9
+metrics[singing_probe].rtf=11.0805
+metrics[singing_probe].x_realtime=0.0902486
+metrics[singing_probe].audio_duration_source=output
+metrics[singing_probe].sample_rate=44100
+metrics[singing_probe].channels=1
+request_index=7
+request_id=emotion_control
+[TIMING] request.emotion_control.wall_ms 38377.8
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\emotion_control.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":87,"reached_limit":false,"wall_ms":38377.7685}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=3588
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\emotion_control\drama3_take.json
+metrics[emotion_control].wall_ms=38377.8
+metrics[emotion_control].memory.peak_rss_mb=26458
+metrics[emotion_control].memory.peak_footprint_mb=29715
+metrics[emotion_control].memory.peak_footprint_source=windows_commit
+metrics[emotion_control].audio_duration_ms=4040.27
+metrics[emotion_control].rtf=9.49882
+metrics[emotion_control].x_realtime=0.105276
+metrics[emotion_control].audio_duration_source=output
+metrics[emotion_control].sample_rate=44100
+metrics[emotion_control].channels=1
+request_index=8
+request_id=neutral_control
+[TIMING] request.neutral_control.wall_ms 40403.2
+audio_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\neutral_control.wav
+custom_schema_output={"schema":"drama3_generation_v1","data":{"frames":81,"reached_limit":false,"wall_ms":40403.1046}}
+artifacts=1
+artifact=drama3_take kind=acoustic_tokens bytes=3342
+artifact_out[drama3_take]=I:\VOICE\voice\results\drama3-q2-pinned-run1\neutral_control\drama3_take.json
+metrics[neutral_control].wall_ms=40403.2
+metrics[neutral_control].memory.peak_rss_mb=26458
+metrics[neutral_control].memory.peak_footprint_mb=29715
+metrics[neutral_control].memory.peak_footprint_source=windows_commit
+metrics[neutral_control].audio_duration_ms=3761.63
+metrics[neutral_control].rtf=10.7409
+metrics[neutral_control].x_realtime=0.0931024
+metrics[neutral_control].audio_duration_source=output
+metrics[neutral_control].sample_rate=44100
+metrics[neutral_control].channels=1
+batch_manifest_out=I:\VOICE\voice\results\drama3-q2-pinned-run1\native-manifest.json

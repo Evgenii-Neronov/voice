@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-11-04T17:05:46.0370046+03:00",
+  "disk_free_bytes": 143680012288,
+  "ram_total_kib": 66975132,
+  "ram_free_kib": 25508016,
+  "gpu": "NVIDIA GeForce RTX 5080, 610.88, 16303 MiB, 4405 MiB",
+  "runtime": [
+    "audio.cpp 0.9.3",
+    "git: 41c1f8ff 2026-10-26",
+    "build: Release, msvc 19.44.35229.0, Windows AMD64",
+    "backends: cpu,cuda"
+  ]
+}

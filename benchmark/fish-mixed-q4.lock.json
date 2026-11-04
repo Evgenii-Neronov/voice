@@ -1,0 +1,37 @@
+{
+  "source": {
+    "repo_id": "audio-cpp/audio.cpp-gguf",
+    "revision": "fd2fe4c3195bc410f8b817bf7c7519fd822686fb",
+    "file": "Fish-Audio-S2-Pro-GGUF/fish-audio-s2-pro-q8_0.gguf",
+    "bytes": 6317915552,
+    "sha256": "4f051347079cfb61f9ef2996f67057229e486fefce31374721b5690940dfc34a",
+    "precision": "Q8_0",
+    "local_file": "models/native/Fish-Audio-S2-Pro-GGUF/fish-audio-s2-pro-q8_0.gguf"
+  },
+  "local_file": "models/native/Fish-Audio-S2-Pro-GGUF/fish-audio-s2-pro-mixed-q4_k.gguf",
+  "sha256": "4a275defa975f191b4a9777f7429b25c8bee7cd39a7235324982243ed933617f",
+  "bytes": 4501257600,
+  "command": [
+    "I:\\VOICE\\voice\\vendor\\audio-runtime\\audiocpp_gguf.exe",
+    "--input",
+    "I:\\VOICE\\voice\\models\\native\\Fish-Audio-S2-Pro-GGUF\\fish-audio-s2-pro-q8_0.gguf",
+    "--output",
+    "I:\\VOICE\\voice\\models\\native\\Fish-Audio-S2-Pro-GGUF\\fish-audio-s2-pro-mixed-q4_k.gguf",
+    "--type",
+    "q4_k",
+    "--family",
+    "fish_audio",
+    "--keep-type",
+    "model_weights/fast_*=orig",
+    "--keep-type",
+    "model_weights/codebook_embeddings*=orig",
+    "--keep-type",
+    "model_weights/embeddings*=orig",
+    "--keep-type",
+    "model_weights/norm*=orig",
+    "--keep-type",
+    "codec_weights*=orig"
+  ],
+  "recipe": "https://github.com/0xShug0/audio.cpp/blob/1d30ef6ab29df98cf4b6ef38c7dca1d6c99738f6/docs/proposals/fish_audio_quantization_recipe.md",
+  "note": "Derived from Q8, not original BF16. Acoustic fast decoder, embeddings, norms and codec retain input precision. Embedded sidecars automatically preserved by audio.cpp 0.9.3."
+}

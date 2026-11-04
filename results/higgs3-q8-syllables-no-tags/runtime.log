@@ -1,0 +1,23 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cuda.dll
+load_backend: loaded CPU backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cpu-cascadelake.dll
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+family=higgs_audio_tts
+task=tts
+mode=offline
+request_index=0
+request_id=syllables
+[TIMING] request.syllables.wall_ms 1675.1
+audio_out=I:\VOICE\voice\results\higgs3-q8-syllables-no-tags\syllables.wav
+metrics[syllables].wall_ms=1675.1
+metrics[syllables].memory.peak_rss_mb=5859
+metrics[syllables].memory.peak_footprint_mb=12699
+metrics[syllables].memory.peak_footprint_source=windows_commit
+metrics[syllables].audio_duration_ms=6400
+metrics[syllables].rtf=0.261734
+metrics[syllables].x_realtime=3.82067
+metrics[syllables].audio_duration_source=output
+metrics[syllables].sample_rate=24000
+metrics[syllables].channels=1
+batch_manifest_out=I:\VOICE\voice\results\higgs3-q8-syllables-no-tags\native-manifest.json

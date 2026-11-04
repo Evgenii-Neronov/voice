@@ -1,6 +1,6 @@
 {
-  "count": 19,
-  "total_seconds": 106.48,
+  "count": 75,
+  "total_seconds": 432.8509750566893,
   "files": [
     {
       "file": "results/ace-run2/64611098-a0fd-0a56-afec-11461d481411.wav",
@@ -91,6 +91,510 @@
       "subtype": "PCM_16",
       "peak": 1.0,
       "rms": 0.11749399979453039
+    },
+    {
+      "file": "results/drama3-q2-cuda-smoke/neutral.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 5.526349206349207,
+      "subtype": "PCM_16",
+      "peak": 0.48565673828125,
+      "rms": 0.0744292500777196
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/anger.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 4.179591836734694,
+      "subtype": "PCM_16",
+      "peak": 0.95196533203125,
+      "rms": 0.23862831878282528
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/drawl.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 8.359183673469389,
+      "subtype": "PCM_16",
+      "peak": 0.675689697265625,
+      "rms": 0.07936012025186297
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/emotion_control.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 4.040272108843538,
+      "subtype": "PCM_16",
+      "peak": 0.585174560546875,
+      "rms": 0.07554067797354255
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/joy.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 4.96907029478458,
+      "subtype": "PCM_16",
+      "peak": 0.637237548828125,
+      "rms": 0.09443415580981443
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/neutral.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 5.526349206349207,
+      "subtype": "PCM_16",
+      "peak": 0.48565673828125,
+      "rms": 0.0744292500777196
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/neutral_control.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 3.7616326530612243,
+      "subtype": "PCM_16",
+      "peak": 0.26983642578125,
+      "rms": 0.03844081373417189
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/sadness.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 6.2693877551020405,
+      "subtype": "PCM_16",
+      "peak": 0.087738037109375,
+      "rms": 0.005641220835173857
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/singing_probe.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 40.63492063492063,
+      "subtype": "PCM_16",
+      "peak": 0.446136474609375,
+      "rms": 0.037180774011722886
+    },
+    {
+      "file": "results/drama3-q2-pinned-run1/syllables.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 11.00625850340136,
+      "subtype": "PCM_16",
+      "peak": 0.409820556640625,
+      "rms": 0.03914276715591552
+    },
+    {
+      "file": "results/drama3-q2-smoke2/neutral.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 5.61922902494331,
+      "subtype": "PCM_16",
+      "peak": 0.48529052734375,
+      "rms": 0.07552485094284252
+    },
+    {
+      "file": "results/fish-s2-q4-run1/anger.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 4.179591836734694,
+      "subtype": "PCM_16",
+      "peak": 0.62432861328125,
+      "rms": 0.11569254002848976
+    },
+    {
+      "file": "results/fish-s2-q4-run1/drawl.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 3.436553287981859,
+      "subtype": "PCM_16",
+      "peak": 0.125885009765625,
+      "rms": 0.015838796843915263
+    },
+    {
+      "file": "results/fish-s2-q4-run1/emotion_control.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 3.4829931972789114,
+      "subtype": "PCM_16",
+      "peak": 0.91729736328125,
+      "rms": 0.24051338536047526
+    },
+    {
+      "file": "results/fish-s2-q4-run1/joy.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 4.4117913832199545,
+      "subtype": "PCM_16",
+      "peak": 0.6195068359375,
+      "rms": 0.08127946353715917
+    },
+    {
+      "file": "results/fish-s2-q4-run1/neutral.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 5.294149659863946,
+      "subtype": "PCM_16",
+      "peak": 0.7738037109375,
+      "rms": 0.14279424032020854
+    },
+    {
+      "file": "results/fish-s2-q4-run1/neutral_control.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 3.111473922902494,
+      "subtype": "PCM_16",
+      "peak": 0.414031982421875,
+      "rms": 0.07177117863275341
+    },
+    {
+      "file": "results/fish-s2-q4-run1/sadness.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 5.990748299319728,
+      "subtype": "PCM_16",
+      "peak": 0.534210205078125,
+      "rms": 0.1180531181392262
+    },
+    {
+      "file": "results/fish-s2-q4-run1/singing_probe.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 8.498503401360544,
+      "subtype": "PCM_16",
+      "peak": 0.438690185546875,
+      "rms": 0.09180650615915342
+    },
+    {
+      "file": "results/fish-s2-q4-run1/syllables.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 8.40562358276644,
+      "subtype": "PCM_16",
+      "peak": 0.180877685546875,
+      "rms": 0.0194030849003379
+    },
+    {
+      "file": "results/fish-s2-q8-run1/anger.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 4.2260317460317465,
+      "subtype": "PCM_16",
+      "peak": 0.462860107421875,
+      "rms": 0.09319149758405416
+    },
+    {
+      "file": "results/fish-s2-q8-run1/drawl.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 2.972154195011338,
+      "subtype": "PCM_16",
+      "peak": 0.1365966796875,
+      "rms": 0.021702008250934553
+    },
+    {
+      "file": "results/fish-s2-q8-run1/emotion_control.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 3.297233560090703,
+      "subtype": "PCM_16",
+      "peak": 0.872955322265625,
+      "rms": 0.08148727961586881
+    },
+    {
+      "file": "results/fish-s2-q8-run1/joy.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 4.690430839002268,
+      "subtype": "PCM_16",
+      "peak": 0.6046142578125,
+      "rms": 0.10475012408124748
+    },
+    {
+      "file": "results/fish-s2-q8-run1/neutral.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 5.061950113378685,
+      "subtype": "PCM_16",
+      "peak": 0.777496337890625,
+      "rms": 0.11121021817143362
+    },
+    {
+      "file": "results/fish-s2-q8-run1/neutral_control.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 3.0650340136054424,
+      "subtype": "PCM_16",
+      "peak": 0.46453857421875,
+      "rms": 0.07601425569911054
+    },
+    {
+      "file": "results/fish-s2-q8-run1/sadness.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 6.03718820861678,
+      "subtype": "PCM_16",
+      "peak": 0.441497802734375,
+      "rms": 0.07139498283010258
+    },
+    {
+      "file": "results/fish-s2-q8-run1/singing_probe.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 8.870022675736962,
+      "subtype": "PCM_16",
+      "peak": 0.46295166015625,
+      "rms": 0.07079684157995485
+    },
+    {
+      "file": "results/fish-s2-q8-run1/syllables.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 7.1053061224489795,
+      "subtype": "PCM_16",
+      "peak": 0.54132080078125,
+      "rms": 0.08524575457647958
+    },
+    {
+      "file": "results/fish-s2-q8-smoke1/neutral.wav",
+      "sample_rate": 44100,
+      "channels": 1,
+      "seconds": 5.061950113378685,
+      "subtype": "PCM_16",
+      "peak": 0.777496337890625,
+      "rms": 0.11121021817143362
+    },
+    {
+      "file": "results/higgs3-q8-run1/anger.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.28,
+      "subtype": "PCM_16",
+      "peak": 0.999969482421875,
+      "rms": 0.185048337977528
+    },
+    {
+      "file": "results/higgs3-q8-run1/drawl.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.56,
+      "subtype": "PCM_16",
+      "peak": 0.673309326171875,
+      "rms": 0.21430766656413106
+    },
+    {
+      "file": "results/higgs3-q8-run1/joy.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.0,
+      "subtype": "PCM_16",
+      "peak": 0.478485107421875,
+      "rms": 0.07712686927294322
+    },
+    {
+      "file": "results/higgs3-q8-run1/neutral.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.12,
+      "subtype": "PCM_16",
+      "peak": 0.39599609375,
+      "rms": 0.05872534745349936
+    },
+    {
+      "file": "results/higgs3-q8-run1/sadness.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.16,
+      "subtype": "PCM_16",
+      "peak": 0.1434326171875,
+      "rms": 0.022360873604937936
+    },
+    {
+      "file": "results/higgs3-q8-run2/anger.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.28,
+      "subtype": "PCM_16",
+      "peak": 0.999969482421875,
+      "rms": 0.185048337977528
+    },
+    {
+      "file": "results/higgs3-q8-run2/drawl.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.56,
+      "subtype": "PCM_16",
+      "peak": 0.673309326171875,
+      "rms": 0.21430766656413106
+    },
+    {
+      "file": "results/higgs3-q8-run2/joy.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.0,
+      "subtype": "PCM_16",
+      "peak": 0.478485107421875,
+      "rms": 0.07712686927294322
+    },
+    {
+      "file": "results/higgs3-q8-run2/neutral.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.12,
+      "subtype": "PCM_16",
+      "peak": 0.39599609375,
+      "rms": 0.05872534745349936
+    },
+    {
+      "file": "results/higgs3-q8-run2/sadness.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.16,
+      "subtype": "PCM_16",
+      "peak": 0.1434326171875,
+      "rms": 0.022360873604937936
+    },
+    {
+      "file": "results/higgs3-q8-run3/anger.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.28,
+      "subtype": "PCM_16",
+      "peak": 0.999969482421875,
+      "rms": 0.185048337977528
+    },
+    {
+      "file": "results/higgs3-q8-run3/drawl.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.56,
+      "subtype": "PCM_16",
+      "peak": 0.673309326171875,
+      "rms": 0.21430766656413106
+    },
+    {
+      "file": "results/higgs3-q8-run3/joy.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.0,
+      "subtype": "PCM_16",
+      "peak": 0.478485107421875,
+      "rms": 0.07712686927294322
+    },
+    {
+      "file": "results/higgs3-q8-run3/neutral.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.12,
+      "subtype": "PCM_16",
+      "peak": 0.39599609375,
+      "rms": 0.05872534745349936
+    },
+    {
+      "file": "results/higgs3-q8-run3/sadness.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.16,
+      "subtype": "PCM_16",
+      "peak": 0.1434326171875,
+      "rms": 0.022360873604937936
+    },
+    {
+      "file": "results/higgs3-q8-run4/anger.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.28,
+      "subtype": "PCM_16",
+      "peak": 0.999969482421875,
+      "rms": 0.185048337977528
+    },
+    {
+      "file": "results/higgs3-q8-run4/drawl.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.56,
+      "subtype": "PCM_16",
+      "peak": 0.673309326171875,
+      "rms": 0.21430766656413106
+    },
+    {
+      "file": "results/higgs3-q8-run4/emotion_control.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.48,
+      "subtype": "PCM_16",
+      "peak": 0.325897216796875,
+      "rms": 0.058885819540698624
+    },
+    {
+      "file": "results/higgs3-q8-run4/joy.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 4.0,
+      "subtype": "PCM_16",
+      "peak": 0.478485107421875,
+      "rms": 0.07712686927294322
+    },
+    {
+      "file": "results/higgs3-q8-run4/neutral.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.12,
+      "subtype": "PCM_16",
+      "peak": 0.39599609375,
+      "rms": 0.05872534745349936
+    },
+    {
+      "file": "results/higgs3-q8-run4/neutral_control.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 3.32,
+      "subtype": "PCM_16",
+      "peak": 0.421112060546875,
+      "rms": 0.06771591392778477
+    },
+    {
+      "file": "results/higgs3-q8-run4/sadness.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.16,
+      "subtype": "PCM_16",
+      "peak": 0.1434326171875,
+      "rms": 0.022360873604937936
+    },
+    {
+      "file": "results/higgs3-q8-run4/singing_probe.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 12.08,
+      "subtype": "PCM_16",
+      "peak": 0.436981201171875,
+      "rms": 0.06752185716258767
+    },
+    {
+      "file": "results/higgs3-q8-run4/syllables.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 6.4,
+      "subtype": "PCM_16",
+      "peak": 0.124755859375,
+      "rms": 0.02241662272278403
+    },
+    {
+      "file": "results/higgs3-q8-smoke1/neutral.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 5.12,
+      "subtype": "PCM_16",
+      "peak": 0.39599609375,
+      "rms": 0.05872534745349936
+    },
+    {
+      "file": "results/higgs3-q8-syllables-no-tags/syllables.wav",
+      "sample_rate": 24000,
+      "channels": 1,
+      "seconds": 6.4,
+      "subtype": "PCM_16",
+      "peak": 0.124755859375,
+      "rms": 0.02241662272278403
     },
     {
       "file": "results/qwen17-run1/anger.wav",

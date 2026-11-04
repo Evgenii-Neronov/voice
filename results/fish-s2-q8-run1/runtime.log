@@ -1,0 +1,138 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cuda.dll
+load_backend: loaded CPU backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cpu-cascadelake.dll
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+family=fish_audio
+task=tts
+mode=offline
+request_index=0
+request_id=neutral
+[TIMING] request.neutral.wall_ms 8496.38
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\neutral.wav
+metrics[neutral].wall_ms=8496.38
+metrics[neutral].memory.peak_rss_mb=7591
+metrics[neutral].memory.peak_footprint_mb=12235
+metrics[neutral].memory.peak_footprint_source=windows_commit
+metrics[neutral].audio_duration_ms=5061.95
+metrics[neutral].rtf=1.67848
+metrics[neutral].x_realtime=0.595777
+metrics[neutral].audio_duration_source=output
+metrics[neutral].sample_rate=44100
+metrics[neutral].channels=1
+request_index=1
+request_id=joy
+[TIMING] request.joy.wall_ms 6903.63
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\joy.wav
+metrics[joy].wall_ms=6903.63
+metrics[joy].memory.peak_rss_mb=7591
+metrics[joy].memory.peak_footprint_mb=12235
+metrics[joy].memory.peak_footprint_source=windows_commit
+metrics[joy].audio_duration_ms=4690.43
+metrics[joy].rtf=1.47185
+metrics[joy].x_realtime=0.679415
+metrics[joy].audio_duration_source=output
+metrics[joy].sample_rate=44100
+metrics[joy].channels=1
+request_index=2
+request_id=anger
+[TIMING] request.anger.wall_ms 4422.79
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\anger.wav
+metrics[anger].wall_ms=4422.79
+metrics[anger].memory.peak_rss_mb=7591
+metrics[anger].memory.peak_footprint_mb=12235
+metrics[anger].memory.peak_footprint_source=windows_commit
+metrics[anger].audio_duration_ms=4226.03
+metrics[anger].rtf=1.04656
+metrics[anger].x_realtime=0.955512
+metrics[anger].audio_duration_source=output
+metrics[anger].sample_rate=44100
+metrics[anger].channels=1
+request_index=3
+request_id=sadness
+[TIMING] request.sadness.wall_ms 4182.84
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\sadness.wav
+metrics[sadness].wall_ms=4182.84
+metrics[sadness].memory.peak_rss_mb=7591
+metrics[sadness].memory.peak_footprint_mb=12423
+metrics[sadness].memory.peak_footprint_source=windows_commit
+metrics[sadness].audio_duration_ms=6037.19
+metrics[sadness].rtf=0.692846
+metrics[sadness].x_realtime=1.44332
+metrics[sadness].audio_duration_source=output
+metrics[sadness].sample_rate=44100
+metrics[sadness].channels=1
+request_index=4
+request_id=drawl
+[TIMING] request.drawl.wall_ms 1996.21
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\drawl.wav
+metrics[drawl].wall_ms=1996.21
+metrics[drawl].memory.peak_rss_mb=7591
+metrics[drawl].memory.peak_footprint_mb=12423
+metrics[drawl].memory.peak_footprint_source=windows_commit
+metrics[drawl].audio_duration_ms=2972.15
+metrics[drawl].rtf=0.671637
+metrics[drawl].x_realtime=1.4889
+metrics[drawl].audio_duration_source=output
+metrics[drawl].sample_rate=44100
+metrics[drawl].channels=1
+request_index=5
+request_id=syllables
+[TIMING] request.syllables.wall_ms 5246.96
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\syllables.wav
+metrics[syllables].wall_ms=5246.96
+metrics[syllables].memory.peak_rss_mb=7591
+metrics[syllables].memory.peak_footprint_mb=12655
+metrics[syllables].memory.peak_footprint_source=windows_commit
+metrics[syllables].audio_duration_ms=7105.31
+metrics[syllables].rtf=0.738456
+metrics[syllables].x_realtime=1.35418
+metrics[syllables].audio_duration_source=output
+metrics[syllables].sample_rate=44100
+metrics[syllables].channels=1
+request_index=6
+request_id=singing_probe
+[TIMING] request.singing_probe.wall_ms 7201.99
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\singing_probe.wav
+metrics[singing_probe].wall_ms=7201.99
+metrics[singing_probe].memory.peak_rss_mb=7591
+metrics[singing_probe].memory.peak_footprint_mb=13010
+metrics[singing_probe].memory.peak_footprint_source=windows_commit
+metrics[singing_probe].audio_duration_ms=8870.02
+metrics[singing_probe].rtf=0.811947
+metrics[singing_probe].x_realtime=1.23161
+metrics[singing_probe].audio_duration_source=output
+metrics[singing_probe].sample_rate=44100
+metrics[singing_probe].channels=1
+request_index=7
+request_id=emotion_control
+[TIMING] request.emotion_control.wall_ms 3747.1
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\emotion_control.wav
+metrics[emotion_control].wall_ms=3747.1
+metrics[emotion_control].memory.peak_rss_mb=7591
+metrics[emotion_control].memory.peak_footprint_mb=13010
+metrics[emotion_control].memory.peak_footprint_source=windows_commit
+metrics[emotion_control].audio_duration_ms=3297.23
+metrics[emotion_control].rtf=1.13644
+metrics[emotion_control].x_realtime=0.879944
+metrics[emotion_control].audio_duration_source=output
+metrics[emotion_control].sample_rate=44100
+metrics[emotion_control].channels=1
+request_index=8
+request_id=neutral_control
+[TIMING] request.neutral_control.wall_ms 1930.85
+audio_out=I:\VOICE\voice\results\fish-s2-q8-run1\neutral_control.wav
+metrics[neutral_control].wall_ms=1930.85
+metrics[neutral_control].memory.peak_rss_mb=7591
+metrics[neutral_control].memory.peak_footprint_mb=13010
+metrics[neutral_control].memory.peak_footprint_source=windows_commit
+metrics[neutral_control].audio_duration_ms=3065.03
+metrics[neutral_control].rtf=0.629962
+metrics[neutral_control].x_realtime=1.5874
+metrics[neutral_control].audio_duration_source=output
+metrics[neutral_control].sample_rate=44100
+metrics[neutral_control].channels=1
+batch_manifest_out=I:\VOICE\voice\results\fish-s2-q8-run1\native-manifest.json

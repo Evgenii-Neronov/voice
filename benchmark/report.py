@@ -6,19 +6,22 @@ import wave
 ROOT = Path(__file__).resolve().parents[1]
 lines=['# Фактические локальные результаты','','Автоматические метрики не оценивают эмоции или качество русского. `generated_unrated` требует прослушивания.','','| Запуск | Тест | Статус | Аудио, с | Генерация, с | RTF |','|---|---|---|---:|---:|---:|']
 errors=[]
+def metric(row,key):
+    value=row.get(key)
+    return f'{value:.2f}' if value is not None else '—'
 for manifest_path in sorted((ROOT/'results').glob('*/manifest.json')):
     data=json.loads(manifest_path.read_text(encoding='utf-8'))
     rows=data.get('cases',[])
     if not rows:
         lines.append(f"| {manifest_path.parent.name} | whole run | {data['status']} | — | — | — |")
     for row in rows:
-        if row['status']=='generated_unrated':
+        if row['status'].startswith('generated_'):
             file=manifest_path.parent/row['wav']
             assert hashlib.sha256(file.read_bytes()).hexdigest()==row['sha256'],file
             with wave.open(str(file),'rb') as w:
                 assert w.getnchannels()==1 and w.getsampwidth()==2,file
                 assert abs(w.getnframes()/w.getframerate()-row['duration_seconds'])<1e-5,file
-            lines.append(f"| {manifest_path.parent.name} | {row['id']} | {row['status']} | {row['duration_seconds']:.2f} | {row['generation_seconds']:.2f} | {row['rtf']:.2f} |")
+            lines.append(f"| {manifest_path.parent.name} | {row['id']} | {row['status']} | {row['duration_seconds']:.2f} | {metric(row,'generation_seconds')} | {metric(row,'rtf')} |")
         else:
             lines.append(f"| {manifest_path.parent.name} | {row['id']} | failed | — | — | — |")
             errors.append((manifest_path.parent.name,row['id'],row.get('error','')))

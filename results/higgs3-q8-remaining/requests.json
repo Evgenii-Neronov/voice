@@ -1,0 +1,38 @@
+[
+  {
+    "id": "singing_probe",
+    "text": "<|style:singing|><|prosody:speed_slow|> Тихий свет над рекой, возвращайся домой. Я по звёздам пройду, голос твой я найду.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "emotion_control",
+    "text": "<|emotion:relief|><|prosody:expressive_high|> Я ждал тебя весь вечер. Теперь ты здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "neutral_control",
+    "text": "Я ждал тебя весь вечер. Теперь ты здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  }
+]

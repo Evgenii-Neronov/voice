@@ -1,0 +1,14 @@
+[
+  {
+    "id": "syllables",
+    "text": "А-а-а, о-о-о, у-у-у. Да-а-а, я здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  }
+]

@@ -1,0 +1,12 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 16302 MiB):
+  Device 0: NVIDIA GeForce RTX 5080, compute capability 12.0, VMM: yes, VRAM: 16302 MiB
+load_backend: loaded CUDA backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cuda.dll
+load_backend: loaded CPU backend from I:\VOICE\voice\vendor\audio-runtime\ggml-cpu-cascadelake.dll
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+family=higgs_audio_tts
+task=tts
+mode=offline
+audiocpp_cli failed: Higgs TTS generation reached max_tokens (1024) before EOC for this text chunk; raise it with --max-tokens on the CLI or the "max_tokens" request option on the server, or lower --text-chunk-size / "text_chunk_size" so each chunk needs fewer generated frames

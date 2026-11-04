@@ -23,7 +23,7 @@ Pinokio установлен как клиент pterm, но управляющ�
 
 ## Что ещё не проверено
 
-Fish S2/Drama 3, Higgs TTS 3, CosyVoice 3, OmniVoice: изучены официальные материалы, сняты SHA и размеры в research-models.json; локальный синтез этих моделей не выполнялся. Размер всего HF-репозитория не равен VRAM и может включать несколько компонентов.
+CosyVoice 3, OmniVoice: изучены официальные материалы, сняты SHA и размеры в research-models.json; локальный синтез этих моделей не выполнялся. Размер всего HF-репозитория не равен VRAM и может включать несколько компонентов. Последующий локальный тест Fish S2/Drama 3/Higgs TTS 3 вынесен в [NATIVE_BENCHMARK.md](NATIVE_BENCHMARK.md), с отдельными GGUF/runtime locks и журналами ошибок.
 
 Seed-VC: изучен режим singing voice conversion, но преобразование вокала не запускалось. Нужен заранее выбранный сухой вокальный источник и голосовой референс. Для точного сохранения мелодии у upstream применяется `inference.py --source source.wav --target reference.wav --output output --diffusion-steps 40 --length-adjust 1.0 --inference-cfg-rate 0.7 --f0-condition True --auto-f0-adjust False --semi-tone-shift 0 --fp16 True`. Это справочная команда, не отчёт об исполнении и не установленный здесь стек Seed-VC.
 

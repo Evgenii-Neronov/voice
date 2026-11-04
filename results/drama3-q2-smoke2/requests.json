@@ -1,0 +1,14 @@
+[
+  {
+    "id": "neutral",
+    "text": "За окном погас последний фонарь. Я открыл дверь и услышал тихий звон.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 4097,
+    "top_p": 0.9,
+    "text_chunk_size": 1024,
+    "options": {}
+  }
+]

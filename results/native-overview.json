@@ -1,0 +1,99 @@
+{
+  "runs": [
+    {
+      "run_id": "fish-s2-q8-run1",
+      "model": "fish-s2",
+      "status": "generated_unrated",
+      "precision": "Q8_0",
+      "wav_count": 9,
+      "audio_seconds": 45.32535147392291,
+      "generation_seconds": 44.12875,
+      "weighted_rtf": 0.9735997309450242,
+      "min_rtf": 0.6299603826349431,
+      "max_rtf": 1.6784795996989677,
+      "whole_run_seconds": 66.24809429999732,
+      "whole_gpu_max_sampled_mib": 14221,
+      "process_peak_rss_mib": 7591,
+      "any_native_reached_limit": null,
+      "singing_probe": {
+        "duration_seconds": 8.870022675736962,
+        "generation_seconds": 7.2019899999999994,
+        "rtf": 0.8119471914880562,
+        "sha256": "21ca26aa42af6ec731f7ab1233e7f5f467b0aa233cdfdfa45f6950de34dc69e1"
+      }
+    },
+    {
+      "run_id": "fish-s2-q4-run1",
+      "model": "fish-s2",
+      "status": "generated_unrated",
+      "precision": "Mixed Q4_K backbone; fast decoder, codec, embeddings and norms preserved from Q8 source",
+      "wav_count": 9,
+      "audio_seconds": 46.81142857142857,
+      "generation_seconds": 30.545939999999998,
+      "weighted_rtf": 0.6525316772460937,
+      "min_rtf": 0.6044603810864826,
+      "max_rtf": 0.7461235994037829,
+      "whole_run_seconds": 46.853693900004146,
+      "whole_gpu_max_sampled_mib": 8453,
+      "process_peak_rss_mib": 5397,
+      "any_native_reached_limit": null,
+      "singing_probe": {
+        "duration_seconds": 8.498503401360544,
+        "generation_seconds": 5.94339,
+        "rtf": 0.6993454870005122,
+        "sha256": "3979d105794a77563ff7ade2501067cd491936e87ed9c0b57275af8c2775b5fa"
+      }
+    },
+    {
+      "run_id": "higgs3-q8-run4",
+      "model": "higgs3",
+      "status": "generated_unrated",
+      "precision": "Q8_0",
+      "wav_count": 9,
+      "audio_seconds": 48.4,
+      "generation_seconds": 11.505635999999999,
+      "weighted_rtf": 0.2377197520661157,
+      "min_rtf": 0.2091317829457364,
+      "max_rtf": 0.27502343749999997,
+      "whole_run_seconds": 28.414531100002932,
+      "whole_gpu_max_sampled_mib": 13891,
+      "process_peak_rss_mib": 5859,
+      "any_native_reached_limit": null,
+      "singing_probe": {
+        "duration_seconds": 12.08,
+        "generation_seconds": 2.75738,
+        "rtf": 0.22825993377483444,
+        "sha256": "38658bf6244bbf520f4be49ed2fa4c1bf7a55f68188fb366ec1940d50713082d"
+      }
+    },
+    {
+      "run_id": "drama3-q2-pinned-run1",
+      "model": "drama3",
+      "status": "generated_unrated",
+      "precision": "Q2_K experts, Q8_0 backbone, FP16 audio tower and codec",
+      "wav_count": 9,
+      "audio_seconds": 88.74666666666667,
+      "generation_seconds": 898.7818,
+      "weighted_rtf": 10.127499248798076,
+      "min_rtf": 7.4201982421874995,
+      "max_rtf": 11.08051875,
+      "whole_run_seconds": 933.4073445999966,
+      "whole_gpu_max_sampled_mib": 15165,
+      "process_peak_rss_mib": 26458,
+      "any_native_reached_limit": false,
+      "singing_probe": {
+        "duration_seconds": 40.63492063492063,
+        "generation_seconds": 450.256,
+        "rtf": 11.08051875,
+        "sha256": "626b1845bf338fd9ce07533122a54d20b82117df83bf7c319298842bc3d7df53"
+      }
+    }
+  ],
+  "selected_wav_count": 36,
+  "notes": [
+    "RTF excludes model initialization; lower is faster.",
+    "GPU samples cover the whole card, including unrelated processes; RSS is CPU memory.",
+    "Higgs syllables prefix removed after slow-tag failures; see requests and NATIVE_BENCHMARK.md.",
+    "No listening scores, ASR/WER, MIDI accuracy or statistical seed sweep."
+  ]
+}

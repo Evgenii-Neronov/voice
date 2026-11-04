@@ -1,0 +1,10 @@
+note: reusing the 13 sidecars embedded in I:\VOICE\voice\models\native\Fish-Audio-S2-Pro-GGUF\fish-audio-s2-pro-q8_0.gguf; pass --root to override
+gguf=I:\VOICE\voice\models\native\Fish-Audio-S2-Pro-GGUF\fish-audio-s2-pro-mixed-q4_k.gguf
+weight_type=q4_k
+tensor_sources=1
+type_overrides=5
+folded_weight_norm_patterns=0
+embedded_sidecars=true
+embedded_sidecar_count=13
+embedded_model_spec=true
+model_spec_family=fish_audio

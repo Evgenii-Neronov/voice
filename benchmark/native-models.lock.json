@@ -1,0 +1,29 @@
+{
+  "fish-s2": {
+    "repo_id": "audio-cpp/audio.cpp-gguf",
+    "revision": "fd2fe4c3195bc410f8b817bf7c7519fd822686fb",
+    "file": "Fish-Audio-S2-Pro-GGUF/fish-audio-s2-pro-q8_0.gguf",
+    "bytes": 6317915552,
+    "sha256": "4f051347079cfb61f9ef2996f67057229e486fefce31374721b5690940dfc34a",
+    "precision": "Q8_0",
+    "local_file": "models/native/Fish-Audio-S2-Pro-GGUF/fish-audio-s2-pro-q8_0.gguf"
+  },
+  "higgs3": {
+    "repo_id": "audio-cpp/audio.cpp-gguf",
+    "revision": "fd2fe4c3195bc410f8b817bf7c7519fd822686fb",
+    "file": "Higgs-Audio-v3-TTS-4B-GGUF/higgs-audio-v3-tts-4b-q8_0.gguf",
+    "bytes": 5095359136,
+    "sha256": "cfa5cc01adcd199dfcf1baf0f610aa474cda83418fd1802aa6defa82d956a0e4",
+    "precision": "Q8_0",
+    "local_file": "models/native/Higgs-Audio-v3-TTS-4B-GGUF/higgs-audio-v3-tts-4b-q8_0.gguf"
+  },
+  "drama3": {
+    "repo_id": "Jmica/Drama-3-GGUF",
+    "revision": "17a5b40c5dc2c2be986f5371a7e650108b828e29",
+    "file": "drama-3-backbone-8bit-experts-Q2_K.gguf",
+    "bytes": 17053639872,
+    "sha256": "041be86fbb53bf4002d59bf7d5f0c99c321e0b21f5aa3b53fec380eec6f892d3",
+    "precision": "Q2_K experts, Q8_0 backbone, FP16 audio tower and codec",
+    "local_file": "models/native/drama-3-backbone-8bit-experts-Q2_K.gguf"
+  }
+}

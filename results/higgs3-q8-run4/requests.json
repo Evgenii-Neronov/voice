@@ -1,0 +1,110 @@
+[
+  {
+    "id": "neutral",
+    "text": "За окном погас последний фонарь. Я открыл дверь и услышал тихий звон.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "joy",
+    "text": "<|emotion:elation|><|prosody:expressive_high|> Ты всё-таки пришёл! Я знала, что мы снова увидимся!",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "anger",
+    "text": "<|emotion:anger|><|prosody:expressive_high|> Не трогай эту дверь! Я просил тебя подождать!",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "sadness",
+    "text": "<|emotion:sadness|><|prosody:speed_slow|> Я оставлю свет в окне. Вдруг ты ещё найдёшь дорогу домой.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "drawl",
+    "text": "<|prosody:speed_very_slow|><|prosody:expressive_high|> Ну да, конечно. Какой удивительный вечер.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "syllables",
+    "text": "А-а-а, о-о-о, у-у-у. Да-а-а, я здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "emotion_control",
+    "text": "<|emotion:relief|><|prosody:expressive_high|> Я ждал тебя весь вечер. Теперь ты здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "neutral_control",
+    "text": "Я ждал тебя весь вечер. Теперь ты здесь.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  },
+  {
+    "id": "singing_probe",
+    "text": "<|style:singing|> Тихий свет над рекой, возвращайся домой. Я по звёздам пройду, голос твой я найду.",
+    "language": "ru",
+    "seed": 20261104,
+    "max_tokens": 1024,
+    "temperature": 0.8,
+    "top_k": 30,
+    "top_p": 0.8,
+    "text_chunk_size": 1024,
+    "options": {}
+  }
+]

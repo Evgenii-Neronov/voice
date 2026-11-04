@@ -11,7 +11,7 @@
 | [ACE-Step 1.5](https://huggingface.co/ACE-Step/Ace-Step1.5) | MIT |
 | [Seed-VC](https://github.com/Plachtaa/seed-vc) | Код GPL-3.0; лицензии конкретных checkpoint и вспомогательных компонентов проверяются отдельно |
 | [Fish S2 Pro](https://huggingface.co/fishaudio/s2-pro) | Fish Audio Research License; не приравнивать к Apache/MIT |
-| [Fish Drama 3](https://huggingface.co/fishaudio/drama-3) | Метаданные и текст карточки используют разные названия лицензии; перед применением читать LICENSE выбранного revision |
+| [Fish Drama 3](https://huggingface.co/fishaudio/drama-3) | Проверенный LICENSE revision 78e5ab79: Fish Audio Community License 1.0 от 2026-10-13; ссылки и хеши в native-sources.lock.json |
 | [Higgs TTS 3](https://huggingface.co/bosonai/higgs-tts-3-4b) | Research and Non-Commercial License с отдельным Creator Use Grant; карточка разрешает монетизируемые авторские материалы при атрибуции, но не универсальный коммерческий сервис |
 
 Это фиксация опубликованных названий/условий, не юридическое заключение. Новые модели не скачиваются под названием старой версии. English Chatterbox, Multilingual V3 и Turbo не взаимозаменяемы.

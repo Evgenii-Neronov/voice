@@ -2,6 +2,9 @@
 
 Рабочий каталог: `I:\VOICE\voice`. Python 3.12, git, ffmpeg доступны. Запускать модели последовательно, не параллельно на GPU.
 
+Команды отдельного нативного benchmark Fish S2 Pro / Drama 3 / Higgs TTS 3,
+выбранные GGUF и ограничения Windows-сборки: [NATIVE_BENCHMARK.md](NATIVE_BENCHMARK.md).
+
 ## Qwen
 
 ```powershell
