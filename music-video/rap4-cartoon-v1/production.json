@@ -1,0 +1,11 @@
+{
+  "version": "Rap4 cartoon v1",
+  "render_seconds": 262.18,
+  "drawings": 3279,
+  "duration": 273.208333,
+  "video_sha256": "8219044d997b5eca7c265e472857efad720aef613e710b3878d9bdd213209e00",
+  "quality_control": "Full decode, audio correlation, subtitle dash checks, moving previews and18 final sampled frames",
+  "camera_fix": "Camera centre clamped inside background extents at every zoom; final render regenerated",
+  "source_audio_unchanged": true,
+  "reference_image_uploaded": false
+}

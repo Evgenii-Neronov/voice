@@ -1,0 +1,29 @@
+{
+  "skia-python": {
+    "version": "144.1",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ]
+  },
+  "numpy": {
+    "version": "2.5.4",
+    "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license_classifiers": []
+  },
+  "scipy": {
+    "version": "1.18.1",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ]
+  },
+  "pillow": {
+    "version": "13.0.0",
+    "license_expression": "MIT-CMU",
+    "license_classifiers": []
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "ffmpeg": "ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+  "python_executable": "C:\\Users\\Evgen\\Documents\\Codex\\2026-11-04\\referenced-chatgpt-conversation-this-is-an\\work\\rap4-cartoon\\.venv\\Scripts\\python.exe"
+}

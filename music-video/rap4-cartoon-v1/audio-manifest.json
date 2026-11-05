@@ -1,0 +1,11 @@
+{
+  "track": "I:/MyMusic/13 - New Rap/all-original-voices/main/14-minimax-rap4-dialogue-final-01.mp3",
+  "duration": 273.188571,
+  "outro_start": 256.28,
+  "ezhi_entrance_start": 251.8,
+  "ezhi_entrance_end": 255.9,
+  "source_alignment": "Existing local Whisper word timestamps, base plus outro at256.28s, text sequence alignment; approximate",
+  "subtitle_lines": 88,
+  "dash": "ASCII hyphen U+002D",
+  "outro_assignment": "All final block from Semинар окончен shown as Ezhi, per current user direction; audio unchanged"
+}

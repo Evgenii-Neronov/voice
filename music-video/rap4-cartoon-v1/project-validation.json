@@ -1,0 +1,7 @@
+{
+  "portable_render_test": "passed, one-second render from packaged project using bundled track and analysis",
+  "editable_svg_files": 5,
+  "svg_xml_parse": "passed",
+  "transparent_character_pngs": 4,
+  "new_model_downloads": false
+}
