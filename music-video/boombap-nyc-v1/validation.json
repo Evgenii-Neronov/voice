@@ -1,0 +1,27 @@
+{
+  "video": "ADV-boombap-NYC-1440p.mp4",
+  "sha256": "6a9b5b4a397dbeb4530be99682d2fab884a35bab2a87738dff38af702a0b77d0",
+  "size_bytes": 645536858,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "duration": 253.291667,
+  "frames_per_part": [
+    2026,
+    2027,
+    2026
+  ],
+  "audio_sample_rate": "44100",
+  "audio_alignment_lag_ms": 0.0,
+  "full_decode": "passed",
+  "visual_review": "18 sampled frames and separate temporal preview contact sheet; no claim of full audiovisual playback review",
+  "known_limits": [
+    "Stock motion clips loop; not a recorded rap performance",
+    "Amplitude-based approximate mouth articulation, not phoneme-accurate lipsync",
+    "Subtitle boundaries approximate at unclear generated pronunciations"
+  ],
+  "final_frames": 6079,
+  "final_render_and_mux_seconds": 2662.1
+}

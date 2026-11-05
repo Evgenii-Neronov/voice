@@ -9,3 +9,6 @@ frames/
 *.mp4
 *.log
 __pycache__/
+
+# Small verified review frames are tracked; raw renders remain local.
+!review/*.jpg

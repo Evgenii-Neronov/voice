@@ -28,5 +28,8 @@
   "motion": "Captured gesture clips with looping body animation; amplitude-driven approximate facial articulation. No phoneme-accurate lipsync.",
   "camera": "Real 3D dolly moves across 28 performance shots",
   "subtitle_alignment": "Original lyrics mapped to boombap ASR independently of prior funk edit; approximate where model mispronounces words.",
-  "backend": "EEVEE Vulkan; native H264 intermediate; NVIDIA NVENC final encode"
+  "backend": "EEVEE Vulkan; native H264 intermediate; NVIDIA NVENC final encode",
+  "status": "complete",
+  "final_video": "ADV-boombap-NYC-1440p.mp4",
+  "final_render_and_mux_seconds": 2662.1
 }
