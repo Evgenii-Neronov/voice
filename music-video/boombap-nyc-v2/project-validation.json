@@ -1,0 +1,32 @@
+{
+  "file": "C:\\Users\\Evgen\\Documents\\Codex\\2026-11-04\\referenced-chatgpt-conversation-this-is-an\\outputs\\nyc-boombap-v2-1440p\\project\\NYC-boombap-v2.blend",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frames": [
+    1,
+    6079
+  ],
+  "renderer": "BLENDER_EEVEE_NEXT",
+  "samples": 24,
+  "passerby_height_m": 1.83,
+  "text_objects": [
+    {
+      "name": "ADV painted outline",
+      "body": "ADV"
+    },
+    {
+      "name": "ADV ochre fill",
+      "body": "ADV"
+    },
+    {
+      "name": "Cap NY embroidery",
+      "body": "NY"
+    }
+  ],
+  "packed_images": 25,
+  "sound_packed": true,
+  "missing_files": []
+}

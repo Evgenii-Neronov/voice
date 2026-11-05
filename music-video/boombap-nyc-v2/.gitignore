@@ -1,0 +1,9 @@
+assets/
+tools/
+qa/
+*.blend*
+*.mp4
+*.zip
+*.log
+*.npz
+!visemes.npy

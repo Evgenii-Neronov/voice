@@ -1,0 +1,126 @@
+{
+  "python_packages": {
+    "torch": "2.10.0+cu128",
+    "transformers": "4.57.3",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "soundfile": "0.13.1"
+  },
+  "model": {
+    "id": "facebook/wav2vec2-xlsr-53-espeak-cv-ft",
+    "license": "Apache-2.0",
+    "path": "I:\\VOICE\\voice\\models\\lipsync\\wav2vec2-espeak"
+  },
+  "files": [
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\m_gestic_listen_relaxed_01.max.fbx",
+      "bytes": 5917568,
+      "sha256": "f03508d900b1489f8270070376dd76c75388263927948dc0bc2f98e7f248036c"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\m_idle_neutral_02.max.fbx",
+      "bytes": 2938656,
+      "sha256": "d6d13b12e1f8d677dfaffef342a5ffeacf5ee3b38036de83425ab68316cd4e5e"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\m_walk_cool_01.max.fbx",
+      "bytes": 1012368,
+      "sha256": "401a790aeb084c43f0cfe7b01ded3a3c6d163985e1e4454acdabd72fbf968e17"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\m_walk_neutral_01.max.fbx",
+      "bytes": 994336,
+      "sha256": "e6805ae6b6b49fe10f06c1b17b14ddde90d09b9fea689ac34793df252f44dcd0"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\RubikWetPaint-OFL.txt",
+      "bytes": 4406,
+      "sha256": "f9e2d4498ea80d38bac7b8841d68af68c132fa67e1552e7c05717e6987de1d74"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\RubikWetPaint-Regular.ttf",
+      "bytes": 442628,
+      "sha256": "3f35d1c77219c5219826b23c2f0c72dd0eed46425a0d4fff21b8827cdce61693"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_08\\Export\\Male_Adult_08_facial.fbx",
+      "bytes": 1913408,
+      "sha256": "a736f359d8adb61436de72fd59ba0acac4b42d18751b22ac4d3e2b574d7a71e0"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_body_color.tga",
+      "bytes": 12582956,
+      "sha256": "9b6cef05b86497ffca6f131842950341302fa170e5ce3de1c2446501be774b91"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_body_normal.tga",
+      "bytes": 12582956,
+      "sha256": "e77af685914352cf75755d45254cdab57d3af3c6fa848a1f2f871250eb87d3ab"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_head_color.tga",
+      "bytes": 12582956,
+      "sha256": "5d3723b8d6f6175b26adb1f2d46ade55b19630c2cee1bd2e43dbd293c6fa7d38"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_head_normal.tga",
+      "bytes": 12582956,
+      "sha256": "0a43fbc692b1cf9237f21c869eb2192e16057aa62e34117e569f9b0c0a2b9796"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Assets\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_opacity_color.tga",
+      "bytes": 16777260,
+      "sha256": "282684b09dd7e3b7b521387240855773f419a90c67ba58ff9ad478a7ec01cc93"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_body_color.tga",
+      "bytes": 12582956,
+      "sha256": "9b6cef05b86497ffca6f131842950341302fa170e5ce3de1c2446501be774b91"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_body_normal.tga",
+      "bytes": 12582956,
+      "sha256": "e77af685914352cf75755d45254cdab57d3af3c6fa848a1f2f871250eb87d3ab"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_head_color.tga",
+      "bytes": 12582956,
+      "sha256": "5d3723b8d6f6175b26adb1f2d46ade55b19630c2cee1bd2e43dbd293c6fa7d38"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_head_normal.tga",
+      "bytes": 12582956,
+      "sha256": "0a43fbc692b1cf9237f21c869eb2192e16057aa62e34117e569f9b0c0a2b9796"
+    },
+    {
+      "path": "work\\nyc-boombap-v2\\assets\\rocketbox\\Source\\Avatars\\Adults\\Male_Adult_08\\Textures\\m014_opacity_color.tga",
+      "bytes": 16777260,
+      "sha256": "282684b09dd7e3b7b521387240855773f419a90c67ba58ff9ad478a7ec01cc93"
+    },
+    {
+      "path": "I:\\VOICE\\voice\\models\\lipsync\\wav2vec2-espeak\\config.json",
+      "bytes": 1856,
+      "sha256": "4609fb49b7e1d28aecb2840da1926c40bd915bc6f1120a940afacf7159bbfb13"
+    },
+    {
+      "path": "I:\\VOICE\\voice\\models\\lipsync\\wav2vec2-espeak\\preprocessor_config.json",
+      "bytes": 212,
+      "sha256": "a2254a5b58f72cd4de3632f8eee64f3f098b7c1402128d2f419e7d00ae13e335"
+    },
+    {
+      "path": "I:\\VOICE\\voice\\models\\lipsync\\wav2vec2-espeak\\pytorch_model.bin",
+      "bytes": 1263535127,
+      "sha256": "04366b6c8d24099ef313cf02f0e58d26f5dddfda16edbfc8eb2c713d94a9f551"
+    },
+    {
+      "path": "I:\\VOICE\\voice\\models\\lipsync\\wav2vec2-espeak\\README.md",
+      "bytes": 3043,
+      "sha256": "32a058c9a338807e9e237fad17a9f400f67c64ee2e18d71750c912ffbfb9e22b"
+    },
+    {
+      "path": "I:\\VOICE\\voice\\models\\lipsync\\wav2vec2-espeak\\vocab.json",
+      "bytes": 4637,
+      "sha256": "d732ab2456c0c017930001dc9af0b41b3b93d25b2eb9740bf9d925508d7d87d0"
+    }
+  ]
+}
