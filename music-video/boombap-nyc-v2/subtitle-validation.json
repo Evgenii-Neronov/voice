@@ -1,0 +1,11 @@
+{
+  "dialogue_count": 97,
+  "text_and_timings_identical_to_v1": true,
+  "bottom_margin_px": 190,
+  "render_height_px": 1440,
+  "max_line": {
+    "text": "Кто назначает курс свистульки к сверхпроводящему изделию?",
+    "width_px": 1644.8
+  },
+  "conservative_text_width_limit_px": 2240
+}

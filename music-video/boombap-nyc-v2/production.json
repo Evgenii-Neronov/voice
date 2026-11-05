@@ -1,0 +1,27 @@
+{
+  "track": "07-minimax-trio-boombap-01.mp3",
+  "version": "NYC v2",
+  "video": "ADV-boombap-NYC-v2-1440p.mp4",
+  "duration_seconds": 253.291667,
+  "native_resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frames": 6079,
+  "final_render_and_mux_seconds": 7287.1,
+  "renderer": "Blender 4.5.9 EEVEE / Vulkan, 24 samples, ray tracing enabled",
+  "shadow_fix": "Distant Streetlight and Streetlight.002 keep illumination but do not allocate shadow maps; performer key-light shadows remain enabled",
+  "editable_scene": "project/NYC-boombap-v2.blend",
+  "original_audio_preserved": true,
+  "weights_committed": false,
+  "lip_sync": "Locally recognized phonemes mapped to 15 visemes; approximate automatic articulation",
+  "passerby": "Reference-inspired approximation; calibrated 1.83m rest body height, excluding hat",
+  "limitations": [
+    "Stylized stock human topology retained to preserve lead appearance; not photoreal scanned humans",
+    "Retargeted captured conversation/walking motion plus small beat accents; not dedicated recorded rap mocap",
+    "Audio-derived automatic phoneme-to-viseme mapping; timing and articulation remain approximate",
+    "Reference-inspired passerby wardrobe and nominal 1.83m rest body height; not exact likeness reconstruction",
+    "Subtitle boundaries remain approximate at unclear generated pronunciation"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "video": "ADV-boombap-NYC-v2-1440p.mp4",
+  "sha256": "f046674afcc41d15adf2504ea21a4e64c4f45df054a0c84cd722ed72360ce62e",
+  "size_bytes": 688339015,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "duration": 253.291667,
+  "frames_per_part": [
+    507,
+    507,
+    507,
+    507,
+    507,
+    507,
+    507,
+    507,
+    507,
+    507,
+    507,
+    502
+  ],
+  "renderer": "Blender 4.5.9 EEVEE / Vulkan, 24 samples, ray tracing enabled",
+  "encoder": "FFmpeg h264_nvenc p6 CQ18",
+  "audio_sample_rate": "44100",
+  "audio_alignment": [
+    {
+      "at_seconds": 0,
+      "lag_ms": 0.0
+    },
+    {
+      "at_seconds": 120,
+      "lag_ms": 0.0
+    },
+    {
+      "at_seconds": 240,
+      "lag_ms": 0.0
+    }
+  ],
+  "full_decode": "passed",
+  "visual_review": "18 sampled final frames, 7-second opening temporal contact sheet, 3-second approach/pause temporal contact sheet; not a claim of full audiovisual playback",
+  "known_limits": [
+    "Stylized stock human topology retained to preserve lead appearance; not photoreal scanned humans",
+    "Retargeted captured conversation/walking motion plus small beat accents; not dedicated recorded rap mocap",
+    "Audio-derived automatic phoneme-to-viseme mapping; timing and articulation remain approximate",
+    "Reference-inspired passerby wardrobe and nominal 1.83m rest body height; not exact likeness reconstruction",
+    "Subtitle boundaries remain approximate at unclear generated pronunciation"
+  ]
+}

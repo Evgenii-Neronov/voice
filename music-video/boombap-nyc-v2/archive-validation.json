@@ -1,0 +1,24 @@
+{
+  "archive": "editable-3D-project-v2.zip",
+  "bytes": 207364283,
+  "sha256": "e3c586c8d5ba5413d36e74641f72f0ebe043d0229b1869561d92de49075a6cf1",
+  "crc_check": "passed",
+  "entries": [
+    "project/ASSET-SOURCES.md",
+    "project/NYC-boombap-v2.blend",
+    "project/README.md",
+    "project/ROCKETBOX-LICENSE.md",
+    "project/RubikWetPaint-OFL.txt",
+    "project/subtitles.ass",
+    "project/subtitles.srt",
+    "README.md",
+    "subtitles.ass",
+    "subtitles.srt",
+    "ASSET-SOURCES.md",
+    "validation.json",
+    "project-validation.json",
+    "scene-validation.json",
+    "subtitle-validation.json",
+    "production.json"
+  ]
+}

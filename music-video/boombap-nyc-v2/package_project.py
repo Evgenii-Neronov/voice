@@ -5,6 +5,7 @@ seq=S.sequence_editor_create();collection=seq.strips if hasattr(seq,'strips') el
 sound=collection.new_sound('Original boombap track',str(W.parents[1]/'outputs/original-voices/main/07-minimax-trio-boombap-01.mp3'),channel=1,frame_start=1)
 if hasattr(sound.sound,'pack'):sound.sound.pack()
 S.render.use_sequencer=False;S.render.engine='BLENDER_EEVEE_NEXT';S.eevee.taa_render_samples=24;S.eevee.use_raytracing=True;S.render.resolution_percentage=100;S.frame_set(1300)
+S.render.filepath='//renders/NYC-v2-'
 for name in ['Streetlight','Streetlight.002']:
  if name in bpy.data.objects:bpy.data.objects[name].data.use_shadow=False
 bpy.ops.file.pack_all();bpy.ops.wm.save_as_mainfile(filepath=str(O/'NYC-boombap-v2.blend'),compress=True)
