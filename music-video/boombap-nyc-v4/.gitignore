@@ -1,0 +1,15 @@
+# Heavy editable assets and renders remain local.
+sets/
+shots/
+assets/
+audio/
+renders/
+qa/
+*.mp4
+*.blend*
+*.zip
+*.log
+__pycache__/
+.venv/
+concept-*.png
+graff-*.png
