@@ -1,0 +1,290 @@
+{
+  "actors": [
+    {
+      "actor": 0,
+      "sign_flips_corrected": 14286,
+      "old_max_frame_degrees": 179.9999996716388,
+      "new_max_frame_degrees": 19.814577376235047,
+      "old_frames_over_30deg": 5918,
+      "new_frames_over_30deg": 0,
+      "worst_old": [
+        {
+          "bone": "pose.bones[\"Bip01 L Finger0\"].rotation_quaternion",
+          "frame": 3861,
+          "degrees": 179.69183668203792
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger1\"].rotation_quaternion",
+          "frame": 3859,
+          "degrees": 179.8951746443521
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger11\"].rotation_quaternion",
+          "frame": 127,
+          "degrees": 179.99996138516562
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger12\"].rotation_quaternion",
+          "frame": 166,
+          "degrees": 179.97390655830245
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger2\"].rotation_quaternion",
+          "frame": 1347,
+          "degrees": 179.98941223112794
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger21\"].rotation_quaternion",
+          "frame": 5276,
+          "degrees": 179.99895853933728
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger22\"].rotation_quaternion",
+          "frame": 53,
+          "degrees": 179.99979609388657
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger3\"].rotation_quaternion",
+          "frame": 3649,
+          "degrees": 179.99583472396534
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger31\"].rotation_quaternion",
+          "frame": 59,
+          "degrees": 179.9999996716388
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger32\"].rotation_quaternion",
+          "frame": 2628,
+          "degrees": 179.99167684622017
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger4\"].rotation_quaternion",
+          "frame": 2882,
+          "degrees": 179.99363792587118
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger41\"].rotation_quaternion",
+          "frame": 1347,
+          "degrees": 179.98722733250958
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger42\"].rotation_quaternion",
+          "frame": 319,
+          "degrees": 179.98813153967996
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Hand\"].rotation_quaternion",
+          "frame": 3039,
+          "degrees": 179.32541427447518
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Clavicle\"].rotation_quaternion",
+          "frame": 5787,
+          "degrees": 179.7773704205088
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger0\"].rotation_quaternion",
+          "frame": 2928,
+          "degrees": 179.7333132024696
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger01\"].rotation_quaternion",
+          "frame": 1553,
+          "degrees": 179.98227485220644
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger02\"].rotation_quaternion",
+          "frame": 4365,
+          "degrees": 179.86949396677213
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger11\"].rotation_quaternion",
+          "frame": 3301,
+          "degrees": 179.6567438739667
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger12\"].rotation_quaternion",
+          "frame": 3301,
+          "degrees": 179.92219846811687
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger21\"].rotation_quaternion",
+          "frame": 3301,
+          "degrees": 179.5877558939546
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger22\"].rotation_quaternion",
+          "frame": 3301,
+          "degrees": 179.71242991664514
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger31\"].rotation_quaternion",
+          "frame": 1000,
+          "degrees": 179.50063981489794
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger32\"].rotation_quaternion",
+          "frame": 3301,
+          "degrees": 179.67923887654143
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger41\"].rotation_quaternion",
+          "frame": 3302,
+          "degrees": 179.6392214950887
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger42\"].rotation_quaternion",
+          "frame": 5775,
+          "degrees": 179.98772458102312
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Foot\"].rotation_quaternion",
+          "frame": 37,
+          "degrees": 178.79634630240693
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Toe0\"].rotation_quaternion",
+          "frame": 92,
+          "degrees": 179.7264411403999
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R UpperArm\"].rotation_quaternion",
+          "frame": 174,
+          "degrees": 179.42177210731663
+        }
+      ]
+    },
+    {
+      "actor": 1,
+      "sign_flips_corrected": 5762,
+      "old_max_frame_degrees": 179.99993038169063,
+      "new_max_frame_degrees": 7.814105705521184,
+      "old_frames_over_30deg": 1522,
+      "new_frames_over_30deg": 0,
+      "worst_old": [
+        {
+          "bone": "pose.bones[\"Bip01 L Finger0\"].rotation_quaternion",
+          "frame": 429,
+          "degrees": 179.9553243422482
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger1\"].rotation_quaternion",
+          "frame": 1385,
+          "degrees": 179.97908277488108
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger11\"].rotation_quaternion",
+          "frame": 3106,
+          "degrees": 179.99460704212692
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger12\"].rotation_quaternion",
+          "frame": 1061,
+          "degrees": 179.99993038169063
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger2\"].rotation_quaternion",
+          "frame": 2633,
+          "degrees": 179.9411470654839
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger21\"].rotation_quaternion",
+          "frame": 3744,
+          "degrees": 179.81157828319817
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger22\"].rotation_quaternion",
+          "frame": 759,
+          "degrees": 179.38507451043412
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger3\"].rotation_quaternion",
+          "frame": 3863,
+          "degrees": 179.9309352777761
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger31\"].rotation_quaternion",
+          "frame": 436,
+          "degrees": 179.4249811343791
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger4\"].rotation_quaternion",
+          "frame": 2633,
+          "degrees": 179.92062610065588
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger41\"].rotation_quaternion",
+          "frame": 438,
+          "degrees": 179.30489915622292
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger42\"].rotation_quaternion",
+          "frame": 5952,
+          "degrees": 178.68181582858452
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Hand\"].rotation_quaternion",
+          "frame": 6068,
+          "degrees": 179.91894384133462
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Clavicle\"].rotation_quaternion",
+          "frame": 3849,
+          "degrees": 179.94211448171015
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R Finger42\"].rotation_quaternion",
+          "frame": 2369,
+          "degrees": 179.94818482213296
+        },
+        {
+          "bone": "pose.bones[\"Bip01 R UpperArm\"].rotation_quaternion",
+          "frame": 3850,
+          "degrees": 179.81425785001642
+        }
+      ]
+    },
+    {
+      "actor": 2,
+      "sign_flips_corrected": 3148,
+      "old_max_frame_degrees": 179.96422697927753,
+      "new_max_frame_degrees": 3.5736120243653104,
+      "old_frames_over_30deg": 84,
+      "new_frames_over_30deg": 0,
+      "worst_old": [
+        {
+          "bone": "pose.bones[\"Bip01 L Finger11\"].rotation_quaternion",
+          "frame": 3945,
+          "degrees": 179.96311486531434
+        },
+        {
+          "bone": "pose.bones[\"Bip01 L Finger12\"].rotation_quaternion",
+          "frame": 2868,
+          "degrees": 179.96422697927753
+        }
+      ]
+    }
+  ],
+  "removed": [
+    "Black tie",
+    "Cap NY embroidery",
+    "Coat folded lapel",
+    "Coat folded lapel.001",
+    "Fedora curved brim",
+    "Fedora dark ribbon",
+    "Open knee length trenchcoat",
+    "Passerby 183cm",
+    "Passerby portrait approximation",
+    "Passerby skeleton",
+    "Pinched brown fedora crown",
+    "White shirt front"
+  ],
+  "lighting_source": "nyc-boombap/nyc-final-scene.blend",
+  "subtitle_bottom_px": 144,
+  "beat_bpm_estimate": 92.3076923076915,
+  "text_objects": [
+    "ADV",
+    "ADV"
+  ]
+}

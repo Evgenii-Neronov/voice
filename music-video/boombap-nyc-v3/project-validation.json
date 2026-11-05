@@ -1,0 +1,28 @@
+{
+  "file": "C:\\Users\\Evgen\\Documents\\Codex\\2026-11-04\\referenced-chatgpt-conversation-this-is-an\\outputs\\nyc-boombap-v3-1440p\\project\\NYC-boombap-v3.blend",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frames": [
+    1,
+    6079
+  ],
+  "renderer": "BLENDER_EEVEE_NEXT",
+  "samples": 24,
+  "text_objects": [
+    {
+      "name": "ADV painted outline",
+      "body": "ADV"
+    },
+    {
+      "name": "ADV ochre fill",
+      "body": "ADV"
+    }
+  ],
+  "packed_images": 24,
+  "sound_packed": true,
+  "missing_files": [],
+  "passerby_present": false
+}
