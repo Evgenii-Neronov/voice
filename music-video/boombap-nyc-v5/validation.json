@@ -1,0 +1,77 @@
+{
+  "video": "ADV-boombap-NYC-v5-montage-1440p.mp4",
+  "sha256": "1099f24e87d49cbc485c2d5c8d2cfaf54f952dd17468abc2506f230f697c6692",
+  "bytes": 719509426,
+  "duration": 253.291667,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frames": 6079,
+  "budget": {
+    "total_frames": 6079,
+    "street_frames": 3022,
+    "street_percent": 49.71212370455667,
+    "new_2d_frames": 483,
+    "new_3d_frames": 2574
+  },
+  "street_frame_comparisons": [],
+  "audio_packets_identical": true,
+  "audio_packet_sha256": "b5ab8490f501838a807d32dc21b54ab8c7af323411cecb75ebf7fefbb1f202a8",
+  "audio_alignment": [
+    {
+      "at": 0,
+      "lag_ms": 0.0
+    },
+    {
+      "at": 120,
+      "lag_ms": 0.0
+    },
+    {
+      "at": 240,
+      "lag_ms": 0.0
+    }
+  ],
+  "subtitle_only_dash_replacement": true,
+  "dash_replacements": 14,
+  "subtitle_bottom_margin_px": 144,
+  "full_decode": "passed",
+  "review": "Street and dance moving previews reviewed through temporal contact sheets, bird still, graffiti growth and 21 final samples; not full audiovisual playback",
+  "rendering": "Street rerendered with planted lower body and damped head/neck; new scenes Blender 4.5.9 EEVEE Vulkan with ray tracing,16 samples; 2D graffiti Skia CPU; final NVENC",
+  "limits": [
+    "Original stock human appearance and approximate lip articulation unchanged",
+    "Dance is a directional retarget from AIST++ keypoints, not a new human performance",
+    "Street lower-body stance is fixed to prevent skating"
+  ],
+  "foot_contact_validation": [
+    {
+      "rig": "Bip01",
+      "foot_joint_drift_metres": 0.0
+    },
+    {
+      "rig": "Bip01.001",
+      "foot_joint_drift_metres": 0.0
+    },
+    {
+      "rig": "Bip01.002",
+      "foot_joint_drift_metres": 0.0
+    }
+  ],
+  "dance_direction_validation": {
+    "max_joint_direction_error_degrees": 0.00012645364804579455,
+    "median_degrees": 1.7683520753578436e-05
+  },
+  "downloaded_assets": [
+    {
+      "file": "bird_whistle.stl",
+      "bytes": 23729470,
+      "sha256": "9a76ac2a917002a9e1e6f6e544e8b16fedc0240c639addc98bb89d3f070efd51"
+    },
+    {
+      "file": "dance.npy",
+      "bytes": 235136,
+      "sha256": "f509a939794dbffb6fc8de8c7495e1f51026937f1b507a80ec6af9df89433fd4"
+    }
+  ]
+}

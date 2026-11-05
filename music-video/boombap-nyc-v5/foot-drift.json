@@ -1,0 +1,14 @@
+[
+  {
+    "rig": "Bip01",
+    "foot_joint_drift_metres": 0.0
+  },
+  {
+    "rig": "Bip01.001",
+    "foot_joint_drift_metres": 0.0
+  },
+  {
+    "rig": "Bip01.002",
+    "foot_joint_drift_metres": 0.0
+  }
+]

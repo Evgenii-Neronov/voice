@@ -1,0 +1,7 @@
+{
+  "archive": "I:\\VOICE\\voice\\models\\motion\\aistplusplus\\keypoints3d.zip",
+  "sequence": "keypoints3d/gMH_sBM_cAll_d24_mMH2_ch10.pkl",
+  "source_fps": 60,
+  "license": "CC BY 4.0",
+  "url": "https://google.github.io/aistplusplus_dataset/download.html"
+}

@@ -1,0 +1,15 @@
+# Downloaded models, editable scenes and full-resolution renders stay local.
+sets/
+shots/
+assets/
+audio/
+renders/
+qa/
+*.stl
+*.mp4
+*.blend*
+*.zip
+*.log
+__pycache__/
+.venv/
+concept-*.png
