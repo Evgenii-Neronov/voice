@@ -1,0 +1,26 @@
+{
+  "version": "NYC v3",
+  "video": "ADV-boombap-NYC-v3-1440p.mp4",
+  "render_and_mux_seconds": 7869.8,
+  "changes": [
+    "Continuous quaternion keyframes on all three performers",
+    "Independent beat-linked listener movement",
+    "No passerby or NY cap lettering",
+    "V1 light/world/exposure restored",
+    "144px yellow bottom-centred subtitle margin"
+  ],
+  "original_audio": true,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frames": 6079,
+  "preview_review": "12-second preliminary moving preview and 15-second final opening temporal contact sheets; final sampled frames reviewed; not a claim of full playback",
+  "limits": [
+    "Stylized stock human topology retained to preserve lead appearance; not photoreal scanned humans",
+    "Retargeted captured conversation/walking motion plus small beat accents; not dedicated recorded rap mocap",
+    "Audio-derived automatic phoneme-to-viseme mapping; timing and articulation remain approximate",
+    "Subtitle boundaries remain approximate at unclear generated pronunciation"
+  ]
+}
