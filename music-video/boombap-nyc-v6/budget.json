@@ -1,0 +1,13 @@
+{
+  "total_frames": 6079,
+  "street_frames": 4493,
+  "street_percent": 73.91018259582168,
+  "removed_scenes": [
+    4,
+    8,
+    11,
+    12,
+    14,
+    18
+  ]
+}

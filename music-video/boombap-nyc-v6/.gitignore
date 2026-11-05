@@ -1,0 +1,11 @@
+# Heavy scene assets and rendered media remain local.
+sets/
+shots/
+audio/
+renders/
+qa/
+*.mp4
+*.blend*
+*.zip
+*.log
+__pycache__/

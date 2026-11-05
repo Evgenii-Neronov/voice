@@ -1,0 +1,147 @@
+{
+  "video": "ADV-boombap-NYC-v6-montage-1440p.mp4",
+  "sha256": "29ec6061256c87386915685391828d95ef71d34b2dd644b5907205b06ab6c9f7",
+  "bytes": 751963762,
+  "duration": 253.291667,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frames": 6079,
+  "budget": {
+    "total_frames": 6079,
+    "street_frames": 4493,
+    "street_percent": 73.91018259582168,
+    "removed_scenes": [
+      4,
+      8,
+      11,
+      12,
+      14,
+      18
+    ]
+  },
+  "audio_packets_identical": true,
+  "audio_packet_sha256": "b5ab8490f501838a807d32dc21b54ab8c7af323411cecb75ebf7fefbb1f202a8",
+  "audio_alignment": [
+    {
+      "at": 0,
+      "lag_ms": 0.0
+    },
+    {
+      "at": 120,
+      "lag_ms": 0.0
+    },
+    {
+      "at": 240,
+      "lag_ms": 0.0
+    }
+  ],
+  "subtitle_only_dash_replacement": true,
+  "subtitle_bottom_margin_px": 144,
+  "full_decode": "passed",
+  "review": "Opening moving preview inspected through temporal frames, red-wire still and 21 final sampled frames; not full audiovisual playback",
+  "limits": [
+    "Original stock human appearance and approximate lip articulation retained",
+    "Forward walking restored only in the opening; planted stance thereafter"
+  ],
+  "opening": [
+    {
+      "frame": 1,
+      "lead": [
+        -0.10000000149011612,
+        -2.0,
+        -0.04974852874875069
+      ],
+      "camera": [
+        -0.550000011920929,
+        -6.400000095367432,
+        1.6799999475479126
+      ],
+      "sole_z": -0.034
+    },
+    {
+      "frame": 49,
+      "lead": [
+        -0.10000000149011612,
+        -2.6470587253570557,
+        -0.03417254611849785
+      ],
+      "camera": [
+        -0.4795941710472107,
+        -7.047943592071533,
+        1.6776816844940186
+      ],
+      "sole_z": -0.034
+    },
+    {
+      "frame": 97,
+      "lead": [
+        -0.10000000149011612,
+        -3.2941176891326904,
+        -0.01695326529443264
+      ],
+      "camera": [
+        -0.3265935480594635,
+        -7.692530155181885,
+        1.677057147026062
+      ],
+      "sole_z": -0.034
+    },
+    {
+      "frame": 145,
+      "lead": [
+        -0.10000000149011612,
+        -3.941176414489746,
+        -0.007925327867269516
+      ],
+      "camera": [
+        -0.2132921665906906,
+        -8.343137741088867,
+        1.6785826683044434
+      ],
+      "sole_z": -0.034
+    },
+    {
+      "frame": 175,
+      "lead": [
+        -0.10000000149011612,
+        -4.199999809265137,
+        -0.020532898604869843
+      ],
+      "camera": [
+        -0.3948878347873688,
+        -7.5477423667907715,
+        1.5822030305862427
+      ],
+      "sole_z": -0.034
+    }
+  ],
+  "red_wires": {
+    "studio": {
+      "objects": [
+        "Growing painted contour",
+        "Growing painted contour.003",
+        "Growing painted contour.006"
+      ],
+      "red_linear_rgb": [
+        0.65,
+        0.018,
+        0.012
+      ]
+    },
+    "metro": {
+      "objects": [
+        "Growing painted contour",
+        "Growing painted contour.003",
+        "Growing painted contour.006"
+      ],
+      "red_linear_rgb": [
+        0.65,
+        0.018,
+        0.012
+      ]
+    }
+  }
+}
