@@ -1,0 +1,7 @@
+{
+  "source": "https://github.com/google/aistplusplus_dataset/releases/download/v1.0/keypoints3d.zip",
+  "path": "I:\\VOICE\\voice\\models\\motion\\aistplusplus\\keypoints3d.zip",
+  "bytes": 876142511,
+  "sha256": "8b2a3bfcea233b8d1859a0dc93c7800a8f9e832136ef6828d0b3ddff640ddcfd",
+  "license": "CC BY4.0 for annotations; original video not used"
+}

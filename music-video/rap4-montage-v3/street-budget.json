@@ -1,0 +1,16 @@
+{
+  "duration": 273.188571,
+  "street_seconds": 32.188571000000024,
+  "street_percent": 11.782546715689662,
+  "limit_percent": 15,
+  "intervals": [
+    [
+      0,
+      8
+    ],
+    [
+      249,
+      273.188571
+    ]
+  ]
+}

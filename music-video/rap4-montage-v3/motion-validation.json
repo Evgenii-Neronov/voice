@@ -1,0 +1,43 @@
+{
+  "metrics": {
+    "lead": {
+      "left_wrist": {
+        "max_px_per_frame": 5.998856067657471,
+        "p95_px_per_frame": 5.239772796630859
+      },
+      "right_wrist": {
+        "max_px_per_frame": 5.991225242614746,
+        "p95_px_per_frame": 5.396015167236328
+      },
+      "source_excerpts": 30,
+      "repeated_source_excerpt": false
+    },
+    "hood": {
+      "left_wrist": {
+        "max_px_per_frame": 2.335883140563965,
+        "p95_px_per_frame": 1.4427868127822876
+      },
+      "right_wrist": {
+        "max_px_per_frame": 2.5634689331054688,
+        "p95_px_per_frame": 1.4906123876571655
+      },
+      "source_excerpts": 29,
+      "repeated_source_excerpt": false
+    },
+    "blue": {
+      "left_wrist": {
+        "max_px_per_frame": 2.6229166984558105,
+        "p95_px_per_frame": 1.474972128868103
+      },
+      "right_wrist": {
+        "max_px_per_frame": 2.595238208770752,
+        "p95_px_per_frame": 1.5102121829986572
+      },
+      "source_excerpts": 29,
+      "repeated_source_excerpt": false
+    }
+  },
+  "neck_samples": 300,
+  "disconnected_neck_samples": 0,
+  "method": "Full-track numeric speed/source-repeat checks and 300 sampled alpha-connectivity checks from face to torso. Not an aesthetic guarantee."
+}

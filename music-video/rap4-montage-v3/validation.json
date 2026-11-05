@@ -1,0 +1,95 @@
+{
+  "video": "ADV-rap4-hiphop-montage-v3-1440p.mp4",
+  "sha256": "98edcd5f61e1fbe37807a7da8e7c628db6d8cbabf4f524a7dc8eb04f6d910f34",
+  "bytes": 392116200,
+  "source_audio_sha256": "57519db2ce92df67cae794481a80f70eb1eb82d791deea71e8694b7f7d53dda9",
+  "duration": 273.208333,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frames": 6557,
+  "drawing_rate": {
+    "street": 12,
+    "new_illustrations": 24
+  },
+  "full_decode": "passed",
+  "audio_alignment": [
+    {
+      "seconds": 0,
+      "lag_ms": 0.0
+    },
+    {
+      "seconds": 130,
+      "lag_ms": 0.0
+    },
+    {
+      "seconds": 260,
+      "lag_ms": 0.0
+    }
+  ],
+  "subtitle_lines": 88,
+  "long_dashes": false,
+  "subtitle_margin_px": 144,
+  "ezhi_enters": [
+    251.8,
+    255.9
+  ],
+  "ezhi_outro_start": 256.28,
+  "renderer": "New scenes: Skia CPU original illustration; street: Blender 4.5.9 Cycles OptiX GPU path tracing; FFmpeg NVENC encoding",
+  "visual_review": "12-second moving transit/roof preview checked as temporal contact sheet; native portrait frame; 300 alpha-connectivity neck samples; 27 final sampled frames. Not full audiovisual playback",
+  "limitations": [
+    "AIST++ dance motion adapted to limited drawn animation; not dedicated rap acting capture. New scenes are 2D with drawn lighting, street alone is ray traced",
+    "Reference-inspired Ezhi likeness is approximate",
+    "Automatic audio-derived visemes and ASR-assisted lyric timings are approximate"
+  ],
+  "street_seconds": 32.188571,
+  "street_percent": 11.782546715689653,
+  "subtitle_identical_to_v2": true,
+  "actual_street_frames": 773,
+  "actual_street_percent": 11.788927863352143,
+  "motion_validation": {
+    "metrics": {
+      "lead": {
+        "left_wrist": {
+          "max_px_per_frame": 5.998856067657471,
+          "p95_px_per_frame": 5.239772796630859
+        },
+        "right_wrist": {
+          "max_px_per_frame": 5.991225242614746,
+          "p95_px_per_frame": 5.396015167236328
+        },
+        "source_excerpts": 30,
+        "repeated_source_excerpt": false
+      },
+      "hood": {
+        "left_wrist": {
+          "max_px_per_frame": 2.335883140563965,
+          "p95_px_per_frame": 1.4427868127822876
+        },
+        "right_wrist": {
+          "max_px_per_frame": 2.5634689331054688,
+          "p95_px_per_frame": 1.4906123876571655
+        },
+        "source_excerpts": 29,
+        "repeated_source_excerpt": false
+      },
+      "blue": {
+        "left_wrist": {
+          "max_px_per_frame": 2.6229166984558105,
+          "p95_px_per_frame": 1.474972128868103
+        },
+        "right_wrist": {
+          "max_px_per_frame": 2.595238208770752,
+          "p95_px_per_frame": 1.5102121829986572
+        },
+        "source_excerpts": 29,
+        "repeated_source_excerpt": false
+      }
+    },
+    "neck_samples": 300,
+    "disconnected_neck_samples": 0,
+    "method": "Full-track numeric speed/source-repeat checks and 300 sampled alpha-connectivity checks from face to torso. Not an aesthetic guarantee."
+  }
+}

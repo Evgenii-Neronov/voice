@@ -1,0 +1,12 @@
+# Large local render inputs and outputs; delivered in the local editable project.
+sprites/
+audio/
+renders/
+qa-final/
+*.mp4
+*.blend*
+*.log
+__pycache__/
+.venv/
+source-motion-excerpts.npz
+concept*.png

@@ -1,0 +1,10 @@
+{
+  "source_clips": 64,
+  "hiphop_sequences_screened": 276,
+  "fps": 24,
+  "duration": 273.25,
+  "looping": false,
+  "source": "AIST++ optimized3D keypoints, Middle/LA hiphop",
+  "adaptation": "Low-activity six-second excerpts;54-76% playback,0.75s transitions, amplitude restraint, sparse phrase envelopes and rests. Body/head/arm directions retargeted to drawing, not a full dance reproduction.",
+  "gesture_events": 61
+}
