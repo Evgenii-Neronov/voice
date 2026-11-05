@@ -1,0 +1,10 @@
+{
+  "image_sequence_files_checked": 13116,
+  "missing": 0,
+  "relative_paths": true,
+  "projection": "orthographic isometric",
+  "elevation_degrees": 35.26439,
+  "ezhi_height_metres": 1.65,
+  "renderer": "Cycles OptiX",
+  "portable_frame_3109": "rendered at25percent for path check"
+}

@@ -1,0 +1,5 @@
+{
+  "sampled_frames": 356,
+  "disconnected_samples": [],
+  "method": "Connected-component alpha test from face interior to torso interior; samples across full animation. Not a whole-frame visual quality guarantee."
+}

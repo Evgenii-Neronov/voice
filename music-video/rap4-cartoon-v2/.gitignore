@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+sprites/
+*.blend*
+*.mp4
+*.mp3
+*.wav
+*.zip
+models/

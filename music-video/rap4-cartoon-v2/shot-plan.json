@@ -1,0 +1,233 @@
+[
+  {
+    "start": 0,
+    "end": 8,
+    "target": [
+      -0.6,
+      0.7,
+      1.2
+    ],
+    "span": 11.6,
+    "purpose": "Reveal the street past foreground lantern"
+  },
+  {
+    "start": 8,
+    "end": 22,
+    "target": [
+      0.25,
+      -0.1,
+      1.0
+    ],
+    "span": 7.0,
+    "purpose": "Lead delivery and hand accents"
+  },
+  {
+    "start": 22,
+    "end": 38,
+    "target": [
+      -0.65,
+      0.15,
+      1.2
+    ],
+    "span": 8.5,
+    "purpose": "Listeners respond in a wider group"
+  },
+  {
+    "start": 38,
+    "end": 54,
+    "target": [
+      0,
+      -1,
+      1.15
+    ],
+    "span": 4.8,
+    "purpose": "Tight argument"
+  },
+  {
+    "start": 54,
+    "end": 67.48,
+    "target": [
+      0,
+      0.4,
+      1.2
+    ],
+    "span": 10,
+    "purpose": "Release to architecture"
+  },
+  {
+    "start": 67.48,
+    "end": 81.88,
+    "target": [
+      0.3,
+      0.2,
+      1.3
+    ],
+    "span": 9,
+    "purpose": "Hook ensemble"
+  },
+  {
+    "start": 81.88,
+    "end": 98,
+    "target": [
+      -0.6,
+      0.7,
+      1.2
+    ],
+    "span": 11.6,
+    "purpose": "Reveal the street past foreground lantern"
+  },
+  {
+    "start": 98,
+    "end": 115,
+    "target": [
+      0.25,
+      -0.1,
+      1.0
+    ],
+    "span": 7.0,
+    "purpose": "Lead delivery and hand accents"
+  },
+  {
+    "start": 115,
+    "end": 132,
+    "target": [
+      -0.65,
+      0.15,
+      1.2
+    ],
+    "span": 8.5,
+    "purpose": "Listeners respond in a wider group"
+  },
+  {
+    "start": 132,
+    "end": 146,
+    "target": [
+      0,
+      -1,
+      1.15
+    ],
+    "span": 4.8,
+    "purpose": "Tight argument"
+  },
+  {
+    "start": 146,
+    "end": 161,
+    "target": [
+      0,
+      0.4,
+      1.2
+    ],
+    "span": 10,
+    "purpose": "Release to architecture"
+  },
+  {
+    "start": 161,
+    "end": 178,
+    "target": [
+      0.3,
+      0.2,
+      1.3
+    ],
+    "span": 9,
+    "purpose": "Hook ensemble"
+  },
+  {
+    "start": 178,
+    "end": 196.74,
+    "target": [
+      -0.6,
+      0.7,
+      1.2
+    ],
+    "span": 11.6,
+    "purpose": "Reveal the street past foreground lantern"
+  },
+  {
+    "start": 196.74,
+    "end": 210.86,
+    "target": [
+      0.25,
+      -0.1,
+      1.0
+    ],
+    "span": 7.0,
+    "purpose": "Lead delivery and hand accents"
+  },
+  {
+    "start": 210.86,
+    "end": 228,
+    "target": [
+      -0.65,
+      0.15,
+      1.2
+    ],
+    "span": 8.5,
+    "purpose": "Listeners respond in a wider group"
+  },
+  {
+    "start": 228,
+    "end": 244,
+    "target": [
+      0,
+      -1,
+      1.15
+    ],
+    "span": 4.8,
+    "purpose": "Tight argument"
+  },
+  {
+    "start": 244,
+    "end": 251,
+    "target": [
+      0,
+      0.4,
+      1.2
+    ],
+    "span": 10,
+    "purpose": "Release to architecture"
+  },
+  {
+    "start": 251,
+    "end": 256.28,
+    "target": [
+      1.3,
+      0.1,
+      1.25
+    ],
+    "span": 10.5,
+    "purpose": "Guest final response"
+  },
+  {
+    "start": 256.28,
+    "end": 265,
+    "target": [
+      2.4,
+      0.8,
+      1.0
+    ],
+    "span": 5.6,
+    "purpose": "Guest final response"
+  },
+  {
+    "start": 265,
+    "end": 271,
+    "target": [
+      2.6,
+      0.8,
+      1.1
+    ],
+    "span": 4.8,
+    "purpose": "Guest final response"
+  },
+  {
+    "start": 271,
+    "end": 273.25,
+    "target": [
+      0.9,
+      0.6,
+      1.3
+    ],
+    "span": 12,
+    "purpose": "Guest final response"
+  }
+]

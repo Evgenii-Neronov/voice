@@ -1,0 +1,60 @@
+{
+  "method": "Fresh overlapping local ASR on final vocal stem; original first 11 line anchors retained after comparison because fresh ASR dropped first-verse words. Middle rebuilt from actual word times, not uniform shift.",
+  "lines": 88,
+  "minimum_duration": 1.6599999999999966,
+  "overlaps": 0,
+  "ascii_hyphens": true,
+  "corrected_middle": [
+    {
+      "text": "Имманентная критика! Внутри противоречия!",
+      "old_start": 132.62363636363636,
+      "start": 131.02
+    },
+    {
+      "text": "Универсальность проверяется исключением!",
+      "old_start": 143.7581818181818,
+      "start": 134.34
+    },
+    {
+      "text": "Равенство юридическое - ещё не освобождение!",
+      "old_start": 152.10909090909092,
+      "start": 136.84
+    },
+    {
+      "text": "Свобода без условий - пустое определение!",
+      "old_start": 160.49272727272728,
+      "start": 139.7
+    },
+    {
+      "text": "Фуко: дисциплина, нормализация, биовласть,",
+      "old_start": 160.57454545454544,
+      "start": 144.12
+    },
+    {
+      "text": "Производство субъектов - не только запретная власть.",
+      "old_start": 160.64,
+      "start": 147.02
+    },
+    {
+      "text": "Генеалогия истины не отменяет факты:",
+      "old_start": 160.73818181818183,
+      "start": 149.98
+    },
+    {
+      "text": "Кто проверяет проверку? Как устроены практики?",
+      "old_start": 160.82,
+      "start": 152.74
+    },
+    {
+      "text": "Деррида: след и различание, апория присутствия,",
+      "old_start": 160.93,
+      "start": 155.56
+    },
+    {
+      "text": "Не произвол прочтения - трещина самотождества.",
+      "old_start": 161.04,
+      "start": 158.7
+    }
+  ],
+  "limitations": "Automatic word timings; unclear generated diction can still have subsecond boundary error."
+}

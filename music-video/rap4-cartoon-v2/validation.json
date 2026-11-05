@@ -1,0 +1,44 @@
+{
+  "video": "ADV-rap4-evening-isometric-1440p.mp4",
+  "sha256": "3f1c1e596fef4f11efc1445788b0bb89ab4c58f9a648e421404e18d2155f0c20",
+  "bytes": 376614866,
+  "source_audio_sha256": "57519db2ce92df67cae794481a80f70eb1eb82d791deea71e8694b7f7d53dda9",
+  "duration": 273.208333,
+  "resolution": [
+    2560,
+    1440
+  ],
+  "fps": 24,
+  "frames": 6557,
+  "drawing_rate": 12,
+  "full_decode": "passed",
+  "audio_alignment": [
+    {
+      "seconds": 0,
+      "lag_ms": 0.0
+    },
+    {
+      "seconds": 130,
+      "lag_ms": 0.0
+    },
+    {
+      "seconds": 260,
+      "lag_ms": 0.0
+    }
+  ],
+  "subtitle_lines": 88,
+  "long_dashes": false,
+  "subtitle_margin_px": 144,
+  "ezhi_enters": [
+    251.8,
+    255.9
+  ],
+  "ezhi_outro_start": 256.28,
+  "renderer": "Blender 4.5.9 Cycles OptiX GPU path tracing,12 samples,4 bounces,OptiX denoising; Skia CPU sprite generation; FFmpeg NVENC encoding",
+  "visual_review": "10-second moving opening preview checked as temporal contact sheet, native closeup stills, 356 alpha-connectivity neck samples, 27 final sampled frames; not full audiovisual playback",
+  "limitations": [
+    "2.5D illustrated cutout cast in a dimensional set, 12 drawings/s; procedural animation rather than captured acting",
+    "Reference-inspired Ezhi likeness is approximate",
+    "Automatic audio-derived visemes and ASR-assisted lyric timings are approximate"
+  ]
+}

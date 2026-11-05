@@ -1,0 +1,20 @@
+{
+  "render_seconds": 5084.1,
+  "renderer": "Blender 4.5.9 Cycles OptiX GPU path tracing,12 samples,4 bounces,OptiX denoising; Skia CPU sprite generation; FFmpeg NVENC encoding",
+  "video_sha256": "3f1c1e596fef4f11efc1445788b0bb89ab4c58f9a648e421404e18d2155f0c20",
+  "duration": 273.208333,
+  "original_audio_preserved_without_remix": true,
+  "reference_image_included": false,
+  "new_models_downloaded": false,
+  "ezhi_height_metres": 1.65,
+  "animation_rate": 12,
+  "delivery_fps": 24,
+  "changes": [
+    "isometric orthographic camera with real translation and contrasting shot sizes",
+    "evening practical lanterns and Cycles ray-traced light/shadows/reflections",
+    "stronger asymmetric lead gestures and independently phased listeners",
+    "fixed overlapping neck and base-pivot head rotation",
+    "shorter broader Ezhi with rectangular glasses and revised beard/hair",
+    "recovered missing middle subtitle passage using fresh short-window local ASR"
+  ]
+}
