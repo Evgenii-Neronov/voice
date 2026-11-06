@@ -1,0 +1,1 @@
+NYC montage v7 uses the v6 edit plan, clean shots and assembly settings. Use this subtitles.ass in a copy of the v6 project and run its assemble.py. The only style change is the bottom margin, from 144 to 72 px at 2560 x 1440.
