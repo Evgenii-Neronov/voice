@@ -1,0 +1,4 @@
+# Rap4 montage v4
+Revision of ADV-rap4-hiphop-montage-v3-1440p. The yellow subtitle style uses a 72 px bottom margin (5% of 1440); wording and cue times are unchanged. Ezhi walks in with relaxed arms and punctuates the final speech with independent gestures and pauses. His body, face timing and camera are inherited from v3.
+
+To rebuild, put these files in work/rap4-montage-v4 in the original project workspace. Keep the v3 clean opening and middle in work/rap4-montage-v3, and the v3 master and portable Blender project in outputs/rap4-montage-v3-1440p. Use the original cartoon Python environment and Blender 4.5.9 installation in work/nyc-boombap/tools. FFmpeg and FFprobe must be on PATH. From the revision directory run python ezhi_sprites.py and then python produce.py. The latter uses Cycles and NVENC, copies the original AAC and verifies audio identity, frame count, subtitle changes and full decode.
