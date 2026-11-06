@@ -1,0 +1,16 @@
+[
+  {
+    "id": "full",
+    "text": "Style: Abstract hip-hop, UK jazz-rap, 82 BPM, muted upright bass, filtered Rhodes chords, minimalist crisp boom-bap percussion. Vocal: Calm, understated London intellectual spoken-word cadence, precise articulation, detached academic irony, sophisticated baritone. Mood: Sterile university seminar room meets late-night Soho lounge, hyper-intellectual smugness, clinical disdain. Perform the English and Russian lines in their written languages.",
+    "seed": 2026110616,
+    "options": {
+      "lyrics": "[Intro]\n[Dampened rimshots, slow vinyl crackle, warm sub-bass pulse]\n[Spoken-word intro: Crisp British accent, deadpan]\nHabitus, structural homology, and the fetishization of biological determinism. Let us begin.\n\n[Verse 1]\n[Flow accelerates slightly, rhythmic internal multisyllabic rhymes]\nЭпистемологический тупик классического либерала\nТвой атомизированный субъект — лишь фантом капитала\nРедукционизм из пробирки, социобиологии бред\nГде генетический код оправдывает суверенный ответ\nВы путаете онтологию с рыночным спросом на мрак\nНо даже Савельев с Ницше для нас — лишь поверхностный знак\nНигилизм как удобный костыль для защиты элит\nПока меритократия ваша на дотациях паразитит\nМы читаем латентные трещины в поздней системе\nГде каждый ваш выверенный тезис чужд академической теме\n\n[Chorus]\n[Full upright bass drops in, layered vocal harmonies, smooth swagger]\nЭто авангард профессуры из кампусов Штатов\nДеконструкция мифов для ваших торговых палат\nМы вскрываем абстрактный эквивалент товарной меновой\nПока Сармат доказывает догмы с ухмылкой готовой\nЕжи, твой позитивизм — лишь надстройка на базисе слепом\nМы разбираем империю капитала с хирургическим столом\n\n[Verse 2: More complex internal rhymes, sharper rhythmic delivery]\n[Rhodes piano chords become dissonant, hi-hats tighten]\nТвой антикоммунизм — симулякр, дешёвый медийный продукт\nГде стратегический комплекс Сармата в пустыню несёт свой абсурд\nНо пока вы цитируете паблики с правым налётом\nМы строим критическую теорию над вашим комфортным болотом\nТрансцендентальная критика рынка, позднемарксистский излом\nГде бихевиоризм ваш разбит диалектическим лбом\n\n[Bridge: Drums drop out entirely, eerie sustained synth pad, whispered academic sneer]\nИ пока академический синод обсуждает избыток труда...\nПора отдать дань уважения Пирси Пи навсегда.\nДамы и господа.\n\n[Outro]\n[Smooth jazz-rap beat returns, slow fade with Rhodes chords]\nПригласите же Пирси Пи наконец в Санкт-Петербург.\nКонцертный зал ждёт его безупречный досуг.\nТеория требует практики, эстетика — сцены на Неве.\nЗавершаем семинар. Тишина в голове.\n[Final muted snare hit, abrupt cut]",
+      "duration_sec": "300",
+      "num_inference_steps": "30",
+      "guidance_scale": "1.7",
+      "ar_guidance_scale": "1.5",
+      "top_k": "50",
+      "seed": "2026110616"
+    }
+  }
+]
