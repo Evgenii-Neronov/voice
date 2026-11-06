@@ -1,0 +1,16 @@
+[
+  {
+    "id": "full",
+    "text": "[Style: 94 BPM East Coast underground boom bap, chopped detuned Rhodes, walking bass cut into short loops, chalk taps as percussion] [Vocal: Native male rap voice, dry and close; clipped double-time Russian, clear consonants, nimble internal accents, breathe between couplets] [Mood: A midnight economics seminar turns into a street-corner cipher; incisive and playful] English intro and Russian verses.",
+    "seed": 2026110717,
+    "options": {
+      "lyrics": "[Intro]\n[Two dry chalk taps count in the Rhodes sample]\n[English spoken intro, deadpan, kick enters under the last word]\nThe structural limits of late capitalism demand a more rigorous critique. Let us proceed.\n\n[Verse 1]\n[Lock the Russian phrases to the snare, double the subdivisions halfway through each couplet]\nЭпистемологический тупик классического либерала\nТвой атомизированный субъект — лишь фантом капитала\nРедукционизм из пробирки, социобиологии бред\nГде генетический код оправдывает суверенный ответ\nВы путаете онтологию с рыночным спросом на мрак\nНо даже Савельев с Ницше для нас — лишь поверхностный знак\nНигилизм как удобный костыль для защиты элит\nПока меритократия ваша на дотациях паразитит\nМы читаем латентные трещины в поздней системе\nГде каждый ваш выверенный тезис чужд академической теме\n\n[Chorus]\n[Wider breaks, half-time delivery, leave a gap after each line]\nЭто авангард профессуры из кампусов Штатов\nДеконструкция мифов для ваших торговых палат\nМы вскрываем абстрактный эквивалент товарной меновой\nПока Сармат доказывает догмы с ухмылкой готовой\nЕжи, твой позитивизм — лишь надстройка на базисе слепом\nМы разбираем империю капитала с хирургическим столом\n\n[Verse 2: Switch from straight sixteenths into brief triplets]\n[Bass and kick trade syncopated answers, then let the horns punctuate the last syllables]\nТвой антикоммунизм — симулякр, дешёвый медийный продукт\nГде стратегический комплекс Сармата в пустыню несёт свой абсурд\nНо пока вы цитируете паблики с правым налётом\nМы строим критическую теорию над вашим комфортным болотом\nТрансцендентальная критика рынка, позднемарксистский излом\nГде бихевиоризм ваш разбит диалектическим лбом\nМел заскрипел. Кто владеет доской?\nВахтёр повернул выключатель рукой.\nУ лектора график уходит в зенит,\nА вахтёру за смену кассир всё должен. Молчит.\n\n[Bridge: Cut to chalk taps and solo upright bass, deliver the conclusion almost under the breath]\nИ пока академический синод обсуждает избыток труда...\nДиалектика требует продолжения без лишнего суда.\nИстина в синтезе.\n\n[Outro]\n[Bring back the two-note Rhodes figure, slow the last line]\nТеория требует практики, эстетика — чистого ума.\nПостмодернистский износ уходит в туман.\nЗавершаем семинар. Тишина в голове.\n[Single chalk snap, hard cut]",
+      "duration_sec": "300",
+      "num_inference_steps": "30",
+      "guidance_scale": "1.7",
+      "ar_guidance_scale": "1.5",
+      "top_k": "50",
+      "seed": "2026110717"
+    }
+  }
+]
