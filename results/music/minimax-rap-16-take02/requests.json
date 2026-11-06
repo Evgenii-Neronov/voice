@@ -1,0 +1,16 @@
+[
+  {
+    "id": "full",
+    "text": "[Style: 96 BPM New York underground battle rap, chopped minor-key horn stab, crunchy kick and snare, short bass loop, dry mix] [Vocal: Native male rap voice, incisive consonants, tightly packed multisyllabic runs, shifting stress across the bar, audible breaths between bursts] [Mood: Wry scholarly challenge delivered with battle-cipher intensity] English intro, Russian verses.",
+    "seed": 2026111612,
+    "options": {
+      "lyrics": "[Intro]\n[Two bars of chopped horns and a sharp snare pickup]\n[Speak the English introduction dry and close, then snap into the groove]\nHabitus, structural homology, and the fetishization of biological determinism. Let us begin.\n\n[Verse 1]\n[Russian double-time articulation, stress the internal echoes and leave a breath at each couplet]\nЭпистемологический тупик классического либерала\nТвой атомизированный субъект — лишь фантом капитала\nРедукционизм из пробирки, социобиологии бред\nГде генетический код оправдывает суверенный ответ\nВы путаете онтологию с рыночным спросом на мрак\nНо даже Савельев с Ницше для нас — лишь поверхностный знак\nНигилизм как удобный костыль для защиты элит\nПока меритократия ваша на дотациях паразитит\nМы читаем латентные трещины в поздней системе\nГде каждый ваш выверенный тезис чужд академической теме\n\n[Chorus]\n[Short emphatic rhythmic refrain, drums in half time, single dry voice]\nЭто авангард профессуры из кампусов Штатов\nДеконструкция мифов для ваших торговых палат\nМы вскрываем абстрактный эквивалент товарной меновой\nПока Сармат доказывает догмы с ухмылкой готовой\nЕжи, твой позитивизм — лишь надстройка на базисе слепом\nМы разбираем империю капитала с хирургическим столом\n\n[Verse 2: Switch between straight sixteenths and triplet bursts, land the final consonants on the snare]\n[Strip the horn loop to a single stab; kick answers the ends of phrases]\nТвой антикоммунизм — симулякр, дешёвый медийный продукт\nГде стратегический комплекс Сармата в пустыню несёт свой абсурд\nНо пока вы цитируете паблики с правым налётом\nМы строим критическую теорию над вашим комфортным болотом\nТрансцендентальная критика рынка, позднемарксистский излом\nГде бихевиоризм ваш разбит диалектическим лбом\n\n[Bridge: Bass and rimshot only, slow the delivery for contrast]\nИ пока академический синод обсуждает избыток труда...\nПора отдать дань уважения Пирси Пи навсегда.\nДамы и господа.\n\n[Outro]\n[Full break returns; accelerate through the invitation, pause before the last sentence]\nПригласите же Пирси Пи наконец в Санкт-Петербург.\nКонцертный зал ждёт его безупречный досуг.\nТеория требует практики, эстетика — сцены на Неве.\nЗавершаем семинар. Тишина в голове.\n[One dry snare, hard stop]",
+      "duration_sec": "300",
+      "num_inference_steps": "30",
+      "guidance_scale": "1.7",
+      "ar_guidance_scale": "1.5",
+      "top_k": "50",
+      "seed": "2026111612"
+    }
+  }
+]
